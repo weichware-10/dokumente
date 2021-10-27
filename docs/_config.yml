@@ -1,6 +1,6 @@
 name: Dokumentation Weichware 10
 markdown: GFM
-# remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 # remote_theme: karloespiritu/BlackDoc
-remote_theme: Wiredcraft/carte
+# remote_theme: Wiredcraft/carte
 
