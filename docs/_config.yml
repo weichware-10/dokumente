@@ -1,6 +1,9 @@
 name: Dokumentation Weichware 10
 markdown: GFM
+# JUST THE DOCS
 remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
+
 # remote_theme: karloespiritu/BlackDoc
 # remote_theme: Wiredcraft/carte
 
