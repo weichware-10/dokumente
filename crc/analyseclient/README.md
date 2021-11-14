@@ -87,9 +87,9 @@ Der Datenanalyse Client ruft die benötigten Daten vom Speicher-Modul ab und nac
      - Erstellen der Diagramme
 - Verlauf
      - Erstellen einer Übersicht über den zeitlichen Verlauf der Blicke
-- Export
-     - Erstellen einer PDF mit ausgewählten Darstellungen
-     - Export dieser PDF
+- <s>Export</s>  
+     - <s>Erstellen einer PDF mit ausgewählten Darstellungen</s>  
+     - <s>Export dieser PDF</s>  
 
 ## Kollaborationen
 <!-- Benutzeranfragen an Dienste, die benötigt werden um Veranwortlichkeiten zu erfüllen -->

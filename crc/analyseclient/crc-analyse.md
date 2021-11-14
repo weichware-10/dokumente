@@ -31,7 +31,7 @@ CRC-Karte - Analyse
 1. Funktionen zur Analyse der Daten  
 	- Berechnung der Häufigkeit pro Bildkoordinate (wie oft auf diese geschaut wurde)
 	- Erstellen einer Tabelle: zu welcher Zeit welche Bildkoordinate betrachtet
-2. Funktionen zur Darstellung der Daten  
+2. <s>Funktionen zur Darstellung der Daten  </s>
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
@@ -40,7 +40,7 @@ CRC-Karte - Analyse
 2. Heatmap
 3. Diagramm
 4. Verlauf
-5. Export  
+5. <s>Export  </s>
 
 ---
 #### Notizen:

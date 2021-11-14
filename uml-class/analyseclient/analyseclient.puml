@@ -28,7 +28,7 @@ package Analyse-Client{
         - heatmap: float[*][*]
         __public methods__
         + createHeatmap(data: Util.Data): String
-        + compHeatmaps(otherHeatmap: Heatmap): String
+        {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap): String
     }
 
     ' Verlauf
@@ -45,7 +45,7 @@ package Analyse-Client{
         + createRelFreqImgArea(data: Util.Data): String
         + createViewTimeDistr(data: Util.Data): String
         __private methods__
-        - calcViewTimeDistr(): float[4]
+        - calcViewTimeDistr(timeTableData: float[*][*]): float[4]
         - drawDiagramm(diagrammData: float[4], type: DiagrammType): String
     }
 
@@ -67,6 +67,7 @@ package Analyse-Client{
     ' ClientGUI
     class ClientGUI {
         - client: Client
+        - exit: boolean
         __public method__
         + showClientGUI(): void
     }

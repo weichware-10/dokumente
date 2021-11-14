@@ -28,14 +28,14 @@ CRC-Karte - Export
 <!-- Nichts, was eine andere Klasse machen könnte -->
 <!-- Die Sachen die die Klasse macht -> keiner anderen Klasse geben -->
 <!-- zentrale Verantwortlichkeiten vs verteilt -->
-1. Erstellen einer PDF mit ausgewählten Darstellungen
-2. Export/Speicherung dieser PDF  
+1. <s>Erstellen einer PDF mit ausgewählten Darstellungen</s>
+2. <s>Export/Speicherung dieser PDF  </s>
 
 ## Kollaborationen
 <!-- Kann die Klasse die Verantwortlichkeiten selbstädnig erfüllen? Was benötigt sie von welcher Klasse? -->
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
-1. Client  
-2. Analyse  
+1. <s>Client  </s>
+2. <s>Analyse  </s>
 
 ---
 #### Notizen:

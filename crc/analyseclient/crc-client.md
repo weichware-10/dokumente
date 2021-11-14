@@ -39,7 +39,7 @@ CRC-Karte - Client
 <!-- Was weiß die Klasse? Welche anderen Klassen benötigen die Informationen? -->
 1. Speicher-Modul
 2. Analyse
-3. Export
+3. <s>Export</s>
 
 ---
 #### Notizen:
