@@ -52,7 +52,7 @@ package Analyse-Client{
     ' DiagrammType
     enum DiagrammType {
         RELFRQIMGAREA
-        VIEWTIMEDISTR
+        VIEWTIMEDISTR 
     }
 
     ' Type
