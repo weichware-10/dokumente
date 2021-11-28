@@ -9,12 +9,18 @@ package Analyse-Client{
         - dataForComp: Util.Data
         - analyseTypes: AnalyseType[0..5]
         - analyzedData: String[*]
+        - confHm: ConfigHeatmap
+        - confDia: ConfigDiagramm
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
-        + setAnalyseTypes(): boolean
+        + setAnalyseTypes(selectedAnalyseTypes: AnalyseType[0..5]): boolean
+        + getAnalyseTypes(): AnalyseType[0..5]
+        + setConfigAnalyseHm(confHm: ConfigHeatmap)
+        + setConfigAnalyseDia(confDia: ConfigDiagramm)
         + displayAnalyzedData(): void
         + export(): boolean
-        + analyseData(): boolean
+        + exportRaw(): boolean
+        + analyseData(): void
     }
 
     ' Analyse
@@ -27,8 +33,8 @@ package Analyse-Client{
     class Heatmap {
         - heatmap: float[*][*]
         __public methods__
-        + createHeatmap(data: Util.Data): String
-        {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap): String
+        + createHeatmap(data: Util.Data, confHm: ConfigHeatmap): String
+        {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap, confHm: ConfigHeatmap): String
     }
 
     ' Verlauf
@@ -42,11 +48,49 @@ package Analyse-Client{
     ' Diagramm
     class Diagramm {
         __public methods__
-        + createRelFreqImgArea(data: Util.Data): String
-        + createViewTimeDistr(data: Util.Data): String
+        + createRelFreqImgArea(data: Util.Data, confDia: ConfigDiagramm): String
+        + createViewTimeDistr(data: Util.Data, confDia: ConfigDiagramm): String
         __private methods__
-        - calcViewTimeDistr(timeTableData: float[*][*]): float[4]
-        - drawDiagramm(diagrammData: float[4], type: DiagrammType): String
+        - calcViewTimeDistr(timeTableData: float[*][*], confDia: ConfigDiagramm): float[*]
+        - drawDiagramm(diagrammData: float[*], type: DiagrammType): String
+    }
+
+    ' ConfigDiagramm
+    class ConfigDiagramm {
+        - amountAreas: int
+        - minTime: float
+        - maxTime: float
+        - stepsBetween: int
+        __public methods__
+        + setAmountAreas(amountAreas: int): boolean
+        + getAmountAreas(): int
+        + setNewTime(minTime: float, maxTime: float): boolean
+        + getMinTime(): float
+        + setStepsBetween(stepsBetween: int): boolean
+        + getStepsBetween(): int
+    }
+
+    ' ConfigHeatmap
+    class ConfigHeatmap {
+        - minColor: float[3]
+        - maxColor: float[3]
+        - grid: boolean
+        - image: boolean
+        - minDiff: float[3]
+        - maxDiff: float[3]
+        __public methods__
+        + setMinColor(minColor: float[3]): boolean
+        + getMinColor(): float[3]
+        + setMaxColor(maxColor: float[3]): boolean
+        + getMaxColor(): float[3]
+        + setMinDiff(minDiff: float[3]): boolean
+        + getMinDiff(): float[3]
+        + setMaxDiff(maxDiff: float[3]): boolean
+        + getMaxDiff(): float[3]
+        + setGrid(grid: boolean): void
+        + isGrid(): boolean
+        + setImage(image: boolean): void
+        + isImage(): boolean
     }
 
     ' DiagrammType
@@ -84,6 +128,10 @@ package Analyse-Client{
     Client -l- AnalyseType
     Client <-r- ClientGUI : < graphische Benutzeroberfläche
     Diagramm -- DiagrammType
+    ConfigDiagramm -- Diagramm
+    ConfigDiagramm -r- Client
+    ConfigHeatmap -- Heatmap
+    ConfigHeatmap -l- Client
 
 }
 
