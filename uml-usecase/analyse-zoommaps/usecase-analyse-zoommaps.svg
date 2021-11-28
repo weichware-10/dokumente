@@ -11,7 +11,7 @@ link va to s--><path d="M615.26,214 C670.721,214 726.104,214 768.481,214 " fill=
 link vv to s--><path d="M488.492,105.517 C534.713,118.026 589.709,133.294 639,148 C688.578,162.792 744.454,180.876 785.335,194.372 " fill="none" id="vv-to-s" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="790.245,195.994,782.9544,189.3723,785.4975,194.4253,780.4445,196.9684,790.245,195.994" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="651" y="148.0669">Datenabfrage</text><!--MD5=[7da3d405e600ff39ba44f23daabd8785]
 link s to da--><path d="M793.963,232.049 C752.767,246.437 692.63,266.366 639,280 C589.282,292.639 533.33,303.547 486.575,311.755 " fill="none" id="s-to-da" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="481.502,312.642,491.0565,315.0318,486.4272,311.7807,489.6784,307.1514,481.502,312.642" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="648" y="246.0669">Datenlieferung</text><!--MD5=[b5b37e969d0783a81c8b162d7bb937a9]
 link vv to va--><path d="M383.5,113.577 C383.5,127.767 383.5,144.416 383.5,160.033 " fill="none" id="vv-to-va" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="383.5,165.285,387.5,156.285,383.5,160.285,379.5,156.285,383.5,165.285" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="338" y="144.0669">«extends»</text><!--MD5=[0455da5a12b35b0053a22f9e60fc746e]
-reverse link da to aa--><path d="M383.5,364.145 C383.5,378.948 383.5,395.928 383.5,410.245 " fill="none" id="da-backto-aa" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="383.5,358.798,379.5,367.798,383.5,363.798,387.5,367.798,383.5,358.798" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="338" y="389.0669">«extends»</text><!--MD5=[4adc9285dbfb98429fd5d62d188ceae0]
+reverse link da to aa--><path d="M383.5,364.145 C383.5,378.948 383.5,395.928 383.5,410.245 " fill="none" id="da-backto-aa" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="383.5,358.798,379.5,367.798,383.5,363.798,387.5,367.798,383.5,358.798" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="338" y="389.0669">«extends»</text><!--MD5=[b5d4a1623b7fd5cbdb083cf99da5d363]
 @startuml
 left to right direction
 
@@ -87,7 +87,7 @@ va <.l. vv : <<extends>>
 da <.r. aa : <<extends>>
 @enduml
 
-PlantUML version 1.2021.15beta6(Unknown compile time)
+PlantUML version 1.2021.15beta8(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM

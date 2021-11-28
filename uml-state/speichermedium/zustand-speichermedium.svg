@@ -15,7 +15,7 @@ link sad to lgh--><path d="M360.236,150.046 C358.459,161.768 353.941,191.589 350
 link lgh to ide--><path d="M341.758,270.101 C338.152,290.593 332.963,320.076 329.124,341.884 " fill="none" id="lgh-to-ide" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="328.229,346.973,333.7292,338.8031,329.0961,342.0488,325.8505,337.4157,328.229,346.973" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="337" y="313.0669">eintragen in Datenbank</text><!--MD5=[bca0958a79b078520bfc6e2c48c59198]
 link ide to fa--><path d="M408,397.0001 C485.53,419.1513 593.688,450.0538 628.062,459.8748 " fill="none" id="ide-to-fa" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="633.266,461.3618,625.712,455.0422,628.4586,459.9876,623.5132,462.7341,633.266,461.3618" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[761ca4167a52b8332afa0cbccc395f25]
 link fa to i--><path d="M644.858,462.1214 C681.354,456.4888 876,424.0548 876,373 C876,143 876,143 876,143 C876,64.967 593.664,40.612 499.3,34.652 " fill="none" id="fa-to-i" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="494.153,34.333,502.889,38.8807,499.1435,34.6415,503.3827,30.8959,494.153,34.333" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="877" y="249.5669">Funktion ausgeführt</text><!--MD5=[215f6025a2216d9aa1bcf5f97ef89cbe]
-link i to *end--><path d="M443.853,36.836 C388.516,46.088 253.307,73.19 155,130 C153.794,130.697 152.607,131.515 151.465,132.396 " fill="none" id="i-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="147.34,135.98,156.757,133.0956,151.114,132.7002,151.5094,127.0572,147.34,135.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="245" y="100.0669">Beenden</text><!--MD5=[95fd406f8cebf74908f607e0992cc987]
+link i to *end--><path d="M443.853,36.836 C388.516,46.088 253.307,73.19 155,130 C153.794,130.697 152.607,131.515 151.465,132.396 " fill="none" id="i-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="147.34,135.98,156.757,133.0956,151.114,132.7002,151.5094,127.0572,147.34,135.98" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="245" y="100.0669">Beenden</text><!--MD5=[dc9fbb5d8e33f6e7c376a5084d854e2c]
 @startuml
 state "Location gespeichert" as lgs : Speicherort der Daten
 state "idle" as i
@@ -49,7 +49,7 @@ fa - -> i : Funktion ausgeführt
 i - -> [*] : Beenden
 @enduml
 
-PlantUML version 1.2021.15beta3(Unknown compile time)
+PlantUML version 1.2021.15beta8(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
