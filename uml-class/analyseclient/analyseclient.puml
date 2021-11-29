@@ -120,7 +120,6 @@ package Analyse-Client{
     ' ClientGUI
     class ClientGUI {
         - client: Client
-        - exit: boolean
         __public method__
         + showClientGUI(): void
     }
