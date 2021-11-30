@@ -7,8 +7,10 @@ package EyeTracking {}
 package Util {
     ' --- TUTORIAL ---
     abstract Tutorial<t: ToolType> {
-      - t: ToolType
+      - toolType: ToolType
+      - configClient: ConfigClient
       __public method__
+      + Tutorial(configClient: ConfigClient,toolType: ToolType)
       + start() : void
       __private methods__
       - getConfigState() : boolean
@@ -24,12 +26,6 @@ package Util {
         CODECHARTS
     }
 
-    ' Interaktionen
-    Tutorial -- ToolType
-    Data -- ToolType
-    Tutorial -- Config
-
-
     ' --- BILD ---
 
     abstract Bild {
@@ -40,81 +36,74 @@ package Util {
     }
 
     class Data<t: ToolType> {
-        + t: ToolType
+        + tooltype: ToolType
+        + configId: int
         + data: unknown
-        + config_id: int
     }
 
     package Config {
         class ConfigClient {
-            # configuration : Configuration
+            - configuration : Configuration
             + getConfig() : Configuration
-            + getString(category: String, option: String) : String
-            + getInt(category: String, option: String) : int
-            + getFloat(category: String, option: String) : float
-            + getBool(category: String, option: String) : boolean
-            + setString(category: String, option: String, value: String)
-            + setInt(category: String, option: String, value: Int)
-            + setFloat(category: String, option: String, value: float)
-            + setBool(category: String, option: boolean)
+            + loadConfiguration() : boolean
         }
-
         class ConfigLoader {
             + loadConfiguration(location: String) : Configuration
         }
-
         class ConfigWriter {
             + writeConfiguration(location: String, configuration: Configuration) : boolean
         }
-
-        class ConfigGUI {
-            - configuration_state: Configuration
+        class ConfigGui {
+            # configState: Configuration
             + showEditor() : void
         }
-
         class Configuration {
-            + general: GeneralConfiguration
-            + zoom_maps: ZoomMapsConfiguration
-            + code_charts: CodeChartsConfiguration
-            + eye_tracking: EyetrackingConfiguration
-        }
-        class GeneralConfiguration {
-            + tools : Util.ToolType[0..3]
-            + save_location : String
-        }
-        class ZoomMapsConfiguration {
-            + image_url : String
-            + tutorial : boolean
-            + speed : float
+            - tools : ToolType[0..3]
+            - saveLocation : String
+            - codeChartsConfiguration : CodeChartsConfiguration
+            - eyeTrackingConfiguration : EyetrackingConfiguration
+            - zoomMapsConfiguration : ZoomMapsConfiguration
+            __public methods__
+            + getTools() : ToolType[0..3]
+            + getSaveLocation() : String
+            + getCodeChartsConfiguration() : CodeChartsConfiguration
+            + getEyeTrackingConfiguration() : EyeTrackingConfiguration
+            + getZoomMapsConfiguration() : ZoomMapsConfiguration
+            __private methods__
+            - checkToolInput(tools: ToolType[*])
         }
         class CodeChartsConfiguration {
-            + image_url : String
-            + tutorial : boolean
-            + strings : String[*]
-            + initial_size : float
-            + timings : float[2]
+            - strings : String[*]
+            - initialSize : float
+            - timings : float[2]
+            + getStrings(): String[]
+            + getInitialSize(): float
+            + getTimings(): float[]
         }
         class EyetrackingConfiguration {
-            + image_url : String
-            + tutorial : boolean
-            + poll_intervall : float
+            - pollIntervall : float
+            + getPollIntervall() : float
+        }
+        class ZoomMapsConfiguration {
+            - speed : float
+            + getSpeed() : float
         }
         abstract ToolConfiguration {
-            + {abstract} image_url : String
-            + {abstract} tutorial : boolean
+            - imageUrl : String
+            - tutorial : boolean
+            + getImageUrl() : String
+            + getTutorial() : boolean
+            + setTutorial(boolean tutorial) : void
         }
 
         ' ConfigClient ..> Configuration
 
-        ConfigClient o-- ConfigLoader : < lädt Konfiguration
-        ' ConfigLoader ..> Configuration
+        ConfigClient o-d- ConfigLoader : < lädt Konfiguration
 
-        ConfigClient o-- ConfigWriter : < schreibt Konfiguration
-        ' ConfigWriter ..> Configuration
+        ConfigClient o-d- ConfigWriter : < schreibt Konfiguration
 
-        ConfigClient -- ConfigGUI : < Konfigurationsbearbeitung
+        ConfigClient -l- ConfigGui : < Konfigurationsbearbeitung
 
-        Configuration ..> GeneralConfiguration
         Configuration ..> ZoomMapsConfiguration
         Configuration ..> CodeChartsConfiguration
         Configuration ..> EyetrackingConfiguration
@@ -123,13 +112,18 @@ package Util {
         CodeChartsConfiguration --|> ToolConfiguration
         EyetrackingConfiguration --|> ToolConfiguration
     }
-    ConfigClient -- ZoomMaps
-    ConfigClient -- CodeCharts
-    ConfigClient -- EyeTracking
-    ConfigClient -- Speichermedium
 
     package Speichermedium {}
 
+    ' Interaktionen
+    Tutorial -- ToolType
+    Data -- ToolType
+    Tutorial -r- Config
+    ConfigClient -r- Speichermedium
+
 }
+ConfigClient -r- ZoomMaps
+ConfigClient -r- CodeCharts
+ConfigClient -r- EyeTracking
 
 @enduml
