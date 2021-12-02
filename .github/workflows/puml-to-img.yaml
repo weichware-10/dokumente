@@ -44,7 +44,6 @@ jobs:
           token: ${{ secrets.WEICHBOT }}
           fetch-depth: 0
 
-      - run: git pull
 
       - name: install plantuml
         run: |
@@ -65,6 +64,7 @@ jobs:
             fi
           done
 
+      - run: git pull
 
       # signed commits
       - name: import GPG
