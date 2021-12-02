@@ -137,6 +137,7 @@ package AnalyseClient{
         - confDia: ConfigDiagramm
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
+        + getDataForComp(start: Date, end: Date): boolean
         + setAnalyseTypes(selectedAnalyseTypes: AnalyseType[0..5]): boolean
         + getAnalyseTypes(): AnalyseType[0..5]
         + setConfigAnalyseHm(confHm: ConfigHeatmap)
@@ -156,26 +157,34 @@ package AnalyseClient{
     ' Heatmap
     class Heatmap {
         - heatmap: float[*][*]
+        - data: Util.Data
+        - confHm: ConfigHeatmap
         __public methods__
-        + createHeatmap(data: Util.Data, confHm: ConfigHeatmap): String
-        {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap, confHm: ConfigHeatmap): String
+        + Heatmap(data: Util.Data, confHm: ConfigHeatmap) 
+        + createHeatmap(): String
+        {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap): String
     }
 
     ' Verlauf
     class Verlauf {
+        - data: Util.Data
         __public method__
-        + createVerlauf(data: Util.Data): String
+        + Verlauf(data: Util.Data)
+        + createVerlauf(): String
         __private method__
         - drawDiagramm(diagrammData: float[*][*]): String
     }
 
     ' Diagramm
     class Diagramm {
+        - data: Util.Data
+        - confDia: ConfigDiagramm
         __public methods__
-        + createRelFreqImgArea(data: Util.Data, confDia: ConfigDiagramm): String
-        + createViewTimeDistr(data: Util.Data, confDia: ConfigDiagramm): String
+        + Diagramm(data: Util.Data, confDia: ConfigDiagramm)
+        + createRelFreqImgArea(): String
+        + createViewTimeDistr(): String
         __private methods__
-        - calcViewTimeDistr(timeTableData: float[*][*], confDia: ConfigDiagramm): float[*]
+        - calcViewTimeDistr(timeTableData: float[*][*]): float[*]
         - drawDiagramm(diagrammData: float[*], type: DiagrammType): String
     }
 
@@ -220,7 +229,7 @@ package AnalyseClient{
     ' DiagrammType
     enum DiagrammType {
         RELFRQIMGAREA
-        VIEWTIMEDISTR
+        VIEWTIMEDISTR 
     }
 
     ' Type
@@ -251,10 +260,11 @@ package AnalyseClient{
     Client -l- AnalyseType
     Client <-r- ClientGUI : < graphische Benutzeroberfläche
     Diagramm -- DiagrammType
-    ConfigDiagramm -l- Diagramm
+    ConfigDiagramm -- Diagramm
     ConfigDiagramm -r- Client
-    ConfigHeatmap -r- Heatmap
+    ConfigHeatmap -- Heatmap
     ConfigHeatmap -l- Client
+
 }
 
 ' === EYETRACKING ===
