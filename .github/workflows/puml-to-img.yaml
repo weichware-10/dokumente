@@ -59,7 +59,7 @@ jobs:
       - name: convert files
         run: |
           for changed_file in ${{ steps.changed-files.outputs.all_modified_files }}; do
-            if [[ $changed_file == *.puml ]]
+            if [[ $changed_file == **.puml ]]
             then
               puml generate $changed_file -o ${changed_file//.puml/.png}
             fi
