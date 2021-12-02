@@ -122,9 +122,9 @@ package Util {
             + getSpeed() : float
         }
         abstract ToolConfiguration {
-            - imageUrl : String[*]
+            - imageUrls : String[*]
             - tutorial : boolean
-            + getImageUrl() : String
+            + getImageUrls() : String
             + getTutorial() : boolean
         }
 
