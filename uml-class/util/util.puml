@@ -1,8 +1,7 @@
 @startuml util
 
-package ZoomMaps {}
-package CodeCharts {}
-package EyeTracking {}
+package Toolbox {}
+package AnalyseClient {}
 
 package Util {
     ' --- TUTORIAL ---
@@ -113,7 +112,19 @@ package Util {
         EyetrackingConfiguration --|> ToolConfiguration
     }
 
-    package Speichermedium {}
+    package Speichermedium {
+        ' SpeicherUtilities
+        class SpeicherUtilities {
+            - Location: String
+            + SpeicherUtilities(location: String)
+            + getLocation() : String
+            + setLocation(location: String) : boolean
+            + deleteData(inputString: String) : boolean
+            + searchData(inputString: String) : Data
+            + saveData(inputData: Data) : boolean
+        }
+
+    }
 
     ' Interaktionen
     Tutorial -- ToolType
@@ -122,8 +133,9 @@ package Util {
     ConfigClient -r- Speichermedium
 
 }
-ConfigClient -r- ZoomMaps
-ConfigClient -r- CodeCharts
-ConfigClient -r- EyeTracking
+' Externe Module
+ConfigClient -u- Toolbox
+SpeicherUtilities -- Toolbox : < Data
+SpeicherUtilities -- AnalyseClient : > Data
 
 @enduml
