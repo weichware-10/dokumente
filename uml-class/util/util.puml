@@ -1,6 +1,8 @@
 @startuml util
 
+' Externe Packages
 package Toolbox {}
+note left of Toolbox: beinhaltet alle Tools
 package AnalyseClient {}
 
 package Util {
