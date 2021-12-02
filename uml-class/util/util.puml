@@ -2,7 +2,7 @@
 
 ' Externe Packages
 package Toolbox {}
-note left of Toolbox: beinhaltet alle Tools
+note left of Toolbox: beinhaltet ZoomMaps, CodeCharts, EyeTracking
 package AnalyseClient {}
 
 package Util {
