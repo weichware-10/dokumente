@@ -1,0 +1,44 @@
+@startuml database
+
+allowmixing
+
+actor "Nutzer" as n
+
+class "Konfigurationen" as k {
+    configID
+    toolType
+    ... configDaten
+}
+class "Versuche" as v {
+    trialID
+    configID
+    startTime
+}
+
+class "Daten" as d {
+    trialID
+    dataID : 0 bis n
+    time
+    ...data
+}
+
+n "1" -- "n" v
+note on link
+    1 Nutzer kann mehrere Versuche (mit unterschiedlicher Konfiguration durchführen)
+end note
+v "1" -r- "1" d
+note on link
+    Ein Datensatz gehört zu einer Konfiguration
+end note
+v "n" -- "1" k
+note on link
+    Eine Konfiguration kann zu mehreren Versuchen gehören (muss!)
+end note
+
+note right of d
+    SELECT *
+    FROM Data
+    WHERE trialId = 420
+    ORDER BY dataID ASC
+end note
+@enduml

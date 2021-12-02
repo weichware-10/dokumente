@@ -22,14 +22,7 @@ start
 :start() : void;
 if (getConfigState() : boolean) then (true)
     :show() : boolean;
-    fork    
-        if (returnvalue) then (false)
-            :setConfigState(false) : void;
-        else (true)
-        endif
-    fork again
-        :tutorial() : void;
-    end fork
+    :tutorial() : void;
 else (false)
 endif
 stop

@@ -15,16 +15,15 @@ package Util {
       + start() : void
       __private methods__
       - getConfigState() : boolean
-      - setConfigState(state: boolean) : void
       - show() : boolean
       __abstract methods__
       - {abstract} tutorial() : void
     }
 
     enum ToolType {
-        ZOOM
-        EYETRACKING
         CODECHARTS
+        EYETRACKING
+        ZOOMMAPS
     }
 
     ' --- BILD ---
@@ -36,37 +35,70 @@ package Util {
         + hide() : void
     }
 
-    class Data<t: ToolType> {
-        + tooltype: ToolType
-        + configId: int
-        + data: unknown
+    ' DATA
+
+    class "TrialData<t: ToolType>" as td {
+        - toolType: ToolType
+        - trialId: String
+        - configId: String
+        - startTime: DateTime
+        - dataPoints: ArrayList<DataPoint>
     }
+
+    class "DataPoint" as dp {
+        - dataId : int
+        - timeOffset : float
+        - coordinates : int[2]
+        - rasterSize : int[2]
+        - zoomLevel : float
+        + DataPoint()
+    }
+
+    note left of td::distanceToMonitor
+        EyeTracking
+    end note
+    td -- dp
+
+    ' note left of dp
+    '     CodeCharts:
+    '         time: float
+    '         Koordinaten: int[2] // abhängig vom Raster
+    '         rasterSize: int[2]
+    '         Bild: String
+    '         -> Array
+    '     ZoomMaps:
+    '         time: float
+    '         BildKoordinaten: int[2] // je nach Bildauflösung
+    '         zoomLevel: float
+    '         Bild: String
+    '         -> Array
+    ' end note
 
     package Config {
         class ConfigClient {
             - configuration : Configuration
             + getConfig() : Configuration
-            + loadConfiguration() : boolean
+            + loadConfiguration(trialId: String) : boolean
         }
         class ConfigLoader {
-            + loadConfiguration(location: String) : Configuration
+            + loadConfiguration(configID: String) : Configuration
         }
         class ConfigWriter {
-            + writeConfiguration(location: String, configuration: Configuration) : boolean
+            + writeConfiguration(configuration: Configuration) : String
         }
         class ConfigGui {
             # configState: Configuration
             + showEditor() : void
         }
         class Configuration {
-            - tools : ToolType[0..3]
-            - saveLocation : String
+            - tool : ToolType
+            - trialId : String
             - codeChartsConfiguration : CodeChartsConfiguration
             - eyeTrackingConfiguration : EyetrackingConfiguration
             - zoomMapsConfiguration : ZoomMapsConfiguration
             __public methods__
-            + getTools() : ToolType[0..3]
-            + getSaveLocation() : String
+            + getTool() : ToolType
+            + gettrialId() : String
             + getCodeChartsConfiguration() : CodeChartsConfiguration
             + getEyeTrackingConfiguration() : EyeTrackingConfiguration
             + getZoomMapsConfiguration() : ZoomMapsConfiguration
@@ -75,11 +107,11 @@ package Util {
         }
         class CodeChartsConfiguration {
             - strings : String[*]
-            - initialSize : float
+            - initialSize : int[2]
             - timings : float[2]
-            + getStrings(): String[]
+            + getStrings(): String[*]
             + getInitialSize(): float
-            + getTimings(): float[]
+            + getTimings(): float[2]
         }
         class EyetrackingConfiguration {
             - pollIntervall : float
@@ -90,11 +122,10 @@ package Util {
             + getSpeed() : float
         }
         abstract ToolConfiguration {
-            - imageUrl : String
+            - imageUrl : String[*]
             - tutorial : boolean
             + getImageUrl() : String
             + getTutorial() : boolean
-            + setTutorial(boolean tutorial) : void
         }
 
         ' ConfigClient ..> Configuration
@@ -114,30 +145,27 @@ package Util {
         EyetrackingConfiguration --|> ToolConfiguration
     }
 
-    package Speichermedium {
-        ' SpeicherUtilities
-        class SpeicherUtilities {
-            - Location: String
-            + SpeicherUtilities(location: String)
-            + getLocation() : String
-            + setLocation(location: String) : boolean
-            + deleteData(inputString: String) : boolean
-            + searchData(inputString: String) : Data
-            + saveData(inputData: Data) : boolean
-        }
-
+    ' SpeicherUtilities
+    class SpeicherUtilities {
+        - Location: String
+        + SpeicherUtilities(location: String)
+        + getLocation() : String
+        + setLocation(location: String) : boolean
+        + deleteData(inputString: String) : boolean
+        + searchData(inputString: String) : TrialData
+        + saveData(inputData: TrialData) : boolean
     }
 
     ' Interaktionen
-    Tutorial -- ToolType
-    Data -- ToolType
-    Tutorial -r- Config
-    ConfigClient -r- Speichermedium
+    ' Tutorial -- ToolType
+    ' Tutorial -u- Config
+    ' td -- ToolType
+    ' ConfigClient -r- Speichermedium
 
 }
 ' Externe Module
 ConfigClient -u- Toolbox
-SpeicherUtilities -- Toolbox : < Data
-SpeicherUtilities -- AnalyseClient : > Data
+SpeicherUtilities -- Toolbox : < TrialData
+SpeicherUtilities -- AnalyseClient : > TrialData
 
 @enduml
