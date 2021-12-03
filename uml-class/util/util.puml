@@ -98,7 +98,7 @@ package Util {
             - zoomMapsConfiguration : ZoomMapsConfiguration
             __public methods__
             + getTool() : ToolType
-            + gettrialId() : String
+            + getTrialId() : String
             + getCodeChartsConfiguration() : CodeChartsConfiguration
             + getEyeTrackingConfiguration() : EyeTrackingConfiguration
             + getZoomMapsConfiguration() : ZoomMapsConfiguration
