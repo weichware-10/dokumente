@@ -24,11 +24,13 @@ class "Daten" as d {
 
 n "1" -- "n" v
 note on link
-    1 Nutzer kann mehrere Versuche (mit unterschiedlicher Konfiguration durchführen)
+    1 Nutzer kann mehrere Versuche
+    (mit unterschiedlicher Konfiguration) durchführen
 end note
 v "1" -r- "n" d
 note on link
-    Ein Datensatz besteht aus mehreren Datenpunkten und gehört zu einem Versuch
+    Ein Datensatz besteht aus mehreren Datenpunkten
+    und gehört zu einem Versuch
 end note
 v "n" -- "1" k
 note on link
