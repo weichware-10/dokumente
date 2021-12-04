@@ -80,7 +80,7 @@ package Util {
             + getConfig() : Configuration
             + writeToJson(location: String) : boolean
             + loadFromJson(location: String) : boolean
-            + loadConfiguration(trialId: String) : boolean
+            + loadFromDataBase(trialId: String) : boolean
         }
         class ConfigLoader {
             + fromJson(location: String) : Configuration
