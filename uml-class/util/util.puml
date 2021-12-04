@@ -76,55 +76,62 @@ package Util {
 
     package Config {
         class ConfigClient {
-            - configuration : Configuration
+            # configuration : Configuration
             + getConfig() : Configuration
+            + writeToJson(location: String) : boolean
+            + loadFromJson(location: String) : boolean
             + loadConfiguration(trialId: String) : boolean
         }
         class ConfigLoader {
-            + loadConfiguration(configID: String) : Configuration
+            + fromJson(location: String) : Configuration
+            + fromDataBase(configId: String) : Configuration
         }
         class ConfigWriter {
-            + writeConfiguration(configuration: Configuration) : String
+            + toJson(location: String, configuration: Configuration) : boolean
+            + toDataBase(configId: String, configuration: Configuration) : boolean
         }
         class ConfigGui {
             # configState: Configuration
+            + ConfigGui()
             + showEditor() : void
         }
         class Configuration {
-            - tool : ToolType
-            - trialId : String
-            - codeChartsConfiguration : CodeChartsConfiguration
-            - eyeTrackingConfiguration : EyetrackingConfiguration
-            - zoomMapsConfiguration : ZoomMapsConfiguration
+            # toolType : ToolType
+            # trialId : String
+            # configId : String
+            # codeChartsConfiguration : CodeChartsConfiguration
+            # eyeTrackingConfiguration : EyetrackingConfiguration
+            # zoomMapsConfiguration : ZoomMapsConfiguration
             __public methods__
-            + getTool() : ToolType
+            # Configuration()
+            + Configuration(toolType: ToolType)
+            + getToolType() : ToolType
             + getTrialId() : String
+            + getConfigId() : String
             + getCodeChartsConfiguration() : CodeChartsConfiguration
             + getEyeTrackingConfiguration() : EyeTrackingConfiguration
             + getZoomMapsConfiguration() : ZoomMapsConfiguration
-            __private methods__
-            - checkToolInput(tools: ToolType[*])
         }
         class CodeChartsConfiguration {
-            - strings : String[*]
-            - initialSize : int[2]
-            - timings : float[2]
+            # strings : String[*]
+            # initialSize : int[2]
+            # timings : float[2]
             + getStrings(): String[*]
-            + getInitialSize(): float
+            + getInitialSize(): int[2]
             + getTimings(): float[2]
         }
         class EyetrackingConfiguration {
-            - pollIntervall : float
+            # pollIntervall : float
             + getPollIntervall() : float
         }
         class ZoomMapsConfiguration {
-            - speed : float
+            # speed : float
             + getSpeed() : float
         }
         abstract ToolConfiguration {
-            - imageUrls : String[*]
-            - tutorial : boolean
-            + getImageUrls() : String
+            # imageUrls : String[*]
+            # tutorial : boolean
+            + getImageUrls() : String[*]
             + getTutorial() : boolean
         }
 
