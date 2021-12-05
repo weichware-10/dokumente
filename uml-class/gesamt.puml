@@ -137,7 +137,7 @@ package AnalyseClient{
         - confDia: ConfigDiagramm
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
-        + getDataForComp(start: Date, end: Date): boolean
+        + getDataForComp(start: Date, end: Date, dataType: Util.ToolType): boolean
         + setAnalyseTypes(selectedAnalyseTypes: AnalyseType[0..5]): boolean
         + getAnalyseTypes(): AnalyseType[0..5]
         + setConfigAnalyseHm(confHm: ConfigHeatmap)
