@@ -62,7 +62,7 @@ alt analyseTypes contains COMPHEATMAP
         n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
         s -> cg: Tastaturinformationen
         cg -> c: getDataForComp(start, end, dataType)
-        alt start < end && dataType != null && data.tooltype == dataForComp.tooltype
+        alt start < end && dataType != null && data.toolType == dataForComp.toolType
             c -> sm: Abfrage Daten
             activate sm
             alt dataFound
@@ -73,7 +73,7 @@ alt analyseTypes contains COMPHEATMAP
                 c --> cg: Daten nicht gefunden
                 cg --> n: Daten nicht gefunden. Try again
             end
-        else start > end || dataType == null || data.tooltype != dataForComp.tooltype
+        else start > end || dataType == null || data.toolType != dataForComp.toolType
             c --> cg: Falsche Eingabe
             cg --> n: Falsche Eingabe. Try again
         end
