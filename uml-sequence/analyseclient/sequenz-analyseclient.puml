@@ -6,6 +6,8 @@ entity      System          as s    #DA70D5
 box AnalyseClient
 participant ClientGUI       as cg
 participant Client          as c
+participant ConfigHeatmap   as ch
+participant ConfigDiagramm  as cd
 participant Diagramm        as d
 participant Verlauf         as v
 participant Heatmap         as h
@@ -26,9 +28,10 @@ activate c
 loop analyseTypes.size == 0
     n -> s: Auswahl Analyse Typen
     s -> cg: Klickinformation
-    cg -> c: setAnalyseTypes()
-    alt analyseTypes.size == 0
-        c --> cg: Keine Analyse Typen ausgewählt
+    cg -> c: setAnalyseTypes(selectedAnalyseTypes)
+    c --> cg: boolean [analyseTypesSet]
+    alt !analyseTypesSet
+        cg --> cg: Keine Analyse Typen ausgewählt
         cg --> n: Try Again
     end
 end
@@ -58,8 +61,8 @@ alt analyseTypes contains COMPHEATMAP
     loop dataForComp == null
         n -> s: Eingabe benötigter Daten (Zeitraum & ToolType)
         s -> cg: Tastaturinformationen
-        cg -> c: getData(start, end, dataType)
-        alt start < end && dataType != null && data.t == dataForComp.t
+        cg -> c: getDataForComp(start, end, dataType)
+        alt start < end && dataType != null && data.tooltype == dataForComp.tooltype
             c -> sm: Abfrage Daten
             activate sm
             alt dataFound
@@ -70,17 +73,56 @@ alt analyseTypes contains COMPHEATMAP
                 c --> cg: Daten nicht gefunden
                 cg --> n: Daten nicht gefunden. Try again
             end
-        else start > end || dataType == null || data.t != dataForComp.t
+        else start > end || dataType == null || data.tooltype != dataForComp.tooltype
             c --> cg: Falsche Eingabe
             cg --> n: Falsche Eingabe. Try again
         end
     end
 end
 
+loop confHm == null
+    n -> s: Konfiguration Heatmap
+    s -> cg: Klick- und Tastaturinformationen
+    activate ch
+    cg -> ch: setMinColor(float[3])
+    ch --> cg: boolean
+    cg -> ch: setMaxColor(float[3])
+    ch --> cg: boolean
+    cg -> ch: setMinDiff(float[3])
+    ch --> cg: boolean
+    cg -> ch: setMaxDiff(float[3])
+    ch --> cg: boolean
+    cg -> ch: setGrid(boolean)
+    cg -> ch: setImage(boolean)
+    deactivate ch
+    alt confHm korrekt
+        cg -> c: setConfigAnalyseHm(confHm)
+        c --> cg: Konfiguration gesetzt (confHm != null)
+    end
+end
+
+loop confDia == null
+    n -> s: Konfiguration Diagramm
+    s -> cg: Klick- und Tastaturinformationen
+    activate cd
+    cg -> cd: setAmountAreas(amountAreas)
+    cd --> cg: boolean
+    cg -> cd: setNewTime(float, float)
+    cd --> cg: boolean
+    cg -> cd: setStepsBetween(int)
+    cd --> cg: boolean
+    deactivate cd
+    alt confDia korrekt
+        cg -> c: setConfigAnalyseDia(confDia)
+        c --> cg: Konfiguration gesetzt (confDia != null)
+    end
+end
+
 == Analyse ==
 cg -> c: analyseData()
 opt analyseTypes contains HEATMAP
-    c -> h: createHeatmap(data)
+    c -> h: Heatmap(data, confHm)
+    c -> h: createHeatmap()
     activate h
     h -> a: calcRelFreq(data)
     activate a
@@ -90,7 +132,8 @@ opt analyseTypes contains HEATMAP
     deactivate h
 end
 opt analyseTypes contains COMPHEATMAP
-    c -> h: createHeatmap(data) [Heatmap1]
+    c -> h: Heatmap(data, confHm)
+    c -> h: createHeatmap() [Heatmap1]
     activate h
     h -> a: calcRelFreq(data)
     activate a
@@ -98,7 +141,8 @@ opt analyseTypes contains COMPHEATMAP
     deactivate a
     h --> c: String
     deactivate h
-    c -> h: createHeatmap(dataForComp) [Heatmap2]
+    c -> h: Heatmap(dataForComp, confHm)
+    c -> h: createHeatmap() [Heatmap2]
     activate h
     h -> a: calcRelFreq(dataForComp)
     activate a
@@ -112,7 +156,8 @@ opt analyseTypes contains COMPHEATMAP
     deactivate h
 end
 opt analyseTypes contains VERLAUF
-    c -> v: createVerlauf(data)
+    c -> v: Verlauf(data)
+    c -> v: createVerlauf()
     activate v
     v -> a: createTimeTable(data)
     activate a
@@ -123,7 +168,8 @@ opt analyseTypes contains VERLAUF
     deactivate v
 end
 opt analyseTypes contains RELFRQIMGAREA
-    c -> d: createRelFreqImgArea(data)
+    c -> d: Diagramm(data, confDia)
+    c -> d: createRelFreqImgArea()
     activate d
     d -> a: calcRelFreq(data)
     activate a
@@ -134,7 +180,8 @@ opt analyseTypes contains RELFRQIMGAREA
     deactivate d
 end
 opt analyseTypes contains VIEWTIMEDISTR
-    c -> d: createViewTimeDistr(data)
+    c -> d: Diagramm(data, confDia)
+    c -> d: createViewTimeDistr()
     activate d
     d -> a: createTimeTable(data)
     activate a
@@ -147,7 +194,7 @@ opt analyseTypes contains VIEWTIMEDISTR
 end
 
 == Output ==
-loop !exit
+loop !click on exit
     cg -> c: displayAnalyzedData()
     c --> cg: Ausgabe Daten
     cg -> n: Anzeige
@@ -157,8 +204,12 @@ loop !exit
         cg -> c: export()
         c -> s: save to
         c --> cg: Export erfolgreich
+    else click on exportRaw
+        cg -> c: exportRaw()
+        c -> s: save to
+        c --> cg: Export erfolgreich
     else click on exit
-        cg -> cg: exit = true
+        cg -> cg: exit
     end
     
 end
