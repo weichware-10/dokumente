@@ -80,7 +80,7 @@ package Util {
             + getConfig() : Configuration
             + writeToJson(location: String) : boolean
             + loadFromJson(location: String) : boolean
-            + loadFromDataBase(trialId: String) : boolean
+            + loadConfiguration(trialId: String) : boolean
         }
         class ConfigLoader {
             + fromJson(location: String) : Configuration
@@ -113,10 +113,10 @@ package Util {
             + getZoomMapsConfiguration() : ZoomMapsConfiguration
         }
         class CodeChartsConfiguration {
-            # strings : String[*]
+            # strings : List<String>
             # initialSize : int[2]
             # timings : float[2]
-            + getStrings(): String[*]
+            + getStrings(): List<String>
             + getInitialSize(): int[2]
             + getTimings(): float[2]
         }
@@ -129,9 +129,9 @@ package Util {
             + getSpeed() : float
         }
         abstract ToolConfiguration {
-            # imageUrls : String[*]
+            # imageUrls : List<String>
             # tutorial : boolean
-            + getImageUrls() : String[*]
+            + getImageUrls() : List<String>
             + getTutorial() : boolean
         }
 
