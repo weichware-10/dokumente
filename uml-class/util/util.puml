@@ -163,6 +163,21 @@ package Util {
         + saveData(inputData: TrialData) : boolean
     }
 
+    class Logger {
+        + info(message: String)
+        + info(message: String, ctx: Exception)
+        + info(message: String, ctx: Exception, strackTrace: boolean)
+        + warn(message: String)
+        + warn(message: String, ctx: Exception)
+        + warn(message: String, ctx: Exception, strackTrace: boolean)
+        + error(message: String)
+        + error(message: String, ctx: Exception)
+        + error(message: String, ctx: Exception, strackTrace: boolean)
+        + debug(message: String)
+        + debug(message: String, ctx: Exception)
+        + debug(message: String, ctx: Exception, strackTrace: boolean)
+    }
+
     ' Interaktionen
     ' Tutorial -- ToolType
     ' Tutorial -u- Config
