@@ -36,15 +36,15 @@ package Analyse-Client{
 
     ' Client
     class Client {
-        - data: Util.Data
-        - dataForComp: Util.Data
+        - data: Util.TrialData
+        - dataForComp: Util.TrialData
         - analyseTypes: AnalyseType[0..5]
         - analyzedData: String[*]
         - confHm: ConfigHeatmap
         - confDia: ConfigDiagramm
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
-        + getDataForComp(start: Date, end: Date): boolean
+        + getDataForComp(start: Date, end: Date, dataType: Util.ToolType): boolean
         + setAnalyseTypes(selectedAnalyseTypes: AnalyseType[0..5]): boolean
         + getAnalyseTypes(): AnalyseType[0..5]
         + setConfigAnalyseHm(confHm: ConfigHeatmap)
@@ -57,26 +57,26 @@ package Analyse-Client{
 
     ' Analyse
     abstract Analyse {
-        - calcRelFreq(data: Util.Data): float[*][*]
-        - createTimeTable(data: Util.Data): float[*][*]
+        - calcRelFreq(data: Util.TrialData): float[*][*]
+        - createTimeTable(data: Util.TrialData): float[*][*]
     }
 
     ' Heatmap
     class Heatmap {
         - heatmap: float[*][*]
-        - data: Util.Data
+        - data: Util.TrialData
         - confHm: ConfigHeatmap
         __public methods__
-        + Heatmap(data: Util.Data, confHm: ConfigHeatmap) 
+        + Heatmap(data: Util.TrialData, confHm: ConfigHeatmap) 
         + createHeatmap(): String
         {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap): String
     }
 
     ' Verlauf
     class Verlauf {
-        - data: Util.Data
+        - data: Util.TrialData
         __public method__
-        + Verlauf(data: Util.Data)
+        + Verlauf(data: Util.TrialData)
         + createVerlauf(): String
         __private method__
         - drawDiagramm(diagrammData: float[*][*]): String
@@ -84,10 +84,10 @@ package Analyse-Client{
 
     ' Diagramm
     class Diagramm {
-        - data: Util.Data
+        - data: Util.TrialData
         - confDia: ConfigDiagramm
         __public methods__
-        + Diagramm(data: Util.Data, confDia: ConfigDiagramm)
+        + Diagramm(data: Util.TrialData, confDia: ConfigDiagramm)
         + createRelFreqImgArea(): String
         + createViewTimeDistr(): String
         __private methods__
@@ -181,20 +181,33 @@ package Util {
 
     ' Typen der erhobenen Daten
     enum ToolType {
-        ZOOM
+        ZOOMMAPS
         EYETRACKING
         CODECHARTS
     }
 
-    ' Daten
-    class Data<t: ToolType> {
-        + t: ToolType
-        + data: unknown
-        + config_id: int
+    ' TrialData
+    class TrialData<t: ToolType> {
+        - toolType: ToolType
+        - trialId: String
+        - configId: String
+        - startTime: DateTime
+        - dataPoints: ArrayList<DataPoint>
+    }
+
+    ' DataPoints
+    class DataPoint {
+        - dataId: int
+        - timeOffset: float
+        - coordinates: int[2]
+        - rasterSize: int[2]
+        - zoomlevel: float
+        + DataPoint()
     }
 
     ' Interaktionen
-    Data -l- ToolType
+    TrialData -l- ToolType
+    TrialData - DataPoint
 }
 
 () System #DA70D5
@@ -208,15 +221,15 @@ Client -u- SpeicherMedium : < gets Data
 package Analyse-Client{
 
     class Client {
-        - data: Util.Data
-        - dataForComp: Util.Data
+        - data: Util.TrialData
+        - dataForComp: Util.TrialData
         - analyseTypes: AnalyseType[0..5]
         - analyzedData: String[*]
         - confHm: ConfigHeatmap
         - confDia: ConfigDiagramm
         __public methods__
         + getData(start: Date, end: Date, dataType: Util.ToolType): boolean
-        + getDataForComp(start: Date, end: Date): boolean
+        + getDataForComp(start: Date, end: Date, dataType: Util.ToolType): boolean
         + setAnalyseTypes(selectedAnalyseTypes: AnalyseType[0..5]): boolean
         + getAnalyseTypes(): AnalyseType[0..5]
         + setConfigAnalyseHm(confHm: ConfigHeatmap)
@@ -228,34 +241,34 @@ package Analyse-Client{
     }
 
     abstract Analyse {
-        - calcRelFreq(data: Util.Data): float[*][*]
-        - createTimeTable(data: Util.Data): float[*][*]
+        - calcRelFreq(data: Util.TrialData): float[*][*]
+        - createTimeTable(data: Util.TrialData): float[*][*]
     }
 
     class Heatmap {
         - heatmap: float[*][*]
-        - data: Util.Data
+        - data: Util.TrialData
         - confHm: ConfigHeatmap
         __public methods__
-        + Heatmap(data: Util.Data, confHm: ConfigHeatmap) 
+        + Heatmap(data: Util.TrialData, confHm: ConfigHeatmap) 
         + createHeatmap(): String
         {static} compHeatmaps(heatmap1: Heatmap, heatmap2: Heatmap): String
     }
 
     class Verlauf {
-        - data: Util.Data
+        - data: Util.TrialData
         __public method__
-        + Verlauf(data: Util.Data)
+        + Verlauf(data: Util.TrialData)
         + createVerlauf(): String
         __private method__
         - drawDiagramm(diagrammData: float[*][*]): String
     }
 
     class Diagramm {
-        - data: Util.Data
+        - data: Util.TrialData
         - confDia: ConfigDiagramm
         __public methods__
-        + Diagramm(data: Util.Data, confDia: ConfigDiagramm)
+        + Diagramm(data: Util.TrialData, confDia: ConfigDiagramm)
         + createRelFreqImgArea(): String
         + createViewTimeDistr(): String
         __private methods__
@@ -340,18 +353,30 @@ package SpeicherMedium {}
 package Util {
 
     enum ToolType {
-        ZOOM
+        ZOOMMAPS
         EYETRACKING
         CODECHARTS
     }
 
-    class Data<t: ToolType> {
-        + t: ToolType
-        + data: unknown
-        + config_id: int
+    class TrialData<t: ToolType> {
+        - toolType: ToolType
+        - trialId: String
+        - configId: String
+        - startTime: DateTime
+        - dataPoints: ArrayList<DataPoint>
     }
 
-    Data -l- ToolType
+    class DataPoint {
+        - dataId: int
+        - timeOffset: float
+        - coordinates: int[2]
+        - rasterSize: int[2]
+        - zoomlevel: float
+        + DataPoint()
+    }
+
+    TrialData -l- ToolType
+    TrialData - DataPoint
 }
 
 () System #DA70D5
@@ -360,7 +385,7 @@ Client -u- System: > save to
 Client -u- SpeicherMedium : < gets Data
 @enduml
 
-PlantUML version 1.2021.15(Tue Nov 30 16:45:34 UTC 2021)
+PlantUML version 1.2021.16beta2(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
