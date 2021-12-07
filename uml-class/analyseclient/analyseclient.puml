@@ -1,4 +1,4 @@
-@startuml analyseclient
+@startuml Datenanalyse-Client
 
 ' === ANALYSE CLIENT ===
 package Analyse-Client{

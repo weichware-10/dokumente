@@ -1,4 +1,4 @@
-@startuml Datenanalyse Client
+@startuml Datenanalyse-Client
 
 actor       Nutzer          as n
 entity      System          as s    #DA70D5

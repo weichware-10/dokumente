@@ -1,4 +1,4 @@
-@startuml Datenanalyse Client
+@startuml Datenanalyse-Client
 
 note right of i
     Bedingungen
