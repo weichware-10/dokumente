@@ -31,7 +31,7 @@ loop analyseTypes.size == 0
     cg -> c: setAnalyseTypes(selectedAnalyseTypes)
     c --> cg: boolean [analyseTypesSet]
     alt !analyseTypesSet
-        cg --> cg: Keine Analyse Typen ausgewählt
+        cg --> cg: Keine Analyse Typen ausgewählt 
         cg --> n: Try Again
     end
 end
