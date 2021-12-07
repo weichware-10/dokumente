@@ -37,21 +37,27 @@ package Util {
 
     ' DATA
 
-    class "TrialData<t: ToolType>" as td {
-        - toolType: ToolType
-        - trialId: String
-        - configId: String
-        - startTime: DateTime
-        - dataPoints: ArrayList<DataPoint>
-    }
+    package data {
+        class "TrialData<t: ToolType>" as td {
+            + toolType: ToolType
+            + trialId: String
+            + configId: String
+            + startTime: DateTime
+            - dataPoints: List<DataPoint>
+            + getDataPoints(): List<DataPoint>
+            + addDataPoint(coordinates: int[2], rasterSize: int[2])
+            + addDataPoint(coordinates: int[2], zoomLevel: float)
+        }
 
-    class "DataPoint" as dp {
-        - dataId : int
-        - timeOffset : float
-        - coordinates : int[2]
-        - rasterSize : int[2]
-        - zoomLevel : float
-        + DataPoint()
+        class "DataPoint" as dp {
+            + dataId : int
+            + timeOffset : float
+            + coordinates : int[2]
+            + rasterSize : int[2]
+            + zoomLevel : Float
+            + DataPoint(dataId: int, timeOffset: int, coordinates: int[2], zoomLevel: float)
+            + DataPoint(dataId: int, timeOffset: int, coordinates: int[2], rasterSize: int[2])
+        }
     }
 
     note left of td::distanceToMonitor
