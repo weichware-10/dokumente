@@ -29,7 +29,7 @@ state "Input" as i {
 
     ' Transition
     [*] -d-> iat
-    iat -d-> id: setAnalyseTypes()<sup>2</sup> 
+    iat -d-> id: setAnalyseTypes()<sup>2</sup>
     iat -r-> iat: setAnalyseTypes()<sup>1</sup>
     id -d-> wfs: getData()<sup>4</sup>
     id -> id: getData()<sup>3</sup>

@@ -19,7 +19,7 @@ package Analyse-Client{
         + setConfigAnalyseHm(confHm: ConfigHeatmap)
         + setConfigAnalyseDia(confDia: ConfigDiagramm)
         + displayAnalyzedData(): void
-        + export(): boolean 
+        + export(): boolean
         + exportRaw(): boolean
         + analyseData(): void
     }
