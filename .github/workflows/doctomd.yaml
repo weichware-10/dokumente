@@ -13,10 +13,10 @@ jobs:
           token: ${{ secrets.WEICHBOT }}
       - name: clone repositories
         run: |
-          mkdir .temp
-          cd .temp
+          mkdir temp
+          cd temp
           git clone https://github.com/weichware10/util
           git clone https://github.com/weichware10/toolbox
           git clone https://github.com/weichware10/analyse
           cd ..
-      - run: tree -a
+      - run: tree
