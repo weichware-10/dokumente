@@ -25,4 +25,12 @@ jobs:
           cp -R temp/analyse/src/main/java/github/weichware10/analyse temp/java
           cp -R temp/toolbox/src/main/java/github/weichware10/toolbox temp/java
           cp -R temp/util/src/main/java/github/weichware10/util temp/java
-      - run: tree temp/java
+      - name: install doctomd
+        run: npm i -g doctomd
+      - name: run doctomd
+        run: |
+          doctomd \
+          --input temp/java \
+          --output docs/java \
+          --pre docs/.java/pre \
+          --post docs/.java/post
