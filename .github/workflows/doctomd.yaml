@@ -19,4 +19,4 @@ jobs:
           git clone https://github.com/weichware10/toolbox
           git clone https://github.com/weichware10/analyse
           cd ..
-      - run: tree
+      - run: tree -a
