@@ -1,7 +1,7 @@
 name: puml-to-img
 on:
   push:
-    paths: ['docs/java/**']
+    paths: ['docs/.java/**']
 jobs:
 
   doctomd:
