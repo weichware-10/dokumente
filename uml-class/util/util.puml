@@ -1,0 +1,199 @@
+@startuml util
+
+' Externe Packages
+package Toolbox {}
+note left of Toolbox: beinhaltet ZoomMaps, CodeCharts, EyeTracking
+package AnalyseClient {}
+
+package Util {
+    ' --- TUTORIAL ---
+    abstract Tutorial<t: ToolType> {
+      - toolType: ToolType
+      - configClient: ConfigClient
+      __public method__
+      + Tutorial(configClient: ConfigClient,toolType: ToolType)
+      + start() : void
+      __private methods__
+      - getConfigState() : boolean
+      - show() : boolean
+      __abstract methods__
+      - {abstract} tutorial() : void
+    }
+
+    enum ToolType {
+        CODECHARTS
+        EYETRACKING
+        ZOOMMAPS
+    }
+
+    ' --- BILD ---
+
+    abstract Bild {
+        # location : String
+        + Bild(url: String)
+        + show() : void
+        + hide() : void
+    }
+
+    ' DATA
+
+    package data {
+        class "TrialData<t: ToolType>" as td {
+            + toolType: ToolType
+            + trialId: String
+            + configId: String
+            + startTime: DateTime
+            - dataPoints: List<DataPoint>
+            + getDataPoints(): List<DataPoint>
+            + addDataPoint(coordinates: int[2], rasterSize: int[2])
+            + addDataPoint(coordinates: int[2], zoomLevel: float)
+        }
+
+        class "DataPoint" as dp {
+            + dataId : int
+            + timeOffset : float
+            + coordinates : int[2]
+            + rasterSize : int[2]
+            + zoomLevel : Float
+            + DataPoint(dataId: int, timeOffset: int, coordinates: int[2], zoomLevel: float)
+            + DataPoint(dataId: int, timeOffset: int, coordinates: int[2], rasterSize: int[2])
+        }
+    }
+
+    note left of td::distanceToMonitor
+        EyeTracking
+    end note
+    td -- dp
+
+    ' note left of dp
+    '     CodeCharts:
+    '         time: float
+    '         Koordinaten: int[2] // abhängig vom Raster
+    '         rasterSize: int[2]
+    '         Bild: String
+    '         -> Array
+    '     ZoomMaps:
+    '         time: float
+    '         BildKoordinaten: int[2] // je nach Bildauflösung
+    '         zoomLevel: float
+    '         Bild: String
+    '         -> Array
+    ' end note
+
+    package Config {
+        class ConfigClient {
+            # configuration : Configuration
+            + getConfig() : Configuration
+            + writeToJson(location: String) : boolean
+            + loadFromJson(location: String) : boolean
+            + loadConfiguration(trialId: String) : boolean
+        }
+        class ConfigLoader {
+            + fromJson(location: String) : Configuration
+            + fromDataBase(configId: String) : Configuration
+        }
+        class ConfigWriter {
+            + toJson(location: String, configuration: Configuration) : boolean
+            + toDataBase(configId: String, configuration: Configuration) : boolean
+        }
+        class ConfigGui {
+            # configState: Configuration
+            + ConfigGui()
+            + showEditor() : void
+        }
+        class Configuration {
+            # toolType : ToolType
+            # trialId : String
+            # configId : String
+            # codeChartsConfiguration : CodeChartsConfiguration
+            # eyeTrackingConfiguration : EyetrackingConfiguration
+            # zoomMapsConfiguration : ZoomMapsConfiguration
+            __public methods__
+            # Configuration()
+            + Configuration(toolType: ToolType)
+            + getToolType() : ToolType
+            + getTrialId() : String
+            + getConfigId() : String
+            + getCodeChartsConfiguration() : CodeChartsConfiguration
+            + getEyeTrackingConfiguration() : EyeTrackingConfiguration
+            + getZoomMapsConfiguration() : ZoomMapsConfiguration
+        }
+        class CodeChartsConfiguration {
+            # strings : List<String>
+            # initialSize : int[2]
+            # timings : float[2]
+            + getStrings(): List<String>
+            + getInitialSize(): int[2]
+            + getTimings(): float[2]
+        }
+        class EyetrackingConfiguration {
+            # pollIntervall : float
+            + getPollIntervall() : float
+        }
+        class ZoomMapsConfiguration {
+            # speed : float
+            + getSpeed() : float
+        }
+        abstract ToolConfiguration {
+            # imageUrls : List<String>
+            # tutorial : boolean
+            + getImageUrls() : List<String>
+            + getTutorial() : boolean
+        }
+
+        ' ConfigClient ..> Configuration
+
+        ConfigClient o-d- ConfigLoader : < lädt Konfiguration
+
+        ConfigClient o-d- ConfigWriter : < schreibt Konfiguration
+
+        ConfigClient -l- ConfigGui : < Konfigurationsbearbeitung
+
+        Configuration ..> ZoomMapsConfiguration
+        Configuration ..> CodeChartsConfiguration
+        Configuration ..> EyetrackingConfiguration
+
+        ZoomMapsConfiguration --|> ToolConfiguration
+        CodeChartsConfiguration --|> ToolConfiguration
+        EyetrackingConfiguration --|> ToolConfiguration
+    }
+
+    ' SpeicherUtilities
+    class SpeicherUtilities {
+        - Location: String
+        + SpeicherUtilities(location: String)
+        + getLocation() : String
+        + setLocation(location: String) : boolean
+        + deleteData(inputString: String) : boolean
+        + searchData(inputString: String) : TrialData
+        + saveData(inputData: TrialData) : boolean
+    }
+
+    class Logger {
+        + info(message: String)
+        + info(message: String, ctx: Exception)
+        + info(message: String, ctx: Exception, strackTrace: boolean)
+        + warn(message: String)
+        + warn(message: String, ctx: Exception)
+        + warn(message: String, ctx: Exception, strackTrace: boolean)
+        + error(message: String)
+        + error(message: String, ctx: Exception)
+        + error(message: String, ctx: Exception, strackTrace: boolean)
+        + debug(message: String)
+        + debug(message: String, ctx: Exception)
+        + debug(message: String, ctx: Exception, strackTrace: boolean)
+    }
+
+    ' Interaktionen
+    ' Tutorial -- ToolType
+    ' Tutorial -u- Config
+    ' td -- ToolType
+    ' ConfigClient -r- Speichermedium
+
+}
+' Externe Module
+ConfigClient -u- Toolbox
+SpeicherUtilities -- Toolbox : < TrialData
+SpeicherUtilities -- AnalyseClient : > TrialData
+
+@enduml
