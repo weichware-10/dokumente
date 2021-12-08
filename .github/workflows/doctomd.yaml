@@ -1,0 +1,29 @@
+name: puml-to-img
+on:
+  push:
+    paths: ['docs/java/**']
+jobs:
+
+  doctomd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout weichware10/dokumente
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.WEICHBOT }}
+      - name: checkout util
+        uses: actions/checkout@v2
+        with:
+          repository: weichware10/util
+          path: .temp/util
+      - name: checkout toolbox
+        uses: actions/checkout@v2
+        with:
+          repository: weichware10/toolbox
+          path: .temp/toolbox
+      - name: checkout analyse
+        uses: actions/checkout@v2
+        with:
+          repository: weichware10/analyse
+          path: .temp/analyse
+      - run: tree
