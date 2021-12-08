@@ -21,10 +21,10 @@ jobs:
           cd ..
       - name: copy java files
         run: |
-          mkdir temp/java/analyse
+          mkdir -r temp/java/analyse
           cp -R temp/analyse/src/main/java/github/weichware10/analyse temp/java/analyse
-          mkdir temp/java/toolbox
+          mkdir -r temp/java/toolbox
           cp -R temp/toolbox/src/main/java/github/weichware10/toolbox temp/java/toolbox
-          mkdir temp/java/util
+          mkdir -r temp/java/util
           cp -R temp/util/src/main/java/github/weichware10/util temp/java/util
       - run: tree temp/java
