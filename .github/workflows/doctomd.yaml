@@ -11,19 +11,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.WEICHBOT }}
-      - name: checkout util
-        uses: actions/checkout@v2
-        with:
-          repository: weichware10/util
-          path: .temp/util
-      - name: checkout toolbox
-        uses: actions/checkout@v2
-        with:
-          repository: weichware10/toolbox
-          path: .temp/toolbox
-      - name: checkout analyse
-        uses: actions/checkout@v2
-        with:
-          repository: weichware10/analyse
-          path: .temp/analyse
+      - name: clone repositories
+        run: |
+          mkdir .temp
+          cd .temp
+          git clone https://github.com/weichware10/util
+          git clone https://github.com/weichware10/toolbox
+          git clone https://github.com/weichware10/analyse
+          cd ..
       - run: tree
