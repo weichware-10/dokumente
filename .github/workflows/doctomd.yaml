@@ -15,8 +15,13 @@ jobs:
         run: |
           mkdir temp
           cd temp
-          git clone https://github.com/weichware10/util
-          git clone https://github.com/weichware10/toolbox
           git clone https://github.com/weichware10/analyse
+          git clone https://github.com/weichware10/toolbox
+          git clone https://github.com/weichware10/util
           cd ..
-      - run: tree
+      - name: copy java files
+        run: |
+          cp -R temp/analyse/src/main/java/github/weichware10/analyse temp/java/analyse
+          cp -R temp/toolbox/src/main/java/github/weichware10/toolbox temp/java/toolbox
+          cp -R temp/util/src/main/java/github/weichware10/util temp/java/util
+      - run: tree temp/java
