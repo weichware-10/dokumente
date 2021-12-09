@@ -184,6 +184,26 @@ package Util {
         + debug(message: String, ctx: Exception, strackTrace: boolean)
     }
 
+    package db {
+        class Configurations {
+            + getConfiguration(configId: String): Configuration
+            + setConfiguration(configuration: Configuration): configId
+        }
+        class Trials {
+            + getConfigId(trialId: String): String
+            + getTrial(trialId: String): TrialData
+            + getTrialAvailabilty(trialId: String): boolean
+            + getTrialList(configId: String, toolType: ToolType,
+                minTime: DateTime, maxTime: DateTime)
+            + addTrials(configId: String, amount: int): String[]
+            + setTrial(trialData: TrialData): boolean
+        }
+        class DataPoints {
+            + getDataPoints(trialId: String): DataPoint[*]
+            + setDataPoints(dataPoints: DataPoint[*]): boolean
+        }
+    }
+
     ' Interaktionen
     ' Tutorial -- ToolType
     ' Tutorial -u- Config
