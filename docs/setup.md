@@ -87,14 +87,15 @@ Vorgehensweise:
         ```sql
         CREATE TABLE IF NOT EXISTS configurations (
             configid varchar(255) UNIQUE,
-            tooltype varchar(255),
+            tooltype varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS'),
             tutorial int CHECK (tutorial = 1 OR tutorial = 0),
             question TEXT,
+            imageurls TEXT,
             strings TEXT,
             initialsize_x int,
             initialSize_y int,
-            timings_0 int,
-            timings_1 int,
+            timings_0 bigint,
+            timings_1 bigint,
             speed real,
             PRIMARY KEY(configid)
         );
