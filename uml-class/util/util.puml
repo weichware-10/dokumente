@@ -184,6 +184,55 @@ package Util {
         + debug(message: String, ctx: Exception, strackTrace: boolean)
     }
 
+    package db {
+        class DataBaseClient {
+            # url : String
+            # props : java.util.Properties
+            # schema : String
+            + configurations : Configurations
+            + trials : Trials
+            + datapoints : Datapoints
+            + DataBaseClient(url: String, user: String, password: String, schema: String)
+            - hasAccess(table : String)
+        }
+        class Configurations {
+            - dataBaseClient: DataBaseClient
+            # Configurations(dataBaseClient: DataBaseClient)
+            + get(configId: String): Configuration
+            + set(configuration: Configuration): String
+            + getAvailability(configId: String)
+        }
+        class Trials {
+            - dataBaseClient: DataBaseClient
+            # Trials(dataBaseClient: DataBaseClient)
+            + getConfigId(trialId: String): String
+            + get(trialId: String): TrialData
+            + set(trialData: TrialData): boolean
+            + getAvailabilty(trialId: String): boolean
+            + add(configId: String, amount: int): List<String>
+            + getList(configId: String, toolType: ToolType,
+                minTime: DateTime, maxTime: DateTime, amount: int) : List<TrialData>
+        }
+        class Datapoints {
+            - dataBaseClient: DataBaseClient
+            # DataPoints(dataBaseClient: DataBaseClient)
+            + get(trialId: String): List<DataPoint>
+            + set(dataPoints: List<DataPoint>): boolean
+        }
+        class Util {
+            # stringsToList(strings: String) : List<String>
+            # generateId(prefix: String, lenght: int) : String
+            # closeQuietly(conn: java.sql.Connection)
+            # closeQuietly(st: java.sql.Statement)
+            # closeQuietly(rs: java.sql.ResultSet)
+        }
+
+        DataBaseClient o-- Configurations
+        DataBaseClient o-- Trials
+        DataBaseClient o-- Datapoints
+
+    }
+
     ' Interaktionen
     ' Tutorial -- ToolType
     ' Tutorial -u- Config
