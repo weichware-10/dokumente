@@ -226,6 +226,11 @@ package Util {
             # closeQuietly(st: java.sql.Statement)
             # closeQuietly(rs: java.sql.ResultSet)
         }
+
+        DataBaseClient o-- Configurations
+        DataBaseClient o-- Trials
+        DataBaseClient o-- Datapoints
+
     }
 
     ' Interaktionen
