@@ -22,7 +22,6 @@ class "configurations" as c {
 class "trials" as t {
     **trialid** varchar(255) UNIQUE
     **configid** varchar(255)
-    **tooltype** varchar(255)
     **starttime** TIMESTAMP WITH TIME ZONE
     **answer** TEXT
     __
