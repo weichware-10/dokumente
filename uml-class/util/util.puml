@@ -185,6 +185,16 @@ package Util {
     }
 
     package db {
+        class DataBaseClient {
+            # url : String
+            # props : java.util.Properties
+            # schema : String
+            + configurations : Configurations
+            + trials : Trials
+            + datapoints : Datapoints
+            + DataBaseClient(url: String, user: String, password: String, schema: String)
+            - hasAccess(table : String)
+        }
         class Configurations {
             - dataBaseClient: DataBaseClient
             # Configurations(dataBaseClient: DataBaseClient)
