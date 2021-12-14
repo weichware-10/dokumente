@@ -6,7 +6,7 @@ actor "Nutzer" as n
 
 class "configurations" as c {
     **configid** varchar(255) UNIQUE
-    **tooltype** varchar(255)
+    **tooltype** varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS')
     **tutorial** int CHECK (tutorial = 1 OR tutorial = 0)
     **question** TEXT
     **strings** TEXT
@@ -25,8 +25,8 @@ class "trials" as t {
     **tooltype** varchar(255)
     **starttime** TIMESTAMP WITH TIME ZONE
     **answer** TEXT
-    **PRIMARY** KEY(trialid)
     __
+    PRIMARY KEY(trialid)
     CONSTRAINT fk_config FOREIGN KEY(configid) REFERENCES configurations(configid)
 }
 
@@ -56,12 +56,5 @@ end note
 t "n" -- "1" c
 note on link
     Eine Konfiguration kann zu mehreren Versuchen gehören (muss!)
-end note
-
-note right of d
-    SELECT *
-    FROM Data
-    WHERE trialId = 420
-    ORDER BY dataID ASC
 end note
 @enduml

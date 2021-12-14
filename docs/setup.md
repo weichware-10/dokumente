@@ -1,6 +1,9 @@
 # Setup
 
 ## Datenbank
+>⚠️ beinhaltet nicht:
+>    - Einrichtung von [pg_cron](https://github.com/citusdata/pg_cron), kann praktisch zum Aufräumen des test-schemas sein
+
 Ziel: Installation von PostgreSQL und pgAdmin auf einem Server.  
 Vorraussetzungen:
 - Docker und Docker Compose sollten installiert sein  
@@ -68,7 +71,7 @@ Vorgehensweise:
          \password root
         ```
 
-- ![pgAdmin Logo](resources/pgadmin.svg) Einrichtung
+- pgAdmin Einrichtung
     - über IP-Adresse und Port 5050 [Verwendung von [duckdns.org](https://www.duckdns.org/) für eine kostenlose domain]
     - Einloggen mit `admin@admin.com` und Passwort `root`
     - Erstellen eines neuen Admin-Nutzers
@@ -80,98 +83,15 @@ Vorgehensweise:
 
     - Benutzername: `root`, Passwort: im letzten Schritt vergebenes Passwort
 
-- Tabellen erstellen
+- Schemata, Tabellen, Benutzer erstellen
     - einloggen mit root (`docker exec -it pg_container psql -U root -W weichware`)
     - oder Datenbank in pgAdmin auswählen -> Tools -> Query Tool
-    - `configurations` Tabelle:
-        ```sql
-        CREATE TABLE IF NOT EXISTS configurations (
-            configid varchar(255) UNIQUE,
-            tooltype varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS'),
-            tutorial int CHECK (tutorial = 1 OR tutorial = 0),
-            question TEXT,
-            imageurls TEXT,
-            strings TEXT,
-            initialsize_x int,
-            initialSize_y int,
-            timings_0 bigint,
-            timings_1 bigint,
-            speed real,
-            PRIMARY KEY(configid)
-        );
-        ```
-    - `trials` Tabelle:
-        ```sql
-        CREATE TABLE IF NOT EXISTS trials (
-            trialid varchar(255) UNIQUE,
-            configid varchar(255),
-            tooltype varchar(255),
-            starttime TIMESTAMP WITH TIME ZONE,
-            answer TEXT,
-            PRIMARY KEY(trialid),
-            CONSTRAINT fk_config
-                FOREIGN KEY(configid)
-                    REFERENCES configurations(configid)
-        );
-        ```
-    - `datapoints` Tabelle:
-        ```sql
-        CREATE TABLE IF NOT EXISTS datapoints (
-            trialid varchar(255),
-            dataid int,
-            timeoffset int,
-            coordinates_x int,
-            coordinates_y int,
-            rastersize_x int,
-            rastersize_y int,
-            zoomlevel real,
-            CONSTRAINT fk_trial
-                FOREIGN KEY(trialid)
-                    REFERENCES trials(trialid)
-        );
-        ```
-    <details>
-    <summary>Schneller Reset</summary>
-    <pre>
-    DROP TABLE IF EXISTS datapoints;
-    DROP TABLE IF EXISTS trials;
-    DROP TABLE IF EXISTS configurations;
-    CREATE TABLE IF NOT EXISTS configurations (
-        configid varchar(255) UNIQUE,
-        tooltype varchar(255),
-        tutorial int CHECK (tutorial = 1 OR tutorial = 0),
-        question TEXT,
-        strings TEXT,
-        initialsize_x int,
-        initialSize_y int,
-        timings_0 int,
-        timings_1 int,
-        speed real,
-        PRIMARY KEY(configid)
-    );
-    CREATE TABLE IF NOT EXISTS trials (
-        trialid varchar(255) UNIQUE,
-        configid varchar(255),
-        tooltype varchar(255),
-        starttime TIMESTAMP WITH TIME ZONE,
-        answer TEXT,
-        PRIMARY KEY(trialid),
-        CONSTRAINT fk_config
-            FOREIGN KEY(configid)
-                REFERENCES configurations(configid)
-    );
-    CREATE TABLE IF NOT EXISTS datapoints (
-        trialid varchar(255),
-        dataid int,
-        timeoffset int,
-        coordinates_x int,
-        coordinates_y int,
-        rastersize_x int,
-        rastersize_y int,
-        zoomlevel real,
-        CONSTRAINT fk_trial
-            FOREIGN KEY(trialid)
-                REFERENCES trials(trialid)
-    );
-    </pre>
-    </details>
+    - siehe Abschnitt SQL
+    - Bei Benutzerrechten wird nach dem Prinzip der verteilten Rechte vorgegangen, möglichst wenig Rechte für Users
+### SQL
+
+<script src="https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js"></script>
+
+- Erstellen der Schemata, Tabellen
+- Erstellen der Nutzer
+- Benutzerrechte
