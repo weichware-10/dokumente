@@ -186,21 +186,35 @@ package Util {
 
     package db {
         class Configurations {
-            + getConfiguration(configId: String): Configuration
-            + setConfiguration(configuration: Configuration): configId
+            - dataBaseClient: DataBaseClient
+            # Configurations(dataBaseClient: DataBaseClient)
+            + get(configId: String): Configuration
+            + set(configuration: Configuration): String
+            + getAvailability(configId: String)
         }
         class Trials {
+            - dataBaseClient: DataBaseClient
+            # Trials(dataBaseClient: DataBaseClient)
             + getConfigId(trialId: String): String
-            + getTrial(trialId: String): TrialData
-            + getTrialAvailabilty(trialId: String): boolean
-            + getTrialList(configId: String, toolType: ToolType,
-                minTime: DateTime, maxTime: DateTime)
-            + addTrials(configId: String, amount: int): String[]
-            + setTrial(trialData: TrialData): boolean
+            + get(trialId: String): TrialData
+            + set(trialData: TrialData): boolean
+            + getAvailabilty(trialId: String): boolean
+            + add(configId: String, amount: int): List<String>
+            + getList(configId: String, toolType: ToolType,
+                minTime: DateTime, maxTime: DateTime, amount: int) : List<TrialData>
         }
-        class DataPoints {
-            + getDataPoints(trialId: String): DataPoint[*]
-            + setDataPoints(dataPoints: DataPoint[*]): boolean
+        class Datapoints {
+            - dataBaseClient: DataBaseClient
+            # DataPoints(dataBaseClient: DataBaseClient)
+            + get(trialId: String): List<DataPoint>
+            + set(dataPoints: List<DataPoint>): boolean
+        }
+        class Util {
+            # stringsToList(strings: String) : List<String>
+            # generateId(prefix: String, lenght: int) : String
+            # closeQuietly(conn: java.sql.Connection)
+            # closeQuietly(st: java.sql.Statement)
+            # closeQuietly(rs: java.sql.ResultSet)
         }
     }
 
