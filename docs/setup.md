@@ -13,9 +13,9 @@ Vorraussetzungen:
 
 Vorgehensweise:
 - neuen Ordner auf dem Server erstellen
-```bash
-mkdir pgAdmin && cd pgAdmin
-```
+    ```bash
+    mkdir pgAdmin && cd pgAdmin
+    ```
 
 - Docker Compose Datei erstellen und öffnen
     ```
