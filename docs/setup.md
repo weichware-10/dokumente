@@ -13,7 +13,7 @@ Vorraussetzungen:
 
 Vorgehensweise:
 - neuen Ordner auf dem Server erstellen
-```
+```bash
 mkdir pgAdmin && cd pgAdmin
 ```
 
