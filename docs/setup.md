@@ -92,9 +92,9 @@ Vorgehensweise:
 
 [siehe Github Gist](https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js)
 <div class="code-example">
-
-    <script src="https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js" ></script>
-
+    <div>
+        <script src="https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js" ></script>
+    </div>
 </div>
 
 - Erstellen der Schemata, Tabellen
