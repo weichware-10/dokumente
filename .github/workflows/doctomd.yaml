@@ -32,6 +32,7 @@ jobs:
           doctomd \
           --input temp/java \
           --output docs/java \
+          --front docs/.java/front\
           --pre docs/.java/pre \
           --post docs/.java/post
       # signed commits
