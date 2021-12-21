@@ -1,3 +1,8 @@
+---
+title: ConfigDiagramm
+parent: Analyse
+---
+
 # ConfigDiagramm
 
 

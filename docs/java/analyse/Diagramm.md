@@ -1,3 +1,8 @@
+---
+title: Diagramm
+parent: Analyse
+---
+
 # Diagramm
 
 

@@ -1,3 +1,8 @@
+---
+title: Verlauf
+parent: Analyse
+---
+
 # Verlauf
 
 

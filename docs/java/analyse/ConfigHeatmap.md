@@ -1,3 +1,8 @@
+---
+title: ConfigHeatmap
+parent: Analyse
+---
+
 # ConfigHeatmap
 
 

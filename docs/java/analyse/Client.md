@@ -1,3 +1,8 @@
+---
+title: Client
+parent: Analyse
+---
+
 # Client
 
 

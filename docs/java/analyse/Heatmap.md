@@ -1,3 +1,8 @@
+---
+title: Heatmap
+parent: Analyse
+---
+
 # Heatmap
 
 
