@@ -1,4 +1,4 @@
-name: puml-to-img
+name: doctomd
 on:
   push:
     paths: ['docs/.java/**']
