@@ -1,3 +1,8 @@
+---
+title: EyeTrackingCalculator
+parent: eyetracking
+---
+
 # EyeTrackingCalculator
 
 
