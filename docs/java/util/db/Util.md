@@ -1,6 +1,6 @@
 ---
 title: Util
-parent: DB
+parent: db
 ---
 
 # Util

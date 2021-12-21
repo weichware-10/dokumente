@@ -1,6 +1,6 @@
 ---
 title: ZoomMapsConfiguration
-parent: Config
+parent: config
 ---
 
 # ZoomMapsConfiguration

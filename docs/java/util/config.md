@@ -1,5 +1,5 @@
 ---
 title: Config
-parent: Util
+parent: util
 has_children: true
 ---

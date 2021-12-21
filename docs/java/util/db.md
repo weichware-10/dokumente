@@ -1,5 +1,5 @@
 ---
 title: DB
-parent: Util
+parent: util
 has_children: true
 ---

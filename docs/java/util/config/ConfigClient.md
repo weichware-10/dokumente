@@ -1,6 +1,6 @@
 ---
 title: ConfigClient
-parent: Config
+parent: config
 ---
 
 # ConfigClient

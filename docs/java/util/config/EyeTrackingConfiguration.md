@@ -1,6 +1,6 @@
 ---
 title: EyeTrackingConfiguration
-parent: Config
+parent: config
 ---
 
 # EyeTrackingConfiguration

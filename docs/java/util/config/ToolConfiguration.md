@@ -1,6 +1,6 @@
 ---
 title: ToolConfiguration
-parent: Config
+parent: config
 ---
 
 # ToolConfiguration

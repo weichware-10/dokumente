@@ -1,6 +1,6 @@
 ---
 title: ConfigWriter
-parent: Config
+parent: config
 ---
 
 # ConfigWriter

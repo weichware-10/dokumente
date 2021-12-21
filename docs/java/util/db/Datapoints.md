@@ -1,6 +1,6 @@
 ---
 title: Datapoints
-parent: DB
+parent: db
 ---
 
 # Datapoints

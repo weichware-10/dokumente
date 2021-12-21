@@ -1,6 +1,6 @@
 ---
 title: DataBaseClient
-parent: DB
+parent: db
 ---
 
 # DataBaseClient

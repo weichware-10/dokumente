@@ -1,6 +1,6 @@
 ---
 title: Bild
-parent: Util
+parent: util
 ---
 
 # Bild

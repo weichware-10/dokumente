@@ -1,6 +1,6 @@
 ---
 title: CodeChartsConfiguration
-parent: Config
+parent: config
 ---
 
 # CodeChartsConfiguration

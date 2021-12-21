@@ -1,6 +1,6 @@
 ---
 title: Enums
-parent: Util
+parent: util
 ---
 
 # Enums
