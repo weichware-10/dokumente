@@ -31,11 +31,11 @@ Function to delete the specific Data. TODO: Richtiges Löschen implementieren
  * **Parameters:** `inputString` — - Data to delete
  * **Returns:** returns true if deletion was sucessfull
 
-## `public TrialData searchData(String inputString)`
+## `public TrialData searchData(String trialId)`
 
 Function to search for specific Data from a function. TODO: Richtige Suche implementieren
 
- * **Parameters:** `inputString` — - Data to search
+ * **Parameters:** `trialId` — - Data to search
  * **Returns:** returns the requested Data
 
 ## `public boolean saveData(TrialData inputData)`

@@ -5,13 +5,13 @@
 
 beinhaltet Methoden die zur Analyse benötigt werden.
 
-## `protected List<List<Float>> calcRelFreq(Data data)`
+## `protected List<List<Float>> calcRelFreq(TrialData data)`
 
 berechnet die relativen Häufigkeiten der Bildkoordinaten.
 
  * **Returns:** Liste mit den relativen Häufigkeiten der Bildkoordinaten
 
-## `protected List<List<Float>> createTimeTable(Data data)`
+## `protected List<List<Float>> createTimeTable(TrialData data)`
 
 erstellt eine Tabelle mit den Zeitpunkten und dazugehörigen Bildkoordinaten bzw. Zoomstärken
 

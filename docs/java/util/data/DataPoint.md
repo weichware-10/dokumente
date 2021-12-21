@@ -7,7 +7,7 @@ Stores a single DataPoint.
 
  * **Since:** v0.2
 
-## `protected DataPoint(int dataId, int timeOffset, int[] coordinates, float zoomLevel)`
+## `public DataPoint(int dataId, int timeOffset, int[] coordinates, float zoomLevel)`
 
 Stores a single DataPoint with zoomLevel.
 
@@ -20,7 +20,7 @@ Stores a single DataPoint with zoomLevel.
      <p>
  * **Since:** v0.2
 
-## `protected DataPoint(int dataId, int timeOffset, int[] coordinates, int[] rasterSize)`
+## `public DataPoint(int dataId, int timeOffset, int[] coordinates, int[] rasterSize)`
 
 Stores a single DataPoint without zoomLevel.
 
@@ -32,3 +32,16 @@ Stores a single DataPoint without zoomLevel.
 
      <p>
  * **Since:** v0.2
+
+## `public DataPoint(int dataId, int timeOffset, int[] coordinates, int[] rasterSize, Float zoomLevel)`
+
+Stores a single DataPoint with everyting (for database).
+
+ * **Parameters:**
+   * `dataId` — - the id of the dataPoint
+   * `timeOffset` — - the time since the trial started
+   * `coordinates` — - the coordinates on the viewed picture
+   * `rasterSize` — - width and height of the raster
+
+     <p>
+ * **Since:** v0.3

@@ -5,7 +5,7 @@
 
 verantwortlich für die Erstellung der Heatmap.
 
-## `public Heatmap(Data data, ConfigHeatmap confHm)`
+## `public Heatmap(TrialData data, ConfigHeatmap confHm)`
 
 verantwortlich für die Erstellung der Heatmap.
 

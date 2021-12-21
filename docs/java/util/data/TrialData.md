@@ -23,6 +23,21 @@ Stores the TrialData for the different tools internally.
      <p>
  * **Since:** v0.2
 
+## `public TrialData(Enums.ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)`
+
+Stores the TrialData for the different tools internally.
+
+ * **Parameters:**
+   * `toolType` — - the tooltype of the stored data
+   * `trialId` — - the id of the trial
+   * `configId` — - the configuration of the stored data
+   * `startTime` — - Startzeitpunkt des Versuchs
+   * `answer` — - Anwort des Versuchs
+   * `dataPoints` — - Daten des Versuchs
+
+     <p>
+ * **Since:** v0.3
+
 ## `public List<DataPoint> getData()`
 
 get the stored dataPoints.
@@ -31,6 +46,21 @@ get the stored dataPoints.
 
      <p>
  * **Since:** v0.2
+
+## `public String getAnswer()`
+
+get the answer.
+
+ * **Returns:** the answer
+
+     <p>
+ * **Since:** v0.3
+
+## `public void setAnswer(String answer)`
+
+set the answer.
+
+ * **Parameters:** `answer` — - the answer
 
 ## `public void addDataPoint(int[] coordinates, int[] rasterSize)`
 

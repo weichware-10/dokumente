@@ -5,7 +5,7 @@
 
 verantwortlich für die Erstellung der Diagramm-Diagramme.
 
-## `public Diagramm(Data data, ConfigDiagramm confDia)`
+## `public Diagramm(TrialData data, ConfigDiagramm confDia)`
 
 verantwortlich für die Erstellung der Diagramm-Diagramme.
 

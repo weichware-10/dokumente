@@ -5,7 +5,7 @@
 
 verantwortlich für die Erstellung des Verlauf-Diagramms.
 
-## `public Verlauf(Data data)`
+## `public Verlauf(TrialData data)`
 
 verantwortlich für die Erstellung des Verlauf-Diagramms.
 
