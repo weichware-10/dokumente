@@ -1,0 +1,4 @@
+---
+title: Verlauf
+parent: Analyse
+---

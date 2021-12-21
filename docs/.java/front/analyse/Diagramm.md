@@ -1,0 +1,4 @@
+---
+title: Diagramm
+parent: Analyse
+---

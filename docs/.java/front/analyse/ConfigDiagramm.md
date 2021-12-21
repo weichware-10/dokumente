@@ -1,0 +1,4 @@
+---
+title: ConfigDiagramm
+parent: Analyse
+---

@@ -1,0 +1,4 @@
+---
+title: AnalyseType
+parent: Analyse
+---
