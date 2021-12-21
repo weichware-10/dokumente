@@ -1,3 +1,8 @@
+---
+title: ToolConfiguration
+parent: Config
+---
+
 # ToolConfiguration
 
 

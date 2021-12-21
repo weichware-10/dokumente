@@ -1,3 +1,8 @@
+---
+title: ConfigGui
+parent: Config
+---
+
 # ConfigGui
 
 

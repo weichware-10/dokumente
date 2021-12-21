@@ -1,3 +1,8 @@
+---
+title: TrialData
+parent: data
+---
+
 # TrialData
 
 

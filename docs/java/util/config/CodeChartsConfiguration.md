@@ -1,3 +1,8 @@
+---
+title: CodeChartsConfiguration
+parent: Config
+---
+
 # CodeChartsConfiguration
 
 

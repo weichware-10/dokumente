@@ -1,3 +1,8 @@
+---
+title: DataPoint
+parent: data
+---
+
 # DataPoint
 
 

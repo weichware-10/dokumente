@@ -1,3 +1,8 @@
+---
+title: Configurations
+parent: DB
+---
+
 # Configurations
 
 

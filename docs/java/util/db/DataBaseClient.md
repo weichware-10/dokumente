@@ -1,3 +1,8 @@
+---
+title: DataBaseClient
+parent: DB
+---
+
 # DataBaseClient
 
 

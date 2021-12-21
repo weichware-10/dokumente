@@ -1,3 +1,8 @@
+---
+title: Trials
+parent: DB
+---
+
 # Trials
 
 

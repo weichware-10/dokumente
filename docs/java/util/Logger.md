@@ -1,3 +1,8 @@
+---
+title: Logger
+parent: Util
+---
+
 # Logger
 
 

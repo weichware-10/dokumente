@@ -1,3 +1,8 @@
+---
+title: ConfigClient
+parent: Config
+---
+
 # ConfigClient
 
 

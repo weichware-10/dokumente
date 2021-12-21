@@ -1,3 +1,8 @@
+---
+title: Configuration
+parent: Config
+---
+
 # Configuration
 
 
