@@ -1,0 +1,4 @@
+---
+title: CodeChartsConfiguration
+parent: Config
+---

@@ -1,0 +1,4 @@
+---
+title: DataPoint
+parent: data
+---

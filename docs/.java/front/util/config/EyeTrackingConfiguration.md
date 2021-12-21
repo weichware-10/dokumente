@@ -1,0 +1,4 @@
+---
+title: EyeTrackingConfiguration
+parent: Config
+---

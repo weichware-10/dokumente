@@ -1,0 +1,4 @@
+---
+title: ToolConfiguration
+parent: Config
+---

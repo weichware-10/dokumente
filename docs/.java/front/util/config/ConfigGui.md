@@ -1,0 +1,4 @@
+---
+title: ConfigGui
+parent: Config
+---
