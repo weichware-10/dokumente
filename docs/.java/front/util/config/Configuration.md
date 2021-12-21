@@ -1,4 +1,4 @@
 ---
 title: Configuration
-parent: Config
+parent: config
 ---

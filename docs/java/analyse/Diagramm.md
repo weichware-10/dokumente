@@ -1,6 +1,6 @@
 ---
 title: Diagramm
-parent: Analyse
+parent: analyse
 ---
 
 # Diagramm

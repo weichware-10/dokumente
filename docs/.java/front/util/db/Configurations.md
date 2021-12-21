@@ -1,4 +1,4 @@
 ---
 title: Configurations
-parent: DB
+parent: db
 ---

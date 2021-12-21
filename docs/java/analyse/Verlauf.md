@@ -1,6 +1,6 @@
 ---
 title: Verlauf
-parent: Analyse
+parent: analyse
 ---
 
 # Verlauf

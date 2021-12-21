@@ -1,6 +1,6 @@
 ---
 title: Client
-parent: Analyse
+parent: analyse
 ---
 
 # Client

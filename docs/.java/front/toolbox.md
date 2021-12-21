@@ -1,5 +1,5 @@
 ---
-title: Toolbox
+title: toolbox
 has_children: true
 ---
 # Toolbox

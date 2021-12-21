@@ -1,4 +1,4 @@
 ---
 title: ConfigDiagramm
-parent: Analyse
+parent: analyse
 ---

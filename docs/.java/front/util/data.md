@@ -1,5 +1,5 @@
 ---
 title: Data
-parent: Util
+parent: util
 has_children: true
 ---

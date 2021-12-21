@@ -1,4 +1,4 @@
 ---
 title: Trials
-parent: DB
+parent: db
 ---

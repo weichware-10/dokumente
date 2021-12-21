@@ -1,4 +1,4 @@
 ---
 title: ConfigLoader
-parent: Config
+parent: config
 ---

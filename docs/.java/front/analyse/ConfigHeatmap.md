@@ -1,4 +1,4 @@
 ---
 title: ConfigHeatmap
-parent: Analyse
+parent: analyse
 ---

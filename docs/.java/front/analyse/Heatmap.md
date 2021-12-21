@@ -1,4 +1,4 @@
 ---
 title: Heatmap
-parent: Analyse
+parent: analyse
 ---

@@ -1,4 +1,4 @@
 ---
 title: SpeicherUtilities
-parent: Util
+parent: util
 ---

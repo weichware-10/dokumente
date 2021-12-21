@@ -1,4 +1,4 @@
 ---
 title: Client
-parent: Analyse
+parent: analyse
 ---

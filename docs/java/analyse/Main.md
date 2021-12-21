@@ -1,6 +1,6 @@
 ---
 title: Main
-parent: Analyse
+parent: analyse
 ---
 
 # Main

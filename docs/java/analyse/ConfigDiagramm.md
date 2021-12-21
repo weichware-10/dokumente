@@ -1,6 +1,6 @@
 ---
 title: ConfigDiagramm
-parent: Analyse
+parent: analyse
 ---
 
 # ConfigDiagramm

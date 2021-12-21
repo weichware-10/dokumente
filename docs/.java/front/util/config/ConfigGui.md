@@ -1,4 +1,4 @@
 ---
 title: ConfigGui
-parent: Config
+parent: config
 ---

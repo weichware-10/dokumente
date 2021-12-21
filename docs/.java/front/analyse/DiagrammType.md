@@ -1,4 +1,4 @@
 ---
 title: DiagrammType
-parent: Analyse
+parent: analyse
 ---

@@ -1,4 +1,4 @@
 ---
 title: Bild
-parent: Util
+parent: util
 ---

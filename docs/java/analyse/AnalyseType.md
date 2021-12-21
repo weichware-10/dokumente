@@ -1,6 +1,6 @@
 ---
 title: AnalyseType
-parent: Analyse
+parent: analyse
 ---
 
 # AnalyseType

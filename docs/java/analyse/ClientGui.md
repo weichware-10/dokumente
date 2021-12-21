@@ -1,6 +1,6 @@
 ---
 title: ClientGui
-parent: Analyse
+parent: analyse
 ---
 
 # ClientGui

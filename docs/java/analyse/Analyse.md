@@ -1,6 +1,6 @@
 ---
 title: Analyse
-parent: Analyse
+parent: analyse
 ---
 
 # Analyse
