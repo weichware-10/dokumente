@@ -34,7 +34,6 @@ database Datenbank {
         UPDATE
         --
         **datapoints**
-        SELECT
         INSERT
     ]
     ' SPECTATOR

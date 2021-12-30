@@ -8,15 +8,14 @@ CREATE ROLE admin;
 REVOKE ALL ON DATABASE weichware FROM spectator;
 GRANT CONNECT ON DATABASE weichware TO spectator;
 -- all tables
-GRANT SELECT ON ALL TABLES IN SCHEMA test TO spectator;
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO spectator;
+GRANT SELECT ON ALL TABLES IN SCHEMA test, public TO spectator;
 
 -- SUBJECT
 REVOKE ALL ON DATABASE weichware FROM subject;
 GRANT CONNECT ON DATABASE weichware TO subject;
--- all tables
-GRANT SELECT ON ALL TABLES IN SCHEMA test TO subject;
-GRANT SELECT ON ALL TABLES IN SCHEMA public TO subject;
+-- select
+GRANT SELECT ON public.configurations, public.trials TO subject;
+GRANT SELECT ON test.configurations, test.trials TO subject;
 -- trials
 GRANT UPDATE ON test.trials TO subject;
 GRANT UPDATE ON public.trials TO subject;
