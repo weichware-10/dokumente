@@ -18,10 +18,10 @@ person author       as au #E6752B
 person admin        as ad #DA3633
 
 
-' note right of su
-'     keine einzelnen Nutzer,
-'     Rolle wird in ToolBox festgesetzt
-' end note
+note right of su
+    keine einzelnen Nutzer,
+    Rolle wird in ToolBox festgesetzt
+end note
 
 database Datenbank {
     ' SUBJECT
