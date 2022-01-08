@@ -15,7 +15,9 @@ DROP TABLE IF EXISTS public.configurations;
 CREATE TABLE IF NOT EXISTS public.configurations (
     configid varchar(255) UNIQUE,
     tooltype varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS'),
-    tutorial int CHECK (tutorial = 1 OR tutorial = 0),
+    tutorial boolean,
+    intro TEXT,
+    outro TEXT,
     question TEXT,
     imageurl TEXT,
     strings TEXT,
@@ -60,7 +62,9 @@ CREATE TABLE IF NOT EXISTS public.datapoints (
 CREATE TABLE IF NOT EXISTS test.configurations (
     configid varchar(255) UNIQUE,
     tooltype varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS'),
-    tutorial int CHECK (tutorial = 1 OR tutorial = 0),
+    tutorial boolean,
+    intro TEXT,
+    outro TEXT,
     question TEXT,
     imageurl TEXT,
     strings TEXT,
