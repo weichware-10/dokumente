@@ -14,14 +14,14 @@ GRANT SELECT ON ALL TABLES IN SCHEMA test, public TO spectator;
 REVOKE ALL ON DATABASE weichware FROM subject;
 GRANT CONNECT ON DATABASE weichware TO subject;
 -- select
-GRANT SELECT ON public.configurations, public.trials TO subject;
-GRANT SELECT ON test.configurations, test.trials TO subject;
+GRANT SELECT ON public.configurations, public.trials, public.strings TO subject;
+GRANT SELECT ON test.configurations, test.trials, test.strings TO subject;
 -- trials
-GRANT UPDATE ON test.trials TO subject;
 GRANT UPDATE ON public.trials TO subject;
+GRANT UPDATE ON test.trials TO subject;
 -- datapoints
-GRANT INSERT ON test.datapoints TO subject;
 GRANT INSERT ON public.datapoints TO subject;
+GRANT INSERT ON test.datapoints TO subject;
 
 -- AUTHOR
 REVOKE ALL ON DATABASE weichware FROM author;
