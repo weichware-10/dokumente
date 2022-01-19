@@ -53,7 +53,7 @@ jobs:
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          add_options: --update
+          add_options: --no-ignore-removal
           file_pattern: 'docs/java/**'
           commit_message: '[docs] updated docs'
           commit_user_name: 'weichbot10'
