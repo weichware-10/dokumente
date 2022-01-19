@@ -17,32 +17,30 @@ also used to transfer Data
 
  * **Since:** v0.2
 
-## `public TrialData(Enums.ToolType toolType, String trialId, String configId)`
+## `@JsonCreator(mode = JsonCreator.Mode.PROPERTIES) public TrialData(@JsonProperty("toolType") ToolType toolType, @JsonProperty("trialId") String trialId, @JsonProperty("configId") String configId, @JsonProperty("startTime") DateTime startTime, @JsonProperty("answer") String answer, @JsonProperty("data") List<DataPoint> dataPoints)`
+
+Konstruktor für Jackson.
+
+ * **Parameters:**
+   * `toolType` — the tooltype of the stored data
+   * `trialId` — the id of the trial
+   * `configId` — the configuration of the stored data
+   * `startTime` — Startzeitpunkt des Versuchs
+
+     <p>
+ * **Since:** v1.0
+
+## `public TrialData(ToolType toolType, String trialId, String configId)`
 
 Stores the TrialData for the different tools internally.
 
  * **Parameters:**
-   * `toolType` — - the tooltype of the stored data
-   * `trialId` — - the id of the trial
-   * `configId` — - the configuration of the stored data
+   * `toolType` — the tooltype of the stored data
+   * `trialId` — the id of the trial
+   * `configId` — the configuration of the stored data
 
      <p>
  * **Since:** v0.2
-
-## `public TrialData(Enums.ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)`
-
-Stores the TrialData for the different tools internally.
-
- * **Parameters:**
-   * `toolType` — - the tooltype of the stored data
-   * `trialId` — - the id of the trial
-   * `configId` — - the configuration of the stored data
-   * `startTime` — - Startzeitpunkt des Versuchs
-   * `answer` — - Anwort des Versuchs
-   * `dataPoints` — - Daten des Versuchs
-
-     <p>
- * **Since:** v0.3
 
 ## `public List<DataPoint> getData()`
 
@@ -66,26 +64,40 @@ get the answer.
 
 set the answer.
 
- * **Parameters:** `answer` — - the answer
+ * **Parameters:** `answer` — the answer
 
-## `public void addDataPoint(int[] coordinates, int[] rasterSize)`
+## `public void addDataPoint(Rectangle2D viewport, int depth)`
 
 Add a DataPoint for CodeCharts.
 
- * **Parameters:**
-   * `coordinates` — - the coordinates on the viewed picture
-   * `rasterSize` — - width and height of the raster
-
-     <p>
  * **Since:** v0.2
 
-## `public void addDataPoint(int[] coordinates, float zoomLevel)`
+## `public void addDataPoint(Rectangle2D viewport)`
 
 Add a DataPoint for ZoomMaps.
 
- * **Parameters:**
-   * `coordinates` — - the coordinates on the viewed picture
-   * `zoomLevel` — - how far the user is zoomed in
+ * **Parameters:** `viewport` — aktueller Ausschnitt beim ZoomBild
 
      <p>
- * **Since:** v0.2
+ * **Since:** v1.2
+
+## `public static TrialData fromJson(String location)`
+
+Lädt eine Versuch/Trial aus einer JSON-Datei.
+
+ * **Parameters:** `location` — Speicherort der Datei.
+
+     <p>
+ * **Since:** v1.0
+
+## `public static boolean toJson(String location, TrialData trialData)`
+
+Speichert eine `TrialData` in einer JSON-Datei.
+
+ * **Parameters:**
+   * `location` — Speicherort der JSON-Datei
+   * `trialData` — den abzuspeichernden Versuch/Trial
+ * **Returns:** Erfolgsboolean
+
+     <p>
+ * **Since:** v1.0

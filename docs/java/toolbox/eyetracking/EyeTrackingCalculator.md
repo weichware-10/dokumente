@@ -18,5 +18,5 @@ Cannot be instantiated.
 
 Rechnet aktuelle Blickkoordinaten aus.
 
- * **Parameters:** `eyePosition` — - die Position des Auges
+ * **Parameters:** `eyePosition` — die Position des Auges
  * **Returns:** die Bildschirmkoordinaten

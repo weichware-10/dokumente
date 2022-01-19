@@ -15,4 +15,4 @@ Zeigt das Tutorial für CodeCharts an.
 
 Instanziiert ein neues CodeChartsTutorial.
 
- * **Parameters:** `configClient` — - Der Config Client für die Einstellungen.
+ * **Parameters:** `configClient` — Der Config Client für die Einstellungen.

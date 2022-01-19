@@ -27,13 +27,13 @@ Koordinator des Config-Moduls.
 
 Gibt das komplette Einstellungs-Objekt zurück.
 
- * **Returns:** die Einstellungen. Kann {@code null} sein.
+ * **Returns:** die Einstellungen. Kann `null` sein.
 
 ## `public boolean writeToJson(String location)`
 
 Schreibt die Konfiguration in die spezifizierte JSON-Datei. Der Inhalt wird dabei überschrieben / die Datei neu angelegt.
 
- * **Parameters:** `location` — - Pfad zu JSON-Datei.
+ * **Parameters:** `location` — Pfad zu JSON-Datei.
  * **Returns:** Erfolgsboolean
  * **Since:** v0.2
 
@@ -41,7 +41,7 @@ Schreibt die Konfiguration in die spezifizierte JSON-Datei. Der Inhalt wird dabe
 
 Lädt den Inhalt einer JSON-Datei in die interne Konfiguration.
 
- * **Parameters:** `location` — - Der Speicherort der JSON-Datei
+ * **Parameters:** `location` — Der Speicherort der JSON-Datei
  * **Returns:** Erfolgsboolean
  * **Since:** v0.2
 
@@ -49,5 +49,13 @@ Lädt den Inhalt einer JSON-Datei in die interne Konfiguration.
 
 Lädt eine Konfiguration in den internen Speicher.
 
- * **Parameters:** `trialId` — - ID des Versuchs.
+ * **Parameters:** `trialId` — ID des Versuchs.
  * **Returns:** Erfolgsboolean
+ * **Since:** v1.0
+
+## `public String writeToDataBase()`
+
+schreibt die aktuelle Konfiguration in die Datenbank und gibt die erstellte ConfigId zurück.
+
+ * **Returns:** configId oder null bei Misserfolg
+ * **Since:** v1.0

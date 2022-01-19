@@ -6,7 +6,7 @@ parent: util
 # Tutorial
 
 
-## `public abstract class Tutorial`
+## `@SuppressWarnings("unused") public abstract class Tutorial`
 
 Grundlegende Tutorial-Klasse.
 
@@ -27,8 +27,8 @@ Aufgerufen wird die start()-Funktion.
 Instaniziiert ein neues Tutorial-Objekt.
 
  * **Parameters:**
-   * `configClient` — - der ConfigClient für die Einstellungen
-   * `toolType` — - der ToolType des Tutorials
+   * `configClient` — der ConfigClient für die Einstellungen
+   * `toolType` — der ToolType des Tutorials
 
 ## `public void start()`
 
@@ -46,7 +46,7 @@ findet heraus, ob für das Tool, dass Tutorial angezeigt werden soll.
 
 ## `private boolean show()`
 
-Zeigt das Tutorial an, mit OK-Button und Checkbox. Ruft {@link #tutorial()} auf.
+Zeigt das Tutorial an, mit OK-Button und Checkbox. Ruft `tutorial()` auf.
 
  * **Returns:** showAgain - Auswahl der User,
 

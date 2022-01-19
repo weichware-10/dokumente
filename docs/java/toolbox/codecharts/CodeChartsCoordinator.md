@@ -9,18 +9,21 @@ grand_parent: toolbox
 
 ## `public class CodeChartsCoordinator`
 
-Steuert den Datenverkehr und gibt die BEfehle zum anzeigen. von Bild Raster und Eingabefenster.
+Steuert den Datenverkehr und gibt die Befehle zum Anzeigen. von Bild Raster und Eingabefenster.
 
-## `public void startCodeCharts()`
+## `public CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts) throws MalformedURLException, IllegalArgumentException, FileNotFoundException, IOException`
 
-Ruft alle Klassen und Funktionen in Reihenfolge auf in der CodeCharts durchgeführt wird. Holt Daten aus der Config
+Konstruktor für den CodeChartsCoordinator.
 
-## `private void errorMessage()`
+ * **Parameters:**
+   * `configClient` — aus dem die Configuration geladen wird
+   * `dataBaseClient` —
+ * **Exceptions:**
+   * `IOException` — 
+   * `FileNotFoundException` — 
+   * `IllegalArgumentException` — 
+   * `MalformedURLException` — 
 
-Gibt Fehlermeldung bei falscher Config data.
+## `public void iterate()`
 
-## `protected boolean loadConfigData()`
-
-Holt die Daten aus der Config. Speichert die Daten.
-
- * **Returns:** gibt zurück ob fertig geladen.
+Durchführen einer CodeCharts Iteration.

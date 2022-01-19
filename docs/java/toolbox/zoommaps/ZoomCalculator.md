@@ -7,25 +7,26 @@ grand_parent: toolbox
 # ZoomCalculator
 
 
-## `public class ZoomCalculator`
+## `@SuppressWarnings("unused") public class ZoomCalculator`
 
 Bekommt Rohdaten des Systems (Mausklick), berechnet neue Position des Bildes und meldet Speichererfolg.
 
-## `public void processInput(int[] rawInput)`
+## `public ZoomCalculator(TrialData data, ConfigClient configClient, ZoomMapsController controller) throws MalformedURLException, IllegalArgumentException, FileNotFoundException, IOException`
+
+Erstelt einen neues ZoomCalculator.
+
+ * **Parameters:**
+   * `data` — ein (leeres) [TrialData](util/data/TrialData.md)-Objekt
+   * `configClient` — der ConfigClient der App
+   * `controller` — die ControllerKlasse der Szene
+ * **Exceptions:**
+   * `IOException` — 
+   * `FileNotFoundException` — 
+   * `IllegalArgumentException` — 
+   * `MalformedURLException` — 
+
+## `public void processInput(Point2D raw, int direction)`
 
 verarbeitet Input von Benutzer/System.
 
- * **Parameters:** `rawInput` — - Screenkoordinaten vom Mausklick (int[2])
-
-## `public boolean save()`
-
-Sendet gesammelte Daten Speichermedium und meldet (Miss-)Erfolg.
-
- * **Returns:** Erfolgsmeldung
-
-## `private float[] calculate(int[] rawInput)`
-
-Berechnet die neue position des Bildes aus den Rohdaten.
-
- * **Parameters:** `rawInput` — - Screenkoordinaten vom Mausklick (int[2])
- * **Returns:** neue Screenkoordinaten
+ * **Parameters:** `raw` — Screenkoordinaten vom Mausklick (int[2])

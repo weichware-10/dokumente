@@ -7,7 +7,7 @@ grand_parent: util
 # ZoomMapsConfiguration
 
 
-## `public class ZoomMapsConfiguration extends ToolConfiguration`
+## `public class ZoomMapsConfiguration`
 
 Beinhaltet Konfiguration für ZoomMaps-Versuche.
 
@@ -15,11 +15,11 @@ Beinhaltet Konfiguration für ZoomMaps-Versuche.
 
 leerer Konstruktor. Wird für Jackson gebraucht (json writer) smooth criminal.
 
-## `public ZoomMapsConfiguration(float speed, boolean tutorial, List<String> imageUrls)`
+## `public ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)`
 
-Konstruktor für die CodeCharts Konfiguration.
+Konstruktor für die ZoomMaps Konfiguration.
 
  * **Parameters:**
-   * `speed` — - Zoomgeschwindigkeit
-   * `tutorial` — - Anzeige des Tutorials
-   * `imageUrls` — - Adressen der Bilder
+   * `speed` — Zoomgeschwindigkeit
+   * `imageViewWidth` — Anzeige des Tutorials
+   * `imageViewHeight` — Adressen des Bildes

@@ -16,14 +16,14 @@ Datenbank-Klasse, durch die auf die Datenbank zugegriffen wird.
 Erstellt einen neuen DatenbankClient.
 
  * **Parameters:**
-   * `url` — - URL des Servers/Datenbank
-   * `user` — - Benutzername
-   * `password` — - Passwort
-   * `schema` — - Das zu verwendende Schema
+   * `url` — URL des Servers/Datenbank
+   * `user` — Benutzername
+   * `password` — Passwort
+   * `schema` — Das zu verwendende Schema
 
-## `private boolean hasAccess(String table)`
+## `private boolean tableExists(String table)`
 
-Überprüft, ob Zugriff auf die spezifizierte Tabelle im Schema besteht.
+Überprüft, ob die spezifizierte Tabelle im Schema existiert.
 
- * **Parameters:** `table` — - die zu überprüfende Tabelle
- * **Returns:** Zugriffsboolean
+ * **Parameters:** `table` — die zu überprüfende Tabelle
+ * **Returns:** Existenzboolean

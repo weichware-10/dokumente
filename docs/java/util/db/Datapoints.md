@@ -15,7 +15,7 @@ Die Datapoints-Tabelle beinhaltet die gespeicherten Datapoints.
 
 Gibt alle DataPoints zum Versuch mit trialId zurück.
 
- * **Parameters:** `trialId` — - trialId des Versuchs
+ * **Parameters:** `trialId` — trialId des Versuchs
  * **Returns:** Liste von trialId
 
 ## `public void set(List<DataPoint> dataPoints, String trialId)`
@@ -23,5 +23,5 @@ Gibt alle DataPoints zum Versuch mit trialId zurück.
 Speichert DataPoints für das Trial mit trialId.
 
  * **Parameters:**
-   * `dataPoints` — - die zu speichernden DataPoints
-   * `trialId` — - trialId des Versuchs
+   * `dataPoints` — die zu speichernden DataPoints
+   * `trialId` — trialId des Versuchs

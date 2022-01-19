@@ -7,7 +7,7 @@ grand_parent: util
 # EyeTrackingConfiguration
 
 
-## `public class EyeTrackingConfiguration extends ToolConfiguration`
+## `public class EyeTrackingConfiguration`
 
 Beinhaltet Konfiguration für EyeTracking-Versuche.
 

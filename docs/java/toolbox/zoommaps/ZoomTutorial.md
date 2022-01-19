@@ -9,10 +9,10 @@ grand_parent: toolbox
 
 ## `public class ZoomTutorial extends Tutorial`
 
-Zeigt das Tutorial ZoomBild in einem allgemeinen Tutorialfenster.
+Zeigt das Tutorial ZoomImage in einem allgemeinen Tutorialfenster.
 
 ## `public ZoomTutorial(ConfigClient configClient)`
 
 Instanziiert ein neues ZoomTutorial.
 
- * **Parameters:** `configClient` — - Der Config Client für die Einstellungen.
+ * **Parameters:** `configClient` — Der Config Client für die Einstellungen.

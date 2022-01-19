@@ -7,7 +7,7 @@ grand_parent: toolbox
 # EyeTrackingCoordinator
 
 
-## `public class EyeTrackingCoordinator`
+## `@SuppressWarnings("unused") public class EyeTrackingCoordinator`
 
 Bestimmung der Blickkoordinaten und Abspeicherung der Versuchsdaten.
 
@@ -17,7 +17,7 @@ Startet den Versuch.
 
 ## `private void setup()`
 
-Lädt für {@link #calculate()} benötigte Daten.
+Lädt für `calculate()` benötigte Daten.
 
 ## `private int[] calculate()`
 
