@@ -1,4 +1,0 @@
----
-title: EyeTrackingCalculator
-parent: eyetracking
----
