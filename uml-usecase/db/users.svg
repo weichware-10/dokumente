@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="676px" preserveAspectRatio="none" style="width:935px;height:676px;background:#FFFFFF;" version="1.1" viewBox="0 0 935 676" width="935px" zoomAndPan="magnify"><defs><filter height="300%" id="f9ozwxbe96n58" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[d68d77d88e3ebde308af66aa51e75453]
+cluster Apps--><rect fill="#FFFFFF" filter="url(#f9ozwxbe96n58)" height="144" style="stroke:#000000;stroke-width:1.5;" width="687" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="330.5" y="21.9951">Apps</text><!--MD5=[03c9795141fffc1586b10a901fd13311]
+cluster a--><polygon fill="#FFFFFF" filter="url(#f9ozwxbe96n58)" points="31,50,100,50,107,72.2969,543,72.2969,543,127,31,127,31,50" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="31" x2="107" y1="72.2969" y2="72.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="35" y="64.9951">Analyse</text><!--MD5=[58e8d77f4124e5ae9702536bb5978f12]
+cluster Datenbank--><path d="M21,257 C21,247 369.5,247 369.5,247 C369.5,247 718,247 718,257 L718,659 C718,669 369.5,669 369.5,669 C369.5,669 21,669 21,659 L21,257 " fill="#FFFFFF" filter="url(#f9ozwxbe96n58)" style="stroke:#000000;stroke-width:1.5;"/><path d="M21,257 C21,267 369.5,267 369.5,267 C369.5,267 718,267 718,257 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="326" y="281.9951">Datenbank</text><!--MD5=[25d0e677580c90e16acae03fd30cae42]
+entity tb--><polygon fill="#FEFECE" filter="url(#f9ozwxbe96n58)" points="678,98,649,85,591,85,562,98,591,111,649,111,678,98" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="591" y="102.9951">Toolbox</text><!--MD5=[1c5ba14a582780a0070707c3598231a5]
+entity ac--><polygon fill="#FEFECE" filter="url(#f9ozwxbe96n58)" points="243,98,194,85,96,85,47,98,96,111,194,111,243,98" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="96" y="102.9951">AnalyseClient</text><!--MD5=[72a79b666a91dcdc8ee40254025c5681]
+entity co--><polygon fill="#FEFECE" filter="url(#f9ozwxbe96n58)" points="527,98,478,85,380,85,331,98,380,111,478,111,527,98" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="380" y="102.9951">Configuration</text><!--MD5=[5972a2c69a6a19a44e8f9186f62f8fba]
+entity both--><ellipse cx="287" cy="98" fill="#FEFECE" filter="url(#f9ozwxbe96n58)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><!--MD5=[f277143cc7f347ecdbd4c1138a72db50]
+entity dbsu--><rect fill="#FEFECE" filter="url(#f9ozwxbe96n58)" height="176.6719" style="stroke:#000000;stroke-width:1.5;" width="140" x="562" y="386.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="572" y="402.4951">configurations</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="572" y="418.792">SELECT</text><line style="stroke:#000000;stroke-width:1.0;" x1="563" x2="701" y1="422.0938" y2="422.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="572" y="439.0889">strings</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="572" y="455.3857">SELECT</text><line style="stroke:#000000;stroke-width:1.0;" x1="563" x2="701" y1="462.6875" y2="462.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="572" y="479.6826">trials</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="572" y="495.9795">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="572" y="512.2764">UPDATE</text><line style="stroke:#000000;stroke-width:1.0;" x1="563" x2="701" y1="519.5781" y2="519.5781"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="572" y="536.5732">datapoints</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="572" y="552.8701">INSERT</text><!--MD5=[72acebe388be6afdaf32538d45773cb6]
+entity dbsp--><rect fill="#FEFECE" filter="url(#f9ozwxbe96n58)" height="160.375" style="stroke:#000000;stroke-width:1.5;" width="140" x="37" y="395"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="47" y="410.9951">configurations</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="47" y="427.292">SELECT</text><line style="stroke:#000000;stroke-width:1.0;" x1="38" x2="176" y1="430.5938" y2="430.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="47" y="447.5889">strings</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="47" y="463.8857">SELECT</text><line style="stroke:#000000;stroke-width:1.0;" x1="38" x2="176" y1="471.1875" y2="471.1875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="47" y="488.1826">trials</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="47" y="504.4795">SELECT</text><line style="stroke:#000000;stroke-width:1.0;" x1="38" x2="176" y1="511.7813" y2="511.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="47" y="528.7764">datapoints</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="47" y="545.0732">SELECT</text><!--MD5=[88ffcb454e1d20df282aa9e5a5ac0bb3]
+entity dbau--><rect fill="#FEFECE" filter="url(#f9ozwxbe96n58)" height="241.8594" style="stroke:#000000;stroke-width:1.5;" width="140" x="212" y="354"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="222" y="369.9951">configurations</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="222" y="386.292">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="222" y="402.5889">INSERT</text><line style="stroke:#000000;stroke-width:1.0;" x1="213" x2="351" y1="405.8906" y2="405.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="222" y="422.8857">strings</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="222" y="439.1826">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="222" y="455.4795">INSERT</text><line style="stroke:#000000;stroke-width:1.0;" x1="213" x2="351" y1="462.7813" y2="462.7813"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="222" y="479.7764">trials</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="222" y="496.0732">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="222" y="512.3701">UPDATE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="222" y="528.667">INSERT</text><line style="stroke:#000000;stroke-width:1.0;" x1="213" x2="351" y1="535.9688" y2="535.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="222" y="552.9639">datapoints</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="222" y="569.2607">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="222" y="585.5576">INSERT</text><!--MD5=[88b3f3f0ec930f0f0e741f21120c0a66]
+entity dbad--><rect fill="#FEFECE" filter="url(#f9ozwxbe96n58)" height="355.9375" style="stroke:#000000;stroke-width:1.5;" width="140" x="387" y="297"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="120" x="397" y="312.9951">configurations</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="397" y="329.292">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="397" y="345.5889">UPDATE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="397" y="361.8857">INSERT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="397" y="378.1826">DELETE</text><line style="stroke:#000000;stroke-width:1.0;" x1="388" x2="526" y1="381.4844" y2="381.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="397" y="398.4795">strings</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="397" y="414.7764">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="397" y="431.0732">UPDATE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="397" y="447.3701">INSERT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="397" y="463.667">DELETE</text><line style="stroke:#000000;stroke-width:1.0;" x1="388" x2="526" y1="470.9688" y2="470.9688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="44" x="397" y="487.9639">trials</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="397" y="504.2607">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="397" y="520.5576">UPDATE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="397" y="536.8545">INSERT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="397" y="553.1514">DELETE</text><line style="stroke:#000000;stroke-width:1.0;" x1="388" x2="526" y1="560.4531" y2="560.4531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="397" y="577.4482">datapoints</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="397" y="593.7451">SELECT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="397" y="610.042">UPDATE</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="397" y="626.3389">INSERT</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="397" y="642.6357">DELETE</text><!--MD5=[21f481ccb9ecb7db63df63b581fb1a69]
+entity su--><ellipse cx="624" cy="182.8097" fill="#238636" filter="url(#f9ozwxbe96n58)" rx="10.8097" ry="10.8097" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#238636" filter="url(#f9ozwxbe96n58)" height="36.2969" rx="10.8097" ry="10.8097" style="stroke:#000000;stroke-width:1.5;" width="73" x="587.5" y="193.6195"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="597.5" y="216.6146">subject</text><!--MD5=[694f580618a8ff0a20e3fd904d058a88]
+entity sp--><ellipse cx="120" cy="183.0691" fill="#E7C35F" filter="url(#f9ozwxbe96n58)" rx="12.0691" ry="12.0691" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#E7C35F" filter="url(#f9ozwxbe96n58)" height="36.2969" rx="12.0691" ry="12.0691" style="stroke:#000000;stroke-width:1.5;" width="91" x="74.5" y="195.1382"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="84.5" y="218.1333">spectator</text><!--MD5=[e1532afab819f384a6963ac657a68e1b]
+entity au--><ellipse cx="284" cy="182.856" fill="#E6752B" filter="url(#f9ozwxbe96n58)" rx="10.356" ry="10.356" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#E6752B" filter="url(#f9ozwxbe96n58)" height="36.2969" rx="10.356" ry="10.356" style="stroke:#000000;stroke-width:1.5;" width="67" x="250.5" y="193.212"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="260.5" y="216.2071">author</text><!--MD5=[a2a1127a9e0c3d5a4af797120761d109]
+entity ad--><ellipse cx="420" cy="182.6215" fill="#DA3633" filter="url(#f9ozwxbe96n58)" rx="10.1215" ry="10.1215" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#DA3633" filter="url(#f9ozwxbe96n58)" height="36.2969" rx="10.1215" ry="10.1215" style="stroke:#000000;stroke-width:1.5;" width="64" x="388" y="192.743"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="398" y="215.7381">admin</text><path d="M696,181 L696,197 L660.523,201 L696,205 L696,221.2656 A0,0 0 0 0 696,221.2656 L926,221.2656 A0,0 0 0 0 926,221.2656 L926,191 L916,181 L696,181 A0,0 0 0 0 696,181 " fill="#FBFB77" filter="url(#f9ozwxbe96n58)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M916,181 L916,191 L926,191 L916,181 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="702" y="198.0669">keine einzelnen Nutzer,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="702" y="213.1997">Rolle wird in ToolBox festgesetzt</text><!--MD5=[18e85f138a4aa55a1b48a810d5b6b01b]
+reverse link ac to both--><path d="M248.312,98 C258.127,98 267.942,98 277.757,98 " fill="none" id="ac-backto-both" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="243.18,98,252.18,102,248.18,98,252.18,94,243.18,98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[11f0c3172c4eb199bb085715e3e591cc]
+link both to co--><path d="M296.152,98 C306.022,98 315.891,98 325.76,98 " fill="none" id="both-to-co" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="330.921,98,321.921,94,325.921,98,321.921,102,330.921,98" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c052a0296ff5fc1487959a419de642cc]
+link tb to su--><path d="M620.49,111.385 C621.083,126.344 622.098,151.973 622.884,171.832 " fill="none" id="tb-su" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[842d7c0f0b11b07e5465e7c8efb92f6c]
+link ac to sp--><path d="M141.935,111.385 C138.284,126.134 132.066,151.253 127.181,170.99 " fill="none" id="ac-sp" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[371334620374c2d206195b0fe208e9f0]
+link both to au--><path d="M286.754,107.265 C286.337,121.305 285.473,150.416 284.823,172.299 " fill="none" id="both-au" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e0101e84559cdcd561f9d06e65e44022]
+link both to ad--><path d="M288.433,107.14 C291.083,119.876 297.915,144.55 313,159 C318.692,164.453 358.353,178.87 387.737,189.061 " fill="none" id="both-ad" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f01d21cb7f23a236dd63a0e948e76eba]
+link su to dbsu--><path d="M624.826,230.084 C625.902,266.664 627.833,332.315 629.421,386.298 " fill="none" id="su-dbsu" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e355ae120f1352a0f70c996716537e9d]
+link sp to dbsp--><path d="M118.609,231.109 C116.755,269.893 113.404,340.01 110.777,394.972 " fill="none" id="sp-dbsp" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0995f9e17d5bd84c0a22e2ae3236ac34]
+link au to dbau--><path d="M283.797,229.578 C283.581,259.021 283.223,307.702 282.883,353.902 " fill="none" id="au-dbau" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[608dbf7e8fa3045f7524a8d524e39ef5]
+link ad to dbad--><path d="M423.751,229.578 C426.103,246.865 429.357,270.785 432.915,296.941 " fill="none" id="ad-dbad" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f454f2477666c24eeef04e83388c1bc1]
+@startuml
+' left to right direction
+
+rectangle Apps {
+    hexagon Toolbox as tb
+    package Analyse as a {
+        hexagon AnalyseClient as ac
+        hexagon Configuration as co
+        interface " " as both
+        both -l-> ac
+        both -r-> co
+    }
+}
+
+person subject      as su #238636
+person spectator    as sp #E7C35F
+person author       as au #E6752B
+person admin        as ad #DA3633
+
+
+note right of su
+    keine einzelnen Nutzer,
+    Rolle wird in ToolBox festgesetzt
+end note
+
+database Datenbank {
+    ' SUBJECT
+    card dbsu [
+        **configurations**
+        SELECT
+        - -
+        **strings**
+        SELECT
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        - -
+        **datapoints**
+        INSERT
+    ]
+    ' SPECTATOR
+    card dbsp [
+        **configurations**
+        SELECT
+        - -
+        **strings**
+        SELECT
+        - -
+        **trials**
+        SELECT
+        - -
+        **datapoints**
+        SELECT
+    ]
+    ' AUTHOR
+    card dbau [
+        **configurations**
+        SELECT
+        INSERT
+        - -
+        **strings**
+        SELECT
+        INSERT
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        - -
+        **datapoints**
+        SELECT
+        INSERT
+    ]
+    ' ADMIN
+    card dbad [
+        **configurations**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **strings**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **datapoints**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+    ]
+}
+
+su -u- tb
+sp -u- ac
+au -u- both
+ad -u- both
+
+su - - dbsu
+sp - - dbsp
+au - - dbau
+ad - - dbad
+@enduml
+
+@startuml
+
+rectangle Apps {
+    hexagon Toolbox as tb
+    package Analyse as a {
+        hexagon AnalyseClient as ac
+        hexagon Configuration as co
+        interface " " as both
+        both -l-> ac
+        both -r-> co
+    }
+}
+
+person subject      as su #238636
+person spectator    as sp #E7C35F
+person author       as au #E6752B
+person admin        as ad #DA3633
+
+
+note right of su
+    keine einzelnen Nutzer,
+    Rolle wird in ToolBox festgesetzt
+end note
+
+database Datenbank {
+    card dbsu [
+        **configurations**
+        SELECT
+        - -
+        **strings**
+        SELECT
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        - -
+        **datapoints**
+        INSERT
+    ]
+    card dbsp [
+        **configurations**
+        SELECT
+        - -
+        **strings**
+        SELECT
+        - -
+        **trials**
+        SELECT
+        - -
+        **datapoints**
+        SELECT
+    ]
+    card dbau [
+        **configurations**
+        SELECT
+        INSERT
+        - -
+        **strings**
+        SELECT
+        INSERT
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        - -
+        **datapoints**
+        SELECT
+        INSERT
+    ]
+    card dbad [
+        **configurations**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **strings**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        - -
+        **datapoints**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+    ]
+}
+
+su -u- tb
+sp -u- ac
+au -u- both
+ad -u- both
+
+su - - dbsu
+sp - - dbsp
+au - - dbau
+ad - - dbad
+@enduml
+
+PlantUML version 1.2021.17beta10(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
