@@ -1,3 +1,0 @@
-# Java Setup
-## Development
-## Building
