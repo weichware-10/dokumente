@@ -1,5 +1,5 @@
 ---
-title: java
+title: Java
 has_children: true
 ---
 # Java Setup
