@@ -1,6 +1,6 @@
 ---
 title: codecharts
 parent: toolbox
-grand_parent: java
+grand_parent: Java
 ---
 Package

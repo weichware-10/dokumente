@@ -1,7 +1,7 @@
 ---
 title: Main
 parent: toolbox
-grand_parent: java
+grand_parent: Java
 ---
 
 # Main
