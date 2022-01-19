@@ -13,17 +13,17 @@ Vorraussetzungen:
 
 Vorgehensweise:
 - neuen Ordner auf dem Server erstellen
-    ```
+    ```bash
     mkdir pgAdmin && cd pgAdmin
     ```
 
 - Docker Compose Datei erstellen und öffnen
-    ```
+    ```bash
     touch docker-compose.yml && vim docker-compose.yml
     ```
 
 - Inhalt in `docker-compose.yml` einfügen:
-    ```
+    ```yml
     version: '3.8'
     services:
       db:
@@ -49,17 +49,17 @@ Vorgehensweise:
     (Verlassen von vim mittels <kbd>esc</kbd>, <kbd>:</kbd>, <kbd>w</kbd>, <kbd>q</kbd>, <kbd>enter</kbd> 😉)
 
 - Starten der Container
-    ```
+    ```bash
     docker-compose up
     ```
     Falls die Konsole geschlossen werden soll, ist der detached Modus zu empfehlen:
-    ```
+    ```bash
     docker-compose up -d
     ```
 
 - Einrichtung PostgreSQL
     - PostgreSQL shell öffnen:
-        ```
+        ```bash
         docker exec -it pg_container psql -U root -W weichware
         ```
         - `docker exec -it pg_container`: Ausführen eines Befehls in PostgreSQL Container
@@ -67,7 +67,7 @@ Vorgehensweise:
         - `-W`: Abfrage des Passwort nach Absenden des Befehls
         - `weichware`: Name der Datenbank, in docker-compose gesetzt
     - root Passwort ändern
-        ```
+        ```bash
          \password root
         ```
 
@@ -91,7 +91,11 @@ Vorgehensweise:
 ### SQL
 
 [siehe Github Gist](https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js)
-<script src="https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js" ></script>
+<div class="code-example">
+    <div>
+        <script src="https://gist.github.com/joshuajeschek/c4c8866bdc6cd23564a9d962bce718c1.js" ></script>
+    </div>
+</div>
 
 - Erstellen der Schemata, Tabellen
 - Erstellen der Nutzer

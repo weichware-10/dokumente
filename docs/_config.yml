@@ -1,2 +1,9 @@
 name: Dokumentation Weichware 10
 markdown: GFM
+# JUST THE DOCS
+remote_theme: pdmosses/just-the-docs@rec-nav-2
+color_scheme: dark
+logo: "https://avatars.githubusercontent.com/u/92639923"
+
+# remote_theme: karloespiritu/BlackDoc
+# remote_theme: Wiredcraft/carte
