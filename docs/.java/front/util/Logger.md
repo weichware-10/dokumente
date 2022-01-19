@@ -1,5 +1,5 @@
 ---
 title: Logger
 parent: util
-grandparent: java
+grand_parent: java
 ---

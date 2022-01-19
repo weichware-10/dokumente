@@ -2,7 +2,7 @@
 title: EyeTrackingCoordinator
 parent: eyetracking
 grand_parent: toolbox
-grandparent: java
+grand_parent: java
 ---
 
 # EyeTrackingCoordinator

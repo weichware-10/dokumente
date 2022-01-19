@@ -1,7 +1,7 @@
 ---
 title: zoommaps
 parent: toolbox
-grandparent: java
+grand_parent: java
 has_children: true
 ---
 # zoommaps

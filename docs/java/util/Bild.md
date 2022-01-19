@@ -1,5 +1,5 @@
 ---
 title: Bild
 parent: util
-grandparent: java
+grand_parent: java
 ---

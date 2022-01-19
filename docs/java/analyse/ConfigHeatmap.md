@@ -1,5 +1,5 @@
 ---
 title: ConfigHeatmap
 parent: analyse
-grandparent: java
+grand_parent: java
 ---

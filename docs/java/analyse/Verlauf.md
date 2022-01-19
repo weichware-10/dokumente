@@ -1,5 +1,5 @@
 ---
 title: Verlauf
 parent: analyse
-grandparent: java
+grand_parent: java
 ---

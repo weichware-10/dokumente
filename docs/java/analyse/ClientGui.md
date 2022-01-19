@@ -1,5 +1,5 @@
 ---
 title: ClientGui
 parent: analyse
-grandparent: java
+grand_parent: java
 ---

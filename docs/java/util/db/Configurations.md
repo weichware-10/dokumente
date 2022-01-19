@@ -2,7 +2,7 @@
 title: Configurations
 parent: db
 grand_parent: util
-grandparent: java
+grand_parent: java
 ---
 
 # Configurations

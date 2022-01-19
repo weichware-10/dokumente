@@ -1,7 +1,7 @@
 ---
 title: Main
 parent: analyse
-grandparent: java
+grand_parent: java
 ---
 
 # Main

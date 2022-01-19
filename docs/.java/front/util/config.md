@@ -1,6 +1,6 @@
 ---
 title: config
 parent: util
-grandparent: java
+grand_parent: java
 has_children: true
 ---

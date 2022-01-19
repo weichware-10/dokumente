@@ -2,7 +2,7 @@
 title: Util
 parent: db
 grand_parent: util
-grandparent: java
+grand_parent: java
 ---
 
 # Util

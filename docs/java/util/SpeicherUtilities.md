@@ -1,5 +1,5 @@
 ---
 title: SpeicherUtilities
 parent: util
-grandparent: java
+grand_parent: java
 ---
