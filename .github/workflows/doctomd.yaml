@@ -2,6 +2,7 @@ name: doctomd
 on:
   push:
     paths: ['docs/.java/**']
+  workflow_dispatch:
 jobs:
 
   doctomd:
@@ -34,7 +35,10 @@ jobs:
           --output docs/java \
           --front docs/.java/front \
           --pre docs/.java/pre \
-          --post docs/.java/post
+          --post docs/.java/post \
+          --module code \
+          --module hyphen \
+          --module link
       # signed commits
       - name: import GPG
         id: import_gpg
