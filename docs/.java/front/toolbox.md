@@ -1,7 +1,7 @@
 ---
 title: toolbox
 has_children: true
-parent: java
+parent: Java
 ---
 # Toolbox
 Repo

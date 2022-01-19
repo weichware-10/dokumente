@@ -1,7 +1,7 @@
 ---
 title: analyse
 has_children: true
-parent: java
+parent: Java
 ---
 # analyse
 Repo

@@ -1,6 +1,6 @@
 ---
 title: enums
 parent: analyse
-grand_parent: java
+grand_parent: Java
 ---
 Package
