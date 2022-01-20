@@ -1,0 +1,113 @@
+@startuml users
+' left to right direction
+
+rectangle Apps {
+    hexagon Toolbox as tb
+    package Analyse as a {
+        hexagon AnalyseClient as ac
+        hexagon Configuration as co
+        interface " " as both
+        both -l-> ac
+        both -r-> co
+    }
+}
+
+person subject      as su #238636
+person spectator    as sp #E7C35F
+person author       as au #E6752B
+person admin        as ad #DA3633
+
+
+note right of su
+    keine einzelnen Nutzer,
+    Rolle wird in ToolBox festgesetzt
+end note
+
+database Datenbank {
+    ' SUBJECT
+    card dbsu [
+        **configurations**
+        SELECT
+        --
+        **strings**
+        SELECT
+        --
+        **trials**
+        SELECT
+        UPDATE
+        --
+        **datapoints**
+        INSERT
+    ]
+    ' SPECTATOR
+    card dbsp [
+        **configurations**
+        SELECT
+        --
+        **strings**
+        SELECT
+        --
+        **trials**
+        SELECT
+        --
+        **datapoints**
+        SELECT
+    ]
+    ' AUTHOR
+    card dbau [
+        **configurations**
+        SELECT
+        INSERT
+        --
+        **strings**
+        SELECT
+        INSERT
+        --
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        --
+        **datapoints**
+        SELECT
+        INSERT
+    ]
+    ' ADMIN
+    card dbad [
+        **configurations**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        --
+        **strings**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        --
+        **trials**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+        --
+        **datapoints**
+        SELECT
+        UPDATE
+        INSERT
+        DELETE
+    ]
+}
+
+su -u- tb
+sp -u- ac
+au -u- both
+ad -u- both
+
+su -- dbsu
+sp -- dbsp
+au -- dbau
+ad -- dbad
+
+@enduml

@@ -1,0 +1,59 @@
+@startuml database
+
+allowmixing
+
+actor "Nutzer" as n
+
+class "configurations" as c {
+    **configid** varchar(255) UNIQUE
+    **tooltype** varchar(255) CHECK (tooltype LIKE 'CODECHARTS' OR tooltype LIKE 'ZOOMMAPS')
+    **tutorial** int CHECK (tutorial = 1 OR tutorial = 0)
+    **question** TEXT
+    **strings** TEXT
+    **initialsize_x** int
+    **initialSize_y** int
+    **timings_0** int
+    **timings_1** int
+    **speed** real
+    __
+    PRIMARY KEY(configid)
+}
+
+class "trials" as t {
+    **trialid** varchar(255) UNIQUE
+    **configid** varchar(255)
+    **starttime** TIMESTAMP WITH TIME ZONE
+    **answer** TEXT
+    __
+    PRIMARY KEY(trialid)
+    CONSTRAINT fk_config FOREIGN KEY(configid) REFERENCES configurations(configid)
+}
+
+class "datapoints" as d {
+    **trialid** varchar(255)
+    **dataid** int
+    **timeoffset** int
+    **coordinates_x** int
+    **coordinates_y** int
+    **rastersize_x** int
+    **rastersize_y** int
+    **zoomlevel** real
+    __
+    CONSTRAINT fk_trial FOREIGN KEY(trialid) REFERENCES trials(trialid)
+}
+
+n "1" -- "n" t
+note on link
+    1 Nutzer kann mehrere Versuche
+    (mit unterschiedlicher Konfiguration) durchführen
+end note
+t "1" -r- "n" d
+note on link
+    Ein Datensatz besteht aus mehreren Datenpunkten
+    und gehört zu einem Versuch
+end note
+t "n" -- "1" c
+note on link
+    Eine Konfiguration kann zu mehreren Versuchen gehören (muss!)
+end note
+@enduml
