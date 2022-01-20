@@ -31,7 +31,7 @@ link Client to ConfigHeatmap--><path codeLine="140" d="M994.518,291.237 C1071.32
 link ToolType to TrialData--><path codeLine="176" d="M1175.65,103.5 C1187.43,103.5 1199.21,103.5 1210.99,103.5 " fill="none" id="ToolType-TrialData" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[92de5bd5bbf8c069f3c5f92d85a6f759]
 link TrialData to DataPoint--><path codeLine="177" d="M1423.1,103.5 C1434.69,103.5 1446.28,103.5 1457.87,103.5 " fill="none" id="TrialData-DataPoint" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3bc31aaf38fcd7bd4122f97c2621c34e]
 link System to Client--><path codeLine="183" d="M841.047,112.631 C835.254,136.756 817.55,210.482 801.266,278.297 " fill="none" id="System-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="825.1675,201.7046,820.1978,209.8135,825.9132,211.1859,825.1675,201.7046" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48" x="833" y="211.0669">save to</text><!--MD5=[e915fa9e1e96e39591c06eed7939ff93]
-link SpeicherMedium to Client--><path codeLine="184" d="M703.161,130.157 C711.067,163.08 725.358,222.593 738.702,278.162 " fill="none" id="SpeicherMedium-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="728.1675,211.4282,728.9132,201.9469,723.1978,203.3194,728.1675,211.4282" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="736" y="211.0669">gets Data</text><!--MD5=[421ce0af30518cee7a28fc8975f190ab]
+link SpeicherMedium to Client--><path codeLine="184" d="M703.161,130.157 C711.067,163.08 725.358,222.593 738.702,278.162 " fill="none" id="SpeicherMedium-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="728.1675,211.4282,728.9132,201.9469,723.1978,203.3194,728.1675,211.4282" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="736" y="211.0669">gets Data</text><!--MD5=[55c1d145943ca2955661b77f9c4f44e4]
 @startuml
 ' === ANALYSE CLIENT ===
 package Analyse-Client{
@@ -387,7 +387,7 @@ Client -u- System: > save to
 Client -u- SpeicherMedium : < gets Data
 @enduml
 
-PlantUML version 1.2022.1beta4(Unknown compile time)
+PlantUML version 1.2021.16beta3(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
