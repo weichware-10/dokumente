@@ -11,7 +11,7 @@ grand_parent: util
 
 Abstrakte Klasse, von der alle Szenen erben. Diese Klasse lädt vorallem FXML-Dateien.
 
-## `protected static InitResult initialize(URL fxml)`
+## `public static InitResult initialize(URL fxml)`
 
 lädt die Szene intern und gibt die root-Instanz zurück.
 
