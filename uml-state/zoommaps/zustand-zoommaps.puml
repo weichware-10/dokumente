@@ -5,18 +5,10 @@ state Speichern : der Data im Speichermedium
 state "Tutorial" as t {
     state "Abfrage von Config" as ac : getConfigState()\nSoll Tutorial angezeigt werden?
     state "Tutorial anzeigen" as ta
-    state "Config setzen" as cs : Config so ändern, dass Tutorial\nnicht mehr angezeigt wird
-    state checkbox <<choice>>
-    note left of checkbox
-        Tutorial wieder anzeigen?
-    end note
     [*] --> ac
     ac --> ta : Ja
     ac --> s : Nein
-    ta --> checkbox
-    checkbox --> cs : Nein
-    checkbox --> s : Ja
-    cs -r-> s
+    ta --> s
 }
 
 state "Setup" as s {
