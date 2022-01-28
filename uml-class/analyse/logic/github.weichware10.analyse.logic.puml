@@ -4,7 +4,7 @@ title github.weichware10.analyse.logic
 package github.weichware10.analyse.logic {
 
     class github.weichware10.analyse.logic.Analysis {
-        __public methods__
+        __protected methods__
         {static}# String saveImage(String imageUrl)
         {static}# double calculateDepth(DataPoint dataPoint, double imageWidth, double imageHeight, Double minDepth, Double maxDepth)
     }
