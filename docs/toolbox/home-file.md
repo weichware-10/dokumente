@@ -7,7 +7,7 @@ parent: toolbox-handbuch
 
 ![Home-File](resources/ToolBoxFile.png)
 
-Dieses Menü ist mit (Admin) hauptsächlich für administrative Arbeiten gedacht und wird auch nur angezeigt, wenn man als Admin mit der Datenbank verbunden ist.
+Dieses Menü ist mit [Admin](home-admin.md) hauptsächlich für administrative Arbeiten gedacht und wird auch nur angezeigt, wenn man als Admin mit der Datenbank verbunden ist.
 
 (1) Man kann den Test mit einer selbst erstellten JSON config laden.
 
