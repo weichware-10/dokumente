@@ -1,6 +1,6 @@
 @startuml zoommaps
 state "Fehler" as err : informative Fehlermeldung
-state Speichern : der Data im Speichermedium
+state Speichern : der Daten in der Datenbank
 
 state "Tutorial" as t {
     state "Abfrage von Config" as ac : getConfigState()\nSoll Tutorial angezeigt werden?
@@ -30,7 +30,7 @@ state "Setup" as s {
 
 state "Versuch" as v {
     state "Auf Benutzerinput warten" as bi : Scrollen und Klicken
-    state "Berechnung Bildposition" as bb : aus Rohdaten
+    state "Berechnung Bildposition" as bb : aus ImageView Koordinaten
     state "Anpassung Bildposition" as ab : Dauer hängt von speed ab
     state "Abspeichern neuer Position" as ap
     [*] --> bi
