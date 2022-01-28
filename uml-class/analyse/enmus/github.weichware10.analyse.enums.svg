@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:344px;height:183px;background:#FFFFFF;" version="1.1" viewBox="0 0 344 183" width="344px" zoomAndPan="magnify"><defs><filter height="300%" id="fakxattxshftf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="334" x="2" y="16.708">github.weichware10.analyse.enums</text><!--MD5=[90973a6118705d30c3a960537da0f2d1]
+cluster github.weichware10.analyse.enums--><polygon fill="#FFFFFF" filter="url(#fakxattxshftf)" points="23,26.9531,317,26.9531,324,49.25,327,49.25,327,176.9531,23,176.9531,23,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="23" x2="324" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="288" x="27" y="41.9482">github.weichware10.analyse.enums</text><!--MD5=[259deadc0912e400bead4f7a3e794ada]
+class github.weichware10.analyse.enums.AnalyseType--><rect codeLine="5" fill="#FEFECE" filter="url(#fakxattxshftf)" height="99.2188" id="github.weichware10.analyse.enums.AnalyseType" style="stroke:#A80036;stroke-width:1.5;" width="109" x="120.5" y="61.9531"/><ellipse cx="135.5" cy="77.9531" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M134.2969,78.8281 L135.75,78.8281 L135.75,78.9375 C135.75,79.3438 135.7813,79.5 135.8594,79.6563 C136.0156,79.9063 136.2969,80.0625 136.5938,80.0625 C136.8438,80.0625 137.1094,79.9219 137.2656,79.7031 C137.3906,79.5469 137.4219,79.3906 137.4219,78.9375 L137.4219,77.0156 C137.4219,76.8594 137.4219,76.8125 137.4063,76.6563 C137.3438,76.1875 137.0313,75.875 136.5781,75.875 C136.3281,75.875 136.0625,76.0156 135.8906,76.2344 C135.7813,76.4063 135.75,76.5625 135.75,77.0156 L135.75,77.1406 L134.2969,77.1406 L134.2969,74.7344 L138.2813,74.7344 L138.2813,75.5938 C138.2813,76 138.3125,76.1719 138.3906,76.3281 C138.5625,76.5781 138.8438,76.7344 139.125,76.7344 C139.3906,76.7344 139.6563,76.5938 139.8281,76.375 C139.9375,76.2031 139.9688,76.0625 139.9688,75.5938 L139.9688,73.0469 L132.3438,73.0469 C131.9063,73.0469 131.7813,73.0625 131.625,73.1563 C131.375,73.3125 131.2188,73.6094 131.2188,73.8906 C131.2188,74.1719 131.3594,74.4219 131.5781,74.5938 C131.7344,74.7031 131.9219,74.7344 132.3438,74.7344 L132.5938,74.7344 L132.5938,81.25 L132.3438,81.25 C131.9375,81.25 131.7813,81.2656 131.625,81.375 C131.375,81.5469 131.2188,81.8125 131.2188,82.1094 C131.2188,82.375 131.3594,82.625 131.5781,82.7813 C131.7188,82.9063 131.9531,82.9531 132.3438,82.9531 L140.3438,82.9531 L140.3438,80.375 C140.3438,79.9375 140.3125,79.7969 140.2344,79.6406 C140.0625,79.3906 139.7813,79.2344 139.5,79.2344 C139.2344,79.2344 138.9688,79.3438 138.7969,79.5938 C138.6875,79.75 138.6563,79.8906 138.6563,80.375 L138.6563,81.25 L134.2969,81.25 L134.2969,78.8281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="149.5" y="82.1074">AnalyseType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="121.5" x2="228.5" y1="93.9531" y2="93.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="126.5" y="108.1636">HEATMAP</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="126.5" y="120.9683">VERLAUF</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="126.5" y="133.7729">COMPVERLAUF</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="126.5" y="146.5776">RELDEPTHDISTR</text><line style="stroke:#A80036;stroke-width:1.5;" x1="121.5" x2="228.5" y1="153.1719" y2="153.1719"/><!--MD5=[e4141f7299ba3581240fcb388210fb2f]
+@startuml
+title github.weichware10.analyse.enums
+
+package github.weichware10.analyse.enums {
+
+    enum github.weichware10.analyse.enums.AnalyseType {
+        HEATMAP
+        VERLAUF
+        COMPVERLAUF
+        RELDEPTHDISTR
+    }
+
+}
+@enduml
+
+PlantUML version 1.2022.1beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
