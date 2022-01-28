@@ -7,12 +7,20 @@ state "Tutorial" as t {
     state "Tutorial anzeigen" as ta
     [*] --> ac
     ac --> ta : Ja
-    ac --> s : Nein
-    ta --> s
+    ac --> p : Nein
+    ta --> p
+}
+
+state "PreTest" as p {
+    state "Abfrage Intro Text" as it : getConfigState()\nWas ist der Intro Inhalt ?
+    state "Intro anzeigen" as ia
+    [*] --> it
+    it --> ia
+    ia --> s
 }
 
 state "Setup" as s {
-    state "Konfiguration abfragen" as ka : speed und image location
+    state "Konfiguration abfragen" as ka : speed, image location, imageViewWidth, imageViewHeight, Question
     state "Vorbereitung Bild" as vb : instanziieren und anzeigen
     [*] --> ka
     ka --> vb : Konfiguration erhalten
