@@ -10,15 +10,15 @@ Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann 
 ![ProgressBar-Tutorial](resources/tutorial-progress.png)
 
 ### Schritt 1
-![Tutorial-0](resources/tutorial/zoommaps/0.png)
+![Tutorial-0](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/0.png)
 ### Schritt 2
-![Tutorial-1](resources/tutorial/zoommaps/1.png)
+![Tutorial-1](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/1.png)
 ### Schritt 3
-![Tutorial-2](resources/tutorial/zoommaps/2.png)
+![Tutorial-2](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/2.png)
 ### Schritt 4
-![Tutorial-3](resources/tutorial/zoommaps/3.png)
+![Tutorial-3](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/3.png)
 ### Schritt 5
-![Tutorial-4](resources/tutorial/zoommaps/4.png)
+![Tutorial-4](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/4.png)
 
 ## Tutorial abgeschlossen
 Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
