@@ -7,7 +7,7 @@ parent: Toolbox Benutzerhandbuch
 ## Tutorial
 Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über vor und zurück Button, beliebig durch das Tutorial gehen. Es besteht jederzeit das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
 
-![ProgressBar-Tutorial](resources/tutorial-progress.png)
+![ProgressBar-Tutorial](./resources/tutorial-progress.png)
 
 ### Schritt 1
 ![Tutorial-0](../../tutorial/codecharts/0.png)
