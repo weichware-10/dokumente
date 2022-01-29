@@ -1,6 +1,6 @@
 ---
-title: end-file
-parent: toolbox-handbuch
+title: File
+parent: Endbildschirm
 ---
 # End-File
 

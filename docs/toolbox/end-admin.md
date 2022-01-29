@@ -1,6 +1,6 @@
 ---
-title: end-admin
-parent: toolbox-handbuch
+title: Admin
+parent: Endbildschirm
 ---
 # End-Admin
 

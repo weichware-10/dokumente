@@ -1,6 +1,6 @@
 ---
-title: home-change-database
-parent: home-file
+title: Change Database Connection
+parent: File
 ---
 # Change Database Conncetion
 

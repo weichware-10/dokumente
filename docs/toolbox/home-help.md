@@ -1,6 +1,6 @@
 ---
-title: home-help
-parent: toolbox-handbuch
+title: Help
+parent: Startbildschirm
 ---
 # Home-Help
 

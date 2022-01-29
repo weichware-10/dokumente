@@ -1,7 +1,7 @@
 ---
 title: Startbildschirm
 has_children: true
-parent: toolbox-handbuch
+parent: Toolbox Benutzerhandbuch
 ---
 # Startbildschirm
 

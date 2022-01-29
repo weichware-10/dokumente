@@ -1,6 +1,6 @@
 ---
-title: home-admin
-parent: toolbox-handbuch
+title: Admin
+parent: Startbildschirm
 ---
 # Home-Admin
 

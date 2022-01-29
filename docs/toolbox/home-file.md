@@ -1,7 +1,7 @@
 ---
-title: home-file
+title: File
 has_children: true
-parent: toolbox-handbuch
+parent: Startbildschirm
 ---
 # Home-File
 
