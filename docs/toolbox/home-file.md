@@ -1,5 +1,5 @@
 ---
-title: Startbildschirm File
+title: Startbildschirm-File
 has_children: true
 parent: Startbildschirm
 ---

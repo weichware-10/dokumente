@@ -1,6 +1,6 @@
 ---
 title: ZoomMaps
-parent: Toolbox Benutzerhandbuch
+parent: Toolbox-Benutzerhandbuch
 ---
 # Der ZoomMaps Versuch
 [zurück](toolbox.md)

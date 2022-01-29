@@ -1,5 +1,5 @@
 ---
-title: Startbildschirm Help
+title: Startbildschirm-Help
 parent: Startbildschirm
 ---
 # Home-Help

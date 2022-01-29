@@ -1,5 +1,5 @@
 ---
-title: Startbildschirm Admin
+title: Startbildschirm-Admin
 parent: Startbildschirm
 ---
 # Home-Admin

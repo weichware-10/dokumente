@@ -1,5 +1,5 @@
 ---
-title: Endbildschirm File
+title: Endbildschirm-File
 parent: Endbildschirm
 ---
 # End-File

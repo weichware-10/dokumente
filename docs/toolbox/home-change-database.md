@@ -1,6 +1,6 @@
 ---
 title: Change Database Connection
-parent: Startbildschirm File
+parent: Startbildschirm-File
 ---
 # Change Database Conncetion
 

@@ -1,5 +1,5 @@
 ---
-title: Endbildschirm Admin
+title: Endbildschirm-Admin
 parent: Endbildschirm
 ---
 # End-Admin
