@@ -21,7 +21,7 @@ Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann 
 ## Tutorial abgeschlossen
 Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
 
-![PreTest-Screen](resources/codecharts-pretest.png)
+![PreTest-Screen](dokumente/toolbox/resources/tutorial-progress.png)
 
 Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
 
