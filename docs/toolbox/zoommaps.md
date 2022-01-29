@@ -7,18 +7,18 @@ parent: Toolbox Benutzerhandbuch
 ## Tutorial
 Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über vor und zurück Button, beliebig durch das Tutorial gehen. Es besteht jederzeit das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
 
-![ProgressBar-Tutorial](./resources/tutorial-progress.png)
+![ProgressBar-Tutorial](resources/tutorial-progress.png)
 
 ### Schritt 1
-![Tutorial-0](../../tutorial/zoommaps/0.png)
+![Tutorial-0](resources/tutorial/zoommaps/0.png)
 ### Schritt 2
-![Tutorial-1](../../tutorial/zoommaps/1.png)
+![Tutorial-1](resources/tutorial/zoommaps/1.png)
 ### Schritt 3
-![Tutorial-2](../../tutorial/zoommaps/2.png)
+![Tutorial-2](resources/tutorial/zoommaps/2.png)
 ### Schritt 4
-![Tutorial-3](../../tutorial/zoommaps/3.png)
+![Tutorial-3](resources/tutorial/zoommaps/3.png)
 ### Schritt 5
-![Tutorial-4](../../tutorial/zoommaps/4.png)
+![Tutorial-4](resources/tutorial/zoommaps/4.png)
 
 ## Tutorial abgeschlossen
 Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
