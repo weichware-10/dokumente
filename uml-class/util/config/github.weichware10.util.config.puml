@@ -1,0 +1,151 @@
+@startuml github.weichware10.util.config
+title github.weichware10.util.config
+
+package github.weichware10.util.config {
+
+    ' -=- classes (github.weichware10.util.config) -=-
+    class github.weichware10.util.config.CodeChartsConfiguration {
+        ' --- values (github.weichware10.util.config.CodeChartsConfiguration) ---
+
+        ' --- fields (github.weichware10.util.config.CodeChartsConfiguration) ---
+        # String stringId
+        # List<String> strings
+        # int[] initialSize
+        # long[] timings
+        # boolean showGrid
+        # boolean relativeSize
+        # boolean randomized
+        # Integer iterations
+        # Integer maxDepth
+        # Integer defaultHorizontal
+        # Integer defaultVertical
+
+        ' --- methods (github.weichware10.util.config.CodeChartsConfiguration) ---
+        #  CodeChartsConfiguration()
+        +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+        + String getStringId()
+        + List<String> getStrings()
+        + long[] getTimings()
+        + int[] getInitialSize()
+        + boolean getShowGrid()
+        + boolean getRelativeSize()
+        + boolean getRandomized()
+        + int getIterations()
+        + int getMaxDepth()
+        + int getDefaultHorizontal()
+        + int getDefaultVertical()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigClient {
+        ' --- values (github.weichware10.util.config.ConfigClient) ---
+
+        ' --- fields (github.weichware10.util.config.ConfigClient) ---
+        # Configuration configuration
+        - DataBaseClient dataBaseClient
+
+        ' --- methods (github.weichware10.util.config.ConfigClient) ---
+        +  ConfigClient(DataBaseClient dataBaseClient)
+        + Configuration getConfig()
+        + boolean writeToJson(String location)
+        + boolean loadFromJson(String location)
+        + boolean loadFromDataBase(String trialId)
+        + String writeToDataBase()
+    }
+
+    class github.weichware10.util.config.ConfigLoader {
+        ' --- values (github.weichware10.util.config.ConfigLoader) ---
+
+        ' --- methods (github.weichware10.util.config.ConfigLoader) ---
+        -  ConfigLoader()
+        {static}+ Configuration fromJson(String location)
+        {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.Configuration {
+        ' --- values (github.weichware10.util.config.Configuration) ---
+
+        ' --- fields (github.weichware10.util.config.Configuration) ---
+        # ToolType toolType
+        # String trialId
+        # String configId
+        # String question
+        # String intro
+        # String outro
+        # String imageUrl
+        # boolean tutorial
+        # CodeChartsConfiguration codeChartsConfiguration
+        # ZoomMapsConfiguration zoomMapsConfiguration
+
+        ' --- methods (github.weichware10.util.config.Configuration) ---
+        #  Configuration()
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+        + ToolType getToolType()
+        + String getImageUrl()
+        + String getQuestion()
+        + String getIntro()
+        + String getOutro()
+        + boolean getTutorial()
+        + String getConfigId()
+        + String getTrialId()
+        + CodeChartsConfiguration getCodeChartsConfiguration()
+        + ZoomMapsConfiguration getZoomMapsConfiguration()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigWriter {
+        ' --- values (github.weichware10.util.config.ConfigWriter) ---
+
+        ' --- methods (github.weichware10.util.config.ConfigWriter) ---
+        -  ConfigWriter()
+        {static}+ boolean toJson(String location, Configuration configuration)
+        {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.EyeTrackingConfiguration {
+        ' --- values (github.weichware10.util.config.EyeTrackingConfiguration) ---
+
+        ' --- fields (github.weichware10.util.config.EyeTrackingConfiguration) ---
+        # float pollIntervall
+
+        ' --- methods (github.weichware10.util.config.EyeTrackingConfiguration) ---
+        + float getPollIntervall()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ZoomMapsConfiguration {
+        ' --- values (github.weichware10.util.config.ZoomMapsConfiguration) ---
+
+        ' --- fields (github.weichware10.util.config.ZoomMapsConfiguration) ---
+        # double speed
+        # double imageViewWidth
+        # double imageViewHeight
+
+        ' --- methods (github.weichware10.util.config.ZoomMapsConfiguration) ---
+        +  ZoomMapsConfiguration()
+        +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+        + double getSpeed()
+        + double getImageViewWidth()
+        + double getImageViewHeight()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.util.config.ConfigClient o-- github.weichware10.util.config.Configuration
+github.weichware10.util.config.Configuration o-- github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o-r- github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.config.Configuration o.l. github.weichware10.util.config.EyeTrackingConfiguration : fällt weg
+
+github.weichware10.util.config.ConfigClient .r. github.weichware10.util.config.ConfigLoader : statischer Aufruf
+github.weichware10.util.config.ConfigClient .l. github.weichware10.util.config.ConfigWriter : statischer Aufruf
+
+' autogenerated inheritances, may be faulty.
+
+@enduml
