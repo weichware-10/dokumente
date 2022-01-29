@@ -7,7 +7,7 @@ parent: Toolbox Benutzerhandbuch
 ## Tutorial
 Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über vor und zurück Button, beliebig durch das Tutorial gehen. Es besteht jederzeit das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
 
-![ProgressBar-Tutorial](resources/tutorial-progress.png)
+![ProgressBar-Tutorial](resources/progress.png)
 
 ### Schritt 1
 ![Tutorial-0](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/codecharts/0.png)
@@ -21,7 +21,7 @@ Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann 
 ## Tutorial abgeschlossen
 Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
 
-![PreTest-Screen](dokumente/toolbox/resources/tutorial-progress.png)
+![PreTest-Screen](resources/codecharts-pretest.png)
 
 Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
 
