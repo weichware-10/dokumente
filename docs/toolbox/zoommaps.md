@@ -5,7 +5,7 @@ parent: Toolbox Benutzerhandbuch
 # Der ZoomMaps Versuch
 [zurück](index.md)
 ## Tutorial
-Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über vor und zurück Button, beliebig durch das Tutorial gehen. Es besteht jederzeit das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
+Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über die Buttons durch das Tutorial navigieren. Es besteht jederzeit die Möglichkeit, das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
 
 ![ProgressBar-Tutorial](resources/progress.png)
 
@@ -21,10 +21,10 @@ Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann 
 ![Tutorial-4](https://raw.githubusercontent.com/weichware10/dokumente/main/tutorial/zoommaps/4.png)
 
 ## Tutorial abgeschlossen
-Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
+Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
 
 ![PreTest-Screen](resources/zoommaps-pretest.png)
 
-Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
+Nach diesem Fenster beginnt dann der eigentliche Test, wie im Tutorial gezeigt.
 
 [zurück](index.md)

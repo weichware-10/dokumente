@@ -8,9 +8,9 @@ grandparent: Toolbox Benutzerhandbuch
 
 ![Home-File](resources/index.png)
 
-Dieses Menü ist mit [Admin](../admin.md) hauptsächlich für administrative Arbeiten gedacht und wird auch nur angezeigt, wenn man als Admin mit der Datenbank verbunden ist.
+Dieses Menü kann praktisch zum Entwickeln von Tests / zum Debuggen von fehlerhaften Tests sein.
 
-(1) Man kann den Test mit einer selbst erstellten JSON config laden.
+(1) Man kann den Test mit einer selbst erstellten JSON Konfiguration laden.
 
 [(2) Ermöglicht die Änderung der Datenbank.](change-database.md)
 

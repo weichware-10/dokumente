@@ -3,10 +3,10 @@ title: Help
 parent: Startbildschirm
 grandparent: Toolbox Benutzerhandbuch
 ---
-# Home-Help
+# Help
 
-![Home-Help](resources/help.png)
+![Help](resources/help.png)
 
-Im Reiter Help besteht die Möglichkeit eine genauere Dokumentation des Programms auf Github nachzulesen. Dazu muss man nur auf (1) drücken und die Dokumentation wird im Standard-Browser geöffnet.
+Im Reiter "Help" besteht die Möglichkeit, eine genauere Dokumentation des Programms auf Github nachzulesen. Beim Klicken auf (1) wird die Dokumentation im Standard-Browser geöffnet.
 
 | [zurück](index.md) | [Home](../index.md) |

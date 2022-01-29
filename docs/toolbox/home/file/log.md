@@ -7,9 +7,9 @@ grandparent: Startbildschirm
 
 ![Home-log](resources/log.png)
 
-In diesem Fenster erhalten sie Informationen über geloggte Fehler.
+In diesem Fenster erhalten sie Informationen über geloggte Fehler / Informationen.
 
-Unter dem Log Fenster können sie selber einen Eintrag in den Log machen. In (1) wählen sie den Fehler/das Problem aus und in (2) schreiben sie die Nachricht rein.
+Unter dem Log Fenster können sie selber einen Eintrag in den Log machen. Bei der Schaltfläche (1) kann der Modus des Loggers ausgewählt werden (debug, info, warn, error), während in der Textfläche (2) die zu loggende Nachricht eingetragen werden kann.
 
 
 | [zurück](index.md) | [Home](../../index.md) |

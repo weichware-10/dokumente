@@ -7,12 +7,13 @@ grandparent: Startbildschirm
 
 ![Home-change-database](resources/change-database.png)
 
-Mit diesem Menü können Sie die Verbindung zu einer anderen Datenbank direkt in der GUI ermöglichen. Allerdings ist dies nur für die Zeit während das Programm läuft, nach einem Neustart wird wieder die ursprüngliche Datenbank verwendet.
+Mit diesem Menü können Sie die Datenbakverbidnung innerhalb der GUI abändern. Nach Neustart der App wird wieder die voreingestellt Datenbank verwendet.
+Soll also die Datenbank immer eine andere sein, ist es zu empfehlen die App selbst zu kompilieren.
 
-(1) Hier geben sie die Adresse ihrer Datenbank ein.
+(1) Hier geben Sie die Adresse der Datenbank ein.
 
-(2) + (3) Hier geben sie den Nutzernamen + Passwort die Sie für den Zugang ihrer Datenbank brauchen ein.
+(2) + (3) Hier geben Sie die Anmeldedaten ein.
 
-(4) Hier wird das Schema ihrer Datenbank eingetragen.
+(4) Hier wird das Schema der Datenbank eingetragen.
 
 | [zurück](index.md) | [Home](../../index.md) |

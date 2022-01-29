@@ -5,10 +5,10 @@ has_children: true
 # ToolBox Benutzerhandbuch
 
 ## Start des Programms
-Sobald das Programm gestartet wird gelangt man erstmal in den [Startbildschirm](home/index.md).
+Beim Aufrufen des Programms wird der [Startbildschirm](home/index.md) angezeigt.
 
 ## Start des Tests
-Nachdem drücken auf Start wird das Tutorial von [CodeCharts](codecharts.md) oder [ZoomMaps](zoommaps.md) angezeigt.
+Nach dem Drücken auf Start wird das Tutorial von [CodeCharts](codecharts.md) oder [ZoomMaps](zoommaps.md) angezeigt, je nachdem um welchen Versuch es sich handelt.
 
 ## Ende des Tests
-Nach dem erfolgreichen abschließen des Test, wird der [Endbildschirm](end/index.md) angezeigt.
+Nach dem erfolgreichen Abschließen des Tests wird der [Endbildschirm](end/index.md) angezeigt.
