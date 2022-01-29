@@ -1,7 +1,6 @@
 @startuml codecharts
 skinparam defaultTextAlignment center
 
-
 actor       Nutzer          as n
 entity      System          as s    #DA70D5
 collections GUI             as g
@@ -38,9 +37,6 @@ deactivate c
 co -> cp : setVariables
 deactivate co
 
-
-
-
 == Test ==
 loop
     cc -> co : iterate()
@@ -52,7 +48,6 @@ loop
     ci --> co : Data
     deactivate ci
 end
-
 
 == Ende == 
 co -> cc : endTest()
