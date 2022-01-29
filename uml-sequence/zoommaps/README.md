@@ -1,5 +1,5 @@
-# Sequenzdiagramm Zoommaps
+# Sequenzdiagramm Codecharts
 
-![Sequenzdiagramm](sequenz-zoommaps.svg)
+![Sequenzdiagramm](sequenz-codecharts.svg)
 ---
 ## Notizen
