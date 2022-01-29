@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1105px" preserveAspectRatio="none" style="width:1830px;height:1105px;background:#FFFFFF;" version="1.1" viewBox="0 0 1830 1105" width="1830px" zoomAndPan="magnify"><defs><filter height="300%" id="fmbrb0rkytcm8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="286" x="765.5" y="16.708">github.weichware10.util.config</text><!--MD5=[85fc05fda2d9b5d6d6a3a7bc856b9cb5]
+cluster github.weichware10.util.config--><polygon fill="#FFFFFF" filter="url(#fmbrb0rkytcm8)" points="16,26.9531,274,26.9531,281,49.25,1813,49.25,1813,1098.9531,16,1098.9531,16,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="281" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="252" x="20" y="41.9482">github.weichware10.util.config</text><!--MD5=[214748f7e53213fd57a04f5f161e0d37]
+class github.weichware10.util.config.CodeChartsConfiguration--><rect codeLine="6" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="380.9219" id="github.weichware10.util.config.CodeChartsConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="1298" x="112" y="701.9531"/><ellipse cx="682.25" cy="717.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M684.5938,713.625 C683.6563,713.1875 683.0625,713.0469 682.1875,713.0469 C679.5625,713.0469 677.5625,715.125 677.5625,717.8438 L677.5625,718.9688 C677.5625,721.5469 679.6719,723.4375 682.5625,723.4375 C683.7813,723.4375 684.9375,723.1406 685.6875,722.5938 C686.2656,722.1875 686.5938,721.7344 686.5938,721.3438 C686.5938,720.8906 686.2031,720.5 685.7344,720.5 C685.5156,720.5 685.3125,720.5781 685.125,720.7656 C684.6719,721.25 684.6719,721.25 684.4844,721.3438 C684.0625,721.6094 683.375,721.7344 682.6094,721.7344 C680.5625,721.7344 679.2656,720.6406 679.2656,718.9375 L679.2656,717.8438 C679.2656,716.0625 680.5156,714.75 682.25,714.75 C682.8281,714.75 683.4375,714.9063 683.9063,715.1563 C684.3906,715.4375 684.5625,715.6563 684.6563,716.0625 C684.7188,716.4688 684.75,716.5938 684.8906,716.7188 C685.0313,716.8594 685.2656,716.9688 685.4844,716.9688 C685.75,716.9688 686.0156,716.8281 686.1875,716.6094 C686.2969,716.4531 686.3281,716.2656 686.3281,715.8438 L686.3281,714.4219 C686.3281,713.9844 686.3125,713.8594 686.2188,713.7031 C686.0625,713.4375 685.7813,713.2969 685.4844,713.2969 C685.1875,713.2969 684.9844,713.3906 684.7656,713.7031 L684.5938,713.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="149" x="702.75" y="722.1074">CodeChartsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="113" x2="1409" y1="733.9531" y2="733.9531"/><polygon fill="none" points="123,739.9531,127,743.9531,123,747.9531,119,743.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="132" y="748.1636">String stringId</text><polygon fill="none" points="123,752.7578,127,756.7578,123,760.7578,119,756.7578" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="132" y="760.9683">List&lt;String&gt; strings</text><polygon fill="none" points="123,765.5625,127,769.5625,123,773.5625,119,769.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="132" y="773.7729">int[] initialSize</text><polygon fill="none" points="123,778.3672,127,782.3672,123,786.3672,119,782.3672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="132" y="786.5776">long[] timings</text><polygon fill="none" points="123,791.1719,127,795.1719,123,799.1719,119,795.1719" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="132" y="799.3823">boolean showGrid</text><polygon fill="none" points="123,803.9766,127,807.9766,123,811.9766,119,807.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="132" y="812.187">boolean relativeSize</text><polygon fill="none" points="123,816.7813,127,820.7813,123,824.7813,119,820.7813" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="132" y="824.9917">boolean randomized</text><polygon fill="none" points="123,829.5859,127,833.5859,123,837.5859,119,833.5859" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="132" y="837.7964">Integer iterations</text><polygon fill="none" points="123,842.3906,127,846.3906,123,850.3906,119,846.3906" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="132" y="850.6011">Integer maxDepth</text><polygon fill="none" points="123,855.1953,127,859.1953,123,863.1953,119,859.1953" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="132" y="863.4058">Integer defaultHorizontal</text><polygon fill="none" points="123,868,127,872,123,876,119,872" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="132" y="876.2104">Integer defaultVertical</text><line style="stroke:#A80036;stroke-width:1.5;" x1="113" x2="1409" y1="882.8047" y2="882.8047"/><polygon fill="#FFFF44" points="123,888.8047,127,892.8047,123,896.8047,119,892.8047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="132" y="897.0151">CodeChartsConfiguration()</text><ellipse cx="123" cy="906.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="1272" x="132" y="909.8198">CodeChartsConfiguration(String stringId, List&lt;String&gt; strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)</text><ellipse cx="123" cy="919.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="132" y="922.6245">String getStringId()</text><ellipse cx="123" cy="932.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="132" y="935.4292">List&lt;String&gt; getStrings()</text><ellipse cx="123" cy="945.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="132" y="948.2339">long[] getTimings()</text><ellipse cx="123" cy="957.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="132" y="961.0386">int[] getInitialSize()</text><ellipse cx="123" cy="970.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="132" y="973.8433">boolean getShowGrid()</text><ellipse cx="123" cy="983.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="132" y="986.6479">boolean getRelativeSize()</text><ellipse cx="123" cy="996.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="132" y="999.4526">boolean getRandomized()</text><ellipse cx="123" cy="1009.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="132" y="1012.2573">int getIterations()</text><ellipse cx="123" cy="1021.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="132" y="1025.062">int getMaxDepth()</text><ellipse cx="123" cy="1034.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="132" y="1037.8667">int getDefaultHorizontal()</text><ellipse cx="123" cy="1047.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="132" y="1050.6714">int getDefaultVertical()</text><ellipse cx="123" cy="1060.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="132" y="1063.4761">boolean equals(Object obj)</text><ellipse cx="123" cy="1073.0703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="132" y="1076.2808">String toString()</text><!--MD5=[bdbce3088ca42b5dc99e58520230694f]
+class github.weichware10.util.config.ConfigClient--><rect codeLine="40" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="150.4375" id="github.weichware10.util.config.ConfigClient" style="stroke:#A80036;stroke-width:1.5;" width="283" x="653.5" y="61.9531"/><ellipse cx="755.25" cy="77.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M757.5938,73.625 C756.6563,73.1875 756.0625,73.0469 755.1875,73.0469 C752.5625,73.0469 750.5625,75.125 750.5625,77.8438 L750.5625,78.9688 C750.5625,81.5469 752.6719,83.4375 755.5625,83.4375 C756.7813,83.4375 757.9375,83.1406 758.6875,82.5938 C759.2656,82.1875 759.5938,81.7344 759.5938,81.3438 C759.5938,80.8906 759.2031,80.5 758.7344,80.5 C758.5156,80.5 758.3125,80.5781 758.125,80.7656 C757.6719,81.25 757.6719,81.25 757.4844,81.3438 C757.0625,81.6094 756.375,81.7344 755.6094,81.7344 C753.5625,81.7344 752.2656,80.6406 752.2656,78.9375 L752.2656,77.8438 C752.2656,76.0625 753.5156,74.75 755.25,74.75 C755.8281,74.75 756.4375,74.9063 756.9063,75.1563 C757.3906,75.4375 757.5625,75.6563 757.6563,76.0625 C757.7188,76.4688 757.75,76.5938 757.8906,76.7188 C758.0313,76.8594 758.2656,76.9688 758.4844,76.9688 C758.75,76.9688 759.0156,76.8281 759.1875,76.6094 C759.2969,76.4531 759.3281,76.2656 759.3281,75.8438 L759.3281,74.4219 C759.3281,73.9844 759.3125,73.8594 759.2188,73.7031 C759.0625,73.4375 758.7813,73.2969 758.4844,73.2969 C758.1875,73.2969 757.9844,73.3906 757.7656,73.7031 L757.5938,73.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="775.75" y="82.1074">ConfigClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="654.5" x2="935.5" y1="93.9531" y2="93.9531"/><polygon fill="none" points="664.5,99.9531,668.5,103.9531,664.5,107.9531,660.5,103.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="673.5" y="108.1636">Configuration configuration</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="661.5" y="114.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="673.5" y="120.9683">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="654.5" x2="935.5" y1="127.5625" y2="127.5625"/><ellipse cx="664.5" cy="138.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="257" x="673.5" y="141.7729">ConfigClient(DataBaseClient dataBaseClient)</text><ellipse cx="664.5" cy="151.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="673.5" y="154.5776">Configuration getConfig()</text><ellipse cx="664.5" cy="164.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="673.5" y="167.3823">boolean writeToJson(String location)</text><ellipse cx="664.5" cy="176.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="214" x="673.5" y="180.187">boolean loadFromJson(String location)</text><ellipse cx="664.5" cy="189.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="234" x="673.5" y="192.9917">boolean loadFromDataBase(String trialId)</text><ellipse cx="664.5" cy="202.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="673.5" y="205.7964">String writeToDataBase()</text><!--MD5=[19d9ee01c5c82eb1e4fc74b8242bf8e5]
+class github.weichware10.util.config.ConfigLoader--><rect codeLine="56" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="86.4141" id="github.weichware10.util.config.ConfigLoader" style="stroke:#A80036;stroke-width:1.5;" width="450" x="1080" y="93.9531"/><ellipse cx="1260.75" cy="109.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1263.0938,105.625 C1262.1563,105.1875 1261.5625,105.0469 1260.6875,105.0469 C1258.0625,105.0469 1256.0625,107.125 1256.0625,109.8438 L1256.0625,110.9688 C1256.0625,113.5469 1258.1719,115.4375 1261.0625,115.4375 C1262.2813,115.4375 1263.4375,115.1406 1264.1875,114.5938 C1264.7656,114.1875 1265.0938,113.7344 1265.0938,113.3438 C1265.0938,112.8906 1264.7031,112.5 1264.2344,112.5 C1264.0156,112.5 1263.8125,112.5781 1263.625,112.7656 C1263.1719,113.25 1263.1719,113.25 1262.9844,113.3438 C1262.5625,113.6094 1261.875,113.7344 1261.1094,113.7344 C1259.0625,113.7344 1257.7656,112.6406 1257.7656,110.9375 L1257.7656,109.8438 C1257.7656,108.0625 1259.0156,106.75 1260.75,106.75 C1261.3281,106.75 1261.9375,106.9063 1262.4063,107.1563 C1262.8906,107.4375 1263.0625,107.6563 1263.1563,108.0625 C1263.2188,108.4688 1263.25,108.5938 1263.3906,108.7188 C1263.5313,108.8594 1263.7656,108.9688 1263.9844,108.9688 C1264.25,108.9688 1264.5156,108.8281 1264.6875,108.6094 C1264.7969,108.4531 1264.8281,108.2656 1264.8281,107.8438 L1264.8281,106.4219 C1264.8281,105.9844 1264.8125,105.8594 1264.7188,105.7031 C1264.5625,105.4375 1264.2813,105.2969 1263.9844,105.2969 C1263.6875,105.2969 1263.4844,105.3906 1263.2656,105.7031 L1263.0938,105.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="80" x="1281.25" y="114.1074">ConfigLoader</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1081" x2="1529" y1="125.9531" y2="125.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1081" x2="1529" y1="133.9531" y2="133.9531"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1088" y="141.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="1100" y="148.1636">ConfigLoader()</text><ellipse cx="1091" cy="157.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="217" x="1100" y="160.9683">Configuration fromJson(String location)</text><ellipse cx="1091" cy="170.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="424" x="1100" y="173.7729">Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)</text><!--MD5=[c51b0484e7090cf6cc1b6bde8f63110c]
+class github.weichware10.util.config.Configuration--><rect codeLine="65" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="368.1172" id="github.weichware10.util.config.Configuration" style="stroke:#A80036;stroke-width:1.5;" width="907" x="307.5" y="272.9531"/><ellipse cx="717.25" cy="288.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M719.5938,284.625 C718.6563,284.1875 718.0625,284.0469 717.1875,284.0469 C714.5625,284.0469 712.5625,286.125 712.5625,288.8438 L712.5625,289.9688 C712.5625,292.5469 714.6719,294.4375 717.5625,294.4375 C718.7813,294.4375 719.9375,294.1406 720.6875,293.5938 C721.2656,293.1875 721.5938,292.7344 721.5938,292.3438 C721.5938,291.8906 721.2031,291.5 720.7344,291.5 C720.5156,291.5 720.3125,291.5781 720.125,291.7656 C719.6719,292.25 719.6719,292.25 719.4844,292.3438 C719.0625,292.6094 718.375,292.7344 717.6094,292.7344 C715.5625,292.7344 714.2656,291.6406 714.2656,289.9375 L714.2656,288.8438 C714.2656,287.0625 715.5156,285.75 717.25,285.75 C717.8281,285.75 718.4375,285.9063 718.9063,286.1563 C719.3906,286.4375 719.5625,286.6563 719.6563,287.0625 C719.7188,287.4688 719.75,287.5938 719.8906,287.7188 C720.0313,287.8594 720.2656,287.9688 720.4844,287.9688 C720.75,287.9688 721.0156,287.8281 721.1875,287.6094 C721.2969,287.4531 721.3281,287.2656 721.3281,286.8438 L721.3281,285.4219 C721.3281,284.9844 721.3125,284.8594 721.2188,284.7031 C721.0625,284.4375 720.7813,284.2969 720.4844,284.2969 C720.1875,284.2969 719.9844,284.3906 719.7656,284.7031 L719.5938,284.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="737.75" y="293.1074">Configuration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="308.5" x2="1213.5" y1="304.9531" y2="304.9531"/><polygon fill="none" points="318.5,310.9531,322.5,314.9531,318.5,318.9531,314.5,314.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="327.5" y="319.1636">ToolType toolType</text><polygon fill="none" points="318.5,323.7578,322.5,327.7578,318.5,331.7578,314.5,327.7578" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="327.5" y="331.9683">String trialId</text><polygon fill="none" points="318.5,336.5625,322.5,340.5625,318.5,344.5625,314.5,340.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="327.5" y="344.7729">String configId</text><polygon fill="none" points="318.5,349.3672,322.5,353.3672,318.5,357.3672,314.5,353.3672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="327.5" y="357.5776">String question</text><polygon fill="none" points="318.5,362.1719,322.5,366.1719,318.5,370.1719,314.5,366.1719" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="327.5" y="370.3823">String intro</text><polygon fill="none" points="318.5,374.9766,322.5,378.9766,318.5,382.9766,314.5,378.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="327.5" y="383.187">String outro</text><polygon fill="none" points="318.5,387.7813,322.5,391.7813,318.5,395.7813,314.5,391.7813" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="327.5" y="395.9917">String imageUrl</text><polygon fill="none" points="318.5,400.5859,322.5,404.5859,318.5,408.5859,314.5,404.5859" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="327.5" y="408.7964">boolean tutorial</text><polygon fill="none" points="318.5,413.3906,322.5,417.3906,318.5,421.3906,314.5,417.3906" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="284" x="327.5" y="421.6011">CodeChartsConfiguration codeChartsConfiguration</text><polygon fill="none" points="318.5,426.1953,322.5,430.1953,318.5,434.1953,314.5,430.1953" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="277" x="327.5" y="434.4058">ZoomMapsConfiguration zoomMapsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="308.5" x2="1213.5" y1="441" y2="441"/><polygon fill="#FFFF44" points="318.5,447,322.5,451,318.5,455,314.5,451" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="327.5" y="455.2104">Configuration()</text><ellipse cx="318.5" cy="464.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="881" x="327.5" y="468.0151">Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)</text><ellipse cx="318.5" cy="477.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="874" x="327.5" y="480.8198">Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)</text><ellipse cx="318.5" cy="490.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="327.5" y="493.6245">ToolType getToolType()</text><ellipse cx="318.5" cy="503.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="327.5" y="506.4292">String getImageUrl()</text><ellipse cx="318.5" cy="516.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="327.5" y="519.2339">String getQuestion()</text><ellipse cx="318.5" cy="528.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="327.5" y="532.0386">String getIntro()</text><ellipse cx="318.5" cy="541.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="327.5" y="544.8433">String getOutro()</text><ellipse cx="318.5" cy="554.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="327.5" y="557.6479">boolean getTutorial()</text><ellipse cx="318.5" cy="567.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="327.5" y="570.4526">String getConfigId()</text><ellipse cx="318.5" cy="580.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="327.5" y="583.2573">String getTrialId()</text><ellipse cx="318.5" cy="592.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="313" x="327.5" y="596.062">CodeChartsConfiguration getCodeChartsConfiguration()</text><ellipse cx="318.5" cy="605.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="305" x="327.5" y="608.8667">ZoomMapsConfiguration getZoomMapsConfiguration()</text><ellipse cx="318.5" cy="618.4609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="327.5" y="621.6714">boolean equals(Object obj)</text><ellipse cx="318.5" cy="631.2656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="327.5" y="634.4761">String toString()</text><!--MD5=[38901f8c335559b60f1d1de7bcbea52e]
+class github.weichware10.util.config.ConfigWriter--><rect codeLine="98" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="86.4141" id="github.weichware10.util.config.ConfigWriter" style="stroke:#A80036;stroke-width:1.5;" width="477" x="32.5" y="93.9531"/><ellipse cx="229.25" cy="109.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M231.5938,105.625 C230.6563,105.1875 230.0625,105.0469 229.1875,105.0469 C226.5625,105.0469 224.5625,107.125 224.5625,109.8438 L224.5625,110.9688 C224.5625,113.5469 226.6719,115.4375 229.5625,115.4375 C230.7813,115.4375 231.9375,115.1406 232.6875,114.5938 C233.2656,114.1875 233.5938,113.7344 233.5938,113.3438 C233.5938,112.8906 233.2031,112.5 232.7344,112.5 C232.5156,112.5 232.3125,112.5781 232.125,112.7656 C231.6719,113.25 231.6719,113.25 231.4844,113.3438 C231.0625,113.6094 230.375,113.7344 229.6094,113.7344 C227.5625,113.7344 226.2656,112.6406 226.2656,110.9375 L226.2656,109.8438 C226.2656,108.0625 227.5156,106.75 229.25,106.75 C229.8281,106.75 230.4375,106.9063 230.9063,107.1563 C231.3906,107.4375 231.5625,107.6563 231.6563,108.0625 C231.7188,108.4688 231.75,108.5938 231.8906,108.7188 C232.0313,108.8594 232.2656,108.9688 232.4844,108.9688 C232.75,108.9688 233.0156,108.8281 233.1875,108.6094 C233.2969,108.4531 233.3281,108.2656 233.3281,107.8438 L233.3281,106.4219 C233.3281,105.9844 233.3125,105.8594 233.2188,105.7031 C233.0625,105.4375 232.7813,105.2969 232.4844,105.2969 C232.1875,105.2969 231.9844,105.3906 231.7656,105.7031 L231.5938,105.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="249.75" y="114.1074">ConfigWriter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="508.5" y1="125.9531" y2="125.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="508.5" y1="133.9531" y2="133.9531"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="141.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="52.5" y="148.1636">ConfigWriter()</text><ellipse cx="43.5" cy="157.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="332" x="52.5" y="160.9683">boolean toJson(String location, Configuration configuration)</text><ellipse cx="43.5" cy="170.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="451" x="52.5" y="173.7729">String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)</text><!--MD5=[a01d03ed49fc338a4bf3f5ba86735cf2]
+class github.weichware10.util.config.EyeTrackingConfiguration--><rect codeLine="107" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="99.2188" id="github.weichware10.util.config.EyeTrackingConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="184" x="32" y="407.4531"/><ellipse cx="47" cy="423.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49.3438,419.125 C48.4063,418.6875 47.8125,418.5469 46.9375,418.5469 C44.3125,418.5469 42.3125,420.625 42.3125,423.3438 L42.3125,424.4688 C42.3125,427.0469 44.4219,428.9375 47.3125,428.9375 C48.5313,428.9375 49.6875,428.6406 50.4375,428.0938 C51.0156,427.6875 51.3438,427.2344 51.3438,426.8438 C51.3438,426.3906 50.9531,426 50.4844,426 C50.2656,426 50.0625,426.0781 49.875,426.2656 C49.4219,426.75 49.4219,426.75 49.2344,426.8438 C48.8125,427.1094 48.125,427.2344 47.3594,427.2344 C45.3125,427.2344 44.0156,426.1406 44.0156,424.4375 L44.0156,423.3438 C44.0156,421.5625 45.2656,420.25 47,420.25 C47.5781,420.25 48.1875,420.4063 48.6563,420.6563 C49.1406,420.9375 49.3125,421.1563 49.4063,421.5625 C49.4688,421.9688 49.5,422.0938 49.6406,422.2188 C49.7813,422.3594 50.0156,422.4688 50.2344,422.4688 C50.5,422.4688 50.7656,422.3281 50.9375,422.1094 C51.0469,421.9531 51.0781,421.7656 51.0781,421.3438 L51.0781,419.9219 C51.0781,419.4844 51.0625,419.3594 50.9688,419.2031 C50.8125,418.9375 50.5313,418.7969 50.2344,418.7969 C49.9375,418.7969 49.7344,418.8906 49.5156,419.2031 L49.3438,419.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="152" x="61" y="427.6074">EyeTrackingConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="215" y1="439.4531" y2="439.4531"/><polygon fill="none" points="43,445.4531,47,449.4531,43,453.4531,39,449.4531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="52" y="453.6636">float pollIntervall</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="215" y1="460.2578" y2="460.2578"/><ellipse cx="43" cy="471.2578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="52" y="474.4683">float getPollIntervall()</text><ellipse cx="43" cy="484.0625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="52" y="487.2729">boolean equals(Object obj)</text><ellipse cx="43" cy="496.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="52" y="500.0776">String toString()</text><!--MD5=[cf5ad09b6d916b0eba68ac2680dabc45]
+class github.weichware10.util.config.ZoomMapsConfiguration--><rect codeLine="119" fill="#FEFECE" filter="url(#fmbrb0rkytcm8)" height="176.0469" id="github.weichware10.util.config.ZoomMapsConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="547" x="1249.5" y="368.9531"/><ellipse cx="1445.25" cy="384.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1447.5938,380.625 C1446.6563,380.1875 1446.0625,380.0469 1445.1875,380.0469 C1442.5625,380.0469 1440.5625,382.125 1440.5625,384.8438 L1440.5625,385.9688 C1440.5625,388.5469 1442.6719,390.4375 1445.5625,390.4375 C1446.7813,390.4375 1447.9375,390.1406 1448.6875,389.5938 C1449.2656,389.1875 1449.5938,388.7344 1449.5938,388.3438 C1449.5938,387.8906 1449.2031,387.5 1448.7344,387.5 C1448.5156,387.5 1448.3125,387.5781 1448.125,387.7656 C1447.6719,388.25 1447.6719,388.25 1447.4844,388.3438 C1447.0625,388.6094 1446.375,388.7344 1445.6094,388.7344 C1443.5625,388.7344 1442.2656,387.6406 1442.2656,385.9375 L1442.2656,384.8438 C1442.2656,383.0625 1443.5156,381.75 1445.25,381.75 C1445.8281,381.75 1446.4375,381.9063 1446.9063,382.1563 C1447.3906,382.4375 1447.5625,382.6563 1447.6563,383.0625 C1447.7188,383.4688 1447.75,383.5938 1447.8906,383.7188 C1448.0313,383.8594 1448.2656,383.9688 1448.4844,383.9688 C1448.75,383.9688 1449.0156,383.8281 1449.1875,383.6094 C1449.2969,383.4531 1449.3281,383.2656 1449.3281,382.8438 L1449.3281,381.4219 C1449.3281,380.9844 1449.3125,380.8594 1449.2188,380.7031 C1449.0625,380.4375 1448.7813,380.2969 1448.4844,380.2969 C1448.1875,380.2969 1447.9844,380.3906 1447.7656,380.7031 L1447.5938,380.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="147" x="1465.75" y="389.1074">ZoomMapsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1250.5" x2="1795.5" y1="400.9531" y2="400.9531"/><polygon fill="none" points="1260.5,406.9531,1264.5,410.9531,1260.5,414.9531,1256.5,410.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="1269.5" y="415.1636">double speed</text><polygon fill="none" points="1260.5,419.7578,1264.5,423.7578,1260.5,427.7578,1256.5,423.7578" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="1269.5" y="427.9683">double imageViewWidth</text><polygon fill="none" points="1260.5,432.5625,1264.5,436.5625,1260.5,440.5625,1256.5,436.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="1269.5" y="440.7729">double imageViewHeight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1250.5" x2="1795.5" y1="447.3672" y2="447.3672"/><ellipse cx="1260.5" cy="458.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="1269.5" y="461.5776">ZoomMapsConfiguration()</text><ellipse cx="1260.5" cy="471.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="521" x="1269.5" y="474.3823">ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)</text><ellipse cx="1260.5" cy="483.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="1269.5" y="487.187">double getSpeed()</text><ellipse cx="1260.5" cy="496.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="1269.5" y="499.9917">double getImageViewWidth()</text><ellipse cx="1260.5" cy="509.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="171" x="1269.5" y="512.7964">double getImageViewHeight()</text><ellipse cx="1260.5" cy="522.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="1269.5" y="525.6011">boolean equals(Object obj)</text><ellipse cx="1260.5" cy="535.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="1269.5" y="538.4058">String toString()</text><!--MD5=[d6fbd2601eab7e77d251cf534e9e68d6]
+reverse link github.weichware10.util.config.ConfigClient to github.weichware10.util.config.Configuration--><path codeLine="140" d="M785.642,225.4801 C784.048,240.3861 782.341,256.3511 780.597,272.6651 " fill="none" id="github.weichware10.util.config.ConfigClient-backto-github.weichware10.util.config.Configuration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="787.071,212.1091,782.4554,217.6496,785.7945,224.041,790.41,218.5006,787.071,212.1091" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e787d404e05ecd1c2dbce186f84a457a]
+reverse link github.weichware10.util.config.Configuration to github.weichware10.util.config.CodeChartsConfiguration--><path codeLine="141" d="M761,654.4101 C761,670.2241 761,686.1841 761,701.9481 " fill="none" id="github.weichware10.util.config.Configuration-backto-github.weichware10.util.config.CodeChartsConfiguration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="761,641.1681,757,647.1681,761,653.1681,765,647.1681,761,641.1681" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9f753af05dba406a0adc7ac847abecee]
+reverse link github.weichware10.util.config.Configuration to github.weichware10.util.config.ZoomMapsConfiguration--><path codeLine="142" d="M1227.66,456.9531 C1234.94,456.9531 1242.22,456.9531 1249.49,456.9531 " fill="none" id="github.weichware10.util.config.Configuration-backto-github.weichware10.util.config.ZoomMapsConfiguration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1214.55,456.9531,1220.55,460.9531,1226.55,456.9531,1220.55,452.9531,1214.55,456.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78273931e2df2e9a126ae5a6fd3f0bae]
+link github.weichware10.util.config.EyeTrackingConfiguration to github.weichware10.util.config.Configuration--><path codeLine="143" d="M216.285,456.9531 C239.383,456.9531 265.762,456.9531 294.168,456.9531 " fill="none" id="github.weichware10.util.config.EyeTrackingConfiguration-to-github.weichware10.util.config.Configuration" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFFFFF" points="307.357,456.9531,301.357,452.9531,295.357,456.9531,301.357,460.9531,307.357,456.9531" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="234.25" y="450.02">fällt weg</text><!--MD5=[3074e96fecf18fabcf146cbf55d6687c]
+link github.weichware10.util.config.ConfigClient to github.weichware10.util.config.ConfigLoader--><path codeLine="145" d="M936.725,136.9531 C981.086,136.9531 1031.19,136.9531 1079.82,136.9531 " fill="none" id="github.weichware10.util.config.ConfigClient-github.weichware10.util.config.ConfigLoader" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="954.75" y="130.02">statischer Aufruf</text><!--MD5=[806d33c892f6857b9b63ab83426f20ee]
+link github.weichware10.util.config.ConfigWriter to github.weichware10.util.config.ConfigClient--><path codeLine="146" d="M509.617,136.9531 C558.782,136.9531 609.054,136.9531 653.434,136.9531 " fill="none" id="github.weichware10.util.config.ConfigWriter-github.weichware10.util.config.ConfigClient" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="528" y="130.02">statischer Aufruf</text><!--MD5=[e6ac3f603b1e8555aecc04f50b2bcc6b]
+@startuml
+title github.weichware10.util.config
+
+package github.weichware10.util.config {
+
+    ' -=- classes (github.weichware10.util.config) -=-
+    class github.weichware10.util.config.CodeChartsConfiguration {
+        ' - - - values (github.weichware10.util.config.CodeChartsConfiguration) - - -
+
+        ' - - - fields (github.weichware10.util.config.CodeChartsConfiguration) - - -
+        # String stringId
+        # List<String> strings
+        # int[] initialSize
+        # long[] timings
+        # boolean showGrid
+        # boolean relativeSize
+        # boolean randomized
+        # Integer iterations
+        # Integer maxDepth
+        # Integer defaultHorizontal
+        # Integer defaultVertical
+
+        ' - - - methods (github.weichware10.util.config.CodeChartsConfiguration) - - -
+        #  CodeChartsConfiguration()
+        +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+        + String getStringId()
+        + List<String> getStrings()
+        + long[] getTimings()
+        + int[] getInitialSize()
+        + boolean getShowGrid()
+        + boolean getRelativeSize()
+        + boolean getRandomized()
+        + int getIterations()
+        + int getMaxDepth()
+        + int getDefaultHorizontal()
+        + int getDefaultVertical()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigClient {
+        ' - - - values (github.weichware10.util.config.ConfigClient) - - -
+
+        ' - - - fields (github.weichware10.util.config.ConfigClient) - - -
+        # Configuration configuration
+        - DataBaseClient dataBaseClient
+
+        ' - - - methods (github.weichware10.util.config.ConfigClient) - - -
+        +  ConfigClient(DataBaseClient dataBaseClient)
+        + Configuration getConfig()
+        + boolean writeToJson(String location)
+        + boolean loadFromJson(String location)
+        + boolean loadFromDataBase(String trialId)
+        + String writeToDataBase()
+    }
+
+    class github.weichware10.util.config.ConfigLoader {
+        ' - - - values (github.weichware10.util.config.ConfigLoader) - - -
+
+        ' - - - methods (github.weichware10.util.config.ConfigLoader) - - -
+        -  ConfigLoader()
+        {static}+ Configuration fromJson(String location)
+        {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.Configuration {
+        ' - - - values (github.weichware10.util.config.Configuration) - - -
+
+        ' - - - fields (github.weichware10.util.config.Configuration) - - -
+        # ToolType toolType
+        # String trialId
+        # String configId
+        # String question
+        # String intro
+        # String outro
+        # String imageUrl
+        # boolean tutorial
+        # CodeChartsConfiguration codeChartsConfiguration
+        # ZoomMapsConfiguration zoomMapsConfiguration
+
+        ' - - - methods (github.weichware10.util.config.Configuration) - - -
+        #  Configuration()
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+        + ToolType getToolType()
+        + String getImageUrl()
+        + String getQuestion()
+        + String getIntro()
+        + String getOutro()
+        + boolean getTutorial()
+        + String getConfigId()
+        + String getTrialId()
+        + CodeChartsConfiguration getCodeChartsConfiguration()
+        + ZoomMapsConfiguration getZoomMapsConfiguration()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigWriter {
+        ' - - - values (github.weichware10.util.config.ConfigWriter) - - -
+
+        ' - - - methods (github.weichware10.util.config.ConfigWriter) - - -
+        -  ConfigWriter()
+        {static}+ boolean toJson(String location, Configuration configuration)
+        {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.EyeTrackingConfiguration {
+        ' - - - values (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+
+        ' - - - fields (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+        # float pollIntervall
+
+        ' - - - methods (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+        + float getPollIntervall()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ZoomMapsConfiguration {
+        ' - - - values (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+
+        ' - - - fields (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+        # double speed
+        # double imageViewWidth
+        # double imageViewHeight
+
+        ' - - - methods (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+        +  ZoomMapsConfiguration()
+        +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+        + double getSpeed()
+        + double getImageViewWidth()
+        + double getImageViewHeight()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.config.Configuration
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o-r- github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.config.Configuration o.l. github.weichware10.util.config.EyeTrackingConfiguration : fällt weg
+
+github.weichware10.util.config.ConfigClient .r. github.weichware10.util.config.ConfigLoader : statischer Aufruf
+github.weichware10.util.config.ConfigClient .l. github.weichware10.util.config.ConfigWriter : statischer Aufruf
+
+' autogenerated inheritances, may be faulty.
+@enduml
+
+@startuml
+title github.weichware10.util.config
+
+package github.weichware10.util.config {
+
+    class github.weichware10.util.config.CodeChartsConfiguration {
+
+        # String stringId
+        # List<String> strings
+        # int[] initialSize
+        # long[] timings
+        # boolean showGrid
+        # boolean relativeSize
+        # boolean randomized
+        # Integer iterations
+        # Integer maxDepth
+        # Integer defaultHorizontal
+        # Integer defaultVertical
+
+        #  CodeChartsConfiguration()
+        +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+        + String getStringId()
+        + List<String> getStrings()
+        + long[] getTimings()
+        + int[] getInitialSize()
+        + boolean getShowGrid()
+        + boolean getRelativeSize()
+        + boolean getRandomized()
+        + int getIterations()
+        + int getMaxDepth()
+        + int getDefaultHorizontal()
+        + int getDefaultVertical()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigClient {
+
+        # Configuration configuration
+        - DataBaseClient dataBaseClient
+
+        +  ConfigClient(DataBaseClient dataBaseClient)
+        + Configuration getConfig()
+        + boolean writeToJson(String location)
+        + boolean loadFromJson(String location)
+        + boolean loadFromDataBase(String trialId)
+        + String writeToDataBase()
+    }
+
+    class github.weichware10.util.config.ConfigLoader {
+
+        -  ConfigLoader()
+        {static}+ Configuration fromJson(String location)
+        {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.Configuration {
+
+        # ToolType toolType
+        # String trialId
+        # String configId
+        # String question
+        # String intro
+        # String outro
+        # String imageUrl
+        # boolean tutorial
+        # CodeChartsConfiguration codeChartsConfiguration
+        # ZoomMapsConfiguration zoomMapsConfiguration
+
+        #  Configuration()
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+        +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+        + ToolType getToolType()
+        + String getImageUrl()
+        + String getQuestion()
+        + String getIntro()
+        + String getOutro()
+        + boolean getTutorial()
+        + String getConfigId()
+        + String getTrialId()
+        + CodeChartsConfiguration getCodeChartsConfiguration()
+        + ZoomMapsConfiguration getZoomMapsConfiguration()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ConfigWriter {
+
+        -  ConfigWriter()
+        {static}+ boolean toJson(String location, Configuration configuration)
+        {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+    }
+
+    class github.weichware10.util.config.EyeTrackingConfiguration {
+
+        # float pollIntervall
+
+        + float getPollIntervall()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+    class github.weichware10.util.config.ZoomMapsConfiguration {
+
+        # double speed
+        # double imageViewWidth
+        # double imageViewHeight
+
+        +  ZoomMapsConfiguration()
+        +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+        + double getSpeed()
+        + double getImageViewWidth()
+        + double getImageViewHeight()
+        + boolean equals(Object obj)
+        + String toString()
+    }
+
+}
+
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.config.Configuration
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o-r- github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.config.Configuration o.l. github.weichware10.util.config.EyeTrackingConfiguration : fällt weg
+
+github.weichware10.util.config.ConfigClient .r. github.weichware10.util.config.ConfigLoader : statischer Aufruf
+github.weichware10.util.config.ConfigClient .l. github.weichware10.util.config.ConfigWriter : statischer Aufruf
+
+@enduml
+
+PlantUML version 1.2022.1beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

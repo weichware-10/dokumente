@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="624px" preserveAspectRatio="none" style="width:787px;height:624px;background:#FFFFFF;" version="1.1" viewBox="0 0 787 624" width="787px" zoomAndPan="magnify"><defs><filter height="300%" id="f1l7bz7pc1fk9i" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="271" x="251.5" y="16.708">github.weichware10.util.data</text><!--MD5=[1249ec8b4ab785eca655af572d08937e]
+cluster github.weichware10.util.data--><polygon fill="#FFFFFF" filter="url(#f1l7bz7pc1fk9i)" points="16,26.9531,261,26.9531,268,49.25,770,49.25,770,617.9531,16,617.9531,16,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="268" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="239" x="20" y="41.9482">github.weichware10.util.data</text><!--MD5=[c145a3b62989f795d870ae8d68da8a68]
+class github.weichware10.util.data.DataPoint--><rect codeLine="6" fill="#FEFECE" filter="url(#f1l7bz7pc1fk9i)" height="163.2422" id="github.weichware10.util.data.DataPoint" style="stroke:#A80036;stroke-width:1.5;" width="494" x="146" y="438.9531"/><ellipse cx="361.25" cy="454.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M363.5938,450.625 C362.6563,450.1875 362.0625,450.0469 361.1875,450.0469 C358.5625,450.0469 356.5625,452.125 356.5625,454.8438 L356.5625,455.9688 C356.5625,458.5469 358.6719,460.4375 361.5625,460.4375 C362.7813,460.4375 363.9375,460.1406 364.6875,459.5938 C365.2656,459.1875 365.5938,458.7344 365.5938,458.3438 C365.5938,457.8906 365.2031,457.5 364.7344,457.5 C364.5156,457.5 364.3125,457.5781 364.125,457.7656 C363.6719,458.25 363.6719,458.25 363.4844,458.3438 C363.0625,458.6094 362.375,458.7344 361.6094,458.7344 C359.5625,458.7344 358.2656,457.6406 358.2656,455.9375 L358.2656,454.8438 C358.2656,453.0625 359.5156,451.75 361.25,451.75 C361.8281,451.75 362.4375,451.9063 362.9063,452.1563 C363.3906,452.4375 363.5625,452.6563 363.6563,453.0625 C363.7188,453.4688 363.75,453.5938 363.8906,453.7188 C364.0313,453.8594 364.2656,453.9688 364.4844,453.9688 C364.75,453.9688 365.0156,453.8281 365.1875,453.6094 C365.2969,453.4531 365.3281,453.2656 365.3281,452.8438 L365.3281,451.4219 C365.3281,450.9844 365.3125,450.8594 365.2188,450.7031 C365.0625,450.4375 364.7813,450.2969 364.4844,450.2969 C364.1875,450.2969 363.9844,450.3906 363.7656,450.7031 L363.5938,450.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="381.75" y="459.1074">DataPoint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="147" x2="639" y1="470.9531" y2="470.9531"/><ellipse cx="157" cy="481.9531" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="166" y="485.1636">int dataId</text><ellipse cx="157" cy="494.7578" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="166" y="497.9683">int timeOffset</text><ellipse cx="157" cy="507.5625" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="166" y="510.7729">Rectangle2D viewport</text><ellipse cx="157" cy="520.3672" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="166" y="523.5776">Integer depth</text><line style="stroke:#A80036;stroke-width:1.5;" x1="147" x2="639" y1="530.1719" y2="530.1719"/><ellipse cx="157" cy="541.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="468" x="166" y="544.3823">DataPoint(int dataId, int timeOffset, Map&lt;String, Double&gt; viewport, Integer depth)</text><ellipse cx="157" cy="553.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="334" x="166" y="557.187">DataPoint(int dataId, int timeOffset, Rectangle2D viewport)</text><ellipse cx="157" cy="566.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="392" x="166" y="569.9917">DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)</text><ellipse cx="157" cy="579.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="166" y="582.7964">String toString()</text><ellipse cx="157" cy="592.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="166" y="595.6011">boolean equals(Object other)</text><!--MD5=[2d7c804b1c1e2f283d37f9acde098978]
+class github.weichware10.util.data.TrialData--><rect codeLine="23" fill="#FEFECE" filter="url(#f1l7bz7pc1fk9i)" height="316.8984" id="github.weichware10.util.data.TrialData" style="stroke:#A80036;stroke-width:1.5;" width="722" x="32" y="61.9531"/><ellipse cx="362.75" cy="77.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M365.0938,73.625 C364.1563,73.1875 363.5625,73.0469 362.6875,73.0469 C360.0625,73.0469 358.0625,75.125 358.0625,77.8438 L358.0625,78.9688 C358.0625,81.5469 360.1719,83.4375 363.0625,83.4375 C364.2813,83.4375 365.4375,83.1406 366.1875,82.5938 C366.7656,82.1875 367.0938,81.7344 367.0938,81.3438 C367.0938,80.8906 366.7031,80.5 366.2344,80.5 C366.0156,80.5 365.8125,80.5781 365.625,80.7656 C365.1719,81.25 365.1719,81.25 364.9844,81.3438 C364.5625,81.6094 363.875,81.7344 363.1094,81.7344 C361.0625,81.7344 359.7656,80.6406 359.7656,78.9375 L359.7656,77.8438 C359.7656,76.0625 361.0156,74.75 362.75,74.75 C363.3281,74.75 363.9375,74.9063 364.4063,75.1563 C364.8906,75.4375 365.0625,75.6563 365.1563,76.0625 C365.2188,76.4688 365.25,76.5938 365.3906,76.7188 C365.5313,76.8594 365.7656,76.9688 365.9844,76.9688 C366.25,76.9688 366.5156,76.8281 366.6875,76.6094 C366.7969,76.4531 366.8281,76.2656 366.8281,75.8438 L366.8281,74.4219 C366.8281,73.9844 366.8125,73.8594 366.7188,73.7031 C366.5625,73.4375 366.2813,73.2969 365.9844,73.2969 C365.6875,73.2969 365.4844,73.3906 365.2656,73.7031 L365.0938,73.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="383.25" y="82.1074">TrialData</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="753" y1="93.9531" y2="93.9531"/><ellipse cx="43" cy="104.9531" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="52" y="108.1636">ToolType toolType</text><ellipse cx="43" cy="117.7578" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="52" y="120.9683">String trialId</text><ellipse cx="43" cy="130.5625" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="52" y="133.7729">String configId</text><ellipse cx="43" cy="143.3672" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="52" y="146.5776">DateTime startTime</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="153.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="52" y="159.3823">String answer</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40" y="165.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="52" y="172.187">List&lt;DataPoint&gt; dataPoints</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="753" y1="178.7813" y2="178.7813"/><ellipse cx="43" cy="189.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="696" x="52" y="192.9917">TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List&lt;DataPoint&gt; dataPoints)</text><ellipse cx="43" cy="202.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="329" x="52" y="205.7964">TrialData(ToolType toolType, String trialId, String configId)</text><ellipse cx="43" cy="215.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="52" y="218.6011">List&lt;DataPoint&gt; getData()</text><ellipse cx="43" cy="228.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="52" y="231.4058">String getAnswer()</text><ellipse cx="43" cy="241" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="52" y="244.2104">void setAnswer(String answer)</text><ellipse cx="43" cy="253.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="52" y="257.0151">ToolType getToolType()</text><ellipse cx="43" cy="266.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="52" y="269.8198">String getTrialId()</text><ellipse cx="43" cy="279.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="52" y="282.6245">String getConfigId()</text><ellipse cx="43" cy="292.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="52" y="295.4292">DateTime getStartTime()</text><ellipse cx="43" cy="305.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="52" y="308.2339">void addDataPoint(Rectangle2D viewport, int depth)</text><ellipse cx="43" cy="317.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="237" x="52" y="321.0386">void addDataPoint(Rectangle2D viewport)</text><ellipse cx="43" cy="330.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="193" x="52" y="333.8433">TrialData fromJson(String location)</text><ellipse cx="43" cy="343.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="283" x="52" y="346.6479">boolean toJson(String location, TrialData trialData)</text><ellipse cx="43" cy="356.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="52" y="359.4526">String toString()</text><ellipse cx="43" cy="369.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="52" y="372.2573">boolean equals(Object other)</text><!--MD5=[47a727bb6f03740aa7ba1146acb19556]
+reverse link github.weichware10.util.data.TrialData to github.weichware10.util.data.DataPoint--><path codeLine="58" d="M393,392.2091 C393,408.3831 393,424.2061 393,438.8961 " fill="none" id="github.weichware10.util.data.TrialData-backto-github.weichware10.util.data.DataPoint" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="393,379.1791,389,385.1791,393,391.1791,397,385.1791,393,379.1791" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a175e6048ea0d389dae0ef9da971c378]
+@startuml
+title github.weichware10.util.data
+
+package github.weichware10.util.data {
+
+    ' -=- classes (github.weichware10.util.data) -=-
+    class github.weichware10.util.data.DataPoint {
+        ' - - - values (github.weichware10.util.data.DataPoint) - - -
+
+        ' - - - fields (github.weichware10.util.data.DataPoint) - - -
+        + int dataId
+        + int timeOffset
+        + Rectangle2D viewport
+        + Integer depth
+
+        ' - - - methods (github.weichware10.util.data.DataPoint) - - -
+        +  DataPoint(int dataId, int timeOffset, Map<String, Double> viewport, Integer depth)
+        +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport)
+        +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)
+        + String toString()
+        + boolean equals(Object other)
+    }
+
+    class github.weichware10.util.data.TrialData {
+        ' - - - values (github.weichware10.util.data.TrialData) - - -
+
+        ' - - - fields (github.weichware10.util.data.TrialData) - - -
+        + ToolType toolType
+        + String trialId
+        + String configId
+        + DateTime startTime
+        - String answer
+        - List<DataPoint> dataPoints
+
+        ' - - - methods (github.weichware10.util.data.TrialData) - - -
+        +  TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)
+        +  TrialData(ToolType toolType, String trialId, String configId)
+        + List<DataPoint> getData()
+        + String getAnswer()
+        + void setAnswer(String answer)
+        + ToolType getToolType()
+        + String getTrialId()
+        + String getConfigId()
+        + DateTime getStartTime()
+        + void addDataPoint(Rectangle2D viewport, int depth)
+        + void addDataPoint(Rectangle2D viewport)
+        {static}+ TrialData fromJson(String location)
+        {static}+ boolean toJson(String location, TrialData trialData)
+        + String toString()
+        + boolean equals(Object other)
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+
+' autogenerated inheritances, may be faulty.
+
+github.weichware10.util.data.TrialData o- - github.weichware10.util.data.DataPoint
+@enduml
+
+@startuml
+title github.weichware10.util.data
+
+package github.weichware10.util.data {
+
+    class github.weichware10.util.data.DataPoint {
+
+        + int dataId
+        + int timeOffset
+        + Rectangle2D viewport
+        + Integer depth
+
+        +  DataPoint(int dataId, int timeOffset, Map<String, Double> viewport, Integer depth)
+        +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport)
+        +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)
+        + String toString()
+        + boolean equals(Object other)
+    }
+
+    class github.weichware10.util.data.TrialData {
+
+        + ToolType toolType
+        + String trialId
+        + String configId
+        + DateTime startTime
+        - String answer
+        - List<DataPoint> dataPoints
+
+        +  TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)
+        +  TrialData(ToolType toolType, String trialId, String configId)
+        + List<DataPoint> getData()
+        + String getAnswer()
+        + void setAnswer(String answer)
+        + ToolType getToolType()
+        + String getTrialId()
+        + String getConfigId()
+        + DateTime getStartTime()
+        + void addDataPoint(Rectangle2D viewport, int depth)
+        + void addDataPoint(Rectangle2D viewport)
+        {static}+ TrialData fromJson(String location)
+        {static}+ boolean toJson(String location, TrialData trialData)
+        + String toString()
+        + boolean equals(Object other)
+    }
+
+}
+
+
+
+github.weichware10.util.data.TrialData o- - github.weichware10.util.data.DataPoint
+@enduml
+
+PlantUML version 1.2022.1beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
