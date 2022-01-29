@@ -12,4 +12,4 @@ Dieses Menü ist mit [File](home-file.md) hauptsächlich für administrative Arb
 
 (2) erstellt einen automatisch generierten CodeCharts-Test um mögliche Probleme schnell zu debuggen. (Änderung der Config, kann im Code bearbeitet werden).
 
-[zurück](toolbox.md)
+| [zurück](start-window.md) | [Home](toolbox.md) |

@@ -10,4 +10,4 @@ Dieses Menü kann praktisch sein, um die erhobenen Daten ohne Datenbank zu speic
 
 Save To JSON(1) ermöglicht es den abgeschlossenen Test zusätzlich als JSON lokal abzuspeichern.
 
-[zurück](toolbox.md)
+| [zurück](end-window.md) | [Home](toolbox.md) |

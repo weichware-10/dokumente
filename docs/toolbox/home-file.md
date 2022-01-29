@@ -17,4 +17,4 @@ Dieses Menü ist mit [Admin](home-admin.md) hauptsächlich für administrative A
 
 [(4) Zeigt ein Log-Fenster zum debuggen.](home-log.md)
 
-[zurück](toolbox.md)
+| [zurück](start-window.md) | [Home](toolbox.md) |

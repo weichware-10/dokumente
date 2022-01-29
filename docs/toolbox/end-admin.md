@@ -10,4 +10,4 @@ Dieses Menü ist mit [File](end-file.md) hauptsächlich für administrative Arbe
 
 (1) Speichert das Ergebnis des Tests in der Datenbank. Wenn man als Admin eingeloggt ist, geschieht dies nicht automatisch.
 
-[zurück](toolbox.md)
+| [zurück](end-window.md) | [Home](toolbox.md) |
