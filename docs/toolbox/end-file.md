@@ -1,6 +1,6 @@
 ---
 title: File
-parent: Endbildschirm
+parent: end-window
 ---
 # End-File
 

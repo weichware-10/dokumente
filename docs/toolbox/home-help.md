@@ -1,6 +1,6 @@
 ---
 title: Help
-parent: Startbildschirm
+parent: start-window
 ---
 # Home-Help
 

@@ -1,6 +1,6 @@
 ---
 title: Log
-parent: File
+parent: home-file
 ---
 # Shows the Log
 
