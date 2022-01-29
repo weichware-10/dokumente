@@ -1,6 +1,6 @@
 ---
-title: Admin
-parent: end-window
+title: Endbildschirm Admin
+parent: Endbildschirm
 ---
 # End-Admin
 

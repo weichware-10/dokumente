@@ -1,7 +1,7 @@
 ---
 title: Endbildschirm
 has_children: true
-parent: toolbox
+parent: Toolbox Benutzerhandbuch
 ---
 # Test abgeschlossen
 

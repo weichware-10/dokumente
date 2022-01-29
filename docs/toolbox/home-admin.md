@@ -1,6 +1,6 @@
 ---
-title: Admin
-parent: start-window
+title: Startbildschirm Admin
+parent: Startbildschirm
 ---
 # Home-Admin
 

@@ -1,7 +1,7 @@
 ---
-title: File
+title: Startbildschirm File
 has_children: true
-parent: start-window
+parent: Startbildschirm
 ---
 # Home-File
 
