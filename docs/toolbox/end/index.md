@@ -13,4 +13,4 @@ Nachdem der Test abgeschlossen ist gelangt man zum Endbildschirm. Auch hier ist 
 
 Genaure Infos zu (1)[File](file.md) und (2)[Admin](admin.md) finden sie auf den verlinkten Seiten.
 
-[zurück](../toolbox.md)
+[zurück](../index.md)

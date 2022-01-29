@@ -9,6 +9,6 @@ parent: Toolbox Benutzerhandbuch
 
 Der Nutzer gibt seine zugesendete TrialID in (4) ein und kann somit seinen Test starten.
 
-Genauere Infos zu (1)[File](file/index.md), (2)[Admin](admin.md) und (3)[Help](help.md) finden sie auf den verlinkten Seiten.
+Genauere Infos zu (1)[File](file/index.md), (2)[Admin](admin.md) und (3)[Help](help.md) finden Sie auf den verlinkten Seiten.
 
-[zurück](../toolbox.md)
+[zurück](../index.md)

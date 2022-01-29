@@ -3,7 +3,7 @@ title: ZoomMaps
 parent: Toolbox Benutzerhandbuch
 ---
 # Der ZoomMaps Versuch
-[zurück](toolbox.md)
+[zurück](index.md)
 ## Tutorial
 Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann man über vor und zurück Button, beliebig durch das Tutorial gehen. Es besteht jederzeit das Tutorial direkt abzuschließen und mit dem Test zu beginnen.
 
@@ -27,4 +27,4 @@ Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Ei
 
 Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
 
-[zurück](toolbox.md)
+[zurück](index.md)

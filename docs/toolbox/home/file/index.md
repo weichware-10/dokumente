@@ -18,4 +18,4 @@ Dieses Menü ist mit [Admin](../admin.md) hauptsächlich für administrative Arb
 
 [(4) Zeigt ein Log-Fenster zum debuggen.](log.md)
 
-| [zurück](../index.md) | [Home](../../toolbox.md) |
+| [zurück](../index.md) | [Home](../../index.md) |

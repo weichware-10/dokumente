@@ -15,4 +15,4 @@ Mit diesem Menü können Sie die Verbindung zu einer anderen Datenbank direkt in
 
 (4) Hier wird das Schema ihrer Datenbank eingetragen.
 
-| [zurück](index.md) | [Home](../../toolbox.md) |
+| [zurück](index.md) | [Home](../../index.md) |

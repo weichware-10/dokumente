@@ -11,4 +11,4 @@ Dieses Menü ist mit [File](file.md) hauptsächlich für administrative Arbeiten
 
 (1) Speichert das Ergebnis des Tests in der Datenbank. Wenn man als Admin eingeloggt ist, geschieht dies nicht automatisch.
 
-| [zurück](index.md) | [Home](../toolbox.md) |
+| [zurück](index.md) | [Home](../index.md) |

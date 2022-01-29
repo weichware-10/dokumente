@@ -13,4 +13,4 @@ Dieses Menü ist mit [File](file/index.md) hauptsächlich für administrative Ar
 
 (2) erstellt einen automatisch generierten CodeCharts-Test um mögliche Probleme schnell zu debuggen. (Änderung der Config, kann im Code bearbeitet werden).
 
-| [zurück](index.md) | [Home](../toolbox.md) |
+| [zurück](index.md) | [Home](../index.md) |

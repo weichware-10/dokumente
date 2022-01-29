@@ -7,6 +7,6 @@ grandparent: Toolbox Benutzerhandbuch
 
 ![Home-Help](resources/help.png)
 
-In dem Reiter Help besteht die Möglichkeit eine genauere Dokumentation des Programms im Github nachzulesen. Dazu muss man nur auf (1) drücken und die Dokumentation wird in ihrem Standard-Browser geöffnet.
+Im Reiter Help besteht die Möglichkeit eine genauere Dokumentation des Programms auf Github nachzulesen. Dazu muss man nur auf (1) drücken und die Dokumentation wird im Standard-Browser geöffnet.
 
-| [zurück](index.md) | [Home](../toolbox.md) |
+| [zurück](index.md) | [Home](../index.md) |
