@@ -1,77 +1,64 @@
-@startuml zoommaps
+@startuml codecharts
 skinparam defaultTextAlignment center
 
 
 actor       Nutzer          as n
 entity      System          as s    #DA70D5
+collections GUI             as g
 
-box ZoomMaps
-participant ZoomTutorial    as zt
-participant ZoomCalculator  as zc
-participant ZoomBild        as zb
-participant ZoomInput       as zi
+box CodeCharts
+
+participant CodeCharts              as cc
+participant CodeChartsController    as ct
+participant CodeChartsCoordinator   as co
+participant CodeChartsInput         as ci
+participant CodeChartsPane          as cp
 end box
 
-collections Config          as c
-collections SpeicherMedium  as sm
+collections configClient          as c
 
 activate n
 activate s
+activate g
 
-== Tutorial ==
-zt -> c : getBool('zoom_maps', 'tutorial')
-activate zt
+== Initialisierung ==
+g -> cc : CodeCharts(primaryStage, configClient, dataBaseClient)
+activate cc
+cc -> c : getTrailData()
 activate c
-c --> zt : config_state : boolean
+c --> cc : trialData : TrailData
 deactivate c
+cc -> co : CodeChartsCoordinator([...])
+activate co
+co -> ci : CodeChartsInput()
+co -> c : getData
+activate c
+c --> co : Data
+deactivate c
+co -> cp : setVariables
+deactivate co
 
-opt config_state == True
-    hnote over zt #FFFFFF: showing Tutorial
-    n -> zt : show_again : boolean
-    opt show_again == False
-        zt -> c : setBool('zoom_maps', 'tutorial', false)
-        activate c
-        deactivate c
-    end
+
+
+
+== Test ==
+loop
+    cc -> co : iterate()
+    deactivate cc
+    activate co
+    co -> g : Aufruf Bild, Raster und Eingabe
+    co -> ci : getInput(currentStrings, currentIteration, iterations)
+    activate ci
+    ci --> co : Data
+    deactivate ci
 end
 
-deactivate zt
 
-== Setup ==
-zc -> c : getFloat('zoom_maps', 'speed')
-activate zc
-activate c
-c --> zc : speed : float
-zc -> c : getString('zoom_maps', 'image')
-c --> zc : location : String
-deactivate c
-
-zc ->o zb : location
-activate zb
-note over zc, zb : Instanziierung des\nZoomBild-Objekts
-zc -> zb : show()
-
-== Versuch ==
-loop Versuchsschleife
-    n -> s : Interaktion mit Maus
-    s -> zi : Klick- und Scrollinformationen
-    activate zi
-    zi -> zc : processInput(raw_input)
-    deactivate zi
-    zc -> zc : calculate(raw_input)
-    zc -> zb : move(calculated_position)
-    ... Dauer abhängig von speed ...
-    zb --> zc : new_position : float[3]
-    hnote over zc #FFFFFF: Abspeichern der neuen Position\nin data
-end
-destroy zb
-
-
-== Speichern ==
-zc -> sm : saveData(data)
-activate sm
-sm --> zc : success : boolean
-deactivate sm
-deactivate zc
+== Ende == 
+co -> cc : endTest()
+deactivate co
+activate cc
+cc -> g : End(primaryStage, configClient, dataBaseClient, trialData)
+deactivate cc
 
 @enduml
