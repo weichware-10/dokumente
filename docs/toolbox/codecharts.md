@@ -23,4 +23,6 @@ Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Ei
 
 ![PreTest-Screen](resources/ToolBox-codecharts-test.png)
 
+Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
+
 [zurück](toolbox.md)
