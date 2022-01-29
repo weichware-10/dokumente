@@ -1,8 +1,9 @@
 ---
 title: Change Database Connection
-parent: Startbildschirm-File
+parent: File
+grandparent: Startbildschirm
 ---
-# Change Database Conncetion
+# Change Database Connection
 
 ![Home-change-databse](resources/ToolBoxChangeDatabase.png)
 

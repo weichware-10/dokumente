@@ -1,8 +1,9 @@
 ---
-title: Startbildschirm-Admin
+title: Admin
 parent: Startbildschirm
+grandparent: Toolbox Benutzerhandbuch
 ---
-# Home-Admin
+# Admin Menü (Startbildschirm)
 
 ![Home-Admin](resources/ToolBoxAdmin.png)
 

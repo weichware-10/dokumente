@@ -1,9 +1,10 @@
 ---
-title: Startbildschirm-File
+title: File
 has_children: true
 parent: Startbildschirm
+grandparent: Toolbox Benutzerhandbuch
 ---
-# Home-File
+# File
 
 ![Home-File](resources/ToolBoxFile.png)
 

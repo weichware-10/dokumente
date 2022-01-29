@@ -1,6 +1,7 @@
 ---
-title: Endbildschirm-Admin
+title: Admin
 parent: Endbildschirm
+grandparent: Toolbox Benutzerhandbuch
 ---
 # End-Admin
 

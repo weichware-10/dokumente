@@ -1,6 +1,7 @@
 ---
-title: Startbildschirm-Help
+title: Help
 parent: Startbildschirm
+grandparent: Toolbox Benutzerhandbuch
 ---
 # Home-Help
 

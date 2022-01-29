@@ -1,8 +1,9 @@
 ---
-title: Endbildschirm-File
+title: File
 parent: Endbildschirm
+grandparent: Toolbox Benutzerhandbuch
 ---
-# End-File
+# File Menü (Endbildschirm)
 
 ![End-File](resources/ToolBoxEndFile.png)
 

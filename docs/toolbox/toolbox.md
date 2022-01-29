@@ -1,5 +1,5 @@
 ---
-title: Toolbox-Benutzerhandbuch
+title: Toolbox Benutzerhandbuch
 has_children: true
 ---
 # ToolBox Benutzerhandbuch

@@ -1,6 +1,7 @@
 ---
 title: Log
-parent: Startbildschirm-File
+parent: File
+grandparent: Startbildschirm
 ---
 # Shows the Log
 

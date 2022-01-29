@@ -1,6 +1,6 @@
 ---
 title: CodeCharts
-parent: Toolbox-Benutzerhandbuch
+parent: Toolbox Benutzerhandbuch
 ---
 # Der CodeCharts Versuch
 [zurück](toolbox.md)
