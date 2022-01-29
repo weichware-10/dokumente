@@ -10,20 +10,20 @@ Bevor der Test startet wird das Tutorial angezeigt. Während des Tutorials kann 
 ![ProgressBar-Tutorial](resources/Tutorial-progress.png)
 
 ### Schritt 1
-![Tutorial-0](resources/Tutorial-ZoomMaps/0.png)
+![Tutorial-0](../../tutorial/zoommaps/0.png)
 ### Schritt 2
-![Tutorial-1](resources/Tutorial-ZoomMaps/1.png)
+![Tutorial-1](../../tutorial/zoommaps/1.png)
 ### Schritt 3
-![Tutorial-2](resources/Tutorial-ZoomMaps/2.png)
+![Tutorial-2](../../tutorial/zoommaps/2.png)
 ### Schritt 4
-![Tutorial-3](resources/Tutorial-ZoomMaps/3.png)
+![Tutorial-3](../../tutorial/zoommaps/3.png)
 ### Schritt 5
-![Tutorial-4](resources/Tutorial-ZoomMaps/4.png)
+![Tutorial-4](../../tutorial/zoommaps/4.png)
 
 ## Tutorial abgeschlossen
 Nachdem man das Tutorial abgeschlossen hat, kommt noch eine Nachricht, welche Einstellbar ist, die einem z.B. Erfolg beim Test wünscht.
 
-![PreTest-Screen](resources/ToolBox-zoommaps-test.png)
+![PreTest-Screen](resources/zoommaps-pretest.png)
 
 Nach diesem Fenster beginnt dann der eigentliche Test, wie in dem Tutorial gezeigt.
 

@@ -5,7 +5,7 @@ grandparent: Startbildschirm
 ---
 # Change Database Connection
 
-![Home-change-databse](resources/ToolBoxChangeDatabase.png)
+![Home-change-database](resources/change-database.png)
 
 Mit diesem Menü können Sie die Verbindung zu einer anderen Datenbank direkt in der GUI ermöglichen. Allerdings ist dies nur für die Zeit während das Programm läuft, nach einem Neustart wird wieder die ursprüngliche Datenbank verwendet.
 
@@ -15,4 +15,4 @@ Mit diesem Menü können Sie die Verbindung zu einer anderen Datenbank direkt in
 
 (4) Hier wird das Schema ihrer Datenbank eingetragen.
 
-| [zurück](home-file.md) | [Home](toolbox.md) |
+| [zurück](index.md) | [Home](../../toolbox.md) |
