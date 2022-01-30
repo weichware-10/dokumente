@@ -1,3 +1,8 @@
+---
+title: Verteilung
+parent: Analyse
+grandparent: Analyse Menü
+---
 # Analyse Benutzerhandbuch
 
 ## Verteilung Relative Tiefe

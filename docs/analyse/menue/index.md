@@ -3,7 +3,6 @@ title: Analyse Menü
 has_children: true
 parent: Analyse Benutzerhandbuch
 ---
-
 # Analyse Benutzerhandbuch
 
 ## Menü

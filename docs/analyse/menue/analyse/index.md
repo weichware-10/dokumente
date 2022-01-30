@@ -4,7 +4,6 @@ has_children: true
 parent: Analyse Menü
 grandparent: Analyse Benutzerhandbuch
 ---
-
 # Analyse Benutzerhandbuch
 
 ## Analyse
@@ -39,9 +38,9 @@ Wenn Sie den entsprechenden Versuch ausgewählt haben, können Sie auf dem unter
 ![analyse-typ](resources/analyse-typ.PNG)
 
 Neben dem "Auswahl Trial" Button finden Sie nun den Button "Analyse-Typ". Wenn Sie diesen anklicken, bekommen Sie vier Möglichkeiten zur Analyse aus denen Sie wählen können.
-- ###### [Heatmap](heatmap.md)
-- ###### [Verlauf](verlauf.md)
-- ###### [Verlauf Vergleich](verlaufvergleich.md)
-- ###### [Verteilung Relative Tiefe](verteilung.md)
+- ###### [Heatmap](tool-typ/heatmap.md)
+- ###### [Verlauf](tool-typ/verlauf.md)
+- ###### [Verlauf Vergleich](tool-typ/verlaufvergleich.md)
+- ###### [Verteilung Relative Tiefe](tool-typ/verteilung.md)
 
 [zurück](../index.md) | [Home](../../index.md)

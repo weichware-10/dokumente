@@ -1,3 +1,8 @@
+---
+title: Verlauf
+parent: Analyse
+grandparent: Analyse Menü
+---
 # Analyse Benutzerhandbuch
 
 ## Verlauf
