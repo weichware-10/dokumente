@@ -1,3 +1,8 @@
+---
+title: Help
+parent: Analyse Benutzerhandbuch
+---
+
 # Analyse Benutzerhandbuch
 
 ## Help

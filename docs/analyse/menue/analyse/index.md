@@ -1,3 +1,10 @@
+---
+title: Analyse
+has_children: true
+parent: Analyse Menü
+grandparent: Analyse Benutzerhandbuch
+---
+
 # Analyse Benutzerhandbuch
 
 ## Analyse

@@ -1,3 +1,9 @@
+---
+title: Heatmap
+parent: Analyse Menü
+grandparent: Analyse Benutzerhandbuch
+---
+
 # Analyse Benutzerhandbuch
 
 ## Heatmap

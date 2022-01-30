@@ -1,3 +1,8 @@
+---
+title: Analyse Benutzerhandbuch
+has_children: true
+---
+
 # Analyse Benutzerhandbuch
 
 ## Startbildschirm
