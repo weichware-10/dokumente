@@ -1,0 +1,67 @@
+@startuml codecharts
+state "Fehler" as err : informative Fehlermeldung
+state Speichern : der Daten in der Datenbank
+
+state "Tutorial" as t {
+    state " " as tnp <<entryPoint>>
+    state " " as txp <<exitPoint>>
+    state "Abfrage von Config" as ac : getConfig()\nSoll Tutorial angezeigt werden?
+    state "Tutorial anzeigen" as ta
+    tnp -l-> ac
+    ac --> ta : Ja
+    ac --> txp : Nein
+    ta -r-> txp
+}
+
+state "PreTest" as p {
+    state " " as pnp <<entryPoint>>
+    state " " as pxp <<exitPoint>>
+    state "Abfrage Intro Text" as it : getConfigState()\nWas ist der Intro Inhalt ?
+    state "Intro anzeigen" as ia
+    pnp -l-> it
+    it --> ia
+    ia -r-> pxp
+}
+
+state "Setup" as s {
+    state " " as snp <<entryPoint>>
+    state " " as sxp <<exitPoint>>
+    state "Konfiguration abfragen" as ka : imageUrl
+    ka : strings, initialSize, timings, showGrid, relativeSize, randomized
+    ka: iterations, maxDepth, default Unterteilungen
+    state "Vorbereitung Bild" as vb : instanziieren
+    state "Vorbereitung Raster" as vr : Größe vom Bild abhängig setzen
+    vr : initiale Rasterunterteilung vornehmen
+    snp -l-> ka
+    ka --> vb
+    ka --> vr
+    vr -d-> sxp
+    vb -d-> sxp
+}
+
+
+state "Versuch" as v {
+    state " " as vnp <<entryPoint>>
+    state " " as vxp <<exitPoint>>
+    state "Bild anzeigen" as ba : für in Config eingestellte Zeit
+    state "Raster anzeigen" as ra : für in Config eingestellte Zeit
+    state "Benutzer Input entgegennehmen" as bi
+    vnp -l-> ba
+    ba --> ra
+    ra --> bi
+    bi --> ba : weitere Durchläufe
+    bi --> vxp : Durchläufe fertig
+}
+
+s --> err : Fehler beim Setup
+[*] --> tnp
+
+txp --> pnp
+pxp --> snp
+sxp --> vnp
+vxp -r-> Speichern
+
+Speichern -u-> [*]
+err -d-> [*]
+
+@enduml
