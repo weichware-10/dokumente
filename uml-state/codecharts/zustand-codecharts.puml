@@ -1,6 +1,7 @@
 @startuml codecharts
+title Zustandsdiagramm CodeCharts
 state "Fehler" as err : informative Fehlermeldung
-state Speichern : der Daten in der Datenbank
+state Speichern : der Daten in der Datenbank / JSON
 
 state "Tutorial" as t {
     state " " as tnp <<entryPoint>>
