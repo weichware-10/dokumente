@@ -1,6 +1,7 @@
 ---
 title: File
-parent: Analyse Benutzerhandbuch
+parent: Menüleiste
+grandparent: Analyse Benutzerhandbuch
 ---
 
 # Analyse Benutzerhandbuch
