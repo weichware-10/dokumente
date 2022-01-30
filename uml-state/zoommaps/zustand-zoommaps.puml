@@ -3,45 +3,60 @@ state "Fehler" as err : informative Fehlermeldung
 state Speichern : der Daten in der Datenbank
 
 state "Tutorial" as t {
-    state "Abfrage von Config" as ac : getConfigState()\nSoll Tutorial angezeigt werden?
+    state " " as tnp <<entryPoint>>
+    state " " as txp <<exitPoint>>
+    state "Abfrage von Config" as ac : getConfig()\nSoll Tutorial angezeigt werden?
     state "Tutorial anzeigen" as ta
-    [*] --> ac
+    tnp -l-> ac
     ac --> ta : Ja
-    ac --> p : Nein
-    ta --> p
+    ac --> txp : Nein
+    ta -r-> txp
 }
 
 state "PreTest" as p {
+    state " " as pnp <<entryPoint>>
+    state " " as pxp <<exitPoint>>
     state "Abfrage Intro Text" as it : getConfigState()\nWas ist der Intro Inhalt ?
     state "Intro anzeigen" as ia
-    [*] --> it
+    pnp -l-> it
     it --> ia
-    ia --> s
+    ia -r-> pxp
 }
 
 state "Setup" as s {
+    state " " as snp <<entryPoint>>
+    state " " as sxp <<exitPoint>>
     state "Konfiguration abfragen" as ka : speed, image location, imageViewWidth, imageViewHeight, Question
     state "Vorbereitung Bild" as vb : instanziieren und anzeigen
-    [*] --> ka
-    ka --> vb : Konfiguration erhalten
-    ka -d-> err : Konfiguration nicht erhalten
-    vb -l-> v
+    snp -l-> ka
+    ka --> vb
+    vb -d-> sxp
 }
 
+
 state "Versuch" as v {
+    state " " as vnp <<entryPoint>>
+    state " " as vxp <<exitPoint>>
     state "Auf Benutzerinput warten" as bi : Scrollen und Klicken
     state "Berechnung Bildposition" as bb : aus ImageView Koordinaten
     state "Anpassung Bildposition" as ab : Dauer hängt von speed ab
-    state "Abspeichern neuer Position" as ap
-    [*] --> bi
+    state "Abspeichern neuer Position" as ap : TrialData
+    vnp -l-> bi
     bi --> bb : Input
     bb --> ab
     ab --> ap
     ap --> bi
-    ap -u-> Speichern : Versuch beendet
+    ap -d-> vxp : Versuch beendet
 }
 
-[*] --> t
+s --> err : Fehler beim Setup
+[*] --> tnp
+
+txp --> pnp
+pxp --> snp
+sxp --> vnp
+vxp -r-> Speichern
+
 Speichern -u-> [*]
 err -d-> [*]
 
