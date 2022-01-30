@@ -1,6 +1,6 @@
 ---
 title: Verteilung
-parent: Analyse
+parent: Analyse Auswahl
 grandparent: Analyse Menü
 ---
 # Analyse Benutzerhandbuch

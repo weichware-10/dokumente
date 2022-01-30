@@ -1,6 +1,6 @@
 ---
 title: Verlauf
-parent: Analyse
+parent: Analyse Auswahl
 grandparent: Analyse Menü
 ---
 # Analyse Benutzerhandbuch

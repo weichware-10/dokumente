@@ -1,5 +1,5 @@
 ---
-title: Analyse
+title: Analyse Auswahl
 has_children: true
 parent: Analyse Menü
 grandparent: Analyse Benutzerhandbuch
