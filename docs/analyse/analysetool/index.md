@@ -1,8 +1,7 @@
 ---
-title: Analyse Auswahl
+title: Analysetool
 has_children: true
-parent: Analyse Menü
-grandparent: Analyse Benutzerhandbuch
+parent: Analyse Benutzerhandbuch
 ---
 # Analyse Benutzerhandbuch
 
@@ -18,15 +17,15 @@ Daraufhin geht ein neues Fenster auf, in welchem Ihnen die zur Verfügung stehen
 ![auswahl](resources/auswahl.PNG)
 
 Am oberen Rand des Bildschirms werden Ihnen verschiedene Möglichkeiten gegeben um die Versuche zu Filtern.
-- ###### Konfigurations-ID
+- ##### Konfigurations-ID
   Hier können Sie nach einer bestimmten Konfigurations-ID suchen um somit vergleichbare Versuche auswerten zu können
-- ###### Tool-Typ
+- ##### Tool-Typ
   Hier können Sie die Versuche nach den unterschiedlichen Versuchsarten (Codecharts, Eyetracking, Zoommaps) filtern
-- ###### Start- und End-Datum
+- ##### Start- und End-Datum
   Falls Sie nur Versuche aus einem bestimmten Zeitraum analysieren wollen, können Sie hier diesen Zeitraum bestimmen. Das Enddatum ist automatisch auf den aktuellen Tag voreingestellt, kann aber von Ihnen verändert werden
-- ###### Versuchs-ID
+- ##### Versuchs-ID
   Falls Sie die Versuche eines spezifischen Testobjekts suchen, können Sie hier die entsprechende Versuchs-ID angeben. WICHTIG: Falls Sie nach einer Versuchs-ID suchen, werden alle weiteren eingegebenen Suchparamenter ignoriert
-- ###### Anzahl der angezeigten Versuche
+- ##### Anzahl der angezeigten Versuche
   Hier können Sie einstellen, wie viele Versuche Ihnen angezeigt werden sollen
 
 Nachdem Sie die Suchparameter nach Ihren wünschen eingestellt haben, müssen Sie noch auf den "Suchen"-Button klicken um die Ergebnisse zu sehen.
@@ -38,9 +37,9 @@ Wenn Sie den entsprechenden Versuch ausgewählt haben, können Sie auf dem unter
 ![analyse-typ](resources/analyse-typ.PNG)
 
 Neben dem "Auswahl Trial" Button finden Sie nun den Button "Analyse-Typ". Wenn Sie diesen anklicken, bekommen Sie vier Möglichkeiten zur Analyse aus denen Sie wählen können.
-- ###### [Heatmap](tool-typ/heatmap.md)
-- ###### [Verlauf](tool-typ/verlauf.md)
-- ###### [Verlauf Vergleich](tool-typ/verlaufvergleich.md)
-- ###### [Verteilung Relative Tiefe](tool-typ/verteilung.md)
+- ##### [Heatmap](tool-typ/heatmap.md)
+- ##### [Verlauf](tool-typ/verlauf.md)
+- ##### [Verlauf Vergleich](tool-typ/verlaufvergleich.md)
+- ##### [Verteilung Relative Tiefe](tool-typ/verteilung.md)
 
-[zurück](../index.md) | [Home](../../index.md)
+[Home](../index.md)

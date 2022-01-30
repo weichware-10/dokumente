@@ -1,7 +1,7 @@
 ---
 title: Verteilung
-parent: Analyse Auswahl
-grandparent: Analyse Menü
+parent: Analysetool
+grandparent: Analyse Benutzerhandbuch
 ---
 # Analyse Benutzerhandbuch
 
