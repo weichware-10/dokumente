@@ -46,7 +46,7 @@ loop
     n -> s : Scrollen bzw. Klicken
     s -> zi : Event
     zi -> zc : processInput(Point2D, direction)
-    zc -> zb : getImageCoordinbates(raw)
+    zc -> zb : getImageCoordinates(raw)
     zb --> zc : Point2D
     zc -> zb : move(img, direction * speed)
     zb -> zc : viewport
