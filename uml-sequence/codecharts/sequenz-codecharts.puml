@@ -14,7 +14,8 @@ participant CodeChartsInput         as ci
 participant CodeChartsPane          as cp
 end box
 
-collections configClient          as c
+collections configClient            as c
+participant TrialData               as td
 
 activate n
 activate s
@@ -23,38 +24,41 @@ activate g
 == Initialisierung ==
 g -> cc : new CodeCharts(primaryStage, configClient, dataBaseClient)
 activate cc
-cc -> c : getConfig()
-note left : auslesen und verarbieten der Konfiguration
-activate c
-c --> cc : Data
-note left : new TrailData 
-deactivate c
-cc -> co : new CodeChartsCoordinator([...])
+cc -> td : new TrialData
+activate td
+note left: TrialData Objekt zum Abspeichern der Ergebnisse
+cc -> co : new CodeChartsCoordinator()
 activate co
-co -> ci : new CodeChartsInput()
 co -> c : getConfig()
 activate c
-c --> co : Data
+c --> co : Konfiguration
 deactivate c
-co -> cp : new CodeChartsPane([...])
-deactivate co
+co -> ci : new CodeChartsInput()
+activate ci
+note left : auslesen und verarbieten der Konfiguration
+co -> cp : new CodeChartsPane()
+activate cp
 
 == Test ==
+cc -> co : iterate()
 loop
-    cc -> co : iterate()
+    opt
+        cc -> cp : Anpassen von Raster
+    end
     deactivate cc
     activate co
     co -> g : Aufruf Bild, Raster und Eingabe
     co -> ci : getInput(currentStrings, currentIteration, iterations)
-    activate ci
     ci --> co : Data
-    deactivate ci
 end
 
 == Ende == 
 co -> cc : endTest()
 deactivate co
+deactivate cp
+deactivate ci
 activate cc
+td --> cc : Erhobene Daten
 cc -> g : End(primaryStage, configClient, dataBaseClient, trialData)
 deactivate cc
 
