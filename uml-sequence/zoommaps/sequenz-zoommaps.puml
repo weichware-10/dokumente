@@ -20,32 +20,35 @@ activate s
 activate g
 
 == Initialisierung ==
-g -> zm : ZoomMaps(primaryStage, configClient, dataBaseClient)
+g -> zm : new ZoomMaps(primaryStage, configClient, dataBaseClient)
 activate zm
-zm -> c : getTrailData()
+zm -> c : getConfig()
+note left: auslesen und verarbeiten der Konfiguration
 activate c
-c --> zm : trialData : TrailData
+c --> zm : Data
+note left : new TrialData
 deactivate c
 
-zm -> zc : ZoomCalculator(trialData, configClient, controller)
+zm -> zc : new ZoomCalculator(trialData, configClient, controller)
 deactivate zm
 activate zc
-zc -> c : getData()
+zc -> c : getConfig()
 activate c
 c --> zc : imageUrl, question, speed
 deactivate c
-zc -> zb : ZoomImage(imageUrl, ImageView, this)
+zc -> zb : new ZoomImage(imageUrl, ImageView, this)
 deactivate zc
 activate zb
-zb -> zi : ZoomInput(zoomCalculator)
+zb -> zi : new ZoomInput(zoomCalculator)
 deactivate zb
-activate zi
 
 == Test ==
 loop
     n -> s : Scrollen bzw. Klicken
     s -> zi : Event
+    activate zi
     zi -> zc : processInput(Point2D, direction)
+    deactivate zi
     activate zc
     zc -> zb : getImageCoordinbates(raw)
     activate zb
@@ -55,6 +58,7 @@ loop
     activate zb
     zb -> zc : viewport
     deactivate zb
+    note left : TrialData.addDataPoint(viewport)
     deactivate zc
 
 end
