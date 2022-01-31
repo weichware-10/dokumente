@@ -21,20 +21,22 @@ activate s
 activate g
 
 == Initialisierung ==
-g -> cc : CodeCharts(primaryStage, configClient, dataBaseClient)
+g -> cc : new CodeCharts(primaryStage, configClient, dataBaseClient)
 activate cc
-cc -> c : getTrailData()
+cc -> c : getConfig()
+note left : auslesen und verarbieten der Konfiguration
 activate c
-c --> cc : trialData : TrailData
+c --> cc : Data
+note left : new TrailData 
 deactivate c
-cc -> co : CodeChartsCoordinator([...])
+cc -> co : new CodeChartsCoordinator([...])
 activate co
-co -> ci : CodeChartsInput()
-co -> c : getData
+co -> ci : new CodeChartsInput()
+co -> c : getConfig()
 activate c
 c --> co : Data
 deactivate c
-co -> cp : setVariables
+co -> cp : new CodeChartsPane([...])
 deactivate co
 
 == Test ==
