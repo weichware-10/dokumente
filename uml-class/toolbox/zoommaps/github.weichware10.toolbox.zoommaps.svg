@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1066px" preserveAspectRatio="none" style="width:941px;height:1066px;background:#FFFFFF;" version="1.1" viewBox="0 0 941 1066" width="941px" zoomAndPan="magnify"><defs><filter height="300%" id="fqp1m3uqb5l15" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="370" x="279" y="16.708">github.weichware10.toolbox.zoommaps</text><!--MD5=[27c5fd51fd120b37c4c5096b83741b7d]
+cluster github.weichware10.toolbox.zoommaps--><polygon fill="#FFFFFF" filter="url(#fqp1m3uqb5l15)" points="16,149.9531,345,149.9531,352,172.25,924,172.25,924,1059.9531,16,1059.9531,16,149.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="352" y1="172.25" y2="172.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="323" x="20" y="164.9482">github.weichware10.toolbox.zoommaps</text><!--MD5=[96f992b3ed81aebe7ebea21450f0a309]
+cluster javafx.event--><polygon fill="#FFFFFF" filter="url(#fqp1m3uqb5l15)" points="397,26.9531,503,26.9531,510,49.25,543,49.25,543,125.9531,397,125.9531,397,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="397" x2="510" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="401" y="41.9482">javafx.event</text><!--MD5=[dc04f22c312a41271d529d1ee3da4bde]
+class github.weichware10.toolbox.zoommaps.ZoomCalculator--><rect codeLine="6" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="163.2422" id="github.weichware10.toolbox.zoommaps.ZoomCalculator" style="stroke:#A80036;stroke-width:1.5;" width="531" x="204.5" y="356.9531"/><ellipse cx="418.25" cy="372.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M420.5938,368.625 C419.6563,368.1875 419.0625,368.0469 418.1875,368.0469 C415.5625,368.0469 413.5625,370.125 413.5625,372.8438 L413.5625,373.9688 C413.5625,376.5469 415.6719,378.4375 418.5625,378.4375 C419.7813,378.4375 420.9375,378.1406 421.6875,377.5938 C422.2656,377.1875 422.5938,376.7344 422.5938,376.3438 C422.5938,375.8906 422.2031,375.5 421.7344,375.5 C421.5156,375.5 421.3125,375.5781 421.125,375.7656 C420.6719,376.25 420.6719,376.25 420.4844,376.3438 C420.0625,376.6094 419.375,376.7344 418.6094,376.7344 C416.5625,376.7344 415.2656,375.6406 415.2656,373.9375 L415.2656,372.8438 C415.2656,371.0625 416.5156,369.75 418.25,369.75 C418.8281,369.75 419.4375,369.9063 419.9063,370.1563 C420.3906,370.4375 420.5625,370.6563 420.6563,371.0625 C420.7188,371.4688 420.75,371.5938 420.8906,371.7188 C421.0313,371.8594 421.2656,371.9688 421.4844,371.9688 C421.75,371.9688 422.0156,371.8281 422.1875,371.6094 C422.2969,371.4531 422.3281,371.2656 422.3281,370.8438 L422.3281,369.4219 C422.3281,368.9844 422.3125,368.8594 422.2188,368.7031 C422.0625,368.4375 421.7813,368.2969 421.4844,368.2969 C421.1875,368.2969 420.9844,368.3906 420.7656,368.7031 L420.5938,368.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="438.75" y="377.1074">ZoomCalculator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="205.5" x2="734.5" y1="388.9531" y2="388.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="212.5" y="396.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="224.5" y="403.1636">double speed</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="212.5" y="409.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="224.5" y="415.9683">TrialData data</text><polygon fill="none" points="215.5,421.5625,211.5,427.5625,219.5,427.5625" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="224.5" y="428.7729">ConfigClient configClient</text><polygon fill="none" points="215.5,434.3672,211.5,440.3672,219.5,440.3672" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="224.5" y="441.5776">ZoomMapsController controller</text><polygon fill="none" points="215.5,447.1719,211.5,453.1719,219.5,453.1719" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="224.5" y="454.3823">ZoomImage zoomImage</text><polygon fill="none" points="215.5,459.9766,211.5,465.9766,219.5,465.9766" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="224.5" y="467.187">String question</text><polygon fill="none" points="215.5,472.7813,211.5,478.7813,219.5,478.7813" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="224.5" y="479.9917">String imageUrl</text><line style="stroke:#A80036;stroke-width:1.5;" x1="205.5" x2="734.5" y1="486.5859" y2="486.5859"/><ellipse cx="215.5" cy="497.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="505" x="224.5" y="500.7964">ZoomCalculator(TrialData data, ConfigClient configClient, ZoomMapsController controller)</text><ellipse cx="215.5" cy="510.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="249" x="224.5" y="513.6011">void processInput(Point2D raw, int direction)</text><!--MD5=[d15248ea9e74d460f6e6640ac2627d5f]
+class github.weichware10.toolbox.zoommaps.ZoomImage--><rect codeLine="23" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="124.8281" id="github.weichware10.toolbox.zoommaps.ZoomImage" style="stroke:#A80036;stroke-width:1.5;" width="511" x="32.5" y="650.4531"/><ellipse cx="247.25" cy="666.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M249.5938,662.125 C248.6563,661.6875 248.0625,661.5469 247.1875,661.5469 C244.5625,661.5469 242.5625,663.625 242.5625,666.3438 L242.5625,667.4688 C242.5625,670.0469 244.6719,671.9375 247.5625,671.9375 C248.7813,671.9375 249.9375,671.6406 250.6875,671.0938 C251.2656,670.6875 251.5938,670.2344 251.5938,669.8438 C251.5938,669.3906 251.2031,669 250.7344,669 C250.5156,669 250.3125,669.0781 250.125,669.2656 C249.6719,669.75 249.6719,669.75 249.4844,669.8438 C249.0625,670.1094 248.375,670.2344 247.6094,670.2344 C245.5625,670.2344 244.2656,669.1406 244.2656,667.4375 L244.2656,666.3438 C244.2656,664.5625 245.5156,663.25 247.25,663.25 C247.8281,663.25 248.4375,663.4063 248.9063,663.6563 C249.3906,663.9375 249.5625,664.1563 249.6563,664.5625 C249.7188,664.9688 249.75,665.0938 249.8906,665.2188 C250.0313,665.3594 250.2656,665.4688 250.4844,665.4688 C250.75,665.4688 251.0156,665.3281 251.1875,665.1094 C251.2969,664.9531 251.3281,664.7656 251.3281,664.3438 L251.3281,662.9219 C251.3281,662.4844 251.3125,662.3594 251.2188,662.2031 C251.0625,661.9375 250.7813,661.7969 250.4844,661.7969 C250.1875,661.7969 249.9844,661.8906 249.7656,662.2031 L249.5938,662.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="267.75" y="670.6074">ZoomImage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="542.5" y1="682.4531" y2="682.4531"/><ellipse cx="43.5" cy="693.4531" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="52.5" y="696.6636">double[] imageSize</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="703.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="52.5" y="709.4683">ImageView imageView</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="542.5" y1="716.0625" y2="716.0625"/><ellipse cx="43.5" cy="727.0625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="485" x="52.5" y="730.2729">ZoomImage(String location, ImageView imageView, ZoomCalculator zoomCalculator)</text><ellipse cx="43.5" cy="739.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="357" x="52.5" y="743.0776">Point2D getImageCoordinates(Point2D imageViewCoordinates)</text><polygon fill="#FFFF44" points="43.5,747.6719,47.5,751.6719,43.5,755.6719,39.5,751.6719" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="295" x="52.5" y="755.8823">Rectangle2D move(Point2D position, double speed)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="762.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="306" x="52.5" y="768.687">double clamp(double value, double min, double max)</text><!--MD5=[16a53f222c85de587b9fa16f1fb6a686]
+class github.weichware10.toolbox.zoommaps.ZoomInput--><rect codeLine="37" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="112.0234" id="github.weichware10.toolbox.zoommaps.ZoomInput" style="stroke:#A80036;stroke-width:1.5;" width="276" x="332" y="184.9531"/><ellipse cx="433.25" cy="200.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M435.5938,196.625 C434.6563,196.1875 434.0625,196.0469 433.1875,196.0469 C430.5625,196.0469 428.5625,198.125 428.5625,200.8438 L428.5625,201.9688 C428.5625,204.5469 430.6719,206.4375 433.5625,206.4375 C434.7813,206.4375 435.9375,206.1406 436.6875,205.5938 C437.2656,205.1875 437.5938,204.7344 437.5938,204.3438 C437.5938,203.8906 437.2031,203.5 436.7344,203.5 C436.5156,203.5 436.3125,203.5781 436.125,203.7656 C435.6719,204.25 435.6719,204.25 435.4844,204.3438 C435.0625,204.6094 434.375,204.7344 433.6094,204.7344 C431.5625,204.7344 430.2656,203.6406 430.2656,201.9375 L430.2656,200.8438 C430.2656,199.0625 431.5156,197.75 433.25,197.75 C433.8281,197.75 434.4375,197.9063 434.9063,198.1563 C435.3906,198.4375 435.5625,198.6563 435.6563,199.0625 C435.7188,199.4688 435.75,199.5938 435.8906,199.7188 C436.0313,199.8594 436.2656,199.9688 436.4844,199.9688 C436.75,199.9688 437.0156,199.8281 437.1875,199.6094 C437.2969,199.4531 437.3281,199.2656 437.3281,198.8438 L437.3281,197.4219 C437.3281,196.9844 437.3125,196.8594 437.2188,196.7031 C437.0625,196.4375 436.7813,196.2969 436.4844,196.2969 C436.1875,196.2969 435.9844,196.3906 435.7656,196.7031 L435.5938,196.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="453.75" y="205.1074">ZoomInput</text><line style="stroke:#A80036;stroke-width:1.5;" x1="333" x2="607" y1="216.9531" y2="216.9531"/><polygon fill="none" points="343,223.9531,339,229.9531,347,229.9531" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="352" y="231.1636">ZoomCalculator zoomCalculator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="333" x2="607" y1="237.7578" y2="237.7578"/><ellipse cx="343" cy="248.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="250" x="352" y="251.9683">ZoomInput(ZoomCalculator zoomCalculator)</text><ellipse cx="343" cy="261.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="352" y="264.7729">void handle(InputEvent event)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="340" y="271.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="247" x="352" y="277.5776">void handleClick(MouseEvent mouseEvent)</text><ellipse cx="343" cy="287.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="352" y="290.3823">void handleScroll(ScrollEvent scrollEvent)</text><!--MD5=[0b09c3366dfa4c646a574ea68bfde894]
+class github.weichware10.toolbox.zoommaps.ZoomMaps--><rect codeLine="50" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="137.6328" id="github.weichware10.toolbox.zoommaps.ZoomMaps" style="stroke:#A80036;stroke-width:1.5;" width="545" x="362.5" y="905.9531"/><ellipse cx="596.75" cy="921.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M599.0938,917.625 C598.1563,917.1875 597.5625,917.0469 596.6875,917.0469 C594.0625,917.0469 592.0625,919.125 592.0625,921.8438 L592.0625,922.9688 C592.0625,925.5469 594.1719,927.4375 597.0625,927.4375 C598.2813,927.4375 599.4375,927.1406 600.1875,926.5938 C600.7656,926.1875 601.0938,925.7344 601.0938,925.3438 C601.0938,924.8906 600.7031,924.5 600.2344,924.5 C600.0156,924.5 599.8125,924.5781 599.625,924.7656 C599.1719,925.25 599.1719,925.25 598.9844,925.3438 C598.5625,925.6094 597.875,925.7344 597.1094,925.7344 C595.0625,925.7344 593.7656,924.6406 593.7656,922.9375 L593.7656,921.8438 C593.7656,920.0625 595.0156,918.75 596.75,918.75 C597.3281,918.75 597.9375,918.9063 598.4063,919.1563 C598.8906,919.4375 599.0625,919.6563 599.1563,920.0625 C599.2188,920.4688 599.25,920.5938 599.3906,920.7188 C599.5313,920.8594 599.7656,920.9688 599.9844,920.9688 C600.25,920.9688 600.5156,920.8281 600.6875,920.6094 C600.7969,920.4531 600.8281,920.2656 600.8281,919.8438 L600.8281,918.4219 C600.8281,917.9844 600.8125,917.8594 600.7188,917.7031 C600.5625,917.4375 600.2813,917.2969 599.9844,917.2969 C599.6875,917.2969 599.4844,917.3906 599.2656,917.7031 L599.0938,917.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="617.25" y="926.1074">ZoomMaps</text><line style="stroke:#A80036;stroke-width:1.5;" x1="363.5" x2="906.5" y1="937.9531" y2="937.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="370.5" y="945.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="382.5" y="952.1636">Stage primaryStage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="370.5" y="958.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="382.5" y="964.9683">DataBaseClient dataBaseClient</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="370.5" y="971.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="382.5" y="977.7729">TrialData trialData</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="370.5" y="984.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="382.5" y="990.5776">ConfigClient configClient</text><polygon fill="none" points="373.5,996.1719,369.5,1002.1719,377.5,1002.1719" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="382.5" y="1003.3823">ZoomMapsController controller</text><line style="stroke:#A80036;stroke-width:1.5;" x1="363.5" x2="906.5" y1="1009.9766" y2="1009.9766"/><ellipse cx="373.5" cy="1020.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="519" x="382.5" y="1024.187">ZoomMaps(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)</text><ellipse cx="373.5" cy="1033.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="382.5" y="1036.9917">void endTest(String answer)</text><!--MD5=[c0a30215f830456bdd1728d86ddc7104]
+class github.weichware10.toolbox.zoommaps.ZoomMapsController--><rect codeLine="65" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="265.6797" id="github.weichware10.toolbox.zoommaps.ZoomMapsController" style="stroke:#A80036;stroke-width:1.5;" width="329" x="578.5" y="579.9531"/><ellipse cx="675.25" cy="595.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M677.5938,591.625 C676.6563,591.1875 676.0625,591.0469 675.1875,591.0469 C672.5625,591.0469 670.5625,593.125 670.5625,595.8438 L670.5625,596.9688 C670.5625,599.5469 672.6719,601.4375 675.5625,601.4375 C676.7813,601.4375 677.9375,601.1406 678.6875,600.5938 C679.2656,600.1875 679.5938,599.7344 679.5938,599.3438 C679.5938,598.8906 679.2031,598.5 678.7344,598.5 C678.5156,598.5 678.3125,598.5781 678.125,598.7656 C677.6719,599.25 677.6719,599.25 677.4844,599.3438 C677.0625,599.6094 676.375,599.7344 675.6094,599.7344 C673.5625,599.7344 672.2656,598.6406 672.2656,596.9375 L672.2656,595.8438 C672.2656,594.0625 673.5156,592.75 675.25,592.75 C675.8281,592.75 676.4375,592.9063 676.9063,593.1563 C677.3906,593.4375 677.5625,593.6563 677.6563,594.0625 C677.7188,594.4688 677.75,594.5938 677.8906,594.7188 C678.0313,594.8594 678.2656,594.9688 678.4844,594.9688 C678.75,594.9688 679.0156,594.8281 679.1875,594.6094 C679.2969,594.4531 679.3281,594.2656 679.3281,593.8438 L679.3281,592.4219 C679.3281,591.9844 679.3125,591.8594 679.2188,591.7031 C679.0625,591.4375 678.7813,591.2969 678.4844,591.2969 C678.1875,591.2969 677.9844,591.3906 677.7656,591.7031 L677.5938,591.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="127" x="695.75" y="600.1074">ZoomMapsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="579.5" x2="906.5" y1="611.9531" y2="611.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="619.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="598.5" y="626.1636">ResourceBundle resources</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="632.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="598.5" y="638.9683">URL location</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="645.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="598.5" y="651.7729">TextField answerField</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="658.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="598.5" y="664.5776">ImageView imageView</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="671.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="598.5" y="677.3823">Label questionLabel</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="683.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="598.5" y="690.187">Button submitButton</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="696.7813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="598.5" y="702.9917">Text warnText</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="586.5" y="709.5859"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="598.5" y="715.7964">ZoomMaps zoomMaps</text><line style="stroke:#A80036;stroke-width:1.5;" x1="579.5" x2="906.5" y1="722.3906" y2="722.3906"/><ellipse cx="589.5" cy="733.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="598.5" y="736.6011">ImageView getImageView()</text><ellipse cx="589.5" cy="746.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="303" x="598.5" y="749.4058">void setImageViewSize(double width, double height)</text><ellipse cx="589.5" cy="759" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="598.5" y="762.2104">void setImage(Image image)</text><ellipse cx="589.5" cy="771.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="191" x="598.5" y="775.0151">void setQuestion(String question)</text><ellipse cx="589.5" cy="784.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="598.5" y="787.8198">void setZoomMaps(ZoomMaps zoomMaps)</text><ellipse cx="589.5" cy="797.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="598.5" y="800.6245">void setWarn(String warn)</text><polygon fill="#4177AF" points="589.5,806.2188,585.5,812.2188,593.5,812.2188" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="222" x="598.5" y="813.4292">void endTestOnEnter(KeyEvent event)</text><polygon fill="#4177AF" points="589.5,819.0234,585.5,825.0234,593.5,825.0234" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="598.5" y="826.2339">void endTest()</text><polygon fill="#4177AF" points="589.5,831.8281,585.5,837.8281,593.5,837.8281" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="598.5" y="839.0386">void initialize()</text><!--MD5=[f945d8e8897be8354a283c66b6f89094]
+class javafx.event.EventHandler--><rect codeLine="100" fill="#FEFECE" filter="url(#fqp1m3uqb5l15)" height="48" id="javafx.event.EventHandler" style="stroke:#A80036;stroke-width:1.5;" width="114" x="413" y="61.9531"/><ellipse cx="428" cy="77.9531" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M428.9531,74.7344 L430.6719,74.7344 C431.0625,74.7344 431.25,74.7031 431.375,74.625 C431.6406,74.4688 431.7813,74.1875 431.7813,73.8906 C431.7813,73.625 431.6719,73.3594 431.4375,73.1875 C431.2656,73.0781 431.125,73.0469 430.6719,73.0469 L425.5313,73.0469 C425.0938,73.0469 424.9688,73.0625 424.8125,73.1563 C424.5625,73.3125 424.4063,73.6094 424.4063,73.8906 C424.4063,74.1719 424.5469,74.4219 424.7656,74.5938 C424.9219,74.7031 425.1094,74.7344 425.5313,74.7344 L427.25,74.7344 L427.25,81.25 L425.5313,81.25 C425.0938,81.25 424.9688,81.2656 424.8125,81.375 C424.5625,81.5313 424.4063,81.8125 424.4063,82.1094 C424.4063,82.3594 424.5469,82.625 424.7656,82.7813 C424.9219,82.9063 425.125,82.9531 425.5313,82.9531 L430.6719,82.9531 C431.4219,82.9531 431.7813,82.6719 431.7813,82.1094 C431.7813,81.8281 431.6719,81.5781 431.4375,81.4063 C431.2656,81.2813 431.125,81.25 430.6719,81.25 L428.9531,81.25 L428.9531,74.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="442" y="82.1074">EventHandler</text><line style="stroke:#A80036;stroke-width:1.5;" x1="414" x2="526" y1="93.9531" y2="93.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="414" x2="526" y1="101.9531" y2="101.9531"/><!--MD5=[b8d87d459acf0c55a92812093df0ec4e]
+reverse link github.weichware10.toolbox.zoommaps.ZoomCalculator to github.weichware10.toolbox.zoommaps.ZoomMapsController--><path codeLine="93" d="M560.218,529.5051 C576.418,545.6761 593.605,562.8321 610.705,579.9001 " fill="none" id="github.weichware10.toolbox.zoommaps.ZoomCalculator-backto-github.weichware10.toolbox.zoommaps.ZoomMapsController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="550.801,520.1061,552.2213,527.176,559.2935,528.5842,557.8733,521.5143,550.801,520.1061" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b466b9f098f53959bfce3509218089cd]
+reverse link github.weichware10.toolbox.zoommaps.ZoomCalculator to github.weichware10.toolbox.zoommaps.ZoomImage--><path codeLine="94" d="M408.856,531.0001 C382.68,570.1931 352.797,614.9351 329.296,650.1231 " fill="none" id="github.weichware10.toolbox.zoommaps.ZoomCalculator-backto-github.weichware10.toolbox.zoommaps.ZoomImage" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="416.133,520.1061,409.474,522.8733,409.4672,530.0844,416.1262,527.3172,416.133,520.1061" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[76516d188eebeea5e8a5e498d1b7b868]
+reverse link github.weichware10.toolbox.zoommaps.ZoomInput to github.weichware10.toolbox.zoommaps.ZoomCalculator--><path codeLine="95" d="M470,310.5831 C470,325.5201 470,341.4551 470,356.8091 " fill="none" id="github.weichware10.toolbox.zoommaps.ZoomInput-backto-github.weichware10.toolbox.zoommaps.ZoomCalculator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="470,297.1921,466,303.1921,470,309.1921,474,303.1921,470,297.1921" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[96f348173f101ffcfccd3842913d1ba4]
+reverse link github.weichware10.toolbox.zoommaps.ZoomMaps to github.weichware10.toolbox.zoommaps.ZoomMapsController--><path codeLine="96" d="M680.878,893.7841 C687.749,878.6581 694.779,862.4721 701.549,846.2381 " fill="none" id="github.weichware10.toolbox.zoommaps.ZoomMaps-backto-github.weichware10.toolbox.zoommaps.ZoomMapsController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="675.41,905.6681,681.5518,901.8895,680.4262,894.7668,674.2843,898.5454,675.41,905.6681" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e93a57baddadf5a7a62bc295fdecb215]
+reverse link github.weichware10.toolbox.zoommaps.ZoomMapsController to github.weichware10.toolbox.zoommaps.ZoomMaps--><path codeLine="97" d="M670.372,858.2691 C663.691,874.7371 657.414,890.8941 651.989,905.6681 " fill="none" id="github.weichware10.toolbox.zoommaps.ZoomMapsController-backto-github.weichware10.toolbox.zoommaps.ZoomMaps" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="675.303,846.2381,669.3264,850.273,670.7521,857.3417,676.7288,853.3069,675.303,846.2381" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[39b033f6cbcc5bff71b0f45c76af717d]
+reverse link javafx.event.EventHandler to github.weichware10.toolbox.zoommaps.ZoomInput--><path codeLine="101" d="M470,130.4731 C470,147.3381 470,166.8461 470,184.6831 " fill="none" id="javafx.event.EventHandler-backto-github.weichware10.toolbox.zoommaps.ZoomInput" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="463,130.1901,470,110.1901,477,130.1901,463,130.1901" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1262ac1fa9d101469cc24ea0c8cfea10]
+@startuml
+title github.weichware10.toolbox.zoommaps
+
+package github.weichware10.toolbox.zoommaps {
+
+    ' -=- classes (github.weichware10.toolbox.zoommaps) -=-
+    class github.weichware10.toolbox.zoommaps.ZoomCalculator {
+        ' - - - values (github.weichware10.toolbox.zoommaps.ZoomCalculator) - - -
+
+        ' - - - fields (github.weichware10.toolbox.zoommaps.ZoomCalculator) - - -
+        - double speed
+        - TrialData data
+        ~ ConfigClient configClient
+        ~ ZoomMapsController controller
+        ~ ZoomImage zoomImage
+        ~ String question
+        ~ String imageUrl
+
+        ' - - - methods (github.weichware10.toolbox.zoommaps.ZoomCalculator) - - -
+        +  ZoomCalculator(TrialData data, ConfigClient configClient, ZoomMapsController controller)
+        + void processInput(Point2D raw, int direction)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomImage {
+        ' - - - values (github.weichware10.toolbox.zoommaps.ZoomImage) - - -
+
+        ' - - - fields (github.weichware10.toolbox.zoommaps.ZoomImage) - - -
+        + double[] imageSize
+        - ImageView imageView
+
+        ' - - - methods (github.weichware10.toolbox.zoommaps.ZoomImage) - - -
+        +  ZoomImage(String location, ImageView imageView, ZoomCalculator zoomCalculator)
+        + Point2D getImageCoordinates(Point2D imageViewCoordinates)
+        # Rectangle2D move(Point2D position, double speed)
+        - double clamp(double value, double min, double max)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomInput {
+        ' - - - values (github.weichware10.toolbox.zoommaps.ZoomInput) - - -
+
+        ' - - - fields (github.weichware10.toolbox.zoommaps.ZoomInput) - - -
+        ~ ZoomCalculator zoomCalculator
+
+        ' - - - methods (github.weichware10.toolbox.zoommaps.ZoomInput) - - -
+        +  ZoomInput(ZoomCalculator zoomCalculator)
+        + void handle(InputEvent event)
+        - void handleClick(MouseEvent mouseEvent)
+        + void handleScroll(ScrollEvent scrollEvent)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomMaps {
+        ' - - - values (github.weichware10.toolbox.zoommaps.ZoomMaps) - - -
+
+        ' - - - fields (github.weichware10.toolbox.zoommaps.ZoomMaps) - - -
+        - Stage primaryStage
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+        - ConfigClient configClient
+        ~ ZoomMapsController controller
+
+        ' - - - methods (github.weichware10.toolbox.zoommaps.ZoomMaps) - - -
+        +  ZoomMaps(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        + void endTest(String answer)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomMapsController {
+        ' - - - values (github.weichware10.toolbox.zoommaps.ZoomMapsController) - - -
+
+        ' - - - fields (github.weichware10.toolbox.zoommaps.ZoomMapsController) - - -
+        - ResourceBundle resources
+        - URL location
+        - TextField answerField
+        - ImageView imageView
+        - Label questionLabel
+        - Button submitButton
+        - Text warnText
+        - ZoomMaps zoomMaps
+
+        ' - - - methods (github.weichware10.toolbox.zoommaps.ZoomMapsController) - - -
+        + ImageView getImageView()
+        + void setImageViewSize(double width, double height)
+        + void setImage(Image image)
+        + void setQuestion(String question)
+        + void setZoomMaps(ZoomMaps zoomMaps)
+        + void setWarn(String warn)
+        ~ void endTestOnEnter(KeyEvent event)
+        ~ void endTest()
+        ~ void initialize()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.toolbox.zoommaps.ZoomCalculator o- - github.weichware10.toolbox.zoommaps.ZoomMapsController
+github.weichware10.toolbox.zoommaps.ZoomCalculator o- - github.weichware10.toolbox.zoommaps.ZoomImage
+github.weichware10.toolbox.zoommaps.ZoomInput o- - github.weichware10.toolbox.zoommaps.ZoomCalculator
+github.weichware10.toolbox.zoommaps.ZoomMaps o- - github.weichware10.toolbox.zoommaps.ZoomMapsController
+github.weichware10.toolbox.zoommaps.ZoomMapsController o- - github.weichware10.toolbox.zoommaps.ZoomMaps
+
+' autogenerated inheritances, may be faulty.
+interface javafx.event.EventHandler
+javafx.event.EventHandler <|.. github.weichware10.toolbox.zoommaps.ZoomInput
+@enduml
+
+@startuml
+title github.weichware10.toolbox.zoommaps
+
+package github.weichware10.toolbox.zoommaps {
+
+    class github.weichware10.toolbox.zoommaps.ZoomCalculator {
+
+        - double speed
+        - TrialData data
+        ~ ConfigClient configClient
+        ~ ZoomMapsController controller
+        ~ ZoomImage zoomImage
+        ~ String question
+        ~ String imageUrl
+
+        +  ZoomCalculator(TrialData data, ConfigClient configClient, ZoomMapsController controller)
+        + void processInput(Point2D raw, int direction)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomImage {
+
+        + double[] imageSize
+        - ImageView imageView
+
+        +  ZoomImage(String location, ImageView imageView, ZoomCalculator zoomCalculator)
+        + Point2D getImageCoordinates(Point2D imageViewCoordinates)
+        # Rectangle2D move(Point2D position, double speed)
+        - double clamp(double value, double min, double max)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomInput {
+
+        ~ ZoomCalculator zoomCalculator
+
+        +  ZoomInput(ZoomCalculator zoomCalculator)
+        + void handle(InputEvent event)
+        - void handleClick(MouseEvent mouseEvent)
+        + void handleScroll(ScrollEvent scrollEvent)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomMaps {
+
+        - Stage primaryStage
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+        - ConfigClient configClient
+        ~ ZoomMapsController controller
+
+        +  ZoomMaps(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        + void endTest(String answer)
+    }
+
+    class github.weichware10.toolbox.zoommaps.ZoomMapsController {
+
+        - ResourceBundle resources
+        - URL location
+        - TextField answerField
+        - ImageView imageView
+        - Label questionLabel
+        - Button submitButton
+        - Text warnText
+        - ZoomMaps zoomMaps
+
+        + ImageView getImageView()
+        + void setImageViewSize(double width, double height)
+        + void setImage(Image image)
+        + void setQuestion(String question)
+        + void setZoomMaps(ZoomMaps zoomMaps)
+        + void setWarn(String warn)
+        ~ void endTestOnEnter(KeyEvent event)
+        ~ void endTest()
+        ~ void initialize()
+    }
+
+}
+
+github.weichware10.toolbox.zoommaps.ZoomCalculator o- - github.weichware10.toolbox.zoommaps.ZoomMapsController
+github.weichware10.toolbox.zoommaps.ZoomCalculator o- - github.weichware10.toolbox.zoommaps.ZoomImage
+github.weichware10.toolbox.zoommaps.ZoomInput o- - github.weichware10.toolbox.zoommaps.ZoomCalculator
+github.weichware10.toolbox.zoommaps.ZoomMaps o- - github.weichware10.toolbox.zoommaps.ZoomMapsController
+github.weichware10.toolbox.zoommaps.ZoomMapsController o- - github.weichware10.toolbox.zoommaps.ZoomMaps
+
+interface javafx.event.EventHandler
+javafx.event.EventHandler <|.. github.weichware10.toolbox.zoommaps.ZoomInput
+@enduml
+
+PlantUML version 1.2022.1beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
