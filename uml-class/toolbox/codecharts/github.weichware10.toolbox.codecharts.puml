@@ -1,0 +1,148 @@
+@startuml github.weichware10.toolbox.codecharts
+title github.weichware10.toolbox.codecharts
+
+package github.weichware10.toolbox.codecharts {
+
+    ' -=- classes (github.weichware10.toolbox.codecharts) -=-
+    class github.weichware10.toolbox.codecharts.CodeCharts {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeCharts) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeCharts) ---
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeCharts) ---
+        +  CodeCharts(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        + void endTest()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsController {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+        - ResourceBundle resources
+        - URL location
+        - ImageView imageView
+        - StackPane stackPane
+        - CodeCharts codeCharts
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+        + void setCodeCharts(CodeCharts codeCharts)
+        ~ void endTest()
+        ~ void initialize()
+        + ImageView getImageView()
+        + StackPane getStackPane()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsCoordinator {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+        - TrialData trialData
+        - ImageView imageView
+        - Rectangle2D imageViewPort
+        - CodeChartsPane rootPane
+        - CodeChartsInput codeChartsInput
+        - CodeCharts codeCharts
+        - List<String> usableStrings
+        - List<String> currentStrings
+        - long[] timings
+        - boolean relativeSize
+        - int maxDepth
+        - int iterations
+        - int currentIteration
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+        +  CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts)
+        + void iterate()
+        - int calculateMinStringAmount(int horizontal, int vertical, int defaultHorizontal, int defaultVertical, int iterations)
+        - Rectangle2D toImageViewport(Rectangle2D viewport)
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInput {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+        - CodeChartsInputController controller
+        - BorderPane root
+        {static}- int LOWEST_ALLOWED_DISTANCE
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+        +  CodeChartsInput()
+        + String getInput(List<String> currentStrings, int currentIteration, int iterations)
+    }
+    class github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+        - String base
+        - Levenshtein levenshtein
+        - int lowestDistance
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+        +  LevenshteinComparator(String base)
+        + int getLowestDistance()
+        + int compare(String str1, String str2)
+    }
+    github.weichware10.toolbox.codecharts.CodeChartsInput +-- github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInputController {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+        - ResourceBundle resources
+        - URL location
+        # TextField inputField
+        # Text suggestionText
+        # Text bottomText
+        # ProgressBar progressBar
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsPane {
+        ' --- values (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+
+        ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+        - List<CodeChartsPane> childPanes
+        + Rectangle2D viewport
+        + int depth
+        - String content
+        {static}+ Integer defaultHorizontal
+        {static}+ Integer defaultVertical
+        {static}+ boolean showGrid
+        {static}+ boolean DEBUG
+
+        ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+        +  CodeChartsPane(CodeChartsPane parent, int hoId, int veId, double width, double height)
+        + void subdivide()
+        + void subdivide(int horizontal, int vertical)
+        + void philLeaves(List<String> usableStrings, List<String> currentStrings)
+        + void setContent(String content)
+        + CodeChartsPane getLeaf(String searchContent)
+        + void enableDebugStyle()
+        + void disableDebugStyle()
+        + void setDebugSplitting(boolean value)
+        + String toString()
+        - boolean isChild()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.toolbox.codecharts.CodeChartsController o-- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-- github.weichware10.toolbox.codecharts.CodeChartsPane
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-- github.weichware10.toolbox.codecharts.CodeChartsInput
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsInput o-- github.weichware10.toolbox.codecharts.CodeChartsInputController
+
+' autogenerated inheritances, may be faulty.
+interface java.util.Comparator
+java.util.Comparator <|.. github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+class javafx.scene.layout.AnchorPane
+javafx.scene.layout.AnchorPane <|-- github.weichware10.toolbox.codecharts.CodeChartsPane
+
+@enduml

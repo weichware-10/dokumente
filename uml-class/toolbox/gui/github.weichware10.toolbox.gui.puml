@@ -1,0 +1,331 @@
+@startuml github.weichware10.toolbox.gui
+title github.weichware10.toolbox.gui
+
+package github.weichware10.toolbox.gui {
+
+    ' -=- classes (github.weichware10.toolbox.gui) -=-
+    class github.weichware10.toolbox.gui.App {
+        ' --- values (github.weichware10.toolbox.gui.App) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.App) ---
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+        - AppController controller
+
+        ' --- methods (github.weichware10.toolbox.gui.App) ---
+        +  App(Stage primaryStage, DataBaseClient dataBaseClient)
+        # void loadJsonConfig()
+        # void startTrial(String trialId)
+        # void createZoomMapsTestTrial(TextField trialIdInput)
+        # void createCodeChartsTestTrial(TextField trialIdInput)
+        # void createTestTrial(Configuration configuration, TextField trialIdInput)
+        # void changeDb()
+        # void openDocs()
+        # void resetDataBaseConnection()
+        - void setPermissionAccess()
+    }
+
+    class github.weichware10.toolbox.gui.AppController {
+        ' --- values (github.weichware10.toolbox.gui.AppController) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.AppController) ---
+        - App app
+        - Menu adminMenu
+        - Button startButton
+        - TextField trialIdField
+        - Text warnText
+        - MenuItem logsMenu
+
+        ' --- methods (github.weichware10.toolbox.gui.AppController) ---
+        # void setApp(App app)
+        # void setAdminMenuVisibile(boolean value)
+        # void setWarnText(String value)
+        # void setTrialInputDisable(boolean value)
+        ~ void openDocumentation()
+        ~ void loadJsonConfig()
+        ~ void trialIdEnter(KeyEvent event)
+        ~ void startTrial()
+        ~ void changeDb()
+        ~ void resetDb()
+        ~ void createZoomMapsTestTrial()
+        ~ void createCodeChartsTestTrial()
+        ~ void toggleLogs()
+        ~ void setLogText(ObservableBooleanValue visible)
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.gui.CodeChartsListe {
+        ' --- values (github.weichware10.toolbox.gui.CodeChartsListe) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.CodeChartsListe) ---
+        {static}+ List<String> obst
+
+    }
+
+    class github.weichware10.toolbox.gui.End {
+        ' --- values (github.weichware10.toolbox.gui.End) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.End) ---
+        - Stage primaryStage
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+        ~ EndController controller
+
+        ' --- methods (github.weichware10.toolbox.gui.End) ---
+        +  End(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData)
+        # void saveTestToJson()
+        # void saveTestToDataBase()
+        # void closeProgramm()
+        # void newTest()
+        - void setPermissionAccess()
+    }
+
+    class github.weichware10.toolbox.gui.EndController {
+        ' --- values (github.weichware10.toolbox.gui.EndController) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.EndController) ---
+        - ResourceBundle resources
+        - URL location
+        - HBox statusBox
+        - Text statusTextLeft
+        - Text statusTextRight
+        - Hyperlink fileLink
+        - ButtonBar buttonBar
+        - Menu adminMenu
+        - Label outroLabel
+        - End end
+        - String filename
+        - ProgressIndicator pi
+        - Stage primaryStage
+
+        ' --- methods (github.weichware10.toolbox.gui.EndController) ---
+        + void setEnd(End end, Stage primaryStage)
+        # void setAdminMenuVisibile(boolean value)
+        + void setOutro(String outro)
+        + void setStatus(String statusLeft, String filename, String statusRight)
+        ~ /** * stellt den Status-Indikator an / aus. * * active - ob der Indikator aktiv sein soll oder nicht */ public void setStatusIndicator(boolean active)
+        ~ void closeProgram()
+        ~ void newTest()
+        ~ void saveToJson()
+        ~ void saveToDataBase()
+        ~ void openFile()
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.gui.PreTest {
+        ' --- values (github.weichware10.toolbox.gui.PreTest) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.PreTest) ---
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+
+        ' --- methods (github.weichware10.toolbox.gui.PreTest) ---
+        +  PreTest(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        # void startTest()
+    }
+
+    class github.weichware10.toolbox.gui.PreTestController {
+        ' --- values (github.weichware10.toolbox.gui.PreTestController) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.PreTestController) ---
+        - ResourceBundle resources
+        - URL location
+        - Label promptLabel
+        - PreTest preTest
+
+        ' --- methods (github.weichware10.toolbox.gui.PreTestController) ---
+        + void setPreTest(PreTest preTest)
+        ~ void startTest(ActionEvent event)
+        ~ void setPrompt(String prompt)
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.gui.Tutorial {
+        ' --- values (github.weichware10.toolbox.gui.Tutorial) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.Tutorial) ---
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+        - TutorialController controller
+        {static}- ArrayList<Image> imageList
+        - String toolType
+
+        ' --- methods (github.weichware10.toolbox.gui.Tutorial) ---
+        +  Tutorial(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        {static}+ void setImage(int tutorialCount, Button nextButton, Button backButton, ImageView imageView, Text progressText)
+        + void startTest()
+    }
+
+    class github.weichware10.toolbox.gui.TutorialController {
+        ' --- values (github.weichware10.toolbox.gui.TutorialController) ---
+
+        ' --- fields (github.weichware10.toolbox.gui.TutorialController) ---
+        - Tutorial tutorial
+        - int tutorialCount
+        - ResourceBundle resources
+        - URL location
+        - ImageView imageViewId
+        - Button nextButtonId
+        - Button backButtonId
+        - Text progressTextId
+        - Button finishButtonId
+
+        ' --- methods (github.weichware10.toolbox.gui.TutorialController) ---
+        + void setTutorial(Tutorial tutorial)
+        + ImageView getImageView()
+        + Text getProgressText()
+        ~ void setNextImage()
+        ~ void setPreviousImage()
+        ~ void endTutorial()
+        ~ void initialize()
+    }
+
+    ' === packages (github.weichware10.toolbox.gui) ===
+    package github.weichware10.toolbox.gui.dialogs {
+
+        ' -=- classes (github.weichware10.toolbox.gui.dialogs) -=-
+        class github.weichware10.toolbox.gui.dialogs.ConfirmDialog {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+            - String prompt
+            - String icon
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+            +  ConfirmDialog(String prompt, String icon)
+            + boolean getConfirmation()
+        }
+
+        class github.weichware10.toolbox.gui.dialogs.ConfirmDialogController {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+            - ResourceBundle resources
+            - URL location
+            - Label promptLabel
+            - DialogPane dialogPane
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+            # void setPrompt(String prompt)
+            # void setImage(Image image)
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.gui.dialogs.DataBaseDialog {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+            + DataBaseClient getDataBaseClient()
+        }
+
+        class github.weichware10.toolbox.gui.dialogs.DataBaseDialogController {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+            - ResourceBundle resources
+            - URL location
+            - Text errorText
+            - PasswordField passwordField
+            - TextField schemaTextField
+            - TextField urlTextField
+            - TextField usernameTextField
+            - Text warningText
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+            # String getPassword()
+            # String getSchema()
+            # String getUrl()
+            # String getUsername()
+            # void setError(String error)
+            # void setWarning(String warning)
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.gui.dialogs.ErrorDialog {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.ErrorDialog) ---
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.ErrorDialog) ---
+            + void showErrorDialog(Exception error)
+        }
+
+        class github.weichware10.toolbox.gui.dialogs.ErrorDialogController {
+            ' --- values (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+            - ResourceBundle resources
+            - URL location
+            - TextArea errorMessage
+
+            ' --- methods (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+            # void setErrorMessage(String error)
+            ~ void initialize()
+        }
+
+    }
+
+    package github.weichware10.toolbox.gui.util {
+
+        ' -=- classes (github.weichware10.toolbox.gui.util) -=-
+        class github.weichware10.toolbox.gui.util.Log {
+            ' --- values (github.weichware10.toolbox.gui.util.Log) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.util.Log) ---
+            {static}- Stage logStage
+            {static}- SimpleBooleanProperty visibleProperty
+            {static}+ ObservableBooleanValue visible
+
+            ' --- methods (github.weichware10.toolbox.gui.util.Log) ---
+            {static}+ void start()
+            {static}+ boolean isVisible()
+            {static}+ void show()
+            {static}+ void hide()
+            {static}+ void close()
+            {static}+ void log(String content, String type)
+        }
+
+        class github.weichware10.toolbox.gui.util.LogController {
+            ' --- values (github.weichware10.toolbox.gui.util.LogController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.util.LogController) ---
+            - ResourceBundle resources
+            - URL location
+            - TextField logInput
+            - TextArea logArea
+            - Pane logPane
+            - MenuButton logMenuButton
+
+            ' --- methods (github.weichware10.toolbox.gui.util.LogController) ---
+            ~ void initialize()
+            ~ void setLogType(ActionEvent event)
+            ~ void inputKeyPress(KeyEvent event)
+            ~ void log()
+        }
+
+        class github.weichware10.toolbox.gui.util.WindowCloser {
+            ' --- values (github.weichware10.toolbox.gui.util.WindowCloser) ---
+
+            ' --- methods (github.weichware10.toolbox.gui.util.WindowCloser) ---
+            {static}+ void closeRequestFilter(WindowEvent event)
+        }
+
+    }
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.toolbox.gui.App o-- github.weichware10.toolbox.gui.AppController
+github.weichware10.toolbox.gui.AppController o-- github.weichware10.toolbox.gui.App
+github.weichware10.toolbox.gui.End o-- github.weichware10.toolbox.gui.EndController
+github.weichware10.toolbox.gui.EndController o-- github.weichware10.toolbox.gui.End
+github.weichware10.toolbox.gui.PreTestController o-- github.weichware10.toolbox.gui.PreTest
+github.weichware10.toolbox.gui.Tutorial o-- github.weichware10.toolbox.gui.TutorialController
+github.weichware10.toolbox.gui.TutorialController o-- github.weichware10.toolbox.gui.Tutorial
+
+' autogenerated inheritances, may be faulty.
+
+@enduml
