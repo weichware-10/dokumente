@@ -14,7 +14,7 @@ participant CodeChartsInput         as ci
 participant CodeChartsPane          as cp
 end box
 
-collections configClient            as c
+participant configClient            as c
 participant TrialData               as td
 
 activate n
