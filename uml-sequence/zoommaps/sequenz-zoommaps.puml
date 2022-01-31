@@ -13,7 +13,8 @@ participant ZoomImage       as zb
 participant ZoomInput       as zi
 end box
 
-collections configClient          as c
+participant configClient    as c
+participant TrialData       as td
 
 activate n
 activate s
@@ -22,50 +23,44 @@ activate g
 == Initialisierung ==
 g -> zm : new ZoomMaps(primaryStage, configClient, dataBaseClient)
 activate zm
-zm -> c : getConfig()
-note left: auslesen und verarbeiten der Konfiguration
-activate c
-c --> zm : Data
+
+zm -> td : new TrialData
+activate td
+td --> zm : TrialData Objekt zum Abspeichern der Daten
 note left : new TrialData
 deactivate c
 
 zm -> zc : new ZoomCalculator(trialData, configClient, controller)
-deactivate zm
 activate zc
 zc -> c : getConfig()
 activate c
-c --> zc : imageUrl, question, speed
+c --> zc : Konfiguration
 deactivate c
 zc -> zb : new ZoomImage(imageUrl, ImageView, this)
-deactivate zc
 activate zb
 zb -> zi : new ZoomInput(zoomCalculator)
-deactivate zb
+activate zi
 
 == Test ==
 loop
     n -> s : Scrollen bzw. Klicken
     s -> zi : Event
-    activate zi
     zi -> zc : processInput(Point2D, direction)
-    deactivate zi
-    activate zc
     zc -> zb : getImageCoordinbates(raw)
-    activate zb
     zb --> zc : Point2D
-    deactivate zb
     zc -> zb : move(img, direction * speed)
-    activate zb
     zb -> zc : viewport
-    deactivate zb
-    note left : TrialData.addDataPoint(viewport)
-    deactivate zc
+    zc -> td : addDataPoint(viewport)
 
 end
 
-== Ende == 
+== Ende ==
 g -> zm : endTest(String answer)
-activate zm
+td --> zm : erhobene Daten
+deactivate zb
+deactivate td
+deactivate zc
+deactivate zi
 zm -> g : End(primaryStage, configClient, dataBaseClient, trialData)
 deactivate zm
 
