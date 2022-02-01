@@ -49,7 +49,7 @@ Die Spalte "JSON" beschreibt die Bennenung des Schlüssels in der JSON-Datei.
 | horizontale Unterteilungen | `integer`  | Anzahl der horizontalen Unterteilungen einer Kachel, falls die relative Größenänderung aktiviert ist                           | `defaultHorizontal` |
 | vertikale Unterteilungen   | `integer`  | Anzahl der vertikalen Unterteilungen einer Kachel, falls die relative Größenänderung aktiviert ist                             | `defaultVertical`   |
 
-> wird eine oder beide der Optionen "horizontale Unterteilungen" und "vertikale Unterteilungen" auf einen Wert $\leq 0$ gesetzt, wird eine dynamische Größenänderung angewendet. Dabei werden die Kacheln entlang der längeren Seite halbiert.
+> wird eine oder beide der Optionen "horizontale Unterteilungen" und "vertikale Unterteilungen" auf einen Wert ≤ 0 gesetzt, wird eine dynamische Größenänderung angewendet. Dabei werden die Kacheln entlang der längeren Seite halbiert.
 
 > die letzten 3 Optionen werden nur beachtet, falls die relative Größenänderung aktiviert ist. In der GUI müssen allerdings zum Abspeichern immer Werte eingetragen werden - diese werden jedoch nicht beachtet, sollte die relative Größenänderung nicht aktiviert sein.  
 > beim Erstellen einer JSON-Konfiguration können diese Werte auf `null` gesetzt werden.
