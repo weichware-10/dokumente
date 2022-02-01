@@ -8,7 +8,7 @@ grandparent: Analyse Benutzerhandbuch
 
 ## File
 
-Wenn Sie auf `File` klicken, öffnet sich ein Dropdown-Menü unter welchem Sie unter vier verschiedenen Optionen wählen können.
+Wenn Sie auf `File` klicken, öffnet sich ein Dropdown-Menü unter welchem Sie zwischen vier verschiedenen Optionen wählen können.
 
 ![File](resources/file.png)
 
