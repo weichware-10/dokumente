@@ -54,12 +54,12 @@ loop
 end
 
 == Ende ==
+deactivate zb
+deactivate zi
+deactivate zc
 g -> zm : endTest(String answer)
 td --> zm : erhobene Daten
-deactivate zb
 deactivate td
-deactivate zc
-deactivate zi
 zm -> g : End(primaryStage, configClient, dataBaseClient, trialData)
 deactivate zm
 
