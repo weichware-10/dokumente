@@ -1,0 +1,66 @@
+@startuml codecharts
+skinparam defaultTextAlignment center
+
+actor       Nutzer          as n
+entity      System          as s    #DA70D5
+collections GUI             as g
+
+box CodeCharts
+
+participant CodeCharts              as cc
+participant CodeChartsCoordinator   as co
+participant CodeChartsInput         as ci
+participant CodeChartsPane          as cp
+end box
+
+participant configClient            as c
+participant TrialData               as td
+
+activate n
+activate s
+activate g
+
+== Initialisierung ==
+g -> cc : new CodeCharts(primaryStage, configClient, dataBaseClient)
+activate cc
+cc -> td : new TrialData
+activate td
+note left: TrialData Objekt zum Abspeichern der Ergebnisse
+cc -> co : new CodeChartsCoordinator()
+activate co
+co -> c : getConfig()
+activate c
+c --> co : Konfiguration
+deactivate c
+co -> ci : new CodeChartsInput()
+activate ci
+co -> cp : new CodeChartsPane()
+activate cp
+
+== Test ==
+cc -> co : iterate()
+loop
+    opt
+        cc -> cp : Anpassen vom Raster
+    end
+    deactivate cc
+    activate co
+    co -> g : Aufruf Bild, Raster und Eingabe
+    co -> ci : getInput(currentStrings, currentIteration, iterations)
+    ci --> co : Data
+    opt "Data != null"
+        co -> td : trialData.addDataPoint(viewport, depth)
+    end
+end
+
+== Ende ==
+co -> cc : endTest()
+deactivate co
+deactivate cp
+deactivate ci
+activate cc
+td --> cc : Erhobene Daten
+cc -> g : End(primaryStage, configClient, dataBaseClient, trialData)
+deactivate cc
+
+@enduml
