@@ -1,6 +1,6 @@
 @startuml github.weichware10.analyse
 
-left to right direction
+' left to right direction
 title github.weichware10.analyse
 
 package github.weichware10.analyse {
@@ -133,7 +133,7 @@ package github.weichware10.analyse {
                 JSONEDIT
                 DBVIEW
                 DBEDIT
-                NEW 
+                NEW
             }
             github.weichware10.analyse.gui.admin.Configurator +-- github.weichware10.analyse.gui.admin.ConfiguratorMode
 
@@ -498,12 +498,12 @@ github.weichware10.analyse.gui.general.MainMenuBar o-- github.weichware10.analys
 github.weichware10.analyse.gui.general.FunctionChooser o-- github.weichware10.analyse.gui.general.FunctionChooserController
 
 ' Interaktionen logic
-github.weichware10.analyse.logic.Diagram o-r- github.weichware10.analyse.logic.DataPointComparator
-github.weichware10.analyse.logic.Heatmap o-r- github.weichware10.analyse.logic.DataPointComparator
-github.weichware10.analyse.logic.Verlauf o-r- github.weichware10.analyse.logic.DataPointComparator
-github.weichware10.analyse.logic.Diagram -- github.weichware10.analyse.logic.Analysis : > uses
-github.weichware10.analyse.logic.Heatmap -- github.weichware10.analyse.logic.Analysis : > uses
-github.weichware10.analyse.logic.Verlauf -- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Diagram o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Heatmap o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Verlauf o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Diagram -u- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Heatmap -u- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Verlauf -u- github.weichware10.analyse.logic.Analysis : > uses
 
 ' Interaktionen Application
 class javafx.application.Application
@@ -515,10 +515,10 @@ javafx.scene.control.Dialog <|-l- github.weichware10.analyse.gui.admin.StringsDi
 
 ' Interaktionen Comparator
 interface java.util.Comparator
-java.util.Comparator <|.r. github.weichware10.analyse.logic.DataPointComparator
+java.util.Comparator <|.. github.weichware10.analyse.logic.DataPointComparator
 
-' Interaktionen Util
-' Interaktionen AbsScene
+' Vererbungen Util
+' Vererbungen AbsScene
 class github.weichware10.util.gui.AbsScene
 github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.admin.Configurator
 github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.admin.TrialCreator
@@ -530,17 +530,17 @@ github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general
 github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general.Login
 github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general.MainMenuBar
 
-' Interaktionen AbsSceneController
+' Vererbungen AbsSceneController
 class github.weichware10.util.gui.AbsSceneController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.admin.ConfiguratorController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.admin.StringsDialogController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.admin.TrialCreatorController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.analyse.AnalyzerController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.analyse.DiagramConfiguratorController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.analyse.HeatmapConfiguratorController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.analyse.TrialSelectorController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.general.FunctionChooserController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.general.LoginController
-github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.analyse.gui.general.MainMenuBarController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.ConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.StringsDialogController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.TrialCreatorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.AnalyzerController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.DiagramConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.HeatmapConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.TrialSelectorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.FunctionChooserController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.LoginController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.MainMenuBarController
 
 @enduml
