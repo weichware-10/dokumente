@@ -42,12 +42,14 @@ state "Versuch" as v {
     state "Berechnung Bildposition" as bb : aus ImageView Koordinaten
     state "Anpassung Bildposition" as ab : Dauer hängt von speed ab
     state "Abspeichern neuer Position" as ap : TrialData
+    state "Antwort eingeben" as ae : Antwort auf Frage
     vnp -l-> bi
     bi --> bb : Input
     bb --> ab
     ab --> ap
     ap --> bi
-    ap -d-> vxp : Versuch beendet
+    ap --> ae
+    ae -d-> vxp : Versuch beendet
 }
 
 s --> err : Fehler beim Setup

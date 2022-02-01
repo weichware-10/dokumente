@@ -47,11 +47,13 @@ state "Versuch" as v {
     state "Bild anzeigen" as ba : für in Config eingestellte Zeit
     state "Raster anzeigen" as ra : für in Config eingestellte Zeit
     state "Benutzer Input entgegennehmen" as bi
+    state "Abspeichern der Eingabe" as ae : TrialData
     vnp -l-> ba
     ba --> ra
     ra --> bi
-    bi --> ba : weitere Durchläufe
-    bi --> vxp : Durchläufe fertig
+    bi --> ae
+    ae --> ba : weitere Durchläufe
+    ae --> vxp : Durchläufe fertig
 }
 
 s --> err : Fehler beim Setup
