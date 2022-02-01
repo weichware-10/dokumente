@@ -26,8 +26,7 @@ activate zm
 
 zm -> td : new TrialData
 activate td
-td --> zm : TrialData Objekt zum Abspeichern der Daten
-note left : new TrialData
+note left: TrialData Objekt zum Abspeichern der Ergebnisse
 deactivate c
 
 zm -> zc : new ZoomCalculator(trialData, configClient, controller)
