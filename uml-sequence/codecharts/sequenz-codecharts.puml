@@ -34,7 +34,6 @@ c --> co : Konfiguration
 deactivate c
 co -> ci : new CodeChartsInput()
 activate ci
-note left : auslesen und verarbieten der Konfiguration
 co -> cp : new CodeChartsPane()
 activate cp
 
