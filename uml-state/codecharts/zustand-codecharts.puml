@@ -1,5 +1,5 @@
-@startuml zoommaps
-title Zustandsdiagramm ZoomMaps
+@startuml codecharts
+title Zustandsdiagramm CodeCharts
 state "Fehler" as err : informative Fehlermeldung
 state Speichern : der Daten in der Datenbank / JSON
 
@@ -27,10 +27,16 @@ state "PreTest" as p {
 state "Setup" as s {
     state " " as snp <<entryPoint>>
     state " " as sxp <<exitPoint>>
-    state "Konfiguration abfragen" as ka : speed, image location, imageViewWidth, imageViewHeight, Question
-    state "Vorbereitung Bild" as vb : instanziieren und anzeigen
+    state "Konfiguration abfragen" as ka : imageUrl
+    ka : strings, initialSize, timings, showGrid, relativeSize, randomized
+    ka: iterations, maxDepth, default Unterteilungen
+    state "Vorbereitung Bild" as vb : instanziieren
+    state "Vorbereitung Raster" as vr : Größe vom Bild abhängig setzen
+    vr : initiale Rasterunterteilung vornehmen
     snp -l-> ka
     ka --> vb
+    ka --> vr
+    vr -d-> sxp
     vb -d-> sxp
 }
 
@@ -38,18 +44,16 @@ state "Setup" as s {
 state "Versuch" as v {
     state " " as vnp <<entryPoint>>
     state " " as vxp <<exitPoint>>
-    state "Auf Benutzerinput warten" as bi : Scrollen und Klicken
-    state "Berechnung Bildposition" as bb : aus ImageView Koordinaten
-    state "Anpassung Bildposition" as ab : Dauer hängt von speed ab
-    state "Abspeichern neuer Position" as ap : TrialData
-    state "Antwort eingeben" as ae : Antwort auf Frage
-    vnp -l-> bi
-    bi --> bb : Input
-    bb --> ab
-    ab --> ap
-    ap --> bi
-    ap --> ae
-    ae -d-> vxp : Versuch beendet
+    state "Bild anzeigen" as ba : für in Config eingestellte Zeit
+    state "Raster anzeigen" as ra : für in Config eingestellte Zeit
+    state "Benutzer Input entgegennehmen" as bi
+    state "Abspeichern der Eingabe" as ae : TrialData
+    vnp -l-> ba
+    ba --> ra
+    ra --> bi
+    bi --> ae
+    ae --> ba : weitere Durchläufe
+    ae --> vxp : Durchläufe fertig
 }
 
 s --> err : Fehler beim Setup
