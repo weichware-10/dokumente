@@ -1,0 +1,546 @@
+@startuml github.weichware10.analyse
+
+' left to right direction
+title github.weichware10.analyse
+
+package github.weichware10.analyse {
+
+    class github.weichware10.analyse.Main {
+        {static}+ Stage primaryStage
+        {static}+ DataBaseClient dataBaseClient
+        {static}+ String databaseUrl
+        {static}+ int MINWIDTH
+        {static}+ int MINHEIGHT
+        __public methods__
+        {static}+ void main(String[] args)
+        + void start(Stage primaryStage)
+    }
+
+    package github.weichware10.analyse.config {
+
+        class github.weichware10.analyse.config.DiagramConfig {
+            - int stepsBetween
+            - boolean barChart
+            __public methods__
+            +  DiagramConfig()
+            + boolean setStepsBetween(int stepsBetween)
+            + int getStepsBetween()
+            + boolean isBarChart()
+            + void setBarChart(boolean barChart)
+            + String toString()
+        }
+
+        class github.weichware10.analyse.config.HeatmapConfig {
+            - Color minColorDiff
+            - Color maxColorDiff
+            - boolean image
+            __public methods__
+            +  HeatmapConfig()
+            + Color getMinColorDiff()
+            + void setMinColorDiff(Color minColorDiff)
+            + Color getMaxColorDiff()
+            + void setMaxColorDiff(Color maxColorDiff)
+            + void setImage(boolean image)
+            + boolean isImage()
+            + String toString()
+            {static}+ java.awt.Color fxToAwtColor(Color color)
+        }
+
+    }
+
+    package github.weichware10.analyse.logic {
+
+        class github.weichware10.analyse.logic.Analysis {
+            __protected methods__
+            {static}# String saveImage(String imageUrl)
+            {static}# double calculateDepth(DataPoint dataPoint, double imageWidth, double imageHeight, Double minDepth, Double maxDepth)
+        }
+
+        class github.weichware10.analyse.logic.DataPointComparator {
+            __public method__
+            + int compare(DataPoint dp1, DataPoint dp2)
+        }
+
+        class github.weichware10.analyse.logic.Diagram {
+            {static}- DataPointComparator comparator
+            __public methods__
+            {static}+ BarChart<String, Number> createDiagramBarChart(TrialData trial, DiagramConfig diaConfig)
+            {static}+ PieChart createDiagramPieChart(TrialData trial, DiagramConfig diaConfig)
+            __private methods__
+            {static}- void fillPixelsWithRelDepth(int width, int height, double[][] pixels, List<DataPoint> sortedDataPoints)
+            {static}- void allocatePixels(double[][] pixels, int amountSteps, double stepWidth, List<Double> diagramData)
+            {static}- void calcRelFreqPerStep(int width, int height, List<Double> diagramData)
+        }
+
+        class github.weichware10.analyse.logic.Heatmap {
+            {static}- DataPointComparator comparator
+            {static}- float ALPHA
+            __public methods__
+            {static}+ String createHeatmap(TrialData trial, HeatmapConfig hmConfig)
+            __private method__
+            {static}- void createHeatmapFromData(Graphics2D graphic, HeatmapConfig hmConfig, List<DataPoint> sortedDataPoints, double imageWidth, double imageHeight)
+        }
+
+        class github.weichware10.analyse.logic.Verlauf {
+            {static}- DataPointComparator comparator
+            __public method__
+            {static}+ LineChart<Number, Number> createVerlauf(List<TrialData> trials)
+            __private methods__
+            {static}- void fillSeries(List<DataPoint> dataPoints, double maxDepth, XYChart.Series<Number, Number> series)
+            {static}- void fillSeries(List<DataPoint> dataPoints, int width, int height, XYChart.Series<Number, Number> series)
+        }
+
+    }
+
+    package github.weichware10.analyse.enums {
+
+        enum github.weichware10.analyse.enums.AnalyseType {
+            HEATMAP
+            VERLAUF
+            COMPVERLAUF
+            RELDEPTHDISTR
+        }
+
+    }
+
+    package github.weichware10.analyse.gui {
+
+        package github.weichware10.analyse.gui.admin {
+
+            class github.weichware10.analyse.gui.admin.Configurator {
+                {static}- Parent root
+                {static}- ConfiguratorController controller
+                {static}- List<String> strings
+                {static}- boolean stringsExistInDatabase
+                {static}# SimpleObjectProperty<Mode> mode
+                {static}# String configId
+                __public method__
+                {static}+ void start()
+                __private methods__
+                {static}- void fillGui(Configuration configuration, Mode nextMode)
+                {static}- Configuration getConfiguration()
+                __protected methods__
+                {static}# void loadFromJson()
+                {static}# void writeToJson()
+                {static}# void loadFromDataBase()
+                {static}# void writeToDataBase()
+                {static}# void showStringsDialog()
+                {static}# Thread updateStringList(List<String> newStr)
+                {static}# void changeToEdit()
+            }
+            enum github.weichware10.analyse.gui.admin.ConfiguratorMode {
+                JSONVIEW
+                JSONEDIT
+                DBVIEW
+                DBEDIT
+                NEW
+            }
+            github.weichware10.analyse.gui.admin.Configurator +-- github.weichware10.analyse.gui.admin.ConfiguratorMode
+
+            class github.weichware10.analyse.gui.admin.ConfiguratorController {
+                - ResourceBundle resources
+                - URL location
+                # GridPane codeChartsConfigPane
+                # Label configHeading
+                # Label configSubHeading
+                # Button dataBaseSaveButton
+                # TextField horizontalSplitField
+                # TextField imageViewHeightField
+                # TextField imageViewWidthField
+                # TextField imgUrlField
+                # TextField initialSizeFieldX
+                # TextField initialSizeFieldY
+                # TextField introField
+                # TextField iterationsField
+                # Button jsonSaveButton
+                # TextField maxDepthField
+                # TextField outroField
+                # CheckBox randomStringsBox
+                # CheckBox relativeSizeBox
+                # CheckBox showGridBox
+                # TextField speedField
+                # Button stringIdButton
+                # TextField stringIdField
+                # TextField timingsGridField
+                # TextField timingsImgField
+                # ComboBox<ToolType> toolTypeBox
+                # CheckBox tutorialBox
+                # TextField verticalSplitField
+                # TextField questionField
+                # GridPane zoomMapsConfigPane
+                # TextArea problemArea
+                # TextField configIdField
+                __private methods__
+                - void startFunctionChooser()
+                - void loadFromJson()
+                - void writeToJson()
+                - void loadFromDataBase()
+                - void writeToDataBase()
+                - void showStringsDialog()
+                - void checkInt(ActionEvent event)
+                - void checkInt(TextField intField, boolean force)
+                - void checkDouble(ActionEvent event)
+                - void checkDouble(TextField doubleField, boolean force)
+                - void setConfigType()
+                - void setTitle()
+                - void reset()
+                __protected method__
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.admin.StringsDialog {
+                - BorderPane root
+                - StringsDialogController controller
+                __public method__
+                +  StringsDialog(List<String> strings, boolean editable)
+                __private method__
+                - List<String> convertResult(ButtonType buttonType)
+            }
+
+            class github.weichware10.analyse.gui.admin.StringsDialogController {
+                - ResourceBundle resources
+                - URL location
+                - Label countLabel
+                # TextArea stringsArea
+                # Label titleLabel
+                # List<String> strings
+                __private method__
+                - void updateStrings()
+                __protected method__
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.admin.TrialCreator {
+                {static}- Parent root
+                {static}- TrialCreatorController controller
+                {static}# Runnable configAvailabiltyChecker
+                __public method__
+                {static}+ void start()
+                __protected methods__
+                {static}# void createTrials()
+                {static}# void saveToTxt()
+            }
+
+            class github.weichware10.analyse.gui.admin.TrialCreatorController {
+                - ResourceBundle resources
+                - URL location
+                # TextField configIdField
+                # ComboBox<Integer> countBox
+                - Button saveButton
+                # TextArea trialIdArea
+                # Button trialsCreateButton
+                __private methods__
+                - void startFunctionChooser()
+                - void createTrials()
+                - void saveToTxt()
+                __protected method__
+                # void initialize()
+            }
+
+        }
+
+        package github.weichware10.analyse.gui.analyse {
+
+            class github.weichware10.analyse.gui.analyse.Analyzer {
+                {static}- Parent root
+                {static}- AnalyzerController controller
+                {static}- AnalyseType analyseType
+                {static}- TrialData trial
+                {static}- TrialData trialComp
+                {static}- HeatmapConfig hmConfig
+                {static}- DiagramConfig diaConfig
+                {static}- String heatmapImage
+                {static}- LineChart<Number, Number> verlaufLineChart
+                {static}- BarChart<String, Number> diagramBarChart
+                {static}- PieChart diagramPieChart
+                __public methods__
+                {static}+ void start()
+                {static}+ void setAnalyseType(AnalyseType analyseType)
+                {static}+ void setTrialId()
+                {static}+ void setTrialIdComp()
+                {static}+ void setConfig()
+                {static}+ void analyse()
+                {static}+ void export()
+                {static}+ void exportRaw()
+                {static}+ void reset()
+                __private methods__
+                {static}- boolean saveImage(String location)
+                {static}- boolean saveAsPng(String location)
+                {static}- void exportRaw(TrialData trial)
+            }
+
+            class github.weichware10.analyse.gui.analyse.AnalyzerController {
+                # Button analyseButton
+                # StackPane analysePane
+                # MenuButton analyseTypMenuButton
+                # Button backButton
+                # Button configButton
+                # Label errorLabel
+                # Button exportButton
+                # Button exportRawButton
+                - Hyperlink fileLink
+                # Button selectCompTrialButton
+                - HBox statusBox
+                - Text statusTextLeft
+                - Text statusTextRight
+                - String filename
+                - ProgressIndicator pi
+                __protected methods__
+                # void setStatus(String statusLeft, String filename, String statusRight)
+                # void setStatusIndicator(boolean active)
+                # void analyze(ActionEvent event)
+                # void back(ActionEvent event)
+                # void export(ActionEvent event)
+                # void exportRaw(ActionEvent event)
+                # void openFile(ActionEvent event)
+                # void selectTrial(ActionEvent event)
+                # void selectTrialForComp(ActionEvent event)
+                # void setCompVerlauf(ActionEvent event)
+                # void setConfig(ActionEvent event)
+                # void setHeatmap(ActionEvent event)
+                # void setRelDepthDistr(ActionEvent event)
+                # void setVerlauf(ActionEvent event)
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.analyse.DiagramConfigurator {
+                {static}- VBox root
+                {static}- DiagramConfiguratorController controller
+                __public method__
+                {static}+ void start(DiagramConfig diaConfig, AnalyseType analyseType)
+            }
+
+            class github.weichware10.analyse.gui.analyse.DiagramConfiguratorController {
+                - int steps
+                - RadioButton barChart
+                - RadioButton pieChart
+                # Slider stepsSlider
+                # Label stepsLabel
+                __private methods__
+                - void selectBarChart(ActionEvent event)
+                - void selectPieChart(ActionEvent event)
+                __protected methods__
+                # boolean isBarChart()
+                # void setBarChart(boolean selected)
+                # void setPieChart(boolean selected)
+                # void initStepsSlider(int current)
+                # int getSteps()
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.analyse.HeatmapConfigurator {
+                {static}- VBox root
+                {static}- HeatmapConfiguratorController controller
+                __public method__
+                {static}+ void start(HeatmapConfig hmConfig)
+            }
+
+            class github.weichware10.analyse.gui.analyse.HeatmapConfiguratorController {
+                # ColorPicker maxColorDiff
+                # ColorPicker minColorDiff
+                # CheckBox showImage
+                __protected methods__
+                # Color getMaxColorDiff()
+                # Color getMinColorDiff()
+                # boolean getShowImage()
+                # void setMaxColorDiff(Color maxColorDiff)
+                # void setMinColorDiff(Color minColorDiff)
+                # void setShowImage(boolean showImage)
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.analyse.TrialSelector {
+                {static}- BorderPane root
+                {static}- TrialSelectorController controller
+                {static}- String trialId
+                {static}- TrialData trialData
+                {static}- String fixedConfigId
+                {static}- Dialog<Void> selectorDialog
+                {static}- Button selectButton
+                __public method__
+                {static}+ TrialData getTrialData(String fixedConfigId)
+                __private methods__
+                {static}- DateTime localDateToDateTime(java.time.LocalDate localDate, boolean endOfDay)
+                {static}- BorderPane initialize()
+                {static}- void selectEventFilter(ActionEvent selectEvent)
+                __protected methods__
+                {static}# void search()
+                {static}# void searchForList()
+                {static}# void searchForTrial()
+                {static}# void loadFromJson(ActionEvent jsonEvent)
+                {static}# void reset()
+            }
+
+            class github.weichware10.analyse.gui.analyse.TrialSelectorController {
+                - int minAmount
+                - int maxAmount
+                - int defaultAmount
+                # ComboBox<Integer> amountBox
+                # TextField configIdField
+                # DatePicker endPicker
+                # TableView<TrialData> resultTable
+                # DatePicker startPicker
+                # ComboBox<ToolType> toolTypeBox
+                # Button searchButton
+                # Label warnLabel
+                # ProgressIndicator indicator
+                # TextField trialIdField
+                # Label jsonLabel
+                __private methods__
+                - void search()
+                - void reset()
+                __protected methods__
+                # Integer checkAmountInput()
+                # void setWarn(String warn)
+                # void initEndPicker()
+                # void initResultTable()
+                # void initAmountBox(int minAmount, int maxAmount, int defaultAmount)
+                # void initAmountBox()
+                # void initToolTypeBox()
+                # void initialize()
+            }
+
+        }
+
+        package github.weichware10.analyse.gui.general {
+            class github.weichware10.analyse.gui.general.FunctionChooser {
+                {static}- Parent root
+                __public method__
+                {static}+ void start()
+            }
+
+            class github.weichware10.analyse.gui.general.FunctionChooserController {
+                - Button trialCreatorButton
+                - Button configuratorButton
+                __protected methods__
+                # void initialize()
+                # void logOut()
+                # void startAnalyzer()
+                # void startConfigurator()
+                # void startTrialCreator()
+            }
+
+            class github.weichware10.analyse.gui.general.Login {
+                {static}- SimpleBooleanProperty connection
+                {static}+ ObservableBooleanValue hasConnection
+                {static}- Parent root
+                __public methods__
+                {static}+ void start()
+                {static}+ void logOut()
+                {static}+ void connectToDatabase(String username, String password, String schema, Text warnText, TextArea errorText, ProgressIndicator indicator)
+                __private method__
+                {static}- void setError(Text warnText, TextArea errorText, ProgressIndicator indicator, boolean loading, Exception e)
+            }
+
+            class github.weichware10.analyse.gui.general.LoginController {
+                - TextField benutzernameId
+                - PasswordField passwortId
+                - TextField schemaId
+                - Text warnText
+                - TextArea errorText
+                - ProgressIndicator indicator
+                __private methods__
+                - void loginOnEnter(KeyEvent keyEvent)
+                - void loginToDatabase()
+                - void closeProgramm()
+                __protected method__
+                # void initialize()
+            }
+
+            class github.weichware10.analyse.gui.general.MainMenuBar {
+                {static}- MenuBar root
+                __public method__
+                {static}+ MenuBar getMenuBar()
+                __protected methods__
+                {static}# void openDocs()
+                {static}# void changeDataBaseUrl()
+                {static}# void resetDataBaseUrl()
+            }
+
+            class github.weichware10.analyse.gui.general.MainMenuBarController {
+                - MenuItem logOutMenu
+                - MenuItem logsMenu
+                __public method__
+                + void openDocumentation()
+                __private method__
+                - void setLogOutDisable(ObservableBooleanValue obs)
+                __protected methods__
+                # void logOut()
+                # void resetDataBaseUrl()
+                # void setDataBaseUrl()
+                # void toggleLogs()
+                # void setLogText(ObservableBooleanValue visible)
+                # void initialize()
+            }
+
+        }
+    }
+
+}
+
+' Interaktionen admin
+github.weichware10.analyse.gui.admin.Configurator o-- github.weichware10.analyse.gui.admin.ConfiguratorController
+github.weichware10.analyse.gui.admin.StringsDialog o-- github.weichware10.analyse.gui.admin.StringsDialogController
+github.weichware10.analyse.gui.admin.TrialCreator o-- github.weichware10.analyse.gui.admin.TrialCreatorController
+
+' Interaktionen analyse
+github.weichware10.analyse.gui.analyse.Analyzer o-- github.weichware10.analyse.gui.analyse.AnalyzerController
+github.weichware10.analyse.gui.analyse.Analyzer o-u- github.weichware10.analyse.enums.AnalyseType
+github.weichware10.analyse.gui.analyse.Analyzer o-u- github.weichware10.analyse.config.HeatmapConfig
+github.weichware10.analyse.gui.analyse.Analyzer o-u- github.weichware10.analyse.config.DiagramConfig
+github.weichware10.analyse.gui.analyse.DiagramConfigurator o-- github.weichware10.analyse.gui.analyse.DiagramConfiguratorController
+github.weichware10.analyse.gui.analyse.HeatmapConfigurator o-- github.weichware10.analyse.gui.analyse.HeatmapConfiguratorController
+github.weichware10.analyse.gui.analyse.TrialSelector o-- github.weichware10.analyse.gui.analyse.TrialSelectorController
+
+' Interaktionen general
+github.weichware10.analyse.gui.general.Login o-- github.weichware10.analyse.gui.general.LoginController
+github.weichware10.analyse.gui.general.MainMenuBar o-- github.weichware10.analyse.gui.general.MainMenuBarController
+github.weichware10.analyse.gui.general.FunctionChooser o-- github.weichware10.analyse.gui.general.FunctionChooserController
+
+' Interaktionen logic
+github.weichware10.analyse.logic.Diagram o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Heatmap o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Verlauf o-d- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Diagram -u- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Heatmap -u- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Verlauf -u- github.weichware10.analyse.logic.Analysis : > uses
+
+' Interaktionen Application
+class javafx.application.Application
+javafx.application.Application <|-- github.weichware10.analyse.Main
+
+' Interaktionen Dialog
+class javafx.scene.control.Dialog
+javafx.scene.control.Dialog <|-l- github.weichware10.analyse.gui.admin.StringsDialog
+
+' Interaktionen Comparator
+interface java.util.Comparator
+java.util.Comparator <|.. github.weichware10.analyse.logic.DataPointComparator
+
+' Vererbungen Util
+' Vererbungen AbsScene
+class github.weichware10.util.gui.AbsScene
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.admin.Configurator
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.admin.TrialCreator
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.analyse.Analyzer
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.analyse.DiagramConfigurator
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.analyse.HeatmapConfigurator
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.analyse.TrialSelector
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general.FunctionChooser
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general.Login
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.analyse.gui.general.MainMenuBar
+
+' Vererbungen AbsSceneController
+class github.weichware10.util.gui.AbsSceneController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.ConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.StringsDialogController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.admin.TrialCreatorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.AnalyzerController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.DiagramConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.HeatmapConfiguratorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.analyse.TrialSelectorController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.FunctionChooserController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.LoginController
+github.weichware10.util.gui.AbsSceneController <|-u- github.weichware10.analyse.gui.general.MainMenuBarController
+
+@enduml

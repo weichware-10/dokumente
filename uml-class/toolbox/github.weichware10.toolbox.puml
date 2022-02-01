@@ -1,0 +1,555 @@
+@startuml github.weichware10.toolbox
+title github.weichware10.toolbox
+
+package github.weichware10.toolbox {
+
+    ' -=- classes (github.weichware10.toolbox) -=-
+    class github.weichware10.toolbox.Main {
+        ' --- values (github.weichware10.toolbox.Main) ---
+
+        ' --- fields (github.weichware10.toolbox.Main) ---
+        {static}+ double MINWIDTH
+        {static}+ double MINHEIGHT
+
+        ' --- methods (github.weichware10.toolbox.Main) ---
+        {static}+ void main(String[] args)
+        + void start(Stage primaryStage)
+    }
+
+    ' === packages (github.weichware10.toolbox) ===
+    package github.weichware10.toolbox.codecharts {
+
+        ' -=- classes (github.weichware10.toolbox.codecharts) -=-
+        class github.weichware10.toolbox.codecharts.CodeCharts {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeCharts) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeCharts) ---
+            - Stage primaryStage
+            - ConfigClient configClient
+            - DataBaseClient dataBaseClient
+            - TrialData trialData
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeCharts) ---
+            +  CodeCharts(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+            + void endTest()
+        }
+
+        class github.weichware10.toolbox.codecharts.CodeChartsController {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+            - ResourceBundle resources
+            - URL location
+            - ImageView imageView
+            - StackPane stackPane
+            - CodeCharts codeCharts
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsController) ---
+            + void setCodeCharts(CodeCharts codeCharts)
+            ~ void endTest()
+            ~ void initialize()
+            + ImageView getImageView()
+            + StackPane getStackPane()
+        }
+
+        class github.weichware10.toolbox.codecharts.CodeChartsCoordinator {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+            - TrialData trialData
+            - ImageView imageView
+            - Rectangle2D imageViewPort
+            - CodeChartsPane rootPane
+            - CodeChartsInput codeChartsInput
+            - CodeCharts codeCharts
+            - List<String> usableStrings
+            - List<String> currentStrings
+            - long[] timings
+            - boolean relativeSize
+            - int maxDepth
+            - int iterations
+            - int currentIteration
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) ---
+            +  CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts)
+            + void iterate()
+            - int calculateMinStringAmount(int horizontal, int vertical, int defaultHorizontal, int defaultVertical, int iterations)
+            - Rectangle2D toImageViewport(Rectangle2D viewport)
+        }
+
+        class github.weichware10.toolbox.codecharts.CodeChartsInput {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+            - CodeChartsInputController controller
+            - BorderPane root
+            {static}- int LOWEST_ALLOWED_DISTANCE
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInput) ---
+            +  CodeChartsInput()
+            + String getInput(List<String> currentStrings, int currentIteration, int iterations)
+        }
+        class github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+            - String base
+            - Levenshtein levenshtein
+            - int lowestDistance
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) ---
+            +  LevenshteinComparator(String base)
+            + int getLowestDistance()
+            + int compare(String str1, String str2)
+        }
+        github.weichware10.toolbox.codecharts.CodeChartsInput +-- github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+
+        class github.weichware10.toolbox.codecharts.CodeChartsInputController {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+            - ResourceBundle resources
+            - URL location
+            # TextField inputField
+            # Text suggestionText
+            # Text bottomText
+            # ProgressBar progressBar
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsInputController) ---
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.codecharts.CodeChartsPane {
+            ' --- values (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+
+            ' --- fields (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+            - List<CodeChartsPane> childPanes
+            + Rectangle2D viewport
+            + int depth
+            - String content
+            {static}+ Integer defaultHorizontal
+            {static}+ Integer defaultVertical
+            {static}+ boolean showGrid
+            {static}+ boolean DEBUG
+
+            ' --- methods (github.weichware10.toolbox.codecharts.CodeChartsPane) ---
+            +  CodeChartsPane(CodeChartsPane parent, int hoId, int veId, double width, double height)
+            + void subdivide()
+            + void subdivide(int horizontal, int vertical)
+            + void philLeaves(List<String> usableStrings, List<String> currentStrings)
+            + void setContent(String content)
+            + CodeChartsPane getLeaf(String searchContent)
+            + void enableDebugStyle()
+            + void disableDebugStyle()
+            + void setDebugSplitting(boolean value)
+            + String toString()
+            - boolean isChild()
+        }
+
+    }
+
+    package github.weichware10.toolbox.gui {
+
+        ' -=- classes (github.weichware10.toolbox.gui) -=-
+        class github.weichware10.toolbox.gui.App {
+            ' --- values (github.weichware10.toolbox.gui.App) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.App) ---
+            - Stage primaryStage
+            - ConfigClient configClient
+            - DataBaseClient dataBaseClient
+            - AppController controller
+
+            ' --- methods (github.weichware10.toolbox.gui.App) ---
+            +  App(Stage primaryStage, DataBaseClient dataBaseClient)
+            # void loadJsonConfig()
+            # void startTrial(String trialId)
+            # void createZoomMapsTestTrial(TextField trialIdInput)
+            # void createCodeChartsTestTrial(TextField trialIdInput)
+            # void createTestTrial(Configuration configuration, TextField trialIdInput)
+            # void changeDb()
+            # void openDocs()
+            # void resetDataBaseConnection()
+            - void setPermissionAccess()
+        }
+
+        class github.weichware10.toolbox.gui.AppController {
+            ' --- values (github.weichware10.toolbox.gui.AppController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.AppController) ---
+            - App app
+            - Menu adminMenu
+            - Button startButton
+            - TextField trialIdField
+            - Text warnText
+            - MenuItem logsMenu
+
+            ' --- methods (github.weichware10.toolbox.gui.AppController) ---
+            # void setApp(App app)
+            # void setAdminMenuVisibile(boolean value)
+            # void setWarnText(String value)
+            # void setTrialInputDisable(boolean value)
+            ~ void openDocumentation()
+            ~ void loadJsonConfig()
+            ~ void trialIdEnter(KeyEvent event)
+            ~ void startTrial()
+            ~ void changeDb()
+            ~ void resetDb()
+            ~ void createZoomMapsTestTrial()
+            ~ void createCodeChartsTestTrial()
+            ~ void toggleLogs()
+            ~ void setLogText(ObservableBooleanValue visible)
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.gui.CodeChartsListe {
+            ' --- values (github.weichware10.toolbox.gui.CodeChartsListe) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.CodeChartsListe) ---
+            {static}+ List<String> obst
+
+        }
+
+        class github.weichware10.toolbox.gui.End {
+            ' --- values (github.weichware10.toolbox.gui.End) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.End) ---
+            - Stage primaryStage
+            - DataBaseClient dataBaseClient
+            - TrialData trialData
+            ~ EndController controller
+
+            ' --- methods (github.weichware10.toolbox.gui.End) ---
+            +  End(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData)
+            # void saveTestToJson()
+            # void saveTestToDataBase()
+            # void closeProgramm()
+            # void newTest()
+            - void setPermissionAccess()
+        }
+
+        class github.weichware10.toolbox.gui.EndController {
+            ' --- values (github.weichware10.toolbox.gui.EndController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.EndController) ---
+            - ResourceBundle resources
+            - URL location
+            - HBox statusBox
+            - Text statusTextLeft
+            - Text statusTextRight
+            - Hyperlink fileLink
+            - ButtonBar buttonBar
+            - Menu adminMenu
+            - Label outroLabel
+            - End end
+            - String filename
+            - ProgressIndicator pi
+            - Stage primaryStage
+
+            ' --- methods (github.weichware10.toolbox.gui.EndController) ---
+            + void setEnd(End end, Stage primaryStage)
+            # void setAdminMenuVisibile(boolean value)
+            + void setOutro(String outro)
+            + void setStatus(String statusLeft, String filename, String statusRight)
+            ~ /** * stellt den Status-Indikator an / aus. * * active - ob der Indikator aktiv sein soll oder nicht */ public void setStatusIndicator(boolean active)
+            ~ void closeProgram()
+            ~ void newTest()
+            ~ void saveToJson()
+            ~ void saveToDataBase()
+            ~ void openFile()
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.gui.PreTest {
+            ' --- values (github.weichware10.toolbox.gui.PreTest) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.PreTest) ---
+            - Stage primaryStage
+            - ConfigClient configClient
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.toolbox.gui.PreTest) ---
+            +  PreTest(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+            # void startTest()
+        }
+
+        class github.weichware10.toolbox.gui.PreTestController {
+            ' --- values (github.weichware10.toolbox.gui.PreTestController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.PreTestController) ---
+            - ResourceBundle resources
+            - URL location
+            - Label promptLabel
+            - PreTest preTest
+
+            ' --- methods (github.weichware10.toolbox.gui.PreTestController) ---
+            + void setPreTest(PreTest preTest)
+            ~ void startTest(ActionEvent event)
+            ~ void setPrompt(String prompt)
+            ~ void initialize()
+        }
+
+        class github.weichware10.toolbox.gui.Tutorial {
+            ' --- values (github.weichware10.toolbox.gui.Tutorial) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.Tutorial) ---
+            - Stage primaryStage
+            - ConfigClient configClient
+            - DataBaseClient dataBaseClient
+            - TutorialController controller
+            {static}- ArrayList<Image> imageList
+            - String toolType
+
+            ' --- methods (github.weichware10.toolbox.gui.Tutorial) ---
+            +  Tutorial(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+            {static}+ void setImage(int tutorialCount, Button nextButton, Button backButton, ImageView imageView, Text progressText)
+            + void startTest()
+        }
+
+        class github.weichware10.toolbox.gui.TutorialController {
+            ' --- values (github.weichware10.toolbox.gui.TutorialController) ---
+
+            ' --- fields (github.weichware10.toolbox.gui.TutorialController) ---
+            - Tutorial tutorial
+            - int tutorialCount
+            - ResourceBundle resources
+            - URL location
+            - ImageView imageViewId
+            - Button nextButtonId
+            - Button backButtonId
+            - Text progressTextId
+            - Button finishButtonId
+
+            ' --- methods (github.weichware10.toolbox.gui.TutorialController) ---
+            + void setTutorial(Tutorial tutorial)
+            + ImageView getImageView()
+            + Text getProgressText()
+            ~ void setNextImage()
+            ~ void setPreviousImage()
+            ~ void endTutorial()
+            ~ void initialize()
+        }
+
+        ' === packages (github.weichware10.toolbox.gui) ===
+        package github.weichware10.toolbox.gui.dialogs {
+
+            ' -=- classes (github.weichware10.toolbox.gui.dialogs) -=-
+            class github.weichware10.toolbox.gui.dialogs.ConfirmDialog {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+
+                ' --- fields (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+                - String prompt
+                - String icon
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.ConfirmDialog) ---
+                +  ConfirmDialog(String prompt, String icon)
+                + boolean getConfirmation()
+            }
+
+            class github.weichware10.toolbox.gui.dialogs.ConfirmDialogController {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+
+                ' --- fields (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+                - ResourceBundle resources
+                - URL location
+                - Label promptLabel
+                - DialogPane dialogPane
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.ConfirmDialogController) ---
+                # void setPrompt(String prompt)
+                # void setImage(Image image)
+                ~ void initialize()
+            }
+
+            github.weichware10.toolbox.gui.dialogs.ConfirmDialog .. github.weichware10.toolbox.gui.dialogs.ConfirmDialogController
+
+            class github.weichware10.toolbox.gui.dialogs.DataBaseDialog {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+
+                ' --- fields (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+                - DataBaseClient dataBaseClient
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.DataBaseDialog) ---
+                + DataBaseClient getDataBaseClient()
+            }
+
+            class github.weichware10.toolbox.gui.dialogs.DataBaseDialogController {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+
+                ' --- fields (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+                - ResourceBundle resources
+                - URL location
+                - Text errorText
+                - PasswordField passwordField
+                - TextField schemaTextField
+                - TextField urlTextField
+                - TextField usernameTextField
+                - Text warningText
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.DataBaseDialogController) ---
+                # String getPassword()
+                # String getSchema()
+                # String getUrl()
+                # String getUsername()
+                # void setError(String error)
+                # void setWarning(String warning)
+                ~ void initialize()
+            }
+
+            github.weichware10.toolbox.gui.dialogs.DataBaseDialog .. github.weichware10.toolbox.gui.dialogs.DataBaseDialogController
+
+            class github.weichware10.toolbox.gui.dialogs.ErrorDialog {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.ErrorDialog) ---
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.ErrorDialog) ---
+                + void showErrorDialog(Exception error)
+            }
+
+            class github.weichware10.toolbox.gui.dialogs.ErrorDialogController {
+                ' --- values (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+
+                ' --- fields (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+                - ResourceBundle resources
+                - URL location
+                - TextArea errorMessage
+
+                ' --- methods (github.weichware10.toolbox.gui.dialogs.ErrorDialogController) ---
+                # void setErrorMessage(String error)
+                ~ void initialize()
+            }
+
+            github.weichware10.toolbox.gui.dialogs.ErrorDialog .. github.weichware10.toolbox.gui.dialogs.ErrorDialogController
+
+        }
+
+        package github.weichware10.toolbox.gui.util {
+
+            ' -=- classes (github.weichware10.toolbox.gui.util) -=-
+            class github.weichware10.toolbox.gui.util.WindowCloser {
+                ' --- values (github.weichware10.toolbox.gui.util.WindowCloser) ---
+
+                ' --- methods (github.weichware10.toolbox.gui.util.WindowCloser) ---
+                {static}+ void closeRequestFilter(WindowEvent event)
+            }
+
+        }
+    }
+
+    package github.weichware10.toolbox.zoommaps {
+
+        ' -=- classes (github.weichware10.toolbox.zoommaps) -=-
+        class github.weichware10.toolbox.zoommaps.ZoomCalculator {
+            ' --- values (github.weichware10.toolbox.zoommaps.ZoomCalculator) ---
+
+            ' --- fields (github.weichware10.toolbox.zoommaps.ZoomCalculator) ---
+            - double speed
+            - TrialData data
+            ~ ConfigClient configClient
+            ~ ZoomMapsController controller
+            ~ ZoomImage zoomImage
+            ~ String question
+            ~ String imageUrl
+
+            ' --- methods (github.weichware10.toolbox.zoommaps.ZoomCalculator) ---
+            +  ZoomCalculator(TrialData data, ConfigClient configClient, ZoomMapsController controller)
+            + void processInput(Point2D raw, int direction)
+        }
+
+        class github.weichware10.toolbox.zoommaps.ZoomImage {
+            ' --- values (github.weichware10.toolbox.zoommaps.ZoomImage) ---
+
+            ' --- fields (github.weichware10.toolbox.zoommaps.ZoomImage) ---
+            + double[] imageSize
+            - ImageView imageView
+
+            ' --- methods (github.weichware10.toolbox.zoommaps.ZoomImage) ---
+            +  ZoomImage(String location, ImageView imageView, ZoomCalculator zoomCalculator)
+            + Point2D getImageCoordinates(Point2D imageViewCoordinates)
+            # Rectangle2D move(Point2D position, double speed)
+            - double clamp(double value, double min, double max)
+        }
+
+        class github.weichware10.toolbox.zoommaps.ZoomInput {
+            ' --- values (github.weichware10.toolbox.zoommaps.ZoomInput) ---
+
+            ' --- fields (github.weichware10.toolbox.zoommaps.ZoomInput) ---
+            ~ ZoomCalculator zoomCalculator
+
+            ' --- methods (github.weichware10.toolbox.zoommaps.ZoomInput) ---
+            +  ZoomInput(ZoomCalculator zoomCalculator)
+            + void handle(InputEvent event)
+            - void handleClick(MouseEvent mouseEvent)
+            + void handleScroll(ScrollEvent scrollEvent)
+        }
+
+        class github.weichware10.toolbox.zoommaps.ZoomMaps {
+            ' --- values (github.weichware10.toolbox.zoommaps.ZoomMaps) ---
+
+            ' --- fields (github.weichware10.toolbox.zoommaps.ZoomMaps) ---
+            - Stage primaryStage
+            - DataBaseClient dataBaseClient
+            - TrialData trialData
+            - ConfigClient configClient
+            ~ ZoomMapsController controller
+
+            ' --- methods (github.weichware10.toolbox.zoommaps.ZoomMaps) ---
+            +  ZoomMaps(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+            + void endTest(String answer)
+        }
+
+        class github.weichware10.toolbox.zoommaps.ZoomMapsController {
+            ' --- values (github.weichware10.toolbox.zoommaps.ZoomMapsController) ---
+
+            ' --- fields (github.weichware10.toolbox.zoommaps.ZoomMapsController) ---
+            - ResourceBundle resources
+            - URL location
+            - TextField answerField
+            - ImageView imageView
+            - Label questionLabel
+            - Button submitButton
+            - Text warnText
+            - ZoomMaps zoomMaps
+
+            ' --- methods (github.weichware10.toolbox.zoommaps.ZoomMapsController) ---
+            + ImageView getImageView()
+            + void setImageViewSize(double width, double height)
+            + void setImage(Image image)
+            + void setQuestion(String question)
+            + void setZoomMaps(ZoomMaps zoomMaps)
+            + void setWarn(String warn)
+            ~ void endTestOnEnter(KeyEvent event)
+            ~ void endTest()
+            ~ void initialize()
+        }
+
+    }
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.toolbox.codecharts.CodeChartsController o-r- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-r- github.weichware10.toolbox.codecharts.CodeChartsPane
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-- github.weichware10.toolbox.codecharts.CodeChartsInput
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-u- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsInput o-l- github.weichware10.toolbox.codecharts.CodeChartsInputController
+github.weichware10.toolbox.gui.App o-- github.weichware10.toolbox.gui.AppController
+github.weichware10.toolbox.gui.End o-- github.weichware10.toolbox.gui.EndController
+github.weichware10.toolbox.gui.PreTestController o-- github.weichware10.toolbox.gui.PreTest
+github.weichware10.toolbox.gui.Tutorial o-- github.weichware10.toolbox.gui.TutorialController
+github.weichware10.toolbox.zoommaps.ZoomCalculator o-u- github.weichware10.toolbox.zoommaps.ZoomMapsController
+github.weichware10.toolbox.zoommaps.ZoomCalculator o-- github.weichware10.toolbox.zoommaps.ZoomImage
+github.weichware10.toolbox.zoommaps.ZoomInput o-u- github.weichware10.toolbox.zoommaps.ZoomCalculator
+github.weichware10.toolbox.zoommaps.ZoomMaps o-d- github.weichware10.toolbox.zoommaps.ZoomMapsController
+
+github.weichware10.toolbox.gui.App .l. github.weichware10.toolbox.gui.CodeChartsListe : wird für Test Trials aufgerufen
+
+' autogenerated inheritances, may be faulty.
+class javafx.application.Application
+javafx.application.Application <|-- github.weichware10.toolbox.Main
+interface java.util.Comparator
+java.util.Comparator <|.u. github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+class javafx.scene.layout.AnchorPane
+javafx.scene.layout.AnchorPane <|-- github.weichware10.toolbox.codecharts.CodeChartsPane
+interface javafx.event.EventHandler
+javafx.event.EventHandler <|.u. github.weichware10.toolbox.zoommaps.ZoomInput
+
+@enduml

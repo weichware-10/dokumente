@@ -1,0 +1,35 @@
+@startuml github.weichware10.analyse.config
+title github.weichware10.analyse.config
+
+package github.weichware10.analyse.config {
+
+    class github.weichware10.analyse.config.DiagramConfig {
+        - int stepsBetween
+        - boolean barChart
+        __public methods__
+        +  DiagramConfig()
+        + boolean setStepsBetween(int stepsBetween)
+        + int getStepsBetween()
+        + boolean isBarChart()
+        + void setBarChart(boolean barChart)
+        + String toString()
+    }
+
+    class github.weichware10.analyse.config.HeatmapConfig {
+        - Color minColorDiff
+        - Color maxColorDiff
+        - boolean image
+        __public methods__
+        +  HeatmapConfig()
+        + Color getMinColorDiff()
+        + void setMinColorDiff(Color minColorDiff)
+        + Color getMaxColorDiff()
+        + void setMaxColorDiff(Color maxColorDiff)
+        + void setImage(boolean image)
+        + boolean isImage()
+        + String toString()
+        {static}+ java.awt.Color fxToAwtColor(Color color)
+    }
+
+}
+@enduml

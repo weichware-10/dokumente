@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="876px" preserveAspectRatio="none" style="width:1015px;height:876px;background:#FFFFFF;" version="1.1" viewBox="0 0 1015 876" width="1015px" zoomAndPan="magnify"><defs><filter height="300%" id="fsicy21iauwx2" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="258" x="372" y="16.708">github.weichware10.util.gui</text><!--MD5=[8a94dfd02d0e56044d54240d252625a1]
+cluster github.weichware10.util.gui--><polygon fill="#FFFFFF" filter="url(#fsicy21iauwx2)" points="16,26.9531,248,26.9531,255,49.25,998,49.25,998,869.9531,16,869.9531,16,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="255" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="226" x="20" y="41.9482">github.weichware10.util.gui</text><!--MD5=[0c55762863746446b7bbbd5864a82e1b]
+class github.weichware10.util.gui.AbsScene--><rect codeLine="6" fill="#FEFECE" filter="url(#fsicy21iauwx2)" height="86.4141" id="github.weichware10.util.gui.AbsScene" style="stroke:#A80036;stroke-width:1.5;" width="949" x="32.5" y="61.9531"/><ellipse cx="472.25" cy="77.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M474.5938,73.625 C473.6563,73.1875 473.0625,73.0469 472.1875,73.0469 C469.5625,73.0469 467.5625,75.125 467.5625,77.8438 L467.5625,78.9688 C467.5625,81.5469 469.6719,83.4375 472.5625,83.4375 C473.7813,83.4375 474.9375,83.1406 475.6875,82.5938 C476.2656,82.1875 476.5938,81.7344 476.5938,81.3438 C476.5938,80.8906 476.2031,80.5 475.7344,80.5 C475.5156,80.5 475.3125,80.5781 475.125,80.7656 C474.6719,81.25 474.6719,81.25 474.4844,81.3438 C474.0625,81.6094 473.375,81.7344 472.6094,81.7344 C470.5625,81.7344 469.2656,80.6406 469.2656,78.9375 L469.2656,77.8438 C469.2656,76.0625 470.5156,74.75 472.25,74.75 C472.8281,74.75 473.4375,74.9063 473.9063,75.1563 C474.3906,75.4375 474.5625,75.6563 474.6563,76.0625 C474.7188,76.4688 474.75,76.5938 474.8906,76.7188 C475.0313,76.8594 475.2656,76.9688 475.4844,76.9688 C475.75,76.9688 476.0156,76.8281 476.1875,76.6094 C476.2969,76.4531 476.3281,76.2656 476.3281,75.8438 L476.3281,74.4219 C476.3281,73.9844 476.3125,73.8594 476.2188,73.7031 C476.0625,73.4375 475.7813,73.2969 475.4844,73.2969 C475.1875,73.2969 474.9844,73.3906 474.7656,73.7031 L474.5938,73.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="492.75" y="82.1074">AbsScene</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="980.5" y1="93.9531" y2="93.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="980.5" y1="101.9531" y2="101.9531"/><ellipse cx="43.5" cy="112.9531" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="52.5" y="116.1636">InitResult initialize(URL fxml)</text><ellipse cx="43.5" cy="125.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="279" x="52.5" y="128.9683">void setMenuBar(MenuBar menuBar, Parent root)</text><ellipse cx="43.5" cy="138.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="923" x="52.5" y="141.7729">InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)</text><!--MD5=[3a530d3de6bb5c0b5f8e215cb4005933]
+class github.weichware10.util.gui.AbsScene$InitResult--><rect codeLine="14" fill="#FEFECE" filter="url(#fsicy21iauwx2)" height="86.4141" id="github.weichware10.util.gui.AbsScene$InitResult" style="stroke:#A80036;stroke-width:1.5;" width="325" x="244.5" y="208.9531"/><ellipse cx="341.75" cy="224.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M344.0938,220.625 C343.1563,220.1875 342.5625,220.0469 341.6875,220.0469 C339.0625,220.0469 337.0625,222.125 337.0625,224.8438 L337.0625,225.9688 C337.0625,228.5469 339.1719,230.4375 342.0625,230.4375 C343.2813,230.4375 344.4375,230.1406 345.1875,229.5938 C345.7656,229.1875 346.0938,228.7344 346.0938,228.3438 C346.0938,227.8906 345.7031,227.5 345.2344,227.5 C345.0156,227.5 344.8125,227.5781 344.625,227.7656 C344.1719,228.25 344.1719,228.25 343.9844,228.3438 C343.5625,228.6094 342.875,228.7344 342.1094,228.7344 C340.0625,228.7344 338.7656,227.6406 338.7656,225.9375 L338.7656,224.8438 C338.7656,223.0625 340.0156,221.75 341.75,221.75 C342.3281,221.75 342.9375,221.9063 343.4063,222.1563 C343.8906,222.4375 344.0625,222.6563 344.1563,223.0625 C344.2188,223.4688 344.25,223.5938 344.3906,223.7188 C344.5313,223.8594 344.7656,223.9688 344.9844,223.9688 C345.25,223.9688 345.5156,223.8281 345.6875,223.6094 C345.7969,223.4531 345.8281,223.2656 345.8281,222.8438 L345.8281,221.4219 C345.8281,220.9844 345.8125,220.8594 345.7188,220.7031 C345.5625,220.4375 345.2813,220.2969 344.9844,220.2969 C344.6875,220.2969 344.4844,220.3906 344.2656,220.7031 L344.0938,220.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="362.25" y="229.1074">AbsScene$InitResult</text><line style="stroke:#A80036;stroke-width:1.5;" x1="245.5" x2="568.5" y1="240.9531" y2="240.9531"/><ellipse cx="255.5" cy="251.9531" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="264.5" y="255.1636">Parent root</text><ellipse cx="255.5" cy="264.7578" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="264.5" y="267.9683">AbsSceneController controller</text><line style="stroke:#A80036;stroke-width:1.5;" x1="245.5" x2="568.5" y1="274.5625" y2="274.5625"/><polygon fill="#FFFF44" points="255.5,280.5625,259.5,284.5625,255.5,288.5625,251.5,284.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="299" x="264.5" y="288.7729">InitResult(Parent root, AbsSceneController controller)</text><!--MD5=[c25b961add6324450d90577e2abd9e85]
+class github.weichware10.util.gui.AbsSceneController--><rect codeLine="26" fill="#FEFECE" filter="url(#fsicy21iauwx2)" height="86.4141" id="github.weichware10.util.gui.AbsSceneController" style="stroke:#A80036;stroke-width:1.5;" width="179" x="341.5" y="530.9531"/><ellipse cx="368.65" cy="546.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M370.9938,542.625 C370.0563,542.1875 369.4625,542.0469 368.5875,542.0469 C365.9625,542.0469 363.9625,544.125 363.9625,546.8438 L363.9625,547.9688 C363.9625,550.5469 366.0719,552.4375 368.9625,552.4375 C370.1813,552.4375 371.3375,552.1406 372.0875,551.5938 C372.6656,551.1875 372.9938,550.7344 372.9938,550.3438 C372.9938,549.8906 372.6031,549.5 372.1344,549.5 C371.9156,549.5 371.7125,549.5781 371.525,549.7656 C371.0719,550.25 371.0719,550.25 370.8844,550.3438 C370.4625,550.6094 369.775,550.7344 369.0094,550.7344 C366.9625,550.7344 365.6656,549.6406 365.6656,547.9375 L365.6656,546.8438 C365.6656,545.0625 366.9156,543.75 368.65,543.75 C369.2281,543.75 369.8375,543.9063 370.3063,544.1563 C370.7906,544.4375 370.9625,544.6563 371.0563,545.0625 C371.1188,545.4688 371.15,545.5938 371.2906,545.7188 C371.4313,545.8594 371.6656,545.9688 371.8844,545.9688 C372.15,545.9688 372.4156,545.8281 372.5875,545.6094 C372.6969,545.4531 372.7281,545.2656 372.7281,544.8438 L372.7281,543.4219 C372.7281,542.9844 372.7125,542.8594 372.6188,542.7031 C372.4625,542.4375 372.1813,542.2969 371.8844,542.2969 C371.5875,542.2969 371.3844,542.3906 371.1656,542.7031 L370.9938,542.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="385.35" y="551.1074">AbsSceneController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.5" x2="519.5" y1="562.9531" y2="562.9531"/><polygon fill="none" points="352.5,568.9531,356.5,572.9531,352.5,576.9531,348.5,572.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="361.5" y="577.1636">ResourceBundle resources</text><polygon fill="none" points="352.5,581.7578,356.5,585.7578,352.5,589.7578,348.5,585.7578" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="361.5" y="589.9683">URL location</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.5" x2="519.5" y1="596.5625" y2="596.5625"/><polygon fill="#FFFF44" points="352.5,602.5625,356.5,606.5625,352.5,610.5625,348.5,606.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="82" x="361.5" y="610.7729">void initialize()</text><!--MD5=[3d2112bded291b965f9bb673df23c190]
+class github.weichware10.util.gui.Log--><rect codeLine="37" fill="#FEFECE" filter="url(#fsicy21iauwx2)" height="176.0469" id="github.weichware10.util.gui.Log" style="stroke:#A80036;stroke-width:1.5;" width="248" x="479" y="324.9531"/><ellipse cx="587.75" cy="340.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M590.0938,336.625 C589.1563,336.1875 588.5625,336.0469 587.6875,336.0469 C585.0625,336.0469 583.0625,338.125 583.0625,340.8438 L583.0625,341.9688 C583.0625,344.5469 585.1719,346.4375 588.0625,346.4375 C589.2813,346.4375 590.4375,346.1406 591.1875,345.5938 C591.7656,345.1875 592.0938,344.7344 592.0938,344.3438 C592.0938,343.8906 591.7031,343.5 591.2344,343.5 C591.0156,343.5 590.8125,343.5781 590.625,343.7656 C590.1719,344.25 590.1719,344.25 589.9844,344.3438 C589.5625,344.6094 588.875,344.7344 588.1094,344.7344 C586.0625,344.7344 584.7656,343.6406 584.7656,341.9375 L584.7656,340.8438 C584.7656,339.0625 586.0156,337.75 587.75,337.75 C588.3281,337.75 588.9375,337.9063 589.4063,338.1563 C589.8906,338.4375 590.0625,338.6563 590.1563,339.0625 C590.2188,339.4688 590.25,339.5938 590.3906,339.7188 C590.5313,339.8594 590.7656,339.9688 590.9844,339.9688 C591.25,339.9688 591.5156,339.8281 591.6875,339.6094 C591.7969,339.4531 591.8281,339.2656 591.8281,338.8438 L591.8281,337.4219 C591.8281,336.9844 591.8125,336.8594 591.7188,336.7031 C591.5625,336.4375 591.2813,336.2969 590.9844,336.2969 C590.6875,336.2969 590.4844,336.3906 590.2656,336.7031 L590.0938,336.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="22" x="608.25" y="345.1074">Log</text><line style="stroke:#A80036;stroke-width:1.5;" x1="480" x2="726" y1="356.9531" y2="356.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="487" y="364.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="89" x="499" y="371.1636">Stage logStage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="487" y="377.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="62" x="499" y="383.9683">Parent root</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="487" y="390.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="222" x="499" y="396.7729">SimpleBooleanProperty visibleProperty</text><ellipse cx="490" cy="406.3672" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="187" x="499" y="409.5776">ObservableBooleanValue visible</text><line style="stroke:#A80036;stroke-width:1.5;" x1="480" x2="726" y1="416.1719" y2="416.1719"/><ellipse cx="490" cy="427.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="121" x="499" y="430.3823">void start(String icon)</text><ellipse cx="490" cy="439.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="105" x="499" y="443.187">boolean isVisible()</text><ellipse cx="490" cy="452.7813" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="65" x="499" y="455.9917">void show()</text><ellipse cx="490" cy="465.5859" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="61" x="499" y="468.7964">void hide()</text><ellipse cx="490" cy="478.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="66" x="499" y="481.6011">void close()</text><ellipse cx="490" cy="491.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="203" x="499" y="494.4058">void log(String content, String type)</text><!--MD5=[f097d54db7e71b637293478271dad875]
+class github.weichware10.util.gui.LogController--><rect codeLine="55" fill="#FEFECE" filter="url(#fsicy21iauwx2)" height="176.0469" id="github.weichware10.util.gui.LogController" style="stroke:#A80036;stroke-width:1.5;" width="235" x="434.5" y="677.9531"/><ellipse cx="507.25" cy="693.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M509.5938,689.625 C508.6563,689.1875 508.0625,689.0469 507.1875,689.0469 C504.5625,689.0469 502.5625,691.125 502.5625,693.8438 L502.5625,694.9688 C502.5625,697.5469 504.6719,699.4375 507.5625,699.4375 C508.7813,699.4375 509.9375,699.1406 510.6875,698.5938 C511.2656,698.1875 511.5938,697.7344 511.5938,697.3438 C511.5938,696.8906 511.2031,696.5 510.7344,696.5 C510.5156,696.5 510.3125,696.5781 510.125,696.7656 C509.6719,697.25 509.6719,697.25 509.4844,697.3438 C509.0625,697.6094 508.375,697.7344 507.6094,697.7344 C505.5625,697.7344 504.2656,696.6406 504.2656,694.9375 L504.2656,693.8438 C504.2656,692.0625 505.5156,690.75 507.25,690.75 C507.8281,690.75 508.4375,690.9063 508.9063,691.1563 C509.3906,691.4375 509.5625,691.6563 509.6563,692.0625 C509.7188,692.4688 509.75,692.5938 509.8906,692.7188 C510.0313,692.8594 510.2656,692.9688 510.4844,692.9688 C510.75,692.9688 511.0156,692.8281 511.1875,692.6094 C511.2969,692.4531 511.3281,692.2656 511.3281,691.8438 L511.3281,690.4219 C511.3281,689.9844 511.3125,689.8594 511.2188,689.7031 C511.0625,689.4375 510.7813,689.2969 510.4844,689.2969 C510.1875,689.2969 509.9844,689.3906 509.7656,689.7031 L509.5938,689.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="527.75" y="698.1074">LogController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="435.5" x2="668.5" y1="709.9531" y2="709.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="717.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="454.5" y="724.1636">ResourceBundle resources</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="730.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="454.5" y="736.9683">URL location</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="743.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="454.5" y="749.7729">TextField logInput</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="756.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="454.5" y="762.5776">TextArea logArea</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="769.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="454.5" y="775.3823">Pane logPane</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="442.5" y="781.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="454.5" y="788.187">MenuButton logMenuButton</text><line style="stroke:#A80036;stroke-width:1.5;" x1="435.5" x2="668.5" y1="794.7813" y2="794.7813"/><polygon fill="#FFFF44" points="445.5,800.7813,449.5,804.7813,445.5,808.7813,441.5,804.7813" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="454.5" y="808.9917">void initialize()</text><polygon fill="#4177AF" points="445.5,814.5859,441.5,820.5859,449.5,820.5859" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="454.5" y="821.7964">void setLogType(ActionEvent event)</text><polygon fill="#4177AF" points="445.5,827.3906,441.5,833.3906,449.5,833.3906" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="454.5" y="834.6011">void inputKeyPress(KeyEvent event)</text><polygon fill="#4177AF" points="445.5,840.1953,441.5,846.1953,449.5,846.1953" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="454.5" y="847.4058">void log()</text><!--MD5=[4772da3341b02876c23ea8c9be9edbba]
+reverse link github.weichware10.util.gui.AbsScene to github.weichware10.util.gui.AbsScene$InitResult--><path codeLine="24" d="M469.222,160.7321 C458.237,176.6591 446.415,193.8011 436.056,208.8211 " fill="none" id="github.weichware10.util.gui.AbsScene-backto-github.weichware10.util.gui.AbsScene$InitResult" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="473.2648" cy="154.8686" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="468.7226" x2="477.807" y1="161.4541" y2="148.2831"/><line style="stroke:#A80036;stroke-width:1.0;" x1="466.6793" x2="479.8503" y1="150.3264" y2="159.4108"/><!--MD5=[1be12d94bef41417b429c3f011b7961d]
+reverse link github.weichware10.util.gui.AbsScene$InitResult to github.weichware10.util.gui.AbsSceneController--><path codeLine="76" d="M411.158,308.3921 C415.906,371.7051 423.569,473.8781 427.85,530.9511 " fill="none" id="github.weichware10.util.gui.AbsScene$InitResult-backto-github.weichware10.util.gui.AbsSceneController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="410.162,295.1161,406.6215,301.3982,411.0587,307.0826,414.5991,300.8005,410.162,295.1161" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[060ce3e50e43ad972590820966f4417e]
+reverse link github.weichware10.util.gui.AbsScene to github.weichware10.util.gui.Log--><path codeLine="79" d="M561.37,164.0581 C571.549,177.8651 580.896,193.1921 587,208.9531 C601.077,245.2981 605.996,287.9891 607.035,324.8191 " fill="none" id="github.weichware10.util.gui.AbsScene-backto-github.weichware10.util.gui.Log" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="555.621,168.0741,548.703,148.0451,566.601,159.3881,555.621,168.0741" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9c5b3c6d8772595f003e306af90460a6]
+reverse link github.weichware10.util.gui.AbsSceneController to github.weichware10.util.gui.LogController--><path codeLine="80" d="M468.868,634.4161 C477.628,648.1711 487.128,663.0881 496.469,677.7561 " fill="none" id="github.weichware10.util.gui.AbsSceneController-backto-github.weichware10.util.gui.LogController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="462.693,637.7501,457.854,617.1201,474.501,630.2301,462.693,637.7501" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a482984bdeb3daf2c37beda13ae0ff65]
+link github.weichware10.util.gui.Log to github.weichware10.util.gui.LogController--><path codeLine="82" d="M590.328,501.1681 C582.495,555.0731 572.48,624.0051 564.651,677.8831 " fill="none" id="github.weichware10.util.gui.Log-github.weichware10.util.gui.LogController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="586" y="578.52">Verbindung über Bindings</text><!--MD5=[38d1dc8068cb990e55bc158d9a98c479]
+@startuml
+title github.weichware10.util.gui
+
+package github.weichware10.util.gui {
+
+    ' -=- classes (github.weichware10.util.gui) -=-
+    class github.weichware10.util.gui.AbsScene {
+        ' - - - values (github.weichware10.util.gui.AbsScene) - - -
+
+        ' - - - methods (github.weichware10.util.gui.AbsScene) - - -
+        {static}+ InitResult initialize(URL fxml)
+        {static}+ void setMenuBar(MenuBar menuBar, Parent root)
+        {static}+ InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)
+    }
+    class github.weichware10.util.gui.AbsScene$InitResult {
+        ' - - - values (github.weichware10.util.gui.AbsScene$InitResult) - - -
+
+        ' - - - fields (github.weichware10.util.gui.AbsScene$InitResult) - - -
+        + Parent root
+        + AbsSceneController controller
+
+        ' - - - methods (github.weichware10.util.gui.AbsScene$InitResult) - - -
+        #  InitResult(Parent root, AbsSceneController controller)
+    }
+    github.weichware10.util.gui.AbsScene +- - github.weichware10.util.gui.AbsScene$InitResult
+
+    class github.weichware10.util.gui.AbsSceneController {
+        ' - - - values (github.weichware10.util.gui.AbsSceneController) - - -
+
+        ' - - - fields (github.weichware10.util.gui.AbsSceneController) - - -
+        # ResourceBundle resources
+        # URL location
+
+        ' - - - methods (github.weichware10.util.gui.AbsSceneController) - - -
+        {abstract}# void initialize()
+    }
+
+    class github.weichware10.util.gui.Log {
+        ' - - - values (github.weichware10.util.gui.Log) - - -
+
+        ' - - - fields (github.weichware10.util.gui.Log) - - -
+        {static}- Stage logStage
+        {static}- Parent root
+        {static}- SimpleBooleanProperty visibleProperty
+        {static}+ ObservableBooleanValue visible
+
+        ' - - - methods (github.weichware10.util.gui.Log) - - -
+        {static}+ void start(String icon)
+        {static}+ boolean isVisible()
+        {static}+ void show()
+        {static}+ void hide()
+        {static}+ void close()
+        {static}+ void log(String content, String type)
+    }
+
+    class github.weichware10.util.gui.LogController {
+        ' - - - values (github.weichware10.util.gui.LogController) - - -
+
+        ' - - - fields (github.weichware10.util.gui.LogController) - - -
+        - ResourceBundle resources
+        - URL location
+        - TextField logInput
+        - TextArea logArea
+        - Pane logPane
+        - MenuButton logMenuButton
+
+        ' - - - methods (github.weichware10.util.gui.LogController) - - -
+        # void initialize()
+        ~ void setLogType(ActionEvent event)
+        ~ void inputKeyPress(KeyEvent event)
+        ~ void log()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.util.gui.AbsScene$InitResult o- - github.weichware10.util.gui.AbsSceneController
+
+' autogenerated inheritances, may be faulty.
+github.weichware10.util.gui.AbsScene <|- - github.weichware10.util.gui.Log
+github.weichware10.util.gui.AbsSceneController <|- - github.weichware10.util.gui.LogController
+
+github.weichware10.util.gui.Log .. github.weichware10.util.gui.LogController : Verbindung über Bindings
+@enduml
+
+@startuml
+title github.weichware10.util.gui
+
+package github.weichware10.util.gui {
+
+    class github.weichware10.util.gui.AbsScene {
+
+        {static}+ InitResult initialize(URL fxml)
+        {static}+ void setMenuBar(MenuBar menuBar, Parent root)
+        {static}+ InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)
+    }
+    class github.weichware10.util.gui.AbsScene$InitResult {
+
+        + Parent root
+        + AbsSceneController controller
+
+        #  InitResult(Parent root, AbsSceneController controller)
+    }
+    github.weichware10.util.gui.AbsScene +- - github.weichware10.util.gui.AbsScene$InitResult
+
+    class github.weichware10.util.gui.AbsSceneController {
+
+        # ResourceBundle resources
+        # URL location
+
+        {abstract}# void initialize()
+    }
+
+    class github.weichware10.util.gui.Log {
+
+        {static}- Stage logStage
+        {static}- Parent root
+        {static}- SimpleBooleanProperty visibleProperty
+        {static}+ ObservableBooleanValue visible
+
+        {static}+ void start(String icon)
+        {static}+ boolean isVisible()
+        {static}+ void show()
+        {static}+ void hide()
+        {static}+ void close()
+        {static}+ void log(String content, String type)
+    }
+
+    class github.weichware10.util.gui.LogController {
+
+        - ResourceBundle resources
+        - URL location
+        - TextField logInput
+        - TextArea logArea
+        - Pane logPane
+        - MenuButton logMenuButton
+
+        # void initialize()
+        ~ void setLogType(ActionEvent event)
+        ~ void inputKeyPress(KeyEvent event)
+        ~ void log()
+    }
+
+}
+
+github.weichware10.util.gui.AbsScene$InitResult o- - github.weichware10.util.gui.AbsSceneController
+
+github.weichware10.util.gui.AbsScene <|- - github.weichware10.util.gui.Log
+github.weichware10.util.gui.AbsSceneController <|- - github.weichware10.util.gui.LogController
+
+github.weichware10.util.gui.Log .. github.weichware10.util.gui.LogController : Verbindung über Bindings
+@enduml
+
+PlantUML version 1.2022.1beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

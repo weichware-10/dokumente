@@ -1,0 +1,479 @@
+@startuml github.weichware10.util
+title github.weichware10.util
+
+package github.weichware10.util {
+
+    ' -=- classes (github.weichware10.util) -=-
+    class github.weichware10.util.Files {
+        ' --- values (github.weichware10.util.Files) ---
+
+        ' --- fields (github.weichware10.util.Files) ---
+        {static}+ String tmpdir
+
+        ' --- methods (github.weichware10.util.Files) ---
+        {static}+ String createTempDir()
+        {static}+ String saveImage(String imageUrl)
+        {static}+ String saveGeneratedImage(BufferedImage buffImage, String fileName)
+        {static}+ Thread deleteTempDir()
+    }
+
+    class github.weichware10.util.Logger {
+        ' --- values (github.weichware10.util.Logger) ---
+
+        ' --- fields (github.weichware10.util.Logger) ---
+        {static}- String RESET
+        {static}- String RED
+        {static}- String YELLOW
+        {static}- String PURPLE
+        {static}- String CYAN
+        {static}- PrintStream logfile
+        {static}- PrintStream sysOut
+        {static}- PrintStream sysErr
+        {static}- TextArea logArea
+        {static}- LogStream logStream
+        {static}+ PrintStream PRINSTREAM
+
+        ' --- methods (github.weichware10.util.Logger) ---
+        -  Logger()
+        {static}+ void setLogfile(String filename)
+        {static}+ void setLogArea(TextArea logArea)
+        {static}+ void setSysOut(PrintStream out)
+        {static}+ void setSysErr(PrintStream err)
+        {static}+ void debug(String message)
+        {static}+ void debug(String message, Exception ctx)
+        {static}+ void debug(String message, Exception ctx, boolean stackTrace)
+        {static}+ void error(String message)
+        {static}+ void error(String message, Exception ctx)
+        {static}+ void error(String message, Exception ctx, boolean stackTrace)
+        {static}+ void warn(String message)
+        {static}+ void warn(String message, Exception ctx)
+        {static}+ void warn(String message, Exception ctx, boolean stackTrace)
+        {static}+ void info(String message)
+        {static}+ void info(String message, Exception ctx)
+        {static}+ void info(String message, Exception ctx, boolean stackTrace)
+    }
+    class github.weichware10.util.Logger$LogStream {
+        ' --- values (github.weichware10.util.Logger$LogStream) ---
+
+        ' --- methods (github.weichware10.util.Logger$LogStream) ---
+        + void write(int i)
+        + void consoleLog(String content)
+        + void plainLog(String content)
+        + void printStackTrace(Exception ctx)
+    }
+    github.weichware10.util.Logger +-r- github.weichware10.util.Logger$LogStream
+
+    enum github.weichware10.util.ToolType {
+        ' --- values (github.weichware10.util.ToolType) ---
+         ZOOMMAPS,  EYETRACKING,  CODECHARTS
+
+    }
+
+    ' === packages (github.weichware10.util) ===
+    package github.weichware10.util.config {
+
+        ' -=- classes (github.weichware10.util.config) -=-
+        class github.weichware10.util.config.CodeChartsConfiguration {
+            ' --- values (github.weichware10.util.config.CodeChartsConfiguration) ---
+
+            ' --- fields (github.weichware10.util.config.CodeChartsConfiguration) ---
+            # String stringId
+            # List<String> strings
+            # int[] initialSize
+            # long[] timings
+            # boolean showGrid
+            # boolean relativeSize
+            # boolean randomized
+            # Integer iterations
+            # Integer maxDepth
+            # Integer defaultHorizontal
+            # Integer defaultVertical
+
+            ' --- methods (github.weichware10.util.config.CodeChartsConfiguration) ---
+            #  CodeChartsConfiguration()
+            +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+            + String getStringId()
+            + List<String> getStrings()
+            + long[] getTimings()
+            + int[] getInitialSize()
+            + boolean getShowGrid()
+            + boolean getRelativeSize()
+            + boolean getRandomized()
+            + int getIterations()
+            + int getMaxDepth()
+            + int getDefaultHorizontal()
+            + int getDefaultVertical()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigClient {
+            ' --- values (github.weichware10.util.config.ConfigClient) ---
+
+            ' --- fields (github.weichware10.util.config.ConfigClient) ---
+            # Configuration configuration
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.config.ConfigClient) ---
+            +  ConfigClient(DataBaseClient dataBaseClient)
+            + Configuration getConfig()
+            + boolean writeToJson(String location)
+            + boolean loadFromJson(String location)
+            + boolean loadFromDataBase(String trialId)
+            + String writeToDataBase()
+        }
+
+        class github.weichware10.util.config.ConfigLoader {
+            ' --- values (github.weichware10.util.config.ConfigLoader) ---
+
+            ' --- methods (github.weichware10.util.config.ConfigLoader) ---
+            -  ConfigLoader()
+            {static}+ Configuration fromJson(String location)
+            {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.Configuration {
+            ' --- values (github.weichware10.util.config.Configuration) ---
+
+            ' --- fields (github.weichware10.util.config.Configuration) ---
+            # ToolType toolType
+            # String trialId
+            # String configId
+            # String question
+            # String intro
+            # String outro
+            # String imageUrl
+            # boolean tutorial
+            # CodeChartsConfiguration codeChartsConfiguration
+            # ZoomMapsConfiguration zoomMapsConfiguration
+
+            ' --- methods (github.weichware10.util.config.Configuration) ---
+            #  Configuration()
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+            + ToolType getToolType()
+            + String getImageUrl()
+            + String getQuestion()
+            + String getIntro()
+            + String getOutro()
+            + boolean getTutorial()
+            + String getConfigId()
+            + String getTrialId()
+            + CodeChartsConfiguration getCodeChartsConfiguration()
+            + ZoomMapsConfiguration getZoomMapsConfiguration()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigWriter {
+            ' --- values (github.weichware10.util.config.ConfigWriter) ---
+
+            ' --- methods (github.weichware10.util.config.ConfigWriter) ---
+            -  ConfigWriter()
+            {static}+ boolean toJson(String location, Configuration configuration)
+            {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.EyeTrackingConfiguration {
+            ' --- values (github.weichware10.util.config.EyeTrackingConfiguration) ---
+
+            ' --- fields (github.weichware10.util.config.EyeTrackingConfiguration) ---
+            # float pollIntervall
+
+            ' --- methods (github.weichware10.util.config.EyeTrackingConfiguration) ---
+            + float getPollIntervall()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ZoomMapsConfiguration {
+            ' --- values (github.weichware10.util.config.ZoomMapsConfiguration) ---
+
+            ' --- fields (github.weichware10.util.config.ZoomMapsConfiguration) ---
+            # double speed
+            # double imageViewWidth
+            # double imageViewHeight
+
+            ' --- methods (github.weichware10.util.config.ZoomMapsConfiguration) ---
+            +  ZoomMapsConfiguration()
+            +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+            + double getSpeed()
+            + double getImageViewWidth()
+            + double getImageViewHeight()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+    }
+
+    package github.weichware10.util.data {
+
+        ' -=- classes (github.weichware10.util.data) -=-
+        class github.weichware10.util.data.DataPoint {
+            ' --- values (github.weichware10.util.data.DataPoint) ---
+
+            ' --- fields (github.weichware10.util.data.DataPoint) ---
+            + int dataId
+            + int timeOffset
+            + Rectangle2D viewport
+            + Integer depth
+
+            ' --- methods (github.weichware10.util.data.DataPoint) ---
+            +  DataPoint(int dataId, int timeOffset, Map<String, Double> viewport, Integer depth)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+        class github.weichware10.util.data.TrialData {
+            ' --- values (github.weichware10.util.data.TrialData) ---
+
+            ' --- fields (github.weichware10.util.data.TrialData) ---
+            + ToolType toolType
+            + String trialId
+            + String configId
+            + DateTime startTime
+            - String answer
+            - List<DataPoint> dataPoints
+
+            ' --- methods (github.weichware10.util.data.TrialData) ---
+            +  TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)
+            +  TrialData(ToolType toolType, String trialId, String configId)
+            + List<DataPoint> getData()
+            + String getAnswer()
+            + void setAnswer(String answer)
+            + ToolType getToolType()
+            + String getTrialId()
+            + String getConfigId()
+            + DateTime getStartTime()
+            + void addDataPoint(Rectangle2D viewport, int depth)
+            + void addDataPoint(Rectangle2D viewport)
+            {static}+ TrialData fromJson(String location)
+            {static}+ boolean toJson(String location, TrialData trialData)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+    }
+
+    package github.weichware10.util.db {
+
+        ' -=- classes (github.weichware10.util.db) -=-
+        class github.weichware10.util.db.Configurations {
+            ' --- values (github.weichware10.util.db.Configurations) ---
+
+            ' --- fields (github.weichware10.util.db.Configurations) ---
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.db.Configurations) ---
+            #  Configurations(DataBaseClient dataBaseClient)
+            + Configuration get(String configId)
+            + String set(Configuration configuration)
+            + boolean getAvailability(String configId)
+        }
+
+        class github.weichware10.util.db.DataBaseClient {
+            ' --- values (github.weichware10.util.db.DataBaseClient) ---
+
+            ' --- fields (github.weichware10.util.db.DataBaseClient) ---
+            # String url
+            # Properties props
+            # String schema
+            + Configurations configurations
+            + Trials trials
+            + Datapoints datapoints
+            + Strings strings
+            + Permissions permissions
+
+            ' --- methods (github.weichware10.util.db.DataBaseClient) ---
+            +  DataBaseClient(String url, String user, String password, String schema)
+            - boolean tableExists(String table)
+        }
+
+        class github.weichware10.util.db.Datapoints {
+            ' --- values (github.weichware10.util.db.Datapoints) ---
+
+            ' --- fields (github.weichware10.util.db.Datapoints) ---
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.db.Datapoints) ---
+            #  Datapoints(DataBaseClient dataBaseClient)
+            + List<DataPoint> get(String trialId)
+            + void set(List<DataPoint> dataPoints, String trialId)
+        }
+
+        enum github.weichware10.util.db.Permission {
+            ' --- values (github.weichware10.util.db.Permission) ---
+             SELECT,  UPDATE,  INSERT,  DELETE
+
+        }
+
+        class github.weichware10.util.db.Permissions {
+            ' --- values (github.weichware10.util.db.Permissions) ---
+
+            ' --- fields (github.weichware10.util.db.Permissions) ---
+            {static}+ Permission SELECT
+            {static}+ Permission UPDATE
+            {static}+ Permission INSERT
+            {static}+ Permission DELETE
+            + Set<Permission> configurations
+            + Set<Permission> trials
+            + Set<Permission> datapoints
+            + Set<Permission> strings
+            + boolean isSubject
+            + boolean isSpectator
+            + boolean isAuthor
+            + boolean isAdmin
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.db.Permissions) ---
+            +  Permissions(DataBaseClient dataBaseClient)
+            - Set<Permission> getPermissions(String table)
+            + boolean satisfies(Collection<Permission> configurationsPermissions, Collection<Permission> trialsPermissions, Collection<Permission> datapointsPermissions, Collection<Permission> stringsPermissions)
+            - boolean permissionsSatisfies(Collection<Permission> desired, Collection<Permission> actual)
+            - boolean satisfiesAdmin()
+            - boolean satisfiesAuthor()
+            - boolean satisfiesSpectator()
+            - boolean satisfiesSubject()
+        }
+
+        class github.weichware10.util.db.Strings {
+            ' --- values (github.weichware10.util.db.Strings) ---
+
+            ' --- fields (github.weichware10.util.db.Strings) ---
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.db.Strings) ---
+            #  Strings(DataBaseClient dataBaseClient)
+            + Integer sizeOf(String stringId)
+            + List<String> get(String stringId)
+            + void set(String stringId, List<String> strings)
+        }
+
+        class github.weichware10.util.db.Trials {
+            ' --- values (github.weichware10.util.db.Trials) ---
+
+            ' --- fields (github.weichware10.util.db.Trials) ---
+            - DataBaseClient dataBaseClient
+
+            ' --- methods (github.weichware10.util.db.Trials) ---
+            #  Trials(DataBaseClient dataBaseClient)
+            + String getConfigId(String trialId)
+            + TrialData getTrial(String trialId)
+            + boolean set(TrialData trialData)
+            + boolean getAvailability(String trialId)
+            + List<String> add(String configId, int amount)
+            + List<TrialData> getList(String configId, ToolType toolType, DateTime minTime, DateTime maxTime, int amount)
+        }
+
+        class github.weichware10.util.db.Util {
+            ' --- values (github.weichware10.util.db.Util) ---
+
+            ' --- methods (github.weichware10.util.db.Util) ---
+            {static}# String generateId(String prefix, int length)
+            {static}# void closeQuietly(Connection conn)
+            {static}# void closeQuietly(Statement st)
+            {static}# void closeQuietly(PreparedStatement pst)
+            {static}# void closeQuietly(ResultSet rs)
+        }
+
+    }
+
+    package github.weichware10.util.gui {
+
+        ' -=- classes (github.weichware10.util.gui) -=-
+        class github.weichware10.util.gui.AbsScene {
+            ' --- values (github.weichware10.util.gui.AbsScene) ---
+
+            ' --- methods (github.weichware10.util.gui.AbsScene) ---
+            {static}+ InitResult initialize(URL fxml)
+            {static}+ void setMenuBar(MenuBar menuBar, Parent root)
+            {static}+ InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)
+        }
+        class github.weichware10.util.gui.AbsScene$InitResult {
+            ' --- values (github.weichware10.util.gui.AbsScene$InitResult) ---
+
+            ' --- fields (github.weichware10.util.gui.AbsScene$InitResult) ---
+            + Parent root
+            + AbsSceneController controller
+
+            ' --- methods (github.weichware10.util.gui.AbsScene$InitResult) ---
+            #  InitResult(Parent root, AbsSceneController controller)
+        }
+        github.weichware10.util.gui.AbsScene +-- github.weichware10.util.gui.AbsScene$InitResult
+
+        class github.weichware10.util.gui.AbsSceneController {
+            ' --- values (github.weichware10.util.gui.AbsSceneController) ---
+
+            ' --- fields (github.weichware10.util.gui.AbsSceneController) ---
+            # ResourceBundle resources
+            # URL location
+
+            ' --- methods (github.weichware10.util.gui.AbsSceneController) ---
+            {abstract}# void initialize()
+        }
+
+        class github.weichware10.util.gui.Log {
+            ' --- values (github.weichware10.util.gui.Log) ---
+
+            ' --- fields (github.weichware10.util.gui.Log) ---
+            {static}- Stage logStage
+            {static}- Parent root
+            {static}- SimpleBooleanProperty visibleProperty
+            {static}+ ObservableBooleanValue visible
+
+            ' --- methods (github.weichware10.util.gui.Log) ---
+            {static}+ void start(String icon)
+            {static}+ boolean isVisible()
+            {static}+ void show()
+            {static}+ void hide()
+            {static}+ void close()
+            {static}+ void log(String content, String type)
+        }
+
+        class github.weichware10.util.gui.LogController {
+            ' --- values (github.weichware10.util.gui.LogController) ---
+
+            ' --- fields (github.weichware10.util.gui.LogController) ---
+            - ResourceBundle resources
+            - URL location
+            - TextField logInput
+            - TextArea logArea
+            - Pane logPane
+            - MenuButton logMenuButton
+
+            ' --- methods (github.weichware10.util.gui.LogController) ---
+            # void initialize()
+            ~ void setLogType(ActionEvent event)
+            ~ void inputKeyPress(KeyEvent event)
+            ~ void log()
+        }
+
+    }
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.util.config.ConfigClient o-- github.weichware10.util.config.Configuration
+github.weichware10.util.config.ConfigClient o-- github.weichware10.util.db.DataBaseClient
+github.weichware10.util.config.Configuration o-- github.weichware10.util.ToolType
+github.weichware10.util.config.Configuration o-- github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o-- github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.data.TrialData o-- github.weichware10.util.ToolType
+github.weichware10.util.db.DataBaseClient o-- github.weichware10.util.db.Configurations
+github.weichware10.util.db.DataBaseClient o-- github.weichware10.util.db.Trials
+github.weichware10.util.db.DataBaseClient o-- github.weichware10.util.db.Datapoints
+github.weichware10.util.db.DataBaseClient o-- github.weichware10.util.db.Strings
+github.weichware10.util.db.DataBaseClient o-- github.weichware10.util.db.Permissions
+github.weichware10.util.db.Permissions o-- github.weichware10.util.db.Permission
+github.weichware10.util.gui.AbsScene$InitResult o-r- github.weichware10.util.gui.AbsSceneController
+
+' autogenerated inheritances, may be faulty.
+class java.io.OutputStream
+java.io.OutputStream <|-- github.weichware10.util.Logger$LogStream
+github.weichware10.util.gui.AbsScene <|-- github.weichware10.util.gui.Log
+github.weichware10.util.gui.AbsSceneController <|-- github.weichware10.util.gui.LogController
+
+github.weichware10.util.gui.Log .l. github.weichware10.util.gui.LogController : Verbindung über Bindings
+
+@enduml

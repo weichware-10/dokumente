@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1728px" preserveAspectRatio="none" style="width:7126px;height:1728px;background:#FFFFFF;" version="1.1" viewBox="0 0 7126 1728" width="7126px" zoomAndPan="magnify"><defs><filter height="300%" id="fhi0qxvjo8jdo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="187" x="3463" y="18.6855">github.weichware10.util</text><!--MD5=[4d5361bcdad4661f875fdc6012fff9d7]
+cluster github.weichware10.util--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="16,161.6406,188,161.6406,195,185.25,7109,185.25,7109,1721.6406,16,1721.6406,16,161.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="195" y1="185.25" y2="185.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="20" y="178.1738">github.weichware10.util</text><!--MD5=[85fc05fda2d9b5d6d6a3a7bc856b9cb5]
+cluster github.weichware10.util.config--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="2988,299.6406,3208,299.6406,3215,323.25,4601,323.25,4601,1572.6406,2988,1572.6406,2988,299.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2988" x2="3215" y1="323.25" y2="323.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="214" x="2992" y="316.1738">github.weichware10.util.config</text><!--MD5=[1249ec8b4ab785eca655af572d08937e]
+cluster github.weichware10.util.data--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="1879,685.1406,2085,685.1406,2092,708.75,2964,708.75,2964,1076.1406,1879,1076.1406,1879,685.1406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1879" x2="2092" y1="708.75" y2="708.75"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="200" x="1883" y="701.6738">github.weichware10.util.data</text><!--MD5=[245086c996393895d1211384d8ec188c]
+cluster github.weichware10.util.db--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="4625,761.6406,4819,761.6406,4826,785.25,7085,785.25,7085,1697.6406,4625,1697.6406,4625,761.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4625" x2="4826" y1="785.25" y2="785.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="4629" y="778.1738">github.weichware10.util.db</text><!--MD5=[8a94dfd02d0e56044d54240d252625a1]
+cluster github.weichware10.util.gui--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="1021,334.1406,1219,334.1406,1226,357.75,1855,357.75,1855,1461.6406,1021,1461.6406,1021,334.1406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1021" x2="1226" y1="357.75" y2="357.75"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="192" x="1025" y="350.6738">github.weichware10.util.gui</text><!--MD5=[0d852700fdad35b7061d461d6907a324]
+cluster java.io--><polygon fill="#FFFFFF" filter="url(#fhi0qxvjo8jdo)" points="833,28.6406,885,28.6406,892,52.25,973,52.25,973,128.6406,833,128.6406,833,28.6406" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="833" x2="892" y1="52.25" y2="52.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="46" x="837" y="45.1738">java.io</text><!--MD5=[b9094f841b6f2c0bd2144d0dd7d9a2b8]
+class github.weichware10.util.Files--><rect codeLine="6" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="117.1797" id="github.weichware10.util.Files" style="stroke:#A80036;stroke-width:1.5;" width="368" x="32" y="356.6406"/><ellipse cx="198.25" cy="372.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M201.0156,368.5156 Q201.1719,368.2969 201.3594,368.1875 Q201.5469,368.0781 201.7656,368.0781 Q202.1406,368.0781 202.375,368.3438 Q202.6094,368.5938 202.6094,369.2031 L202.6094,370.6563 Q202.6094,371.2656 202.375,371.5313 Q202.1406,371.7969 201.7656,371.7969 Q201.4219,371.7969 201.2188,371.5938 Q201.0156,371.4063 200.9063,370.8906 Q200.8594,370.5313 200.6719,370.3438 Q200.3438,369.9688 199.7344,369.75 Q199.125,369.5313 198.5,369.5313 Q197.7344,369.5313 197.0938,369.8594 Q196.4688,370.1875 195.9688,370.9375 Q195.4844,371.6875 195.4844,372.7188 L195.4844,373.8125 Q195.4844,375.0469 196.375,375.875 Q197.2656,376.6875 198.8594,376.6875 Q199.7969,376.6875 200.4531,376.4375 Q200.8438,376.2813 201.2656,375.8438 Q201.5313,375.5781 201.6719,375.5 Q201.8281,375.4219 202.0313,375.4219 Q202.3594,375.4219 202.6094,375.6875 Q202.875,375.9375 202.875,376.2813 Q202.875,376.625 202.5313,377.0313 Q202.0313,377.6094 201.2344,377.9375 Q200.1563,378.3906 198.8594,378.3906 Q197.3438,378.3906 196.1406,377.7656 Q195.1563,377.2656 194.4688,376.2031 Q193.7813,375.125 193.7813,373.8438 L193.7813,372.6875 Q193.7813,371.3594 194.3906,370.2188 Q195.0156,369.0625 196.1094,368.4531 Q197.2031,367.8281 198.4375,367.8281 Q199.1719,367.8281 199.8125,368 Q200.4688,368.1563 201.0156,368.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="218.75" y="377.5508">Files</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="399" y1="388.6406" y2="388.6406"/><ellipse cx="43" cy="399.6406" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="60" x="52" y="404.0596">String tmpdir</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="399" y1="410.4766" y2="410.4766"/><ellipse cx="43" cy="421.4766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="109" x="52" y="425.8955">String createTempDir()</text><ellipse cx="43" cy="435.3125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="163" x="52" y="439.7314">String saveImage(String imageUrl)</text><ellipse cx="43" cy="449.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="342" x="52" y="453.5674">String saveGeneratedImage(BufferedImage buffImage, String fileName)</text><ellipse cx="43" cy="462.9844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="113" x="52" y="467.4033">Thread deleteTempDir()</text><!--MD5=[a697b4e01a510f1a659ccf75f9a9da20]
+class github.weichware10.util.Logger--><rect codeLine="19" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="435.4063" id="github.weichware10.util.Logger" style="stroke:#A80036;stroke-width:1.5;" width="334" x="435" y="197.6406"/><ellipse cx="578.25" cy="213.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M581.0156,209.5156 Q581.1719,209.2969 581.3594,209.1875 Q581.5469,209.0781 581.7656,209.0781 Q582.1406,209.0781 582.375,209.3438 Q582.6094,209.5938 582.6094,210.2031 L582.6094,211.6563 Q582.6094,212.2656 582.375,212.5313 Q582.1406,212.7969 581.7656,212.7969 Q581.4219,212.7969 581.2188,212.5938 Q581.0156,212.4063 580.9063,211.8906 Q580.8594,211.5313 580.6719,211.3438 Q580.3438,210.9688 579.7344,210.75 Q579.125,210.5313 578.5,210.5313 Q577.7344,210.5313 577.0938,210.8594 Q576.4688,211.1875 575.9688,211.9375 Q575.4844,212.6875 575.4844,213.7188 L575.4844,214.8125 Q575.4844,216.0469 576.375,216.875 Q577.2656,217.6875 578.8594,217.6875 Q579.7969,217.6875 580.4531,217.4375 Q580.8438,217.2813 581.2656,216.8438 Q581.5313,216.5781 581.6719,216.5 Q581.8281,216.4219 582.0313,216.4219 Q582.3594,216.4219 582.6094,216.6875 Q582.875,216.9375 582.875,217.2813 Q582.875,217.625 582.5313,218.0313 Q582.0313,218.6094 581.2344,218.9375 Q580.1563,219.3906 578.8594,219.3906 Q577.3438,219.3906 576.1406,218.7656 Q575.1563,218.2656 574.4688,217.2031 Q573.7813,216.125 573.7813,214.8438 L573.7813,213.6875 Q573.7813,212.3594 574.3906,211.2188 Q575.0156,210.0625 576.1094,209.4531 Q577.2031,208.8281 578.4375,208.8281 Q579.1719,208.8281 579.8125,209 Q580.4688,209.1563 581.0156,209.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="39" x="598.75" y="218.5508">Logger</text><line style="stroke:#A80036;stroke-width:1.5;" x1="436" x2="768" y1="229.6406" y2="229.6406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="237.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="63" x="455" y="245.0596">String RESET</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="251.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="51" x="455" y="258.8955">String RED</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="265.3125"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="75" x="455" y="272.7314">String YELLOW</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="279.1484"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="69" x="455" y="286.5674">String PURPLE</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="292.9844"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="61" x="455" y="300.4033">String CYAN</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="306.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="86" x="455" y="314.2393">PrintStream logfile</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="320.6563"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="93" x="455" y="328.0752">PrintStream sysOut</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="334.4922"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="90" x="455" y="341.9111">PrintStream sysErr</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="348.3281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="86" x="455" y="355.7471">TextArea logArea</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="362.1641"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="103" x="455" y="369.583">LogStream logStream</text><ellipse cx="446" cy="379" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="122" x="455" y="383.4189">PrintStream PRINSTREAM</text><line style="stroke:#A80036;stroke-width:1.5;" x1="436" x2="768" y1="389.8359" y2="389.8359"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="443" y="397.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="455" y="405.2549">Logger()</text><ellipse cx="446" cy="414.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="149" x="455" y="419.0908">void setLogfile(String filename)</text><ellipse cx="446" cy="428.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="174" x="455" y="432.9268">void setLogArea(TextArea logArea)</text><ellipse cx="446" cy="442.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="155" x="455" y="446.7627">void setSysOut(PrintStream out)</text><ellipse cx="446" cy="456.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="151" x="455" y="460.5986">void setSysErr(PrintStream err)</text><ellipse cx="446" cy="470.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="136" x="455" y="474.4346">void debug(String message)</text><ellipse cx="446" cy="483.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="207" x="455" y="488.2705">void debug(String message, Exception ctx)</text><ellipse cx="446" cy="497.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="308" x="455" y="502.1064">void debug(String message, Exception ctx, boolean stackTrace)</text><ellipse cx="446" cy="511.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="130" x="455" y="515.9424">void error(String message)</text><ellipse cx="446" cy="525.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="201" x="455" y="529.7783">void error(String message, Exception ctx)</text><ellipse cx="446" cy="539.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="302" x="455" y="543.6143">void error(String message, Exception ctx, boolean stackTrace)</text><ellipse cx="446" cy="553.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="132" x="455" y="557.4502">void warn(String message)</text><ellipse cx="446" cy="566.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="203" x="455" y="571.2861">void warn(String message, Exception ctx)</text><ellipse cx="446" cy="580.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="304" x="455" y="585.1221">void warn(String message, Exception ctx, boolean stackTrace)</text><ellipse cx="446" cy="594.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="124" x="455" y="598.958">void info(String message)</text><ellipse cx="446" cy="608.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="195" x="455" y="612.7939">void info(String message, Exception ctx)</text><ellipse cx="446" cy="622.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="296" x="455" y="626.6299">void info(String message, Exception ctx, boolean stackTrace)</text><!--MD5=[f31496414c0d089a005f549950de3a75]
+class github.weichware10.util.Logger$LogStream--><rect codeLine="54" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="103.3438" id="github.weichware10.util.Logger$LogStream" style="stroke:#A80036;stroke-width:1.5;" width="198" x="804" y="363.6406"/><ellipse cx="845.55" cy="379.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M848.3156,375.5156 Q848.4719,375.2969 848.6594,375.1875 Q848.8469,375.0781 849.0656,375.0781 Q849.4406,375.0781 849.675,375.3438 Q849.9094,375.5938 849.9094,376.2031 L849.9094,377.6563 Q849.9094,378.2656 849.675,378.5313 Q849.4406,378.7969 849.0656,378.7969 Q848.7219,378.7969 848.5188,378.5938 Q848.3156,378.4063 848.2063,377.8906 Q848.1594,377.5313 847.9719,377.3438 Q847.6438,376.9688 847.0344,376.75 Q846.425,376.5313 845.8,376.5313 Q845.0344,376.5313 844.3938,376.8594 Q843.7688,377.1875 843.2688,377.9375 Q842.7844,378.6875 842.7844,379.7188 L842.7844,380.8125 Q842.7844,382.0469 843.675,382.875 Q844.5656,383.6875 846.1594,383.6875 Q847.0969,383.6875 847.7531,383.4375 Q848.1438,383.2813 848.5656,382.8438 Q848.8313,382.5781 848.9719,382.5 Q849.1281,382.4219 849.3313,382.4219 Q849.6594,382.4219 849.9094,382.6875 Q850.175,382.9375 850.175,383.2813 Q850.175,383.625 849.8313,384.0313 Q849.3313,384.6094 848.5344,384.9375 Q847.4563,385.3906 846.1594,385.3906 Q844.6438,385.3906 843.4406,384.7656 Q842.4563,384.2656 841.7688,383.2031 Q841.0813,382.125 841.0813,380.8438 L841.0813,379.6875 Q841.0813,378.3594 841.6906,377.2188 Q842.3156,376.0625 843.4094,375.4531 Q844.5031,374.8281 845.7375,374.8281 Q846.4719,374.8281 847.1125,375 Q847.7688,375.1563 848.3156,375.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="865.45" y="384.5508">Logger$LogStream</text><line style="stroke:#A80036;stroke-width:1.5;" x1="805" x2="1001" y1="395.6406" y2="395.6406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="805" x2="1001" y1="403.6406" y2="403.6406"/><ellipse cx="815" cy="414.6406" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="824" y="419.0596">void write(int i)</text><ellipse cx="815" cy="428.4766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="824" y="432.8955">void consoleLog(String content)</text><ellipse cx="815" cy="442.3125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="824" y="446.7314">void plainLog(String content)</text><ellipse cx="815" cy="456.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="824" y="460.5674">void printStackTrace(Exception ctx)</text><!--MD5=[7b5d5a9bd308ee4b0dd599b2a381cd6e]
+class github.weichware10.util.ToolType--><rect codeLine="65" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="61.8359" id="github.weichware10.util.ToolType" style="stroke:#A80036;stroke-width:1.5;" width="232" x="2410" y="1321.6406"/><ellipse cx="2496.75" cy="1337.6406" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2495.6094,1338.4375 L2495.6094,1340.9375 L2499.9375,1340.9375 L2499.9375,1340.0156 Q2499.9375,1339.4063 2500.1719,1339.1406 Q2500.4219,1338.875 2500.7969,1338.875 Q2501.1719,1338.875 2501.4063,1339.1406 Q2501.6406,1339.4063 2501.6406,1340.0156 L2501.6406,1342.6406 L2493.6406,1342.6406 Q2493.0156,1342.6406 2492.75,1342.4063 Q2492.5,1342.1719 2492.5,1341.7813 Q2492.5,1341.4063 2492.7656,1341.1719 Q2493.0313,1340.9375 2493.6406,1340.9375 L2493.9063,1340.9375 L2493.9063,1334.2813 L2493.6406,1334.2813 Q2493.0156,1334.2813 2492.75,1334.0469 Q2492.5,1333.8125 2492.5,1333.4219 Q2492.5,1333.0469 2492.75,1332.8125 Q2493.0156,1332.5781 2493.6406,1332.5781 L2501.2656,1332.5781 L2501.2656,1335.1719 Q2501.2656,1335.7813 2501.0313,1336.0469 Q2500.8125,1336.2969 2500.4219,1336.2969 Q2500.0469,1336.2969 2499.8125,1336.0469 Q2499.5781,1335.7813 2499.5781,1335.1719 L2499.5781,1334.2813 L2495.6094,1334.2813 L2495.6094,1336.7344 L2497.0938,1336.7344 Q2497.0938,1336.0781 2497.2188,1335.8906 Q2497.4844,1335.4844 2497.9531,1335.4844 Q2498.3281,1335.4844 2498.5625,1335.75 Q2498.7969,1336 2498.7969,1336.6094 L2498.7969,1338.5781 Q2498.7969,1339.125 2498.6719,1339.3125 Q2498.4063,1339.7031 2497.9531,1339.7031 Q2497.4844,1339.7031 2497.2188,1339.2969 Q2497.0938,1339.1094 2497.0938,1338.4375 L2495.6094,1338.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="2517.25" y="1342.5508">ToolType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2411" x2="2641" y1="1353.6406" y2="1353.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="220" x="2416" y="1369.0596">ZOOMMAPS,  EYETRACKING,  CODECHARTS</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2411" x2="2641" y1="1375.4766" y2="1375.4766"/><!--MD5=[214748f7e53213fd57a04f5f161e0d37]
+class github.weichware10.util.config.CodeChartsConfiguration--><rect codeLine="75" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="407.7344" id="github.weichware10.util.config.CodeChartsConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="1082" x="3004" y="1148.6406"/><ellipse cx="3470.25" cy="1164.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3473.0156,1160.5156 Q3473.1719,1160.2969 3473.3594,1160.1875 Q3473.5469,1160.0781 3473.7656,1160.0781 Q3474.1406,1160.0781 3474.375,1160.3438 Q3474.6094,1160.5938 3474.6094,1161.2031 L3474.6094,1162.6563 Q3474.6094,1163.2656 3474.375,1163.5313 Q3474.1406,1163.7969 3473.7656,1163.7969 Q3473.4219,1163.7969 3473.2188,1163.5938 Q3473.0156,1163.4063 3472.9063,1162.8906 Q3472.8594,1162.5313 3472.6719,1162.3438 Q3472.3438,1161.9688 3471.7344,1161.75 Q3471.125,1161.5313 3470.5,1161.5313 Q3469.7344,1161.5313 3469.0938,1161.8594 Q3468.4688,1162.1875 3467.9688,1162.9375 Q3467.4844,1163.6875 3467.4844,1164.7188 L3467.4844,1165.8125 Q3467.4844,1167.0469 3468.375,1167.875 Q3469.2656,1168.6875 3470.8594,1168.6875 Q3471.7969,1168.6875 3472.4531,1168.4375 Q3472.8438,1168.2813 3473.2656,1167.8438 Q3473.5313,1167.5781 3473.6719,1167.5 Q3473.8281,1167.4219 3474.0313,1167.4219 Q3474.3594,1167.4219 3474.6094,1167.6875 Q3474.875,1167.9375 3474.875,1168.2813 Q3474.875,1168.625 3474.5313,1169.0313 Q3474.0313,1169.6094 3473.2344,1169.9375 Q3472.1563,1170.3906 3470.8594,1170.3906 Q3469.3438,1170.3906 3468.1406,1169.7656 Q3467.1563,1169.2656 3466.4688,1168.2031 Q3465.7813,1167.125 3465.7813,1165.8438 L3465.7813,1164.6875 Q3465.7813,1163.3594 3466.3906,1162.2188 Q3467.0156,1161.0625 3468.1094,1160.4531 Q3469.2031,1159.8281 3470.4375,1159.8281 Q3471.1719,1159.8281 3471.8125,1160 Q3472.4688,1160.1563 3473.0156,1160.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="141" x="3490.75" y="1169.5508">CodeChartsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3005" x2="4085" y1="1180.6406" y2="1180.6406"/><polygon fill="none" points="3015,1186.6406,3019,1190.6406,3015,1194.6406,3011,1190.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="3024" y="1196.0596">String stringId</text><polygon fill="none" points="3015,1200.4766,3019,1204.4766,3015,1208.4766,3011,1204.4766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="3024" y="1209.8955">List&lt;String&gt; strings</text><polygon fill="none" points="3015,1214.3125,3019,1218.3125,3015,1222.3125,3011,1218.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="3024" y="1223.7314">int[] initialSize</text><polygon fill="none" points="3015,1228.1484,3019,1232.1484,3015,1236.1484,3011,1232.1484" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="3024" y="1237.5674">long[] timings</text><polygon fill="none" points="3015,1241.9844,3019,1245.9844,3015,1249.9844,3011,1245.9844" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="3024" y="1251.4033">boolean showGrid</text><polygon fill="none" points="3015,1255.8203,3019,1259.8203,3015,1263.8203,3011,1259.8203" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="3024" y="1265.2393">boolean relativeSize</text><polygon fill="none" points="3015,1269.6563,3019,1273.6563,3015,1277.6563,3011,1273.6563" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="3024" y="1279.0752">boolean randomized</text><polygon fill="none" points="3015,1283.4922,3019,1287.4922,3015,1291.4922,3011,1287.4922" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="3024" y="1292.9111">Integer iterations</text><polygon fill="none" points="3015,1297.3281,3019,1301.3281,3015,1305.3281,3011,1301.3281" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="3024" y="1306.7471">Integer maxDepth</text><polygon fill="none" points="3015,1311.1641,3019,1315.1641,3015,1319.1641,3011,1315.1641" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="3024" y="1320.583">Integer defaultHorizontal</text><polygon fill="none" points="3015,1325,3019,1329,3015,1333,3011,1329" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="3024" y="1334.4189">Integer defaultVertical</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3005" x2="4085" y1="1340.8359" y2="1340.8359"/><polygon fill="#FFFF44" points="3015,1346.8359,3019,1350.8359,3015,1354.8359,3011,1350.8359" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="3024" y="1356.2549">CodeChartsConfiguration()</text><ellipse cx="3015" cy="1365.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="1056" x="3024" y="1370.0908">CodeChartsConfiguration(String stringId, List&lt;String&gt; strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)</text><ellipse cx="3015" cy="1379.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="3024" y="1383.9268">String getStringId()</text><ellipse cx="3015" cy="1393.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="3024" y="1397.7627">List&lt;String&gt; getStrings()</text><ellipse cx="3015" cy="1407.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="3024" y="1411.5986">long[] getTimings()</text><ellipse cx="3015" cy="1421.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="3024" y="1425.4346">int[] getInitialSize()</text><ellipse cx="3015" cy="1434.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="3024" y="1439.2705">boolean getShowGrid()</text><ellipse cx="3015" cy="1448.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="3024" y="1453.1064">boolean getRelativeSize()</text><ellipse cx="3015" cy="1462.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="3024" y="1466.9424">boolean getRandomized()</text><ellipse cx="3015" cy="1476.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="3024" y="1480.7783">int getIterations()</text><ellipse cx="3015" cy="1490.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="3024" y="1494.6143">int getMaxDepth()</text><ellipse cx="3015" cy="1504.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="3024" y="1508.4502">int getDefaultHorizontal()</text><ellipse cx="3015" cy="1517.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="3024" y="1522.2861">int getDefaultVertical()</text><ellipse cx="3015" cy="1531.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="3024" y="1536.1221">boolean equals(Object obj)</text><ellipse cx="3015" cy="1545.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3024" y="1549.958">String toString()</text><!--MD5=[bdbce3088ca42b5dc99e58520230694f]
+class github.weichware10.util.config.ConfigClient--><rect codeLine="109" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="158.6875" id="github.weichware10.util.config.ConfigClient" style="stroke:#A80036;stroke-width:1.5;" width="239" x="3692.5" y="335.6406"/><ellipse cx="3773.75" cy="351.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3776.5156,347.5156 Q3776.6719,347.2969 3776.8594,347.1875 Q3777.0469,347.0781 3777.2656,347.0781 Q3777.6406,347.0781 3777.875,347.3438 Q3778.1094,347.5938 3778.1094,348.2031 L3778.1094,349.6563 Q3778.1094,350.2656 3777.875,350.5313 Q3777.6406,350.7969 3777.2656,350.7969 Q3776.9219,350.7969 3776.7188,350.5938 Q3776.5156,350.4063 3776.4063,349.8906 Q3776.3594,349.5313 3776.1719,349.3438 Q3775.8438,348.9688 3775.2344,348.75 Q3774.625,348.5313 3774,348.5313 Q3773.2344,348.5313 3772.5938,348.8594 Q3771.9688,349.1875 3771.4688,349.9375 Q3770.9844,350.6875 3770.9844,351.7188 L3770.9844,352.8125 Q3770.9844,354.0469 3771.875,354.875 Q3772.7656,355.6875 3774.3594,355.6875 Q3775.2969,355.6875 3775.9531,355.4375 Q3776.3438,355.2813 3776.7656,354.8438 Q3777.0313,354.5781 3777.1719,354.5 Q3777.3281,354.4219 3777.5313,354.4219 Q3777.8594,354.4219 3778.1094,354.6875 Q3778.375,354.9375 3778.375,355.2813 Q3778.375,355.625 3778.0313,356.0313 Q3777.5313,356.6094 3776.7344,356.9375 Q3775.6563,357.3906 3774.3594,357.3906 Q3772.8438,357.3906 3771.6406,356.7656 Q3770.6563,356.2656 3769.9688,355.2031 Q3769.2813,354.125 3769.2813,352.8438 L3769.2813,351.6875 Q3769.2813,350.3594 3769.8906,349.2188 Q3770.5156,348.0625 3771.6094,347.4531 Q3772.7031,346.8281 3773.9375,346.8281 Q3774.6719,346.8281 3775.3125,347 Q3775.9688,347.1563 3776.5156,347.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="3794.25" y="356.5508">ConfigClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3693.5" x2="3930.5" y1="367.6406" y2="367.6406"/><polygon fill="none" points="3703.5,373.6406,3707.5,377.6406,3703.5,381.6406,3699.5,377.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="3712.5" y="383.0596">Configuration configuration</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3700.5" y="389.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="3712.5" y="396.8955">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3693.5" x2="3930.5" y1="403.3125" y2="403.3125"/><ellipse cx="3703.5" cy="414.3125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="213" x="3712.5" y="418.7314">ConfigClient(DataBaseClient dataBaseClient)</text><ellipse cx="3703.5" cy="428.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="3712.5" y="432.5674">Configuration getConfig()</text><ellipse cx="3703.5" cy="441.9844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="3712.5" y="446.4033">boolean writeToJson(String location)</text><ellipse cx="3703.5" cy="455.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="3712.5" y="460.2393">boolean loadFromJson(String location)</text><ellipse cx="3703.5" cy="469.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="3712.5" y="474.0752">boolean loadFromDataBase(String trialId)</text><ellipse cx="3703.5" cy="483.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="3712.5" y="487.9111">String writeToDataBase()</text><!--MD5=[19d9ee01c5c82eb1e4fc74b8242bf8e5]
+class github.weichware10.util.config.ConfigLoader--><rect codeLine="125" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="89.5078" id="github.weichware10.util.config.ConfigLoader" style="stroke:#A80036;stroke-width:1.5;" width="380" x="3247" y="370.1406"/><ellipse cx="3395.25" cy="386.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3398.0156,382.0156 Q3398.1719,381.7969 3398.3594,381.6875 Q3398.5469,381.5781 3398.7656,381.5781 Q3399.1406,381.5781 3399.375,381.8438 Q3399.6094,382.0938 3399.6094,382.7031 L3399.6094,384.1563 Q3399.6094,384.7656 3399.375,385.0313 Q3399.1406,385.2969 3398.7656,385.2969 Q3398.4219,385.2969 3398.2188,385.0938 Q3398.0156,384.9063 3397.9063,384.3906 Q3397.8594,384.0313 3397.6719,383.8438 Q3397.3438,383.4688 3396.7344,383.25 Q3396.125,383.0313 3395.5,383.0313 Q3394.7344,383.0313 3394.0938,383.3594 Q3393.4688,383.6875 3392.9688,384.4375 Q3392.4844,385.1875 3392.4844,386.2188 L3392.4844,387.3125 Q3392.4844,388.5469 3393.375,389.375 Q3394.2656,390.1875 3395.8594,390.1875 Q3396.7969,390.1875 3397.4531,389.9375 Q3397.8438,389.7813 3398.2656,389.3438 Q3398.5313,389.0781 3398.6719,389 Q3398.8281,388.9219 3399.0313,388.9219 Q3399.3594,388.9219 3399.6094,389.1875 Q3399.875,389.4375 3399.875,389.7813 Q3399.875,390.125 3399.5313,390.5313 Q3399.0313,391.1094 3398.2344,391.4375 Q3397.1563,391.8906 3395.8594,391.8906 Q3394.3438,391.8906 3393.1406,391.2656 Q3392.1563,390.7656 3391.4688,389.7031 Q3390.7813,388.625 3390.7813,387.3438 L3390.7813,386.1875 Q3390.7813,384.8594 3391.3906,383.7188 Q3392.0156,382.5625 3393.1094,381.9531 Q3394.2031,381.3281 3395.4375,381.3281 Q3396.1719,381.3281 3396.8125,381.5 Q3397.4688,381.6563 3398.0156,382.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="3415.75" y="391.0508">ConfigLoader</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3248" x2="3626" y1="402.1406" y2="402.1406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="3248" x2="3626" y1="410.1406" y2="410.1406"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3255" y="418.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3267" y="425.5596">ConfigLoader()</text><ellipse cx="3258" cy="434.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="188" x="3267" y="439.3955">Configuration fromJson(String location)</text><ellipse cx="3258" cy="448.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="354" x="3267" y="453.2314">Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)</text><!--MD5=[c51b0484e7090cf6cc1b6bde8f63110c]
+class github.weichware10.util.config.Configuration--><rect codeLine="134" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="393.8984" id="github.weichware10.util.config.Configuration" style="stroke:#A80036;stroke-width:1.5;" width="772" x="3426" y="693.6406"/><ellipse cx="3770.75" cy="709.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3773.5156,705.5156 Q3773.6719,705.2969 3773.8594,705.1875 Q3774.0469,705.0781 3774.2656,705.0781 Q3774.6406,705.0781 3774.875,705.3438 Q3775.1094,705.5938 3775.1094,706.2031 L3775.1094,707.6563 Q3775.1094,708.2656 3774.875,708.5313 Q3774.6406,708.7969 3774.2656,708.7969 Q3773.9219,708.7969 3773.7188,708.5938 Q3773.5156,708.4063 3773.4063,707.8906 Q3773.3594,707.5313 3773.1719,707.3438 Q3772.8438,706.9688 3772.2344,706.75 Q3771.625,706.5313 3771,706.5313 Q3770.2344,706.5313 3769.5938,706.8594 Q3768.9688,707.1875 3768.4688,707.9375 Q3767.9844,708.6875 3767.9844,709.7188 L3767.9844,710.8125 Q3767.9844,712.0469 3768.875,712.875 Q3769.7656,713.6875 3771.3594,713.6875 Q3772.2969,713.6875 3772.9531,713.4375 Q3773.3438,713.2813 3773.7656,712.8438 Q3774.0313,712.5781 3774.1719,712.5 Q3774.3281,712.4219 3774.5313,712.4219 Q3774.8594,712.4219 3775.1094,712.6875 Q3775.375,712.9375 3775.375,713.2813 Q3775.375,713.625 3775.0313,714.0313 Q3774.5313,714.6094 3773.7344,714.9375 Q3772.6563,715.3906 3771.3594,715.3906 Q3769.8438,715.3906 3768.6406,714.7656 Q3767.6563,714.2656 3766.9688,713.2031 Q3766.2813,712.125 3766.2813,710.8438 L3766.2813,709.6875 Q3766.2813,708.3594 3766.8906,707.2188 Q3767.5156,706.0625 3768.6094,705.4531 Q3769.7031,704.8281 3770.9375,704.8281 Q3771.6719,704.8281 3772.3125,705 Q3772.9688,705.1563 3773.5156,705.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="3791.25" y="714.5508">Configuration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3427" x2="4197" y1="725.6406" y2="725.6406"/><polygon fill="none" points="3437,731.6406,3441,735.6406,3437,739.6406,3433,735.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="3446" y="741.0596">ToolType toolType</text><polygon fill="none" points="3437,745.4766,3441,749.4766,3437,753.4766,3433,749.4766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="3446" y="754.8955">String trialId</text><polygon fill="none" points="3437,759.3125,3441,763.3125,3437,767.3125,3433,763.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="3446" y="768.7314">String configId</text><polygon fill="none" points="3437,773.1484,3441,777.1484,3437,781.1484,3433,777.1484" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="3446" y="782.5674">String question</text><polygon fill="none" points="3437,786.9844,3441,790.9844,3437,794.9844,3433,790.9844" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="3446" y="796.4033">String intro</text><polygon fill="none" points="3437,800.8203,3441,804.8203,3437,808.8203,3433,804.8203" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="3446" y="810.2393">String outro</text><polygon fill="none" points="3437,814.6563,3441,818.6563,3437,822.6563,3433,818.6563" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="3446" y="824.0752">String imageUrl</text><polygon fill="none" points="3437,828.4922,3441,832.4922,3437,836.4922,3433,832.4922" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="3446" y="837.9111">boolean tutorial</text><polygon fill="none" points="3437,842.3281,3441,846.3281,3437,850.3281,3433,846.3281" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="244" x="3446" y="851.7471">CodeChartsConfiguration codeChartsConfiguration</text><polygon fill="none" points="3437,856.1641,3441,860.1641,3437,864.1641,3433,860.1641" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="3446" y="865.583">ZoomMapsConfiguration zoomMapsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3427" x2="4197" y1="872" y2="872"/><polygon fill="#FFFF44" points="3437,878,3441,882,3437,886,3433,882" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="3446" y="887.4189">Configuration()</text><ellipse cx="3437" cy="896.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="746" x="3446" y="901.2549">Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)</text><ellipse cx="3437" cy="910.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="738" x="3446" y="915.0908">Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)</text><ellipse cx="3437" cy="924.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="3446" y="928.9268">ToolType getToolType()</text><ellipse cx="3437" cy="938.3438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="3446" y="942.7627">String getImageUrl()</text><ellipse cx="3437" cy="952.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="3446" y="956.5986">String getQuestion()</text><ellipse cx="3437" cy="966.0156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="3446" y="970.4346">String getIntro()</text><ellipse cx="3437" cy="979.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="3446" y="984.2705">String getOutro()</text><ellipse cx="3437" cy="993.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="3446" y="998.1064">boolean getTutorial()</text><ellipse cx="3437" cy="1007.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="3446" y="1011.9424">String getConfigId()</text><ellipse cx="3437" cy="1021.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="3446" y="1025.7783">String getTrialId()</text><ellipse cx="3437" cy="1035.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="268" x="3446" y="1039.6143">CodeChartsConfiguration getCodeChartsConfiguration()</text><ellipse cx="3437" cy="1049.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="260" x="3446" y="1053.4502">ZoomMapsConfiguration getZoomMapsConfiguration()</text><ellipse cx="3437" cy="1062.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="3446" y="1067.2861">boolean equals(Object obj)</text><ellipse cx="3437" cy="1076.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3446" y="1081.1221">String toString()</text><!--MD5=[38901f8c335559b60f1d1de7bcbea52e]
+class github.weichware10.util.config.ConfigWriter--><rect codeLine="167" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="89.5078" id="github.weichware10.util.config.ConfigWriter" style="stroke:#A80036;stroke-width:1.5;" width="405" x="3966.5" y="370.1406"/><ellipse cx="4130.75" cy="386.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M4133.5156,382.0156 Q4133.6719,381.7969 4133.8594,381.6875 Q4134.0469,381.5781 4134.2656,381.5781 Q4134.6406,381.5781 4134.875,381.8438 Q4135.1094,382.0938 4135.1094,382.7031 L4135.1094,384.1563 Q4135.1094,384.7656 4134.875,385.0313 Q4134.6406,385.2969 4134.2656,385.2969 Q4133.9219,385.2969 4133.7188,385.0938 Q4133.5156,384.9063 4133.4063,384.3906 Q4133.3594,384.0313 4133.1719,383.8438 Q4132.8438,383.4688 4132.2344,383.25 Q4131.625,383.0313 4131,383.0313 Q4130.2344,383.0313 4129.5938,383.3594 Q4128.9688,383.6875 4128.4688,384.4375 Q4127.9844,385.1875 4127.9844,386.2188 L4127.9844,387.3125 Q4127.9844,388.5469 4128.875,389.375 Q4129.7656,390.1875 4131.3594,390.1875 Q4132.2969,390.1875 4132.9531,389.9375 Q4133.3438,389.7813 4133.7656,389.3438 Q4134.0313,389.0781 4134.1719,389 Q4134.3281,388.9219 4134.5313,388.9219 Q4134.8594,388.9219 4135.1094,389.1875 Q4135.375,389.4375 4135.375,389.7813 Q4135.375,390.125 4135.0313,390.5313 Q4134.5313,391.1094 4133.7344,391.4375 Q4132.6563,391.8906 4131.3594,391.8906 Q4129.8438,391.8906 4128.6406,391.2656 Q4127.6563,390.7656 4126.9688,389.7031 Q4126.2813,388.625 4126.2813,387.3438 L4126.2813,386.1875 Q4126.2813,384.8594 4126.8906,383.7188 Q4127.5156,382.5625 4128.6094,381.9531 Q4129.7031,381.3281 4130.9375,381.3281 Q4131.6719,381.3281 4132.3125,381.5 Q4132.9688,381.6563 4133.5156,382.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="4151.25" y="391.0508">ConfigWriter</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3967.5" x2="4370.5" y1="402.1406" y2="402.1406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="3967.5" x2="4370.5" y1="410.1406" y2="410.1406"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3974.5" y="418.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="3986.5" y="425.5596">ConfigWriter()</text><ellipse cx="3977.5" cy="434.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="285" x="3986.5" y="439.3955">boolean toJson(String location, Configuration configuration)</text><ellipse cx="3977.5" cy="448.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="379" x="3986.5" y="453.2314">String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)</text><!--MD5=[a01d03ed49fc338a4bf3f5ba86735cf2]
+class github.weichware10.util.config.EyeTrackingConfiguration--><rect codeLine="176" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="103.3438" id="github.weichware10.util.config.EyeTrackingConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="173" x="3217.5" y="839.1406"/><ellipse cx="3232.5" cy="855.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3235.2656,851.0156 Q3235.4219,850.7969 3235.6094,850.6875 Q3235.7969,850.5781 3236.0156,850.5781 Q3236.3906,850.5781 3236.625,850.8438 Q3236.8594,851.0938 3236.8594,851.7031 L3236.8594,853.1563 Q3236.8594,853.7656 3236.625,854.0313 Q3236.3906,854.2969 3236.0156,854.2969 Q3235.6719,854.2969 3235.4688,854.0938 Q3235.2656,853.9063 3235.1563,853.3906 Q3235.1094,853.0313 3234.9219,852.8438 Q3234.5938,852.4688 3233.9844,852.25 Q3233.375,852.0313 3232.75,852.0313 Q3231.9844,852.0313 3231.3438,852.3594 Q3230.7188,852.6875 3230.2188,853.4375 Q3229.7344,854.1875 3229.7344,855.2188 L3229.7344,856.3125 Q3229.7344,857.5469 3230.625,858.375 Q3231.5156,859.1875 3233.1094,859.1875 Q3234.0469,859.1875 3234.7031,858.9375 Q3235.0938,858.7813 3235.5156,858.3438 Q3235.7813,858.0781 3235.9219,858 Q3236.0781,857.9219 3236.2813,857.9219 Q3236.6094,857.9219 3236.8594,858.1875 Q3237.125,858.4375 3237.125,858.7813 Q3237.125,859.125 3236.7813,859.5313 Q3236.2813,860.1094 3235.4844,860.4375 Q3234.4063,860.8906 3233.1094,860.8906 Q3231.5938,860.8906 3230.3906,860.2656 Q3229.4063,859.7656 3228.7188,858.7031 Q3228.0313,857.625 3228.0313,856.3438 L3228.0313,855.1875 Q3228.0313,853.8594 3228.6406,852.7188 Q3229.2656,851.5625 3230.3594,850.9531 Q3231.4531,850.3281 3232.6875,850.3281 Q3233.4219,850.3281 3234.0625,850.5 Q3234.7188,850.6563 3235.2656,851.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="141" x="3246.5" y="860.0508">EyeTrackingConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3218.5" x2="3389.5" y1="871.1406" y2="871.1406"/><polygon fill="none" points="3228.5,877.1406,3232.5,881.1406,3228.5,885.1406,3224.5,881.1406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="3237.5" y="886.5596">float pollIntervall</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3218.5" x2="3389.5" y1="892.9766" y2="892.9766"/><ellipse cx="3228.5" cy="903.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="3237.5" y="908.3955">float getPollIntervall()</text><ellipse cx="3228.5" cy="917.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="3237.5" y="922.2314">boolean equals(Object obj)</text><ellipse cx="3228.5" cy="931.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="3237.5" y="936.0674">String toString()</text><!--MD5=[cf5ad09b6d916b0eba68ac2680dabc45]
+class github.weichware10.util.config.ZoomMapsConfiguration--><rect codeLine="188" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="186.3594" id="github.weichware10.util.config.ZoomMapsConfiguration" style="stroke:#A80036;stroke-width:1.5;" width="463" x="4121.5" y="1259.6406"/><ellipse cx="4280.75" cy="1275.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M4283.5156,1271.5156 Q4283.6719,1271.2969 4283.8594,1271.1875 Q4284.0469,1271.0781 4284.2656,1271.0781 Q4284.6406,1271.0781 4284.875,1271.3438 Q4285.1094,1271.5938 4285.1094,1272.2031 L4285.1094,1273.6563 Q4285.1094,1274.2656 4284.875,1274.5313 Q4284.6406,1274.7969 4284.2656,1274.7969 Q4283.9219,1274.7969 4283.7188,1274.5938 Q4283.5156,1274.4063 4283.4063,1273.8906 Q4283.3594,1273.5313 4283.1719,1273.3438 Q4282.8438,1272.9688 4282.2344,1272.75 Q4281.625,1272.5313 4281,1272.5313 Q4280.2344,1272.5313 4279.5938,1272.8594 Q4278.9688,1273.1875 4278.4688,1273.9375 Q4277.9844,1274.6875 4277.9844,1275.7188 L4277.9844,1276.8125 Q4277.9844,1278.0469 4278.875,1278.875 Q4279.7656,1279.6875 4281.3594,1279.6875 Q4282.2969,1279.6875 4282.9531,1279.4375 Q4283.3438,1279.2813 4283.7656,1278.8438 Q4284.0313,1278.5781 4284.1719,1278.5 Q4284.3281,1278.4219 4284.5313,1278.4219 Q4284.8594,1278.4219 4285.1094,1278.6875 Q4285.375,1278.9375 4285.375,1279.2813 Q4285.375,1279.625 4285.0313,1280.0313 Q4284.5313,1280.6094 4283.7344,1280.9375 Q4282.6563,1281.3906 4281.3594,1281.3906 Q4279.8438,1281.3906 4278.6406,1280.7656 Q4277.6563,1280.2656 4276.9688,1279.2031 Q4276.2813,1278.125 4276.2813,1276.8438 L4276.2813,1275.6875 Q4276.2813,1274.3594 4276.8906,1273.2188 Q4277.5156,1272.0625 4278.6094,1271.4531 Q4279.7031,1270.8281 4280.9375,1270.8281 Q4281.6719,1270.8281 4282.3125,1271 Q4282.9688,1271.1563 4283.5156,1271.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="136" x="4301.25" y="1280.5508">ZoomMapsConfiguration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4122.5" x2="4583.5" y1="1291.6406" y2="1291.6406"/><polygon fill="none" points="4132.5,1297.6406,4136.5,1301.6406,4132.5,1305.6406,4128.5,1301.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="4141.5" y="1307.0596">double speed</text><polygon fill="none" points="4132.5,1311.4766,4136.5,1315.4766,4132.5,1319.4766,4128.5,1315.4766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="4141.5" y="1320.8955">double imageViewWidth</text><polygon fill="none" points="4132.5,1325.3125,4136.5,1329.3125,4132.5,1333.3125,4128.5,1329.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="4141.5" y="1334.7314">double imageViewHeight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4122.5" x2="4583.5" y1="1341.1484" y2="1341.1484"/><ellipse cx="4132.5" cy="1352.1484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="4141.5" y="1356.5674">ZoomMapsConfiguration()</text><ellipse cx="4132.5" cy="1365.9844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="437" x="4141.5" y="1370.4033">ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)</text><ellipse cx="4132.5" cy="1379.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="4141.5" y="1384.2393">double getSpeed()</text><ellipse cx="4132.5" cy="1393.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="4141.5" y="1398.0752">double getImageViewWidth()</text><ellipse cx="4132.5" cy="1407.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="4141.5" y="1411.9111">double getImageViewHeight()</text><ellipse cx="4132.5" cy="1421.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="4141.5" y="1425.7471">boolean equals(Object obj)</text><ellipse cx="4132.5" cy="1435.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="4141.5" y="1439.583">String toString()</text><!--MD5=[c145a3b62989f795d870ae8d68da8a68]
+class github.weichware10.util.data.DataPoint--><rect codeLine="211" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="172.5234" id="github.weichware10.util.data.DataPoint" style="stroke:#A80036;stroke-width:1.5;" width="412" x="2536" y="804.1406"/><ellipse cx="2710.75" cy="820.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2713.5156,816.0156 Q2713.6719,815.7969 2713.8594,815.6875 Q2714.0469,815.5781 2714.2656,815.5781 Q2714.6406,815.5781 2714.875,815.8438 Q2715.1094,816.0938 2715.1094,816.7031 L2715.1094,818.1563 Q2715.1094,818.7656 2714.875,819.0313 Q2714.6406,819.2969 2714.2656,819.2969 Q2713.9219,819.2969 2713.7188,819.0938 Q2713.5156,818.9063 2713.4063,818.3906 Q2713.3594,818.0313 2713.1719,817.8438 Q2712.8438,817.4688 2712.2344,817.25 Q2711.625,817.0313 2711,817.0313 Q2710.2344,817.0313 2709.5938,817.3594 Q2708.9688,817.6875 2708.4688,818.4375 Q2707.9844,819.1875 2707.9844,820.2188 L2707.9844,821.3125 Q2707.9844,822.5469 2708.875,823.375 Q2709.7656,824.1875 2711.3594,824.1875 Q2712.2969,824.1875 2712.9531,823.9375 Q2713.3438,823.7813 2713.7656,823.3438 Q2714.0313,823.0781 2714.1719,823 Q2714.3281,822.9219 2714.5313,822.9219 Q2714.8594,822.9219 2715.1094,823.1875 Q2715.375,823.4375 2715.375,823.7813 Q2715.375,824.125 2715.0313,824.5313 Q2714.5313,825.1094 2713.7344,825.4375 Q2712.6563,825.8906 2711.3594,825.8906 Q2709.8438,825.8906 2708.6406,825.2656 Q2707.6563,824.7656 2706.9688,823.7031 Q2706.2813,822.625 2706.2813,821.3438 L2706.2813,820.1875 Q2706.2813,818.8594 2706.8906,817.7188 Q2707.5156,816.5625 2708.6094,815.9531 Q2709.7031,815.3281 2710.9375,815.3281 Q2711.6719,815.3281 2712.3125,815.5 Q2712.9688,815.6563 2713.5156,816.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="2731.25" y="825.0508">DataPoint</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2537" x2="2947" y1="836.1406" y2="836.1406"/><ellipse cx="2547" cy="847.1406" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="2556" y="851.5596">int dataId</text><ellipse cx="2547" cy="860.9766" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="2556" y="865.3955">int timeOffset</text><ellipse cx="2547" cy="874.8125" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="2556" y="879.2314">Rectangle2D viewport</text><ellipse cx="2547" cy="888.6484" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="2556" y="893.0674">Integer depth</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2537" x2="2947" y1="899.4844" y2="899.4844"/><ellipse cx="2547" cy="910.4844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="386" x="2556" y="914.9033">DataPoint(int dataId, int timeOffset, Map&lt;String, Double&gt; viewport, Integer depth)</text><ellipse cx="2547" cy="924.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="279" x="2556" y="928.7393">DataPoint(int dataId, int timeOffset, Rectangle2D viewport)</text><ellipse cx="2547" cy="938.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="326" x="2556" y="942.5752">DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)</text><ellipse cx="2547" cy="951.9922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="2556" y="956.4111">String toString()</text><ellipse cx="2547" cy="965.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="2556" y="970.2471">boolean equals(Object other)</text><!--MD5=[2d7c804b1c1e2f283d37f9acde098978]
+class github.weichware10.util.data.TrialData--><rect codeLine="228" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="338.5547" id="github.weichware10.util.data.TrialData" style="stroke:#A80036;stroke-width:1.5;" width="606" x="1895" y="721.1406"/><ellipse cx="2168.75" cy="737.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2171.5156,733.0156 Q2171.6719,732.7969 2171.8594,732.6875 Q2172.0469,732.5781 2172.2656,732.5781 Q2172.6406,732.5781 2172.875,732.8438 Q2173.1094,733.0938 2173.1094,733.7031 L2173.1094,735.1563 Q2173.1094,735.7656 2172.875,736.0313 Q2172.6406,736.2969 2172.2656,736.2969 Q2171.9219,736.2969 2171.7188,736.0938 Q2171.5156,735.9063 2171.4063,735.3906 Q2171.3594,735.0313 2171.1719,734.8438 Q2170.8438,734.4688 2170.2344,734.25 Q2169.625,734.0313 2169,734.0313 Q2168.2344,734.0313 2167.5938,734.3594 Q2166.9688,734.6875 2166.4688,735.4375 Q2165.9844,736.1875 2165.9844,737.2188 L2165.9844,738.3125 Q2165.9844,739.5469 2166.875,740.375 Q2167.7656,741.1875 2169.3594,741.1875 Q2170.2969,741.1875 2170.9531,740.9375 Q2171.3438,740.7813 2171.7656,740.3438 Q2172.0313,740.0781 2172.1719,740 Q2172.3281,739.9219 2172.5313,739.9219 Q2172.8594,739.9219 2173.1094,740.1875 Q2173.375,740.4375 2173.375,740.7813 Q2173.375,741.125 2173.0313,741.5313 Q2172.5313,742.1094 2171.7344,742.4375 Q2170.6563,742.8906 2169.3594,742.8906 Q2167.8438,742.8906 2166.6406,742.2656 Q2165.6563,741.7656 2164.9688,740.7031 Q2164.2813,739.625 2164.2813,738.3438 L2164.2813,737.1875 Q2164.2813,735.8594 2164.8906,734.7188 Q2165.5156,733.5625 2166.6094,732.9531 Q2167.7031,732.3281 2168.9375,732.3281 Q2169.6719,732.3281 2170.3125,732.5 Q2170.9688,732.6563 2171.5156,733.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="2189.25" y="742.0508">TrialData</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1896" x2="2500" y1="753.1406" y2="753.1406"/><ellipse cx="1906" cy="764.1406" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="1915" y="768.5596">ToolType toolType</text><ellipse cx="1906" cy="777.9766" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="1915" y="782.3955">String trialId</text><ellipse cx="1906" cy="791.8125" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="1915" y="796.2314">String configId</text><ellipse cx="1906" cy="805.6484" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="1915" y="810.0674">DateTime startTime</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1903" y="816.4844"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="1915" y="823.9033">String answer</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1903" y="830.3203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="1915" y="837.7393">List&lt;DataPoint&gt; dataPoints</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1896" x2="2500" y1="844.1563" y2="844.1563"/><ellipse cx="1906" cy="855.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="580" x="1915" y="859.5752">TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List&lt;DataPoint&gt; dataPoints)</text><ellipse cx="1906" cy="868.9922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="275" x="1915" y="873.4111">TrialData(ToolType toolType, String trialId, String configId)</text><ellipse cx="1906" cy="882.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1915" y="887.2471">List&lt;DataPoint&gt; getData()</text><ellipse cx="1906" cy="896.6641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="1915" y="901.083">String getAnswer()</text><ellipse cx="1906" cy="910.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="1915" y="914.9189">void setAnswer(String answer)</text><ellipse cx="1906" cy="924.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="1915" y="928.7549">ToolType getToolType()</text><ellipse cx="1906" cy="938.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="1915" y="942.5908">String getTrialId()</text><ellipse cx="1906" cy="952.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="1915" y="956.4268">String getConfigId()</text><ellipse cx="1906" cy="965.8438" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="1915" y="970.2627">DateTime getStartTime()</text><ellipse cx="1906" cy="979.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="1915" y="984.0986">void addDataPoint(Rectangle2D viewport, int depth)</text><ellipse cx="1906" cy="993.5156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="201" x="1915" y="997.9346">void addDataPoint(Rectangle2D viewport)</text><ellipse cx="1906" cy="1007.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="166" x="1915" y="1011.7705">TrialData fromJson(String location)</text><ellipse cx="1906" cy="1021.1875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="239" x="1915" y="1025.6064">boolean toJson(String location, TrialData trialData)</text><ellipse cx="1906" cy="1035.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="1915" y="1039.4424">String toString()</text><ellipse cx="1906" cy="1048.8594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="1915" y="1053.2783">boolean equals(Object other)</text><!--MD5=[0e6b2ba819f11047f7bc1732358d2de4]
+class github.weichware10.util.db.Configurations--><rect codeLine="262" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="117.1797" id="github.weichware10.util.db.Configurations" style="stroke:#A80036;stroke-width:1.5;" width="252" x="4641" y="1294.1406"/><ellipse cx="4722.25" cy="1310.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M4725.0156,1306.0156 Q4725.1719,1305.7969 4725.3594,1305.6875 Q4725.5469,1305.5781 4725.7656,1305.5781 Q4726.1406,1305.5781 4726.375,1305.8438 Q4726.6094,1306.0938 4726.6094,1306.7031 L4726.6094,1308.1563 Q4726.6094,1308.7656 4726.375,1309.0313 Q4726.1406,1309.2969 4725.7656,1309.2969 Q4725.4219,1309.2969 4725.2188,1309.0938 Q4725.0156,1308.9063 4724.9063,1308.3906 Q4724.8594,1308.0313 4724.6719,1307.8438 Q4724.3438,1307.4688 4723.7344,1307.25 Q4723.125,1307.0313 4722.5,1307.0313 Q4721.7344,1307.0313 4721.0938,1307.3594 Q4720.4688,1307.6875 4719.9688,1308.4375 Q4719.4844,1309.1875 4719.4844,1310.2188 L4719.4844,1311.3125 Q4719.4844,1312.5469 4720.375,1313.375 Q4721.2656,1314.1875 4722.8594,1314.1875 Q4723.7969,1314.1875 4724.4531,1313.9375 Q4724.8438,1313.7813 4725.2656,1313.3438 Q4725.5313,1313.0781 4725.6719,1313 Q4725.8281,1312.9219 4726.0313,1312.9219 Q4726.3594,1312.9219 4726.6094,1313.1875 Q4726.875,1313.4375 4726.875,1313.7813 Q4726.875,1314.125 4726.5313,1314.5313 Q4726.0313,1315.1094 4725.2344,1315.4375 Q4724.1563,1315.8906 4722.8594,1315.8906 Q4721.3438,1315.8906 4720.1406,1315.2656 Q4719.1563,1314.7656 4718.4688,1313.7031 Q4717.7813,1312.625 4717.7813,1311.3438 L4717.7813,1310.1875 Q4717.7813,1308.8594 4718.3906,1307.7188 Q4719.0156,1306.5625 4720.1094,1305.9531 Q4721.2031,1305.3281 4722.4375,1305.3281 Q4723.1719,1305.3281 4723.8125,1305.5 Q4724.4688,1305.6563 4725.0156,1306.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="4742.75" y="1315.0508">Configurations</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4642" x2="4892" y1="1326.1406" y2="1326.1406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="4649" y="1334.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="4661" y="1341.5596">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4642" x2="4892" y1="1347.9766" y2="1347.9766"/><polygon fill="#FFFF44" points="4652,1353.9766,4656,1357.9766,4652,1361.9766,4648,1357.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="4661" y="1363.3955">Configurations(DataBaseClient dataBaseClient)</text><ellipse cx="4652" cy="1372.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="4661" y="1377.2314">Configuration get(String configId)</text><ellipse cx="4652" cy="1386.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="4661" y="1391.0674">String set(Configuration configuration)</text><ellipse cx="4652" cy="1400.4844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="4661" y="1404.9033">boolean getAvailability(String configId)</text><!--MD5=[2f342f4e068874d9f875707733e73366]
+class github.weichware10.util.db.DataBaseClient--><rect codeLine="275" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="186.3594" id="github.weichware10.util.db.DataBaseClient" style="stroke:#A80036;stroke-width:1.5;" width="371" x="5376.5" y="797.6406"/><ellipse cx="5514.25" cy="813.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M5517.0156,809.5156 Q5517.1719,809.2969 5517.3594,809.1875 Q5517.5469,809.0781 5517.7656,809.0781 Q5518.1406,809.0781 5518.375,809.3438 Q5518.6094,809.5938 5518.6094,810.2031 L5518.6094,811.6563 Q5518.6094,812.2656 5518.375,812.5313 Q5518.1406,812.7969 5517.7656,812.7969 Q5517.4219,812.7969 5517.2188,812.5938 Q5517.0156,812.4063 5516.9063,811.8906 Q5516.8594,811.5313 5516.6719,811.3438 Q5516.3438,810.9688 5515.7344,810.75 Q5515.125,810.5313 5514.5,810.5313 Q5513.7344,810.5313 5513.0938,810.8594 Q5512.4688,811.1875 5511.9688,811.9375 Q5511.4844,812.6875 5511.4844,813.7188 L5511.4844,814.8125 Q5511.4844,816.0469 5512.375,816.875 Q5513.2656,817.6875 5514.8594,817.6875 Q5515.7969,817.6875 5516.4531,817.4375 Q5516.8438,817.2813 5517.2656,816.8438 Q5517.5313,816.5781 5517.6719,816.5 Q5517.8281,816.4219 5518.0313,816.4219 Q5518.3594,816.4219 5518.6094,816.6875 Q5518.875,816.9375 5518.875,817.2813 Q5518.875,817.625 5518.5313,818.0313 Q5518.0313,818.6094 5517.2344,818.9375 Q5516.1563,819.3906 5514.8594,819.3906 Q5513.3438,819.3906 5512.1406,818.7656 Q5511.1563,818.2656 5510.4688,817.2031 Q5509.7813,816.125 5509.7813,814.8438 L5509.7813,813.6875 Q5509.7813,812.3594 5510.3906,811.2188 Q5511.0156,810.0625 5512.1094,809.4531 Q5513.2031,808.8281 5514.4375,808.8281 Q5515.1719,808.8281 5515.8125,809 Q5516.4688,809.1563 5517.0156,809.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="5534.75" y="818.5508">DataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5377.5" x2="5746.5" y1="829.6406" y2="829.6406"/><polygon fill="none" points="5387.5,835.6406,5391.5,839.6406,5387.5,843.6406,5383.5,839.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="5396.5" y="845.0596">String url</text><polygon fill="none" points="5387.5,849.4766,5391.5,853.4766,5387.5,857.4766,5383.5,853.4766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="5396.5" y="858.8955">Properties props</text><polygon fill="none" points="5387.5,863.3125,5391.5,867.3125,5387.5,871.3125,5383.5,867.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="5396.5" y="872.7314">String schema</text><ellipse cx="5387.5" cy="882.1484" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="5396.5" y="886.5674">Configurations configurations</text><ellipse cx="5387.5" cy="895.9844" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="5396.5" y="900.4033">Trials trials</text><ellipse cx="5387.5" cy="909.8203" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="5396.5" y="914.2393">Datapoints datapoints</text><ellipse cx="5387.5" cy="923.6563" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="5396.5" y="928.0752">Strings strings</text><ellipse cx="5387.5" cy="937.4922" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="5396.5" y="941.9111">Permissions permissions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5377.5" x2="5746.5" y1="948.3281" y2="948.3281"/><ellipse cx="5387.5" cy="959.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="345" x="5396.5" y="963.7471">DataBaseClient(String url, String user, String password, String schema)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5384.5" y="970.1641"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="5396.5" y="977.583">boolean tableExists(String table)</text><!--MD5=[ccbe8fcf0179e999cf2991a94d4a60a2]
+class github.weichware10.util.db.Datapoints--><rect codeLine="293" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="103.3438" id="github.weichware10.util.db.Datapoints" style="stroke:#A80036;stroke-width:1.5;" width="261" x="4928.5" y="1301.1406"/><ellipse cx="5024.75" cy="1317.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M5027.5156,1313.0156 Q5027.6719,1312.7969 5027.8594,1312.6875 Q5028.0469,1312.5781 5028.2656,1312.5781 Q5028.6406,1312.5781 5028.875,1312.8438 Q5029.1094,1313.0938 5029.1094,1313.7031 L5029.1094,1315.1563 Q5029.1094,1315.7656 5028.875,1316.0313 Q5028.6406,1316.2969 5028.2656,1316.2969 Q5027.9219,1316.2969 5027.7188,1316.0938 Q5027.5156,1315.9063 5027.4063,1315.3906 Q5027.3594,1315.0313 5027.1719,1314.8438 Q5026.8438,1314.4688 5026.2344,1314.25 Q5025.625,1314.0313 5025,1314.0313 Q5024.2344,1314.0313 5023.5938,1314.3594 Q5022.9688,1314.6875 5022.4688,1315.4375 Q5021.9844,1316.1875 5021.9844,1317.2188 L5021.9844,1318.3125 Q5021.9844,1319.5469 5022.875,1320.375 Q5023.7656,1321.1875 5025.3594,1321.1875 Q5026.2969,1321.1875 5026.9531,1320.9375 Q5027.3438,1320.7813 5027.7656,1320.3438 Q5028.0313,1320.0781 5028.1719,1320 Q5028.3281,1319.9219 5028.5313,1319.9219 Q5028.8594,1319.9219 5029.1094,1320.1875 Q5029.375,1320.4375 5029.375,1320.7813 Q5029.375,1321.125 5029.0313,1321.5313 Q5028.5313,1322.1094 5027.7344,1322.4375 Q5026.6563,1322.8906 5025.3594,1322.8906 Q5023.8438,1322.8906 5022.6406,1322.2656 Q5021.6563,1321.7656 5020.9688,1320.7031 Q5020.2813,1319.625 5020.2813,1318.3438 L5020.2813,1317.1875 Q5020.2813,1315.8594 5020.8906,1314.7188 Q5021.5156,1313.5625 5022.6094,1312.9531 Q5023.7031,1312.3281 5024.9375,1312.3281 Q5025.6719,1312.3281 5026.3125,1312.5 Q5026.9688,1312.6563 5027.5156,1313.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="5045.25" y="1322.0508">Datapoints</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4929.5" x2="5188.5" y1="1333.1406" y2="1333.1406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="4936.5" y="1341.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="4948.5" y="1348.5596">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4929.5" x2="5188.5" y1="1354.9766" y2="1354.9766"/><polygon fill="#FFFF44" points="4939.5,1360.9766,4943.5,1364.9766,4939.5,1368.9766,4935.5,1364.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="207" x="4948.5" y="1370.3955">Datapoints(DataBaseClient dataBaseClient)</text><ellipse cx="4939.5" cy="1379.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="4948.5" y="1384.2314">List&lt;DataPoint&gt; get(String trialId)</text><ellipse cx="4939.5" cy="1393.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="235" x="4948.5" y="1398.0674">void set(List&lt;DataPoint&gt; dataPoints, String trialId)</text><!--MD5=[e8c1ea8f11d83d37beb992bacc1708dd]
+class github.weichware10.util.db.Permission--><rect codeLine="305" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="61.8359" id="github.weichware10.util.db.Permission" style="stroke:#A80036;stroke-width:1.5;" width="189" x="5626.5" y="1619.6406"/><ellipse cx="5684.75" cy="1635.6406" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M5683.6094,1636.4375 L5683.6094,1638.9375 L5687.9375,1638.9375 L5687.9375,1638.0156 Q5687.9375,1637.4063 5688.1719,1637.1406 Q5688.4219,1636.875 5688.7969,1636.875 Q5689.1719,1636.875 5689.4063,1637.1406 Q5689.6406,1637.4063 5689.6406,1638.0156 L5689.6406,1640.6406 L5681.6406,1640.6406 Q5681.0156,1640.6406 5680.75,1640.4063 Q5680.5,1640.1719 5680.5,1639.7813 Q5680.5,1639.4063 5680.7656,1639.1719 Q5681.0313,1638.9375 5681.6406,1638.9375 L5681.9063,1638.9375 L5681.9063,1632.2813 L5681.6406,1632.2813 Q5681.0156,1632.2813 5680.75,1632.0469 Q5680.5,1631.8125 5680.5,1631.4219 Q5680.5,1631.0469 5680.75,1630.8125 Q5681.0156,1630.5781 5681.6406,1630.5781 L5689.2656,1630.5781 L5689.2656,1633.1719 Q5689.2656,1633.7813 5689.0313,1634.0469 Q5688.8125,1634.2969 5688.4219,1634.2969 Q5688.0469,1634.2969 5687.8125,1634.0469 Q5687.5781,1633.7813 5687.5781,1633.1719 L5687.5781,1632.2813 L5683.6094,1632.2813 L5683.6094,1634.7344 L5685.0938,1634.7344 Q5685.0938,1634.0781 5685.2188,1633.8906 Q5685.4844,1633.4844 5685.9531,1633.4844 Q5686.3281,1633.4844 5686.5625,1633.75 Q5686.7969,1634 5686.7969,1634.6094 L5686.7969,1636.5781 Q5686.7969,1637.125 5686.6719,1637.3125 Q5686.4063,1637.7031 5685.9531,1637.7031 Q5685.4844,1637.7031 5685.2188,1637.2969 Q5685.0938,1637.1094 5685.0938,1636.4375 L5683.6094,1636.4375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="5705.25" y="1640.5508">Permission</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5627.5" x2="5814.5" y1="1651.6406" y2="1651.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="5632.5" y="1667.0596">SELECT,  UPDATE,  INSERT,  DELETE</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5627.5" x2="5814.5" y1="1673.4766" y2="1673.4766"/><!--MD5=[996567a11437ccb7cfdc616302303bc0]
+class github.weichware10.util.db.Permissions--><rect codeLine="311" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="338.5547" id="github.weichware10.util.db.Permissions" style="stroke:#A80036;stroke-width:1.5;" width="993" x="5224.5" y="1183.1406"/><ellipse cx="5681.25" cy="1199.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M5684.0156,1195.0156 Q5684.1719,1194.7969 5684.3594,1194.6875 Q5684.5469,1194.5781 5684.7656,1194.5781 Q5685.1406,1194.5781 5685.375,1194.8438 Q5685.6094,1195.0938 5685.6094,1195.7031 L5685.6094,1197.1563 Q5685.6094,1197.7656 5685.375,1198.0313 Q5685.1406,1198.2969 5684.7656,1198.2969 Q5684.4219,1198.2969 5684.2188,1198.0938 Q5684.0156,1197.9063 5683.9063,1197.3906 Q5683.8594,1197.0313 5683.6719,1196.8438 Q5683.3438,1196.4688 5682.7344,1196.25 Q5682.125,1196.0313 5681.5,1196.0313 Q5680.7344,1196.0313 5680.0938,1196.3594 Q5679.4688,1196.6875 5678.9688,1197.4375 Q5678.4844,1198.1875 5678.4844,1199.2188 L5678.4844,1200.3125 Q5678.4844,1201.5469 5679.375,1202.375 Q5680.2656,1203.1875 5681.8594,1203.1875 Q5682.7969,1203.1875 5683.4531,1202.9375 Q5683.8438,1202.7813 5684.2656,1202.3438 Q5684.5313,1202.0781 5684.6719,1202 Q5684.8281,1201.9219 5685.0313,1201.9219 Q5685.3594,1201.9219 5685.6094,1202.1875 Q5685.875,1202.4375 5685.875,1202.7813 Q5685.875,1203.125 5685.5313,1203.5313 Q5685.0313,1204.1094 5684.2344,1204.4375 Q5683.1563,1204.8906 5681.8594,1204.8906 Q5680.3438,1204.8906 5679.1406,1204.2656 Q5678.1563,1203.7656 5677.4688,1202.7031 Q5676.7813,1201.625 5676.7813,1200.3438 L5676.7813,1199.1875 Q5676.7813,1197.8594 5677.3906,1196.7188 Q5678.0156,1195.5625 5679.1094,1194.9531 Q5680.2031,1194.3281 5681.4375,1194.3281 Q5682.1719,1194.3281 5682.8125,1194.5 Q5683.4688,1194.6563 5684.0156,1195.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="5701.75" y="1204.0508">Permissions</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5225.5" x2="6216.5" y1="1215.1406" y2="1215.1406"/><ellipse cx="5235.5" cy="1226.1406" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="93" x="5244.5" y="1230.5596">Permission SELECT</text><ellipse cx="5235.5" cy="1239.9766" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="95" x="5244.5" y="1244.3955">Permission UPDATE</text><ellipse cx="5235.5" cy="1253.8125" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="90" x="5244.5" y="1258.2314">Permission INSERT</text><ellipse cx="5235.5" cy="1267.6484" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="92" x="5244.5" y="1272.0674">Permission DELETE</text><ellipse cx="5235.5" cy="1281.4844" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="5244.5" y="1285.9033">Set&lt;Permission&gt; configurations</text><ellipse cx="5235.5" cy="1295.3203" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="5244.5" y="1299.7393">Set&lt;Permission&gt; trials</text><ellipse cx="5235.5" cy="1309.1563" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="5244.5" y="1313.5752">Set&lt;Permission&gt; datapoints</text><ellipse cx="5235.5" cy="1322.9922" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="5244.5" y="1327.4111">Set&lt;Permission&gt; strings</text><ellipse cx="5235.5" cy="1336.8281" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="5244.5" y="1341.2471">boolean isSubject</text><ellipse cx="5235.5" cy="1350.6641" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="5244.5" y="1355.083">boolean isSpectator</text><ellipse cx="5235.5" cy="1364.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="5244.5" y="1368.9189">boolean isAuthor</text><ellipse cx="5235.5" cy="1378.3359" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="5244.5" y="1382.7549">boolean isAdmin</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1389.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="5244.5" y="1396.5908">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="5225.5" x2="6216.5" y1="1403.0078" y2="1403.0078"/><ellipse cx="5235.5" cy="1414.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="214" x="5244.5" y="1418.4268">Permissions(DataBaseClient dataBaseClient)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1424.8438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="218" x="5244.5" y="1432.2627">Set&lt;Permission&gt; getPermissions(String table)</text><ellipse cx="5235.5" cy="1441.6797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="967" x="5244.5" y="1446.0986">boolean satisfies(Collection&lt;Permission&gt; configurationsPermissions, Collection&lt;Permission&gt; trialsPermissions, Collection&lt;Permission&gt; datapointsPermissions, Collection&lt;Permission&gt; stringsPermissions)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1452.5156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="446" x="5244.5" y="1459.9346">boolean permissionsSatisfies(Collection&lt;Permission&gt; desired, Collection&lt;Permission&gt; actual)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1466.3516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="5244.5" y="1473.7705">boolean satisfiesAdmin()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1480.1875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="5244.5" y="1487.6064">boolean satisfiesAuthor()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1494.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="5244.5" y="1501.4424">boolean satisfiesSpectator()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="5232.5" y="1507.8594"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="5244.5" y="1515.2783">boolean satisfiesSubject()</text><!--MD5=[860d7b18e28c9c361af670952b19dc41]
+class github.weichware10.util.db.Strings--><rect codeLine="340" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="117.1797" id="github.weichware10.util.db.Strings" style="stroke:#A80036;stroke-width:1.5;" width="237" x="6252.5" y="1294.1406"/><ellipse cx="6347.25" cy="1310.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M6350.0156,1306.0156 Q6350.1719,1305.7969 6350.3594,1305.6875 Q6350.5469,1305.5781 6350.7656,1305.5781 Q6351.1406,1305.5781 6351.375,1305.8438 Q6351.6094,1306.0938 6351.6094,1306.7031 L6351.6094,1308.1563 Q6351.6094,1308.7656 6351.375,1309.0313 Q6351.1406,1309.2969 6350.7656,1309.2969 Q6350.4219,1309.2969 6350.2188,1309.0938 Q6350.0156,1308.9063 6349.9063,1308.3906 Q6349.8594,1308.0313 6349.6719,1307.8438 Q6349.3438,1307.4688 6348.7344,1307.25 Q6348.125,1307.0313 6347.5,1307.0313 Q6346.7344,1307.0313 6346.0938,1307.3594 Q6345.4688,1307.6875 6344.9688,1308.4375 Q6344.4844,1309.1875 6344.4844,1310.2188 L6344.4844,1311.3125 Q6344.4844,1312.5469 6345.375,1313.375 Q6346.2656,1314.1875 6347.8594,1314.1875 Q6348.7969,1314.1875 6349.4531,1313.9375 Q6349.8438,1313.7813 6350.2656,1313.3438 Q6350.5313,1313.0781 6350.6719,1313 Q6350.8281,1312.9219 6351.0313,1312.9219 Q6351.3594,1312.9219 6351.6094,1313.1875 Q6351.875,1313.4375 6351.875,1313.7813 Q6351.875,1314.125 6351.5313,1314.5313 Q6351.0313,1315.1094 6350.2344,1315.4375 Q6349.1563,1315.8906 6347.8594,1315.8906 Q6346.3438,1315.8906 6345.1406,1315.2656 Q6344.1563,1314.7656 6343.4688,1313.7031 Q6342.7813,1312.625 6342.7813,1311.3438 L6342.7813,1310.1875 Q6342.7813,1308.8594 6343.3906,1307.7188 Q6344.0156,1306.5625 6345.1094,1305.9531 Q6346.2031,1305.3281 6347.4375,1305.3281 Q6348.1719,1305.3281 6348.8125,1305.5 Q6349.4688,1305.6563 6350.0156,1306.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="39" x="6367.75" y="1315.0508">Strings</text><line style="stroke:#A80036;stroke-width:1.5;" x1="6253.5" x2="6488.5" y1="1326.1406" y2="1326.1406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="6260.5" y="1334.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="6272.5" y="1341.5596">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="6253.5" x2="6488.5" y1="1347.9766" y2="1347.9766"/><polygon fill="#FFFF44" points="6263.5,1353.9766,6267.5,1357.9766,6263.5,1361.9766,6259.5,1357.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="190" x="6272.5" y="1363.3955">Strings(DataBaseClient dataBaseClient)</text><ellipse cx="6263.5" cy="1372.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="6272.5" y="1377.2314">Integer sizeOf(String stringId)</text><ellipse cx="6263.5" cy="1386.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="6272.5" y="1391.0674">List&lt;String&gt; get(String stringId)</text><ellipse cx="6263.5" cy="1400.4844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="211" x="6272.5" y="1404.9033">void set(String stringId, List&lt;String&gt; strings)</text><!--MD5=[49203be5b1c15ee3d00f2e783e6ae920]
+class github.weichware10.util.db.Trials--><rect codeLine="353" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="158.6875" id="github.weichware10.util.db.Trials" style="stroke:#A80036;stroke-width:1.5;" width="544" x="6525" y="1273.1406"/><ellipse cx="6777.25" cy="1289.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M6780.0156,1285.0156 Q6780.1719,1284.7969 6780.3594,1284.6875 Q6780.5469,1284.5781 6780.7656,1284.5781 Q6781.1406,1284.5781 6781.375,1284.8438 Q6781.6094,1285.0938 6781.6094,1285.7031 L6781.6094,1287.1563 Q6781.6094,1287.7656 6781.375,1288.0313 Q6781.1406,1288.2969 6780.7656,1288.2969 Q6780.4219,1288.2969 6780.2188,1288.0938 Q6780.0156,1287.9063 6779.9063,1287.3906 Q6779.8594,1287.0313 6779.6719,1286.8438 Q6779.3438,1286.4688 6778.7344,1286.25 Q6778.125,1286.0313 6777.5,1286.0313 Q6776.7344,1286.0313 6776.0938,1286.3594 Q6775.4688,1286.6875 6774.9688,1287.4375 Q6774.4844,1288.1875 6774.4844,1289.2188 L6774.4844,1290.3125 Q6774.4844,1291.5469 6775.375,1292.375 Q6776.2656,1293.1875 6777.8594,1293.1875 Q6778.7969,1293.1875 6779.4531,1292.9375 Q6779.8438,1292.7813 6780.2656,1292.3438 Q6780.5313,1292.0781 6780.6719,1292 Q6780.8281,1291.9219 6781.0313,1291.9219 Q6781.3594,1291.9219 6781.6094,1292.1875 Q6781.875,1292.4375 6781.875,1292.7813 Q6781.875,1293.125 6781.5313,1293.5313 Q6781.0313,1294.1094 6780.2344,1294.4375 Q6779.1563,1294.8906 6777.8594,1294.8906 Q6776.3438,1294.8906 6775.1406,1294.2656 Q6774.1563,1293.7656 6773.4688,1292.7031 Q6772.7813,1291.625 6772.7813,1290.3438 L6772.7813,1289.1875 Q6772.7813,1287.8594 6773.3906,1286.7188 Q6774.0156,1285.5625 6775.1094,1284.9531 Q6776.2031,1284.3281 6777.4375,1284.3281 Q6778.1719,1284.3281 6778.8125,1284.5 Q6779.4688,1284.6563 6780.0156,1285.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="31" x="6797.75" y="1294.0508">Trials</text><line style="stroke:#A80036;stroke-width:1.5;" x1="6526" x2="7068" y1="1305.1406" y2="1305.1406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="6533" y="1313.1406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="6545" y="1320.5596">DataBaseClient dataBaseClient</text><line style="stroke:#A80036;stroke-width:1.5;" x1="6526" x2="7068" y1="1326.9766" y2="1326.9766"/><polygon fill="#FFFF44" points="6536,1332.9766,6540,1336.9766,6536,1340.9766,6532,1336.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="6545" y="1342.3955">Trials(DataBaseClient dataBaseClient)</text><ellipse cx="6536" cy="1351.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="6545" y="1356.2314">String getConfigId(String trialId)</text><ellipse cx="6536" cy="1365.6484" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="6545" y="1370.0674">TrialData getTrial(String trialId)</text><ellipse cx="6536" cy="1379.4844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="6545" y="1383.9033">boolean set(TrialData trialData)</text><ellipse cx="6536" cy="1393.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="171" x="6545" y="1397.7393">boolean getAvailability(String trialId)</text><ellipse cx="6536" cy="1407.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="6545" y="1411.5752">List&lt;String&gt; add(String configId, int amount)</text><ellipse cx="6536" cy="1420.9922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="518" x="6545" y="1425.4111">List&lt;TrialData&gt; getList(String configId, ToolType toolType, DateTime minTime, DateTime maxTime, int amount)</text><!--MD5=[162f0b01c96ecd9a2cc060b7d9912d5b]
+class github.weichware10.util.db.Util--><rect codeLine="369" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="117.1797" id="github.weichware10.util.db.Util" style="stroke:#A80036;stroke-width:1.5;" width="226" x="4957" y="832.1406"/><ellipse cx="5056.75" cy="848.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M5059.5156,844.0156 Q5059.6719,843.7969 5059.8594,843.6875 Q5060.0469,843.5781 5060.2656,843.5781 Q5060.6406,843.5781 5060.875,843.8438 Q5061.1094,844.0938 5061.1094,844.7031 L5061.1094,846.1563 Q5061.1094,846.7656 5060.875,847.0313 Q5060.6406,847.2969 5060.2656,847.2969 Q5059.9219,847.2969 5059.7188,847.0938 Q5059.5156,846.9063 5059.4063,846.3906 Q5059.3594,846.0313 5059.1719,845.8438 Q5058.8438,845.4688 5058.2344,845.25 Q5057.625,845.0313 5057,845.0313 Q5056.2344,845.0313 5055.5938,845.3594 Q5054.9688,845.6875 5054.4688,846.4375 Q5053.9844,847.1875 5053.9844,848.2188 L5053.9844,849.3125 Q5053.9844,850.5469 5054.875,851.375 Q5055.7656,852.1875 5057.3594,852.1875 Q5058.2969,852.1875 5058.9531,851.9375 Q5059.3438,851.7813 5059.7656,851.3438 Q5060.0313,851.0781 5060.1719,851 Q5060.3281,850.9219 5060.5313,850.9219 Q5060.8594,850.9219 5061.1094,851.1875 Q5061.375,851.4375 5061.375,851.7813 Q5061.375,852.125 5061.0313,852.5313 Q5060.5313,853.1094 5059.7344,853.4375 Q5058.6563,853.8906 5057.3594,853.8906 Q5055.8438,853.8906 5054.6406,853.2656 Q5053.6563,852.7656 5052.9688,851.7031 Q5052.2813,850.625 5052.2813,849.3438 L5052.2813,848.1875 Q5052.2813,846.8594 5052.8906,845.7188 Q5053.5156,844.5625 5054.6094,843.9531 Q5055.7031,843.3281 5056.9375,843.3281 Q5057.6719,843.3281 5058.3125,843.5 Q5058.9688,843.6563 5059.5156,844.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="18" x="5077.25" y="853.0508">Util</text><line style="stroke:#A80036;stroke-width:1.5;" x1="4958" x2="5182" y1="864.1406" y2="864.1406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="4958" x2="5182" y1="872.1406" y2="872.1406"/><polygon fill="#FFFF44" points="4968,878.1406,4972,882.1406,4968,886.1406,4964,882.1406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="198" x="4977" y="887.5596">String generateId(String prefix, int length)</text><polygon fill="#FFFF44" points="4968,891.9766,4972,895.9766,4968,899.9766,4964,895.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="171" x="4977" y="901.3955">void closeQuietly(Connection conn)</text><polygon fill="#FFFF44" points="4968,905.8125,4972,909.8125,4968,913.8125,4964,909.8125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="150" x="4977" y="915.2314">void closeQuietly(Statement st)</text><polygon fill="#FFFF44" points="4968,919.6484,4972,923.6484,4968,927.6484,4964,923.6484" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="200" x="4977" y="929.0674">void closeQuietly(PreparedStatement pst)</text><polygon fill="#FFFF44" points="4968,933.4844,4972,937.4844,4968,941.4844,4964,937.4844" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="149" x="4977" y="942.9033">void closeQuietly(ResultSet rs)</text><!--MD5=[0c55762863746446b7bbbd5864a82e1b]
+class github.weichware10.util.gui.AbsScene--><rect codeLine="385" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="89.5078" id="github.weichware10.util.gui.AbsScene" style="stroke:#A80036;stroke-width:1.5;" width="801" x="1037.5" y="370.1406"/><ellipse cx="1405.75" cy="386.1406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1408.5156,382.0156 Q1408.6719,381.7969 1408.8594,381.6875 Q1409.0469,381.5781 1409.2656,381.5781 Q1409.6406,381.5781 1409.875,381.8438 Q1410.1094,382.0938 1410.1094,382.7031 L1410.1094,384.1563 Q1410.1094,384.7656 1409.875,385.0313 Q1409.6406,385.2969 1409.2656,385.2969 Q1408.9219,385.2969 1408.7188,385.0938 Q1408.5156,384.9063 1408.4063,384.3906 Q1408.3594,384.0313 1408.1719,383.8438 Q1407.8438,383.4688 1407.2344,383.25 Q1406.625,383.0313 1406,383.0313 Q1405.2344,383.0313 1404.5938,383.3594 Q1403.9688,383.6875 1403.4688,384.4375 Q1402.9844,385.1875 1402.9844,386.2188 L1402.9844,387.3125 Q1402.9844,388.5469 1403.875,389.375 Q1404.7656,390.1875 1406.3594,390.1875 Q1407.2969,390.1875 1407.9531,389.9375 Q1408.3438,389.7813 1408.7656,389.3438 Q1409.0313,389.0781 1409.1719,389 Q1409.3281,388.9219 1409.5313,388.9219 Q1409.8594,388.9219 1410.1094,389.1875 Q1410.375,389.4375 1410.375,389.7813 Q1410.375,390.125 1410.0313,390.5313 Q1409.5313,391.1094 1408.7344,391.4375 Q1407.6563,391.8906 1406.3594,391.8906 Q1404.8438,391.8906 1403.6406,391.2656 Q1402.6563,390.7656 1401.9688,389.7031 Q1401.2813,388.625 1401.2813,387.3438 L1401.2813,386.1875 Q1401.2813,384.8594 1401.8906,383.7188 Q1402.5156,382.5625 1403.6094,381.9531 Q1404.7031,381.3281 1405.9375,381.3281 Q1406.6719,381.3281 1407.3125,381.5 Q1407.9688,381.6563 1408.5156,382.0156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="1426.25" y="391.0508">AbsScene</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1038.5" x2="1837.5" y1="402.1406" y2="402.1406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1038.5" x2="1837.5" y1="410.1406" y2="410.1406"/><ellipse cx="1048.5" cy="421.1406" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="134" x="1057.5" y="425.5596">InitResult initialize(URL fxml)</text><ellipse cx="1048.5" cy="434.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="237" x="1057.5" y="439.3955">void setMenuBar(MenuBar menuBar, Parent root)</text><ellipse cx="1048.5" cy="448.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="775" x="1057.5" y="453.2314">InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)</text><!--MD5=[3a530d3de6bb5c0b5f8e215cb4005933]
+class github.weichware10.util.gui.AbsScene$InitResult--><rect codeLine="393" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="89.5078" id="github.weichware10.util.gui.AbsScene$InitResult" style="stroke:#A80036;stroke-width:1.5;" width="281" x="1129.5" y="845.6406"/><ellipse cx="1208.25" cy="861.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1211.0156,857.5156 Q1211.1719,857.2969 1211.3594,857.1875 Q1211.5469,857.0781 1211.7656,857.0781 Q1212.1406,857.0781 1212.375,857.3438 Q1212.6094,857.5938 1212.6094,858.2031 L1212.6094,859.6563 Q1212.6094,860.2656 1212.375,860.5313 Q1212.1406,860.7969 1211.7656,860.7969 Q1211.4219,860.7969 1211.2188,860.5938 Q1211.0156,860.4063 1210.9063,859.8906 Q1210.8594,859.5313 1210.6719,859.3438 Q1210.3438,858.9688 1209.7344,858.75 Q1209.125,858.5313 1208.5,858.5313 Q1207.7344,858.5313 1207.0938,858.8594 Q1206.4688,859.1875 1205.9688,859.9375 Q1205.4844,860.6875 1205.4844,861.7188 L1205.4844,862.8125 Q1205.4844,864.0469 1206.375,864.875 Q1207.2656,865.6875 1208.8594,865.6875 Q1209.7969,865.6875 1210.4531,865.4375 Q1210.8438,865.2813 1211.2656,864.8438 Q1211.5313,864.5781 1211.6719,864.5 Q1211.8281,864.4219 1212.0313,864.4219 Q1212.3594,864.4219 1212.6094,864.6875 Q1212.875,864.9375 1212.875,865.2813 Q1212.875,865.625 1212.5313,866.0313 Q1212.0313,866.6094 1211.2344,866.9375 Q1210.1563,867.3906 1208.8594,867.3906 Q1207.3438,867.3906 1206.1406,866.7656 Q1205.1563,866.2656 1204.4688,865.2031 Q1203.7813,864.125 1203.7813,862.8438 L1203.7813,861.6875 Q1203.7813,860.3594 1204.3906,859.2188 Q1205.0156,858.0625 1206.1094,857.4531 Q1207.2031,856.8281 1208.4375,856.8281 Q1209.1719,856.8281 1209.8125,857 Q1210.4688,857.1563 1211.0156,857.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="115" x="1228.75" y="866.5508">AbsScene$InitResult</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1130.5" x2="1409.5" y1="877.6406" y2="877.6406"/><ellipse cx="1140.5" cy="888.6406" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="1149.5" y="893.0596">Parent root</text><ellipse cx="1140.5" cy="902.4766" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="1149.5" y="906.8955">AbsSceneController controller</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1130.5" x2="1409.5" y1="913.3125" y2="913.3125"/><polygon fill="#FFFF44" points="1140.5,919.3125,1144.5,923.3125,1140.5,927.3125,1136.5,923.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="255" x="1149.5" y="928.7314">InitResult(Parent root, AbsSceneController controller)</text><!--MD5=[c25b961add6324450d90577e2abd9e85]
+class github.weichware10.util.gui.AbsSceneController--><rect codeLine="405" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="89.5078" id="github.weichware10.util.gui.AbsSceneController" style="stroke:#A80036;stroke-width:1.5;" width="159" x="1445.5" y="845.6406"/><ellipse cx="1468.15" cy="861.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1470.9156,857.5156 Q1471.0719,857.2969 1471.2594,857.1875 Q1471.4469,857.0781 1471.6656,857.0781 Q1472.0406,857.0781 1472.275,857.3438 Q1472.5094,857.5938 1472.5094,858.2031 L1472.5094,859.6563 Q1472.5094,860.2656 1472.275,860.5313 Q1472.0406,860.7969 1471.6656,860.7969 Q1471.3219,860.7969 1471.1188,860.5938 Q1470.9156,860.4063 1470.8063,859.8906 Q1470.7594,859.5313 1470.5719,859.3438 Q1470.2438,858.9688 1469.6344,858.75 Q1469.025,858.5313 1468.4,858.5313 Q1467.6344,858.5313 1466.9938,858.8594 Q1466.3688,859.1875 1465.8688,859.9375 Q1465.3844,860.6875 1465.3844,861.7188 L1465.3844,862.8125 Q1465.3844,864.0469 1466.275,864.875 Q1467.1656,865.6875 1468.7594,865.6875 Q1469.6969,865.6875 1470.3531,865.4375 Q1470.7438,865.2813 1471.1656,864.8438 Q1471.4313,864.5781 1471.5719,864.5 Q1471.7281,864.4219 1471.9313,864.4219 Q1472.2594,864.4219 1472.5094,864.6875 Q1472.775,864.9375 1472.775,865.2813 Q1472.775,865.625 1472.4313,866.0313 Q1471.9313,866.6094 1471.1344,866.9375 Q1470.0563,867.3906 1468.7594,867.3906 Q1467.2438,867.3906 1466.0406,866.7656 Q1465.0563,866.2656 1464.3688,865.2031 Q1463.6813,864.125 1463.6813,862.8438 L1463.6813,861.6875 Q1463.6813,860.3594 1464.2906,859.2188 Q1464.9156,858.0625 1466.0094,857.4531 Q1467.1031,856.8281 1468.3375,856.8281 Q1469.0719,856.8281 1469.7125,857 Q1470.3688,857.1563 1470.9156,857.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="1483.85" y="866.5508">AbsSceneController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1446.5" x2="1603.5" y1="877.6406" y2="877.6406"/><polygon fill="none" points="1456.5,883.6406,1460.5,887.6406,1456.5,891.6406,1452.5,887.6406" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="1465.5" y="893.0596">ResourceBundle resources</text><polygon fill="none" points="1456.5,897.4766,1460.5,901.4766,1456.5,905.4766,1452.5,901.4766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="1465.5" y="906.8955">URL location</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1446.5" x2="1603.5" y1="913.3125" y2="913.3125"/><polygon fill="#FFFF44" points="1456.5,919.3125,1460.5,923.3125,1456.5,927.3125,1452.5,923.3125" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="73" x="1465.5" y="928.7314">void initialize()</text><!--MD5=[3d2112bded291b965f9bb673df23c190]
+class github.weichware10.util.gui.Log--><rect codeLine="416" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="186.3594" id="github.weichware10.util.gui.Log" style="stroke:#A80036;stroke-width:1.5;" width="211" x="1604.5" y="1259.6406"/><ellipse cx="1695.25" cy="1275.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1698.0156,1271.5156 Q1698.1719,1271.2969 1698.3594,1271.1875 Q1698.5469,1271.0781 1698.7656,1271.0781 Q1699.1406,1271.0781 1699.375,1271.3438 Q1699.6094,1271.5938 1699.6094,1272.2031 L1699.6094,1273.6563 Q1699.6094,1274.2656 1699.375,1274.5313 Q1699.1406,1274.7969 1698.7656,1274.7969 Q1698.4219,1274.7969 1698.2188,1274.5938 Q1698.0156,1274.4063 1697.9063,1273.8906 Q1697.8594,1273.5313 1697.6719,1273.3438 Q1697.3438,1272.9688 1696.7344,1272.75 Q1696.125,1272.5313 1695.5,1272.5313 Q1694.7344,1272.5313 1694.0938,1272.8594 Q1693.4688,1273.1875 1692.9688,1273.9375 Q1692.4844,1274.6875 1692.4844,1275.7188 L1692.4844,1276.8125 Q1692.4844,1278.0469 1693.375,1278.875 Q1694.2656,1279.6875 1695.8594,1279.6875 Q1696.7969,1279.6875 1697.4531,1279.4375 Q1697.8438,1279.2813 1698.2656,1278.8438 Q1698.5313,1278.5781 1698.6719,1278.5 Q1698.8281,1278.4219 1699.0313,1278.4219 Q1699.3594,1278.4219 1699.6094,1278.6875 Q1699.875,1278.9375 1699.875,1279.2813 Q1699.875,1279.625 1699.5313,1280.0313 Q1699.0313,1280.6094 1698.2344,1280.9375 Q1697.1563,1281.3906 1695.8594,1281.3906 Q1694.3438,1281.3906 1693.1406,1280.7656 Q1692.1563,1280.2656 1691.4688,1279.2031 Q1690.7813,1278.125 1690.7813,1276.8438 L1690.7813,1275.6875 Q1690.7813,1274.3594 1691.3906,1273.2188 Q1692.0156,1272.0625 1693.1094,1271.4531 Q1694.2031,1270.8281 1695.4375,1270.8281 Q1696.1719,1270.8281 1696.8125,1271 Q1697.4688,1271.1563 1698.0156,1271.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="21" x="1715.75" y="1280.5508">Log</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1605.5" x2="1814.5" y1="1291.6406" y2="1291.6406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1612.5" y="1299.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="73" x="1624.5" y="1307.0596">Stage logStage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1612.5" y="1313.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="53" x="1624.5" y="1320.8955">Parent root</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1612.5" y="1327.3125"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="185" x="1624.5" y="1334.7314">SimpleBooleanProperty visibleProperty</text><ellipse cx="1615.5" cy="1344.1484" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="156" x="1624.5" y="1348.5674">ObservableBooleanValue visible</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1605.5" x2="1814.5" y1="1354.9844" y2="1354.9844"/><ellipse cx="1615.5" cy="1365.9844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="104" x="1624.5" y="1370.4033">void start(String icon)</text><ellipse cx="1615.5" cy="1379.8203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="89" x="1624.5" y="1384.2393">boolean isVisible()</text><ellipse cx="1615.5" cy="1393.6563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="59" x="1624.5" y="1398.0752">void show()</text><ellipse cx="1615.5" cy="1407.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="51" x="1624.5" y="1411.9111">void hide()</text><ellipse cx="1615.5" cy="1421.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="57" x="1624.5" y="1425.7471">void close()</text><ellipse cx="1615.5" cy="1435.1641" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="170" x="1624.5" y="1439.583">void log(String content, String type)</text><!--MD5=[f097d54db7e71b637293478271dad875]
+class github.weichware10.util.gui.LogController--><rect codeLine="434" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="186.3594" id="github.weichware10.util.gui.LogController" style="stroke:#A80036;stroke-width:1.5;" width="203" x="1216.5" y="1259.6406"/><ellipse cx="1276.25" cy="1275.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1279.0156,1271.5156 Q1279.1719,1271.2969 1279.3594,1271.1875 Q1279.5469,1271.0781 1279.7656,1271.0781 Q1280.1406,1271.0781 1280.375,1271.3438 Q1280.6094,1271.5938 1280.6094,1272.2031 L1280.6094,1273.6563 Q1280.6094,1274.2656 1280.375,1274.5313 Q1280.1406,1274.7969 1279.7656,1274.7969 Q1279.4219,1274.7969 1279.2188,1274.5938 Q1279.0156,1274.4063 1278.9063,1273.8906 Q1278.8594,1273.5313 1278.6719,1273.3438 Q1278.3438,1272.9688 1277.7344,1272.75 Q1277.125,1272.5313 1276.5,1272.5313 Q1275.7344,1272.5313 1275.0938,1272.8594 Q1274.4688,1273.1875 1273.9688,1273.9375 Q1273.4844,1274.6875 1273.4844,1275.7188 L1273.4844,1276.8125 Q1273.4844,1278.0469 1274.375,1278.875 Q1275.2656,1279.6875 1276.8594,1279.6875 Q1277.7969,1279.6875 1278.4531,1279.4375 Q1278.8438,1279.2813 1279.2656,1278.8438 Q1279.5313,1278.5781 1279.6719,1278.5 Q1279.8281,1278.4219 1280.0313,1278.4219 Q1280.3594,1278.4219 1280.6094,1278.6875 Q1280.875,1278.9375 1280.875,1279.2813 Q1280.875,1279.625 1280.5313,1280.0313 Q1280.0313,1280.6094 1279.2344,1280.9375 Q1278.1563,1281.3906 1276.8594,1281.3906 Q1275.3438,1281.3906 1274.1406,1280.7656 Q1273.1563,1280.2656 1272.4688,1279.2031 Q1271.7813,1278.125 1271.7813,1276.8438 L1271.7813,1275.6875 Q1271.7813,1274.3594 1272.3906,1273.2188 Q1273.0156,1272.0625 1274.1094,1271.4531 Q1275.2031,1270.8281 1276.4375,1270.8281 Q1277.1719,1270.8281 1277.8125,1271 Q1278.4688,1271.1563 1279.0156,1271.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="1296.75" y="1280.5508">LogController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1217.5" x2="1418.5" y1="1291.6406" y2="1291.6406"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1299.6406"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="1236.5" y="1307.0596">ResourceBundle resources</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1313.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="1236.5" y="1320.8955">URL location</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1327.3125"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="1236.5" y="1334.7314">TextField logInput</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1341.1484"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="1236.5" y="1348.5674">TextArea logArea</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1354.9844"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="1236.5" y="1362.4033">Pane logPane</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1224.5" y="1368.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="1236.5" y="1376.2393">MenuButton logMenuButton</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1217.5" x2="1418.5" y1="1382.6563" y2="1382.6563"/><polygon fill="#FFFF44" points="1227.5,1388.6563,1231.5,1392.6563,1227.5,1396.6563,1223.5,1392.6563" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="1236.5" y="1398.0752">void initialize()</text><polygon fill="#4177AF" points="1227.5,1403.4922,1223.5,1409.4922,1231.5,1409.4922" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="176" x="1236.5" y="1411.9111">void setLogType(ActionEvent event)</text><polygon fill="#4177AF" points="1227.5,1417.3281,1223.5,1423.3281,1231.5,1423.3281" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="1236.5" y="1425.7471">void inputKeyPress(KeyEvent event)</text><polygon fill="#4177AF" points="1227.5,1431.1641,1223.5,1437.1641,1231.5,1437.1641" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="1236.5" y="1439.583">void log()</text><!--MD5=[6c65f6fa6c65bd8eced796810c96dcc0]
+class java.io.OutputStream--><rect codeLine="471" fill="#FEFECE" filter="url(#fhi0qxvjo8jdo)" height="48" id="java.io.OutputStream" style="stroke:#A80036;stroke-width:1.5;" width="108" x="849" y="64.6406"/><ellipse cx="864" cy="80.6406" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M866.7656,76.5156 Q866.9219,76.2969 867.1094,76.1875 Q867.2969,76.0781 867.5156,76.0781 Q867.8906,76.0781 868.125,76.3438 Q868.3594,76.5938 868.3594,77.2031 L868.3594,78.6563 Q868.3594,79.2656 868.125,79.5313 Q867.8906,79.7969 867.5156,79.7969 Q867.1719,79.7969 866.9688,79.5938 Q866.7656,79.4063 866.6563,78.8906 Q866.6094,78.5313 866.4219,78.3438 Q866.0938,77.9688 865.4844,77.75 Q864.875,77.5313 864.25,77.5313 Q863.4844,77.5313 862.8438,77.8594 Q862.2188,78.1875 861.7188,78.9375 Q861.2344,79.6875 861.2344,80.7188 L861.2344,81.8125 Q861.2344,83.0469 862.125,83.875 Q863.0156,84.6875 864.6094,84.6875 Q865.5469,84.6875 866.2031,84.4375 Q866.5938,84.2813 867.0156,83.8438 Q867.2813,83.5781 867.4219,83.5 Q867.5781,83.4219 867.7813,83.4219 Q868.1094,83.4219 868.3594,83.6875 Q868.625,83.9375 868.625,84.2813 Q868.625,84.625 868.2813,85.0313 Q867.7813,85.6094 866.9844,85.9375 Q865.9063,86.3906 864.6094,86.3906 Q863.0938,86.3906 861.8906,85.7656 Q860.9063,85.2656 860.2188,84.2031 Q859.5313,83.125 859.5313,81.8438 L859.5313,80.6875 Q859.5313,79.3594 860.1406,78.2188 Q860.7656,77.0625 861.8594,76.4531 Q862.9531,75.8281 864.1875,75.8281 Q864.9219,75.8281 865.5625,76 Q866.2188,76.1563 866.7656,76.5156 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="878" y="85.5508">OutputStream</text><line style="stroke:#A80036;stroke-width:1.5;" x1="850" x2="956" y1="96.6406" y2="96.6406"/><line style="stroke:#A80036;stroke-width:1.5;" x1="850" x2="956" y1="104.6406" y2="104.6406"/><!--MD5=[7856441ce42f807eaab7c2fc1ad6b737]
+reverse link github.weichware10.util.Logger to github.weichware10.util.Logger$LogStream--><path codeLine="63" d="M784.45,415.1406 C790.97,415.1406 797.48,415.1406 804,415.1406 " fill="none" id="github.weichware10.util.Logger-backto-github.weichware10.util.Logger$LogStream" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="777.25" cy="415.1406" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="785.25" x2="769.25" y1="415.1406" y2="415.1406"/><line style="stroke:#A80036;stroke-width:1.0;" x1="777.25" x2="777.25" y1="423.1406" y2="407.1406"/><!--MD5=[4772da3341b02876c23ea8c9be9edbba]
+reverse link github.weichware10.util.gui.AbsScene to github.weichware10.util.gui.AbsScene$InitResult--><path codeLine="403" d="M1417.27,474.5706 C1383.2,570.5906 1316.11,759.6806 1285.68,845.4606 " fill="none" id="github.weichware10.util.gui.AbsScene-backto-github.weichware10.util.gui.AbsScene$InitResult" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="1419.6767" cy="467.8007" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1417.0034" x2="1422.35" y1="475.3409" y2="460.2606"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1412.1366" x2="1427.2168" y1="465.1274" y2="470.4741"/><!--MD5=[d6fbd2601eab7e77d251cf534e9e68d6]
+reverse link github.weichware10.util.config.ConfigClient to github.weichware10.util.config.Configuration--><path codeLine="456" d="M3812,507.9306 C3812,560.7306 3812,629.1506 3812,693.4606 " fill="none" id="github.weichware10.util.config.ConfigClient-backto-github.weichware10.util.config.Configuration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="3812,494.8606,3808,500.8606,3812,506.8606,3816,500.8606,3812,494.8606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d4e4442ca25927464567c3ede9d4ff51]
+reverse link github.weichware10.util.config.ConfigClient to github.weichware10.util.db.DataBaseClient--><path codeLine="457" d="M3845.09,506.5906 C3867.05,552.8006 3900.83,604.9906 3949,632.6406 C4069.73,701.9306 5067.37,638.1706 5201,677.1406 C5286.87,702.1906 5373.57,752.2206 5440.47,797.4506 " fill="none" id="github.weichware10.util.config.ConfigClient-backto-github.weichware10.util.db.DataBaseClient" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="3839.62,494.6706,3838.4905,501.7927,3844.6303,505.5746,3845.7598,498.4525,3839.62,494.6706" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[10baf0ee38973a96dfebf8272def2857]
+reverse link github.weichware10.util.config.Configuration to github.weichware10.util.ToolType--><path codeLine="458" d="M3413.32,1085.9906 C3411.54,1086.5506 3409.77,1087.1006 3408,1087.6406 C3227.69,1143.0206 3169.33,1096.6706 2988,1148.6406 C2834.72,1192.5706 2665.88,1276.6406 2581.07,1321.5706 " fill="none" id="github.weichware10.util.config.Configuration-backto-github.weichware10.util.ToolType" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="3425.94,1081.9206,3419.0045,1079.946,3414.5143,1085.5885,3421.4498,1087.5631,3425.94,1081.9206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e787d404e05ecd1c2dbce186f84a457a]
+reverse link github.weichware10.util.config.Configuration to github.weichware10.util.config.CodeChartsConfiguration--><path codeLine="459" d="M3691.59,1099.1006 C3682.03,1115.5706 3672.38,1132.1906 3662.83,1148.6306 " fill="none" id="github.weichware10.util.config.Configuration-backto-github.weichware10.util.config.CodeChartsConfiguration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="3698.19,1087.7206,3691.7179,1090.9006,3692.1641,1098.0979,3698.6361,1094.9179,3698.19,1087.7206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9f753af05dba406a0adc7ac847abecee]
+reverse link github.weichware10.util.config.Configuration to github.weichware10.util.config.ZoomMapsConfiguration--><path codeLine="460" d="M4052.91,1096.4806 C4119.9,1153.4406 4189.35,1212.4906 4244.54,1259.4206 " fill="none" id="github.weichware10.util.config.Configuration-backto-github.weichware10.util.config.ZoomMapsConfiguration" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="4042.61,1087.7206,4044.5913,1094.6542,4051.7536,1095.492,4049.7723,1088.5585,4042.61,1087.7206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cb756742db9c112cda7e90cf9ee7f08d]
+reverse link github.weichware10.util.data.TrialData to github.weichware10.util.ToolType--><path codeLine="461" d="M2325.97,1071.1106 C2392.88,1164.9506 2468.22,1270.6006 2504.37,1321.3006 " fill="none" id="github.weichware10.util.data.TrialData-backto-github.weichware10.util.ToolType" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="2318.27,1060.3206,2318.4988,1067.5281,2325.2399,1070.089,2325.0111,1062.8815,2318.27,1060.3206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9fcdb9ba6955d2fac2f969eb28d9c764]
+reverse link github.weichware10.util.db.DataBaseClient to github.weichware10.util.db.Configurations--><path codeLine="462" d="M5404.16,990.2606 C5342.62,1025.2106 5270.31,1062.1506 5201,1087.6406 C5077.38,1133.1006 5021.13,1076.4006 4911,1148.6406 C4856.99,1184.0706 4816.95,1247.3506 4792.99,1293.8706 " fill="none" id="github.weichware10.util.db.DataBaseClient-backto-github.weichware10.util.db.Configurations" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5415.52,983.7606,5408.3257,983.2684,5405.1043,989.72,5412.2986,990.2122,5415.52,983.7606" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1e522dc7438d89e29c67439c455d793e]
+reverse link github.weichware10.util.db.DataBaseClient to github.weichware10.util.db.Trials--><path codeLine="463" d="M5760.58,924.9406 C5956.75,962.5406 6262.12,1033.9106 6507,1148.6406 C6576.98,1181.4306 6648.19,1230.9806 6702.53,1272.9306 " fill="none" id="github.weichware10.util.db.DataBaseClient-backto-github.weichware10.util.db.Trials" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5747.52,922.4506,5752.6671,927.5011,5759.3088,924.6923,5754.1616,919.6419,5747.52,922.4506" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[95795627dd2e9bf02fefceb090ad10f3]
+reverse link github.weichware10.util.db.DataBaseClient to github.weichware10.util.db.Datapoints--><path codeLine="464" d="M5402.44,991.2706 C5338.12,1035.3506 5265.46,1090.3806 5207,1148.6406 C5160.2,1195.2906 5116.96,1257.8206 5089.45,1301.1006 " fill="none" id="github.weichware10.util.db.DataBaseClient-backto-github.weichware10.util.db.Datapoints" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5413.52,983.7306,5406.3092,983.7965,5403.5966,990.478,5410.8074,990.4121,5413.52,983.7306" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[37dee609cdadb3834cec2d3e3e31986b]
+reverse link github.weichware10.util.db.DataBaseClient to github.weichware10.util.db.Strings--><path codeLine="465" d="M5760.61,933.2406 C5903.98,970.9306 6096,1037.9206 6235,1148.6406 C6283.78,1187.4906 6321.38,1248.6606 6344.56,1293.7006 " fill="none" id="github.weichware10.util.db.DataBaseClient-backto-github.weichware10.util.db.Strings" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5747.76,929.9106,5752.5665,935.2863,5759.3773,932.9171,5754.5708,927.5415,5747.76,929.9106" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e62fecb6f3a748d1a2540665d2023968]
+reverse link github.weichware10.util.db.DataBaseClient to github.weichware10.util.db.Permissions--><path codeLine="466" d="M5598.25,996.5106 C5617.28,1051.5706 5641.07,1120.4006 5662.63,1182.7606 " fill="none" id="github.weichware10.util.db.DataBaseClient-backto-github.weichware10.util.db.Permissions" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5593.89,983.9006,5592.0677,990.8777,5597.8072,995.2433,5599.6295,988.2662,5593.89,983.9006" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[553f12b37b125e7ff2368a5b5703a4bf]
+reverse link github.weichware10.util.db.Permissions to github.weichware10.util.db.Permission--><path codeLine="467" d="M5721,1535.4506 C5721,1567.9606 5721,1598.1806 5721,1619.3506 " fill="none" id="github.weichware10.util.db.Permissions-backto-github.weichware10.util.db.Permission" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="5721,1522.3906,5717,1528.3906,5721,1534.3906,5725,1528.3906,5721,1522.3906" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1be12d94bef41417b429c3f011b7961d]
+reverse link github.weichware10.util.gui.AbsScene$InitResult to github.weichware10.util.gui.AbsSceneController--><path codeLine="468" d="M1424.08,890.6406 C1431.14,890.6406 1438.19,890.6406 1445.25,890.6406 " fill="none" id="github.weichware10.util.gui.AbsScene$InitResult-backto-github.weichware10.util.gui.AbsSceneController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1410.95,890.6406,1416.95,894.6406,1422.95,890.6406,1416.95,886.6406,1410.95,890.6406" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8999424f3b5c4c837fde8914fc2c2e84]
+reverse link java.io.OutputStream to github.weichware10.util.Logger$LogStream--><path codeLine="472" d="M903,133.0906 C903,192.8206 903,300.0706 903,363.4006 " fill="none" id="java.io.OutputStream-backto-github.weichware10.util.Logger$LogStream" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="896,132.7206,903,112.7206,910,132.7206,896,132.7206" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[060ce3e50e43ad972590820966f4417e]
+reverse link github.weichware10.util.gui.AbsScene to github.weichware10.util.gui.Log--><path codeLine="473" d="M1492.71,475.5006 C1535.36,525.4206 1592.19,600.7006 1622,677.1406 C1662.63,781.3206 1691.31,1100.4706 1703.48,1259.5306 " fill="none" id="github.weichware10.util.gui.AbsScene-backto-github.weichware10.util.gui.Log" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1487.25,479.9006,1479.41,460.2206,1497.82,470.7106,1487.25,479.9006" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9c5b3c6d8772595f003e306af90460a6]
+reverse link github.weichware10.util.gui.AbsSceneController to github.weichware10.util.gui.LogController--><path codeLine="474" d="M1496.94,953.9906 C1461.52,1032.7006 1400.3,1168.7506 1359.47,1259.4806 " fill="none" id="github.weichware10.util.gui.AbsSceneController-backto-github.weichware10.util.gui.LogController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1490.56,951.1106,1505.15,935.7506,1503.33,956.8606,1490.56,951.1106" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[97f7e54d404ab454ab8e29d4e08fb826]
+link github.weichware10.util.gui.LogController to github.weichware10.util.gui.Log--><path codeLine="476" d="M1419.71,1352.6406 C1476.43,1352.6406 1546.97,1352.6406 1604.31,1352.6406 " fill="none" id="github.weichware10.util.gui.LogController-github.weichware10.util.gui.Log" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="1438" y="1346.1357">Verbindung über Bindings</text><!--MD5=[ad9c973ed7d4fbdc04d12dea91a088a2]
+link github.weichware10.util.config.ConfigLoader to github.weichware10.util.config.ConfigWriter--><!--MD5=[aa5fb3176319d996eba9b73673163f4b]
+link github.weichware10.util.config.ConfigLoader to github.weichware10.util.config.EyeTrackingConfiguration--><!--MD5=[0881d490c1a90432d4603eae0930faf4]
+@startuml github.weichware10.util
+title github.weichware10.util
+
+package github.weichware10.util {
+
+    ' -=- classes (github.weichware10.util) -=-
+    class github.weichware10.util.Files {
+        ' - - - values (github.weichware10.util.Files) - - -
+
+        ' - - - fields (github.weichware10.util.Files) - - -
+        {static}+ String tmpdir
+
+        ' - - - methods (github.weichware10.util.Files) - - -
+        {static}+ String createTempDir()
+        {static}+ String saveImage(String imageUrl)
+        {static}+ String saveGeneratedImage(BufferedImage buffImage, String fileName)
+        {static}+ Thread deleteTempDir()
+    }
+
+    class github.weichware10.util.Logger {
+        ' - - - values (github.weichware10.util.Logger) - - -
+
+        ' - - - fields (github.weichware10.util.Logger) - - -
+        {static}- String RESET
+        {static}- String RED
+        {static}- String YELLOW
+        {static}- String PURPLE
+        {static}- String CYAN
+        {static}- PrintStream logfile
+        {static}- PrintStream sysOut
+        {static}- PrintStream sysErr
+        {static}- TextArea logArea
+        {static}- LogStream logStream
+        {static}+ PrintStream PRINSTREAM
+
+        ' - - - methods (github.weichware10.util.Logger) - - -
+        -  Logger()
+        {static}+ void setLogfile(String filename)
+        {static}+ void setLogArea(TextArea logArea)
+        {static}+ void setSysOut(PrintStream out)
+        {static}+ void setSysErr(PrintStream err)
+        {static}+ void debug(String message)
+        {static}+ void debug(String message, Exception ctx)
+        {static}+ void debug(String message, Exception ctx, boolean stackTrace)
+        {static}+ void error(String message)
+        {static}+ void error(String message, Exception ctx)
+        {static}+ void error(String message, Exception ctx, boolean stackTrace)
+        {static}+ void warn(String message)
+        {static}+ void warn(String message, Exception ctx)
+        {static}+ void warn(String message, Exception ctx, boolean stackTrace)
+        {static}+ void info(String message)
+        {static}+ void info(String message, Exception ctx)
+        {static}+ void info(String message, Exception ctx, boolean stackTrace)
+    }
+    class github.weichware10.util.Logger$LogStream {
+        ' - - - values (github.weichware10.util.Logger$LogStream) - - -
+
+        ' - - - methods (github.weichware10.util.Logger$LogStream) - - -
+        + void write(int i)
+        + void consoleLog(String content)
+        + void plainLog(String content)
+        + void printStackTrace(Exception ctx)
+    }
+    github.weichware10.util.Logger +-r- github.weichware10.util.Logger$LogStream
+
+    enum github.weichware10.util.ToolType {
+        ' - - - values (github.weichware10.util.ToolType) - - -
+         ZOOMMAPS,  EYETRACKING,  CODECHARTS
+
+    }
+
+    ' === packages (github.weichware10.util) ===
+    package github.weichware10.util.config {
+
+        ' -=- classes (github.weichware10.util.config) -=-
+        class github.weichware10.util.config.CodeChartsConfiguration {
+            ' - - - values (github.weichware10.util.config.CodeChartsConfiguration) - - -
+
+            ' - - - fields (github.weichware10.util.config.CodeChartsConfiguration) - - -
+            # String stringId
+            # List<String> strings
+            # int[] initialSize
+            # long[] timings
+            # boolean showGrid
+            # boolean relativeSize
+            # boolean randomized
+            # Integer iterations
+            # Integer maxDepth
+            # Integer defaultHorizontal
+            # Integer defaultVertical
+
+            ' - - - methods (github.weichware10.util.config.CodeChartsConfiguration) - - -
+            #  CodeChartsConfiguration()
+            +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+            + String getStringId()
+            + List<String> getStrings()
+            + long[] getTimings()
+            + int[] getInitialSize()
+            + boolean getShowGrid()
+            + boolean getRelativeSize()
+            + boolean getRandomized()
+            + int getIterations()
+            + int getMaxDepth()
+            + int getDefaultHorizontal()
+            + int getDefaultVertical()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigClient {
+            ' - - - values (github.weichware10.util.config.ConfigClient) - - -
+
+            ' - - - fields (github.weichware10.util.config.ConfigClient) - - -
+            # Configuration configuration
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.config.ConfigClient) - - -
+            +  ConfigClient(DataBaseClient dataBaseClient)
+            + Configuration getConfig()
+            + boolean writeToJson(String location)
+            + boolean loadFromJson(String location)
+            + boolean loadFromDataBase(String trialId)
+            + String writeToDataBase()
+        }
+
+        class github.weichware10.util.config.ConfigLoader {
+            ' - - - values (github.weichware10.util.config.ConfigLoader) - - -
+
+            ' - - - methods (github.weichware10.util.config.ConfigLoader) - - -
+            -  ConfigLoader()
+            {static}+ Configuration fromJson(String location)
+            {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.Configuration {
+            ' - - - values (github.weichware10.util.config.Configuration) - - -
+
+            ' - - - fields (github.weichware10.util.config.Configuration) - - -
+            # ToolType toolType
+            # String trialId
+            # String configId
+            # String question
+            # String intro
+            # String outro
+            # String imageUrl
+            # boolean tutorial
+            # CodeChartsConfiguration codeChartsConfiguration
+            # ZoomMapsConfiguration zoomMapsConfiguration
+
+            ' - - - methods (github.weichware10.util.config.Configuration) - - -
+            #  Configuration()
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+            + ToolType getToolType()
+            + String getImageUrl()
+            + String getQuestion()
+            + String getIntro()
+            + String getOutro()
+            + boolean getTutorial()
+            + String getConfigId()
+            + String getTrialId()
+            + CodeChartsConfiguration getCodeChartsConfiguration()
+            + ZoomMapsConfiguration getZoomMapsConfiguration()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigWriter {
+            ' - - - values (github.weichware10.util.config.ConfigWriter) - - -
+
+            ' - - - methods (github.weichware10.util.config.ConfigWriter) - - -
+            -  ConfigWriter()
+            {static}+ boolean toJson(String location, Configuration configuration)
+            {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.EyeTrackingConfiguration {
+            ' - - - values (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+
+            ' - - - fields (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+            # float pollIntervall
+
+            ' - - - methods (github.weichware10.util.config.EyeTrackingConfiguration) - - -
+            + float getPollIntervall()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ZoomMapsConfiguration {
+            ' - - - values (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+
+            ' - - - fields (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+            # double speed
+            # double imageViewWidth
+            # double imageViewHeight
+
+            ' - - - methods (github.weichware10.util.config.ZoomMapsConfiguration) - - -
+            +  ZoomMapsConfiguration()
+            +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+            + double getSpeed()
+            + double getImageViewWidth()
+            + double getImageViewHeight()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+    }
+
+    package github.weichware10.util.data {
+
+        ' -=- classes (github.weichware10.util.data) -=-
+        class github.weichware10.util.data.DataPoint {
+            ' - - - values (github.weichware10.util.data.DataPoint) - - -
+
+            ' - - - fields (github.weichware10.util.data.DataPoint) - - -
+            + int dataId
+            + int timeOffset
+            + Rectangle2D viewport
+            + Integer depth
+
+            ' - - - methods (github.weichware10.util.data.DataPoint) - - -
+            +  DataPoint(int dataId, int timeOffset, Map<String, Double> viewport, Integer depth)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+        class github.weichware10.util.data.TrialData {
+            ' - - - values (github.weichware10.util.data.TrialData) - - -
+
+            ' - - - fields (github.weichware10.util.data.TrialData) - - -
+            + ToolType toolType
+            + String trialId
+            + String configId
+            + DateTime startTime
+            - String answer
+            - List<DataPoint> dataPoints
+
+            ' - - - methods (github.weichware10.util.data.TrialData) - - -
+            +  TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)
+            +  TrialData(ToolType toolType, String trialId, String configId)
+            + List<DataPoint> getData()
+            + String getAnswer()
+            + void setAnswer(String answer)
+            + ToolType getToolType()
+            + String getTrialId()
+            + String getConfigId()
+            + DateTime getStartTime()
+            + void addDataPoint(Rectangle2D viewport, int depth)
+            + void addDataPoint(Rectangle2D viewport)
+            {static}+ TrialData fromJson(String location)
+            {static}+ boolean toJson(String location, TrialData trialData)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+    }
+
+    package github.weichware10.util.db {
+
+        ' -=- classes (github.weichware10.util.db) -=-
+        class github.weichware10.util.db.Configurations {
+            ' - - - values (github.weichware10.util.db.Configurations) - - -
+
+            ' - - - fields (github.weichware10.util.db.Configurations) - - -
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.db.Configurations) - - -
+            #  Configurations(DataBaseClient dataBaseClient)
+            + Configuration get(String configId)
+            + String set(Configuration configuration)
+            + boolean getAvailability(String configId)
+        }
+
+        class github.weichware10.util.db.DataBaseClient {
+            ' - - - values (github.weichware10.util.db.DataBaseClient) - - -
+
+            ' - - - fields (github.weichware10.util.db.DataBaseClient) - - -
+            # String url
+            # Properties props
+            # String schema
+            + Configurations configurations
+            + Trials trials
+            + Datapoints datapoints
+            + Strings strings
+            + Permissions permissions
+
+            ' - - - methods (github.weichware10.util.db.DataBaseClient) - - -
+            +  DataBaseClient(String url, String user, String password, String schema)
+            - boolean tableExists(String table)
+        }
+
+        class github.weichware10.util.db.Datapoints {
+            ' - - - values (github.weichware10.util.db.Datapoints) - - -
+
+            ' - - - fields (github.weichware10.util.db.Datapoints) - - -
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.db.Datapoints) - - -
+            #  Datapoints(DataBaseClient dataBaseClient)
+            + List<DataPoint> get(String trialId)
+            + void set(List<DataPoint> dataPoints, String trialId)
+        }
+
+        enum github.weichware10.util.db.Permission {
+            ' - - - values (github.weichware10.util.db.Permission) - - -
+             SELECT,  UPDATE,  INSERT,  DELETE
+
+        }
+
+        class github.weichware10.util.db.Permissions {
+            ' - - - values (github.weichware10.util.db.Permissions) - - -
+
+            ' - - - fields (github.weichware10.util.db.Permissions) - - -
+            {static}+ Permission SELECT
+            {static}+ Permission UPDATE
+            {static}+ Permission INSERT
+            {static}+ Permission DELETE
+            + Set<Permission> configurations
+            + Set<Permission> trials
+            + Set<Permission> datapoints
+            + Set<Permission> strings
+            + boolean isSubject
+            + boolean isSpectator
+            + boolean isAuthor
+            + boolean isAdmin
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.db.Permissions) - - -
+            +  Permissions(DataBaseClient dataBaseClient)
+            - Set<Permission> getPermissions(String table)
+            + boolean satisfies(Collection<Permission> configurationsPermissions, Collection<Permission> trialsPermissions, Collection<Permission> datapointsPermissions, Collection<Permission> stringsPermissions)
+            - boolean permissionsSatisfies(Collection<Permission> desired, Collection<Permission> actual)
+            - boolean satisfiesAdmin()
+            - boolean satisfiesAuthor()
+            - boolean satisfiesSpectator()
+            - boolean satisfiesSubject()
+        }
+
+        class github.weichware10.util.db.Strings {
+            ' - - - values (github.weichware10.util.db.Strings) - - -
+
+            ' - - - fields (github.weichware10.util.db.Strings) - - -
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.db.Strings) - - -
+            #  Strings(DataBaseClient dataBaseClient)
+            + Integer sizeOf(String stringId)
+            + List<String> get(String stringId)
+            + void set(String stringId, List<String> strings)
+        }
+
+        class github.weichware10.util.db.Trials {
+            ' - - - values (github.weichware10.util.db.Trials) - - -
+
+            ' - - - fields (github.weichware10.util.db.Trials) - - -
+            - DataBaseClient dataBaseClient
+
+            ' - - - methods (github.weichware10.util.db.Trials) - - -
+            #  Trials(DataBaseClient dataBaseClient)
+            + String getConfigId(String trialId)
+            + TrialData getTrial(String trialId)
+            + boolean set(TrialData trialData)
+            + boolean getAvailability(String trialId)
+            + List<String> add(String configId, int amount)
+            + List<TrialData> getList(String configId, ToolType toolType, DateTime minTime, DateTime maxTime, int amount)
+        }
+
+        class github.weichware10.util.db.Util {
+            ' - - - values (github.weichware10.util.db.Util) - - -
+
+            ' - - - methods (github.weichware10.util.db.Util) - - -
+            {static}# String generateId(String prefix, int length)
+            {static}# void closeQuietly(Connection conn)
+            {static}# void closeQuietly(Statement st)
+            {static}# void closeQuietly(PreparedStatement pst)
+            {static}# void closeQuietly(ResultSet rs)
+        }
+
+    }
+
+    package github.weichware10.util.gui {
+
+        ' -=- classes (github.weichware10.util.gui) -=-
+        class github.weichware10.util.gui.AbsScene {
+            ' - - - values (github.weichware10.util.gui.AbsScene) - - -
+
+            ' - - - methods (github.weichware10.util.gui.AbsScene) - - -
+            {static}+ InitResult initialize(URL fxml)
+            {static}+ void setMenuBar(MenuBar menuBar, Parent root)
+            {static}+ InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)
+        }
+        class github.weichware10.util.gui.AbsScene$InitResult {
+            ' - - - values (github.weichware10.util.gui.AbsScene$InitResult) - - -
+
+            ' - - - fields (github.weichware10.util.gui.AbsScene$InitResult) - - -
+            + Parent root
+            + AbsSceneController controller
+
+            ' - - - methods (github.weichware10.util.gui.AbsScene$InitResult) - - -
+            #  InitResult(Parent root, AbsSceneController controller)
+        }
+        github.weichware10.util.gui.AbsScene +- - github.weichware10.util.gui.AbsScene$InitResult
+
+        class github.weichware10.util.gui.AbsSceneController {
+            ' - - - values (github.weichware10.util.gui.AbsSceneController) - - -
+
+            ' - - - fields (github.weichware10.util.gui.AbsSceneController) - - -
+            # ResourceBundle resources
+            # URL location
+
+            ' - - - methods (github.weichware10.util.gui.AbsSceneController) - - -
+            {abstract}# void initialize()
+        }
+
+        class github.weichware10.util.gui.Log {
+            ' - - - values (github.weichware10.util.gui.Log) - - -
+
+            ' - - - fields (github.weichware10.util.gui.Log) - - -
+            {static}- Stage logStage
+            {static}- Parent root
+            {static}- SimpleBooleanProperty visibleProperty
+            {static}+ ObservableBooleanValue visible
+
+            ' - - - methods (github.weichware10.util.gui.Log) - - -
+            {static}+ void start(String icon)
+            {static}+ boolean isVisible()
+            {static}+ void show()
+            {static}+ void hide()
+            {static}+ void close()
+            {static}+ void log(String content, String type)
+        }
+
+        class github.weichware10.util.gui.LogController {
+            ' - - - values (github.weichware10.util.gui.LogController) - - -
+
+            ' - - - fields (github.weichware10.util.gui.LogController) - - -
+            - ResourceBundle resources
+            - URL location
+            - TextField logInput
+            - TextArea logArea
+            - Pane logPane
+            - MenuButton logMenuButton
+
+            ' - - - methods (github.weichware10.util.gui.LogController) - - -
+            # void initialize()
+            ~ void setLogType(ActionEvent event)
+            ~ void inputKeyPress(KeyEvent event)
+            ~ void log()
+        }
+
+    }
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.config.Configuration
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.db.DataBaseClient
+github.weichware10.util.config.Configuration o- - github.weichware10.util.ToolType
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.data.TrialData o- - github.weichware10.util.ToolType
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Configurations
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Trials
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Datapoints
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Strings
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Permissions
+github.weichware10.util.db.Permissions o- - github.weichware10.util.db.Permission
+github.weichware10.util.gui.AbsScene$InitResult o-r- github.weichware10.util.gui.AbsSceneController
+
+' autogenerated inheritances, may be faulty.
+class java.io.OutputStream
+java.io.OutputStream <|- - github.weichware10.util.Logger$LogStream
+github.weichware10.util.gui.AbsScene <|- - github.weichware10.util.gui.Log
+github.weichware10.util.gui.AbsSceneController <|- - github.weichware10.util.gui.LogController
+
+github.weichware10.util.gui.Log .l. github.weichware10.util.gui.LogController : Verbindung über Bindings
+
+@enduml
+
+@startuml github.weichware10.util
+title github.weichware10.util
+
+package github.weichware10.util {
+
+    class github.weichware10.util.Files {
+
+        {static}+ String tmpdir
+
+        {static}+ String createTempDir()
+        {static}+ String saveImage(String imageUrl)
+        {static}+ String saveGeneratedImage(BufferedImage buffImage, String fileName)
+        {static}+ Thread deleteTempDir()
+    }
+
+    class github.weichware10.util.Logger {
+
+        {static}- String RESET
+        {static}- String RED
+        {static}- String YELLOW
+        {static}- String PURPLE
+        {static}- String CYAN
+        {static}- PrintStream logfile
+        {static}- PrintStream sysOut
+        {static}- PrintStream sysErr
+        {static}- TextArea logArea
+        {static}- LogStream logStream
+        {static}+ PrintStream PRINSTREAM
+
+        -  Logger()
+        {static}+ void setLogfile(String filename)
+        {static}+ void setLogArea(TextArea logArea)
+        {static}+ void setSysOut(PrintStream out)
+        {static}+ void setSysErr(PrintStream err)
+        {static}+ void debug(String message)
+        {static}+ void debug(String message, Exception ctx)
+        {static}+ void debug(String message, Exception ctx, boolean stackTrace)
+        {static}+ void error(String message)
+        {static}+ void error(String message, Exception ctx)
+        {static}+ void error(String message, Exception ctx, boolean stackTrace)
+        {static}+ void warn(String message)
+        {static}+ void warn(String message, Exception ctx)
+        {static}+ void warn(String message, Exception ctx, boolean stackTrace)
+        {static}+ void info(String message)
+        {static}+ void info(String message, Exception ctx)
+        {static}+ void info(String message, Exception ctx, boolean stackTrace)
+    }
+    class github.weichware10.util.Logger$LogStream {
+
+        + void write(int i)
+        + void consoleLog(String content)
+        + void plainLog(String content)
+        + void printStackTrace(Exception ctx)
+    }
+    github.weichware10.util.Logger +-r- github.weichware10.util.Logger$LogStream
+
+    enum github.weichware10.util.ToolType {
+         ZOOMMAPS,  EYETRACKING,  CODECHARTS
+
+    }
+
+    package github.weichware10.util.config {
+
+        class github.weichware10.util.config.CodeChartsConfiguration {
+
+            # String stringId
+            # List<String> strings
+            # int[] initialSize
+            # long[] timings
+            # boolean showGrid
+            # boolean relativeSize
+            # boolean randomized
+            # Integer iterations
+            # Integer maxDepth
+            # Integer defaultHorizontal
+            # Integer defaultVertical
+
+            #  CodeChartsConfiguration()
+            +  CodeChartsConfiguration(String stringId, List<String> strings, int[] initialSize, long[] timings, boolean showGrid, boolean relativeSize, boolean randomized, int maxDepth, int iterations, int defaultHorizontal, int defaultVertical)
+            + String getStringId()
+            + List<String> getStrings()
+            + long[] getTimings()
+            + int[] getInitialSize()
+            + boolean getShowGrid()
+            + boolean getRelativeSize()
+            + boolean getRandomized()
+            + int getIterations()
+            + int getMaxDepth()
+            + int getDefaultHorizontal()
+            + int getDefaultVertical()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigClient {
+
+            # Configuration configuration
+            - DataBaseClient dataBaseClient
+
+            +  ConfigClient(DataBaseClient dataBaseClient)
+            + Configuration getConfig()
+            + boolean writeToJson(String location)
+            + boolean loadFromJson(String location)
+            + boolean loadFromDataBase(String trialId)
+            + String writeToDataBase()
+        }
+
+        class github.weichware10.util.config.ConfigLoader {
+
+            -  ConfigLoader()
+            {static}+ Configuration fromJson(String location)
+            {static}+ Configuration fromDataBase(String trialId, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.Configuration {
+
+            # ToolType toolType
+            # String trialId
+            # String configId
+            # String question
+            # String intro
+            # String outro
+            # String imageUrl
+            # boolean tutorial
+            # CodeChartsConfiguration codeChartsConfiguration
+            # ZoomMapsConfiguration zoomMapsConfiguration
+
+            #  Configuration()
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)
+            +  Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)
+            + ToolType getToolType()
+            + String getImageUrl()
+            + String getQuestion()
+            + String getIntro()
+            + String getOutro()
+            + boolean getTutorial()
+            + String getConfigId()
+            + String getTrialId()
+            + CodeChartsConfiguration getCodeChartsConfiguration()
+            + ZoomMapsConfiguration getZoomMapsConfiguration()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ConfigWriter {
+
+            -  ConfigWriter()
+            {static}+ boolean toJson(String location, Configuration configuration)
+            {static}+ String toDataBase(Configuration configuration, DataBaseClient dataBaseClient)
+        }
+
+        class github.weichware10.util.config.EyeTrackingConfiguration {
+
+            # float pollIntervall
+
+            + float getPollIntervall()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+        class github.weichware10.util.config.ZoomMapsConfiguration {
+
+            # double speed
+            # double imageViewWidth
+            # double imageViewHeight
+
+            +  ZoomMapsConfiguration()
+            +  ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)
+            + double getSpeed()
+            + double getImageViewWidth()
+            + double getImageViewHeight()
+            + boolean equals(Object obj)
+            + String toString()
+        }
+
+    }
+
+    package github.weichware10.util.data {
+
+        class github.weichware10.util.data.DataPoint {
+
+            + int dataId
+            + int timeOffset
+            + Rectangle2D viewport
+            + Integer depth
+
+            +  DataPoint(int dataId, int timeOffset, Map<String, Double> viewport, Integer depth)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport)
+            +  DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+        class github.weichware10.util.data.TrialData {
+
+            + ToolType toolType
+            + String trialId
+            + String configId
+            + DateTime startTime
+            - String answer
+            - List<DataPoint> dataPoints
+
+            +  TrialData(ToolType toolType, String trialId, String configId, DateTime startTime, String answer, List<DataPoint> dataPoints)
+            +  TrialData(ToolType toolType, String trialId, String configId)
+            + List<DataPoint> getData()
+            + String getAnswer()
+            + void setAnswer(String answer)
+            + ToolType getToolType()
+            + String getTrialId()
+            + String getConfigId()
+            + DateTime getStartTime()
+            + void addDataPoint(Rectangle2D viewport, int depth)
+            + void addDataPoint(Rectangle2D viewport)
+            {static}+ TrialData fromJson(String location)
+            {static}+ boolean toJson(String location, TrialData trialData)
+            + String toString()
+            + boolean equals(Object other)
+        }
+
+    }
+
+    package github.weichware10.util.db {
+
+        class github.weichware10.util.db.Configurations {
+
+            - DataBaseClient dataBaseClient
+
+            #  Configurations(DataBaseClient dataBaseClient)
+            + Configuration get(String configId)
+            + String set(Configuration configuration)
+            + boolean getAvailability(String configId)
+        }
+
+        class github.weichware10.util.db.DataBaseClient {
+
+            # String url
+            # Properties props
+            # String schema
+            + Configurations configurations
+            + Trials trials
+            + Datapoints datapoints
+            + Strings strings
+            + Permissions permissions
+
+            +  DataBaseClient(String url, String user, String password, String schema)
+            - boolean tableExists(String table)
+        }
+
+        class github.weichware10.util.db.Datapoints {
+
+            - DataBaseClient dataBaseClient
+
+            #  Datapoints(DataBaseClient dataBaseClient)
+            + List<DataPoint> get(String trialId)
+            + void set(List<DataPoint> dataPoints, String trialId)
+        }
+
+        enum github.weichware10.util.db.Permission {
+             SELECT,  UPDATE,  INSERT,  DELETE
+
+        }
+
+        class github.weichware10.util.db.Permissions {
+
+            {static}+ Permission SELECT
+            {static}+ Permission UPDATE
+            {static}+ Permission INSERT
+            {static}+ Permission DELETE
+            + Set<Permission> configurations
+            + Set<Permission> trials
+            + Set<Permission> datapoints
+            + Set<Permission> strings
+            + boolean isSubject
+            + boolean isSpectator
+            + boolean isAuthor
+            + boolean isAdmin
+            - DataBaseClient dataBaseClient
+
+            +  Permissions(DataBaseClient dataBaseClient)
+            - Set<Permission> getPermissions(String table)
+            + boolean satisfies(Collection<Permission> configurationsPermissions, Collection<Permission> trialsPermissions, Collection<Permission> datapointsPermissions, Collection<Permission> stringsPermissions)
+            - boolean permissionsSatisfies(Collection<Permission> desired, Collection<Permission> actual)
+            - boolean satisfiesAdmin()
+            - boolean satisfiesAuthor()
+            - boolean satisfiesSpectator()
+            - boolean satisfiesSubject()
+        }
+
+        class github.weichware10.util.db.Strings {
+
+            - DataBaseClient dataBaseClient
+
+            #  Strings(DataBaseClient dataBaseClient)
+            + Integer sizeOf(String stringId)
+            + List<String> get(String stringId)
+            + void set(String stringId, List<String> strings)
+        }
+
+        class github.weichware10.util.db.Trials {
+
+            - DataBaseClient dataBaseClient
+
+            #  Trials(DataBaseClient dataBaseClient)
+            + String getConfigId(String trialId)
+            + TrialData getTrial(String trialId)
+            + boolean set(TrialData trialData)
+            + boolean getAvailability(String trialId)
+            + List<String> add(String configId, int amount)
+            + List<TrialData> getList(String configId, ToolType toolType, DateTime minTime, DateTime maxTime, int amount)
+        }
+
+        class github.weichware10.util.db.Util {
+
+            {static}# String generateId(String prefix, int length)
+            {static}# void closeQuietly(Connection conn)
+            {static}# void closeQuietly(Statement st)
+            {static}# void closeQuietly(PreparedStatement pst)
+            {static}# void closeQuietly(ResultSet rs)
+        }
+
+    }
+
+    package github.weichware10.util.gui {
+
+        class github.weichware10.util.gui.AbsScene {
+
+            {static}+ InitResult initialize(URL fxml)
+            {static}+ void setMenuBar(MenuBar menuBar, Parent root)
+            {static}+ InitResult start(Stage primaryStage, URL fxml, Parent root, AbsSceneController controller, String title, MenuBar menuBar, Integer width, Integer height, String icon)
+        }
+        class github.weichware10.util.gui.AbsScene$InitResult {
+
+            + Parent root
+            + AbsSceneController controller
+
+            #  InitResult(Parent root, AbsSceneController controller)
+        }
+        github.weichware10.util.gui.AbsScene +- - github.weichware10.util.gui.AbsScene$InitResult
+
+        class github.weichware10.util.gui.AbsSceneController {
+
+            # ResourceBundle resources
+            # URL location
+
+            {abstract}# void initialize()
+        }
+
+        class github.weichware10.util.gui.Log {
+
+            {static}- Stage logStage
+            {static}- Parent root
+            {static}- SimpleBooleanProperty visibleProperty
+            {static}+ ObservableBooleanValue visible
+
+            {static}+ void start(String icon)
+            {static}+ boolean isVisible()
+            {static}+ void show()
+            {static}+ void hide()
+            {static}+ void close()
+            {static}+ void log(String content, String type)
+        }
+
+        class github.weichware10.util.gui.LogController {
+
+            - ResourceBundle resources
+            - URL location
+            - TextField logInput
+            - TextArea logArea
+            - Pane logPane
+            - MenuButton logMenuButton
+
+            # void initialize()
+            ~ void setLogType(ActionEvent event)
+            ~ void inputKeyPress(KeyEvent event)
+            ~ void log()
+        }
+
+    }
+}
+
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.config.Configuration
+github.weichware10.util.config.ConfigClient o- - github.weichware10.util.db.DataBaseClient
+github.weichware10.util.config.Configuration o- - github.weichware10.util.ToolType
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.CodeChartsConfiguration
+github.weichware10.util.config.Configuration o- - github.weichware10.util.config.ZoomMapsConfiguration
+github.weichware10.util.data.TrialData o- - github.weichware10.util.ToolType
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Configurations
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Trials
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Datapoints
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Strings
+github.weichware10.util.db.DataBaseClient o- - github.weichware10.util.db.Permissions
+github.weichware10.util.db.Permissions o- - github.weichware10.util.db.Permission
+github.weichware10.util.gui.AbsScene$InitResult o-r- github.weichware10.util.gui.AbsSceneController
+
+class java.io.OutputStream
+java.io.OutputStream <|- - github.weichware10.util.Logger$LogStream
+github.weichware10.util.gui.AbsScene <|- - github.weichware10.util.gui.Log
+github.weichware10.util.gui.AbsSceneController <|- - github.weichware10.util.gui.LogController
+
+github.weichware10.util.gui.Log .l. github.weichware10.util.gui.LogController : Verbindung über Bindings
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 CET 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>
