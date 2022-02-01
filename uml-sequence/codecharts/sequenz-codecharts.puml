@@ -49,6 +49,9 @@ loop
     co -> g : Aufruf Bild, Raster und Eingabe
     co -> ci : getInput(currentStrings, currentIteration, iterations)
     ci --> co : Data
+    opt "Data != null"
+        co -> td : trialData.addDataPoint(viewport, depth)
+    end
 end
 
 == Ende == 
