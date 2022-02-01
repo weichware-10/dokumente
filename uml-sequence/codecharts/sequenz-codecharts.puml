@@ -8,7 +8,6 @@ collections GUI             as g
 box CodeCharts
 
 participant CodeCharts              as cc
-participant CodeChartsController    as ct
 participant CodeChartsCoordinator   as co
 participant CodeChartsInput         as ci
 participant CodeChartsPane          as cp
