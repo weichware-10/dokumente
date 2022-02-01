@@ -43,7 +43,7 @@ activate cp
 cc -> co : iterate()
 loop
     opt
-        cc -> cp : Anpassen von Raster
+        cc -> cp : Anpassen vom Raster
     end
     deactivate cc
     activate co
