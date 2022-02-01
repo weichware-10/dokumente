@@ -53,7 +53,7 @@ loop
     end
 end
 
-== Ende == 
+== Ende ==
 co -> cc : endTest()
 deactivate co
 deactivate cp
