@@ -20,13 +20,13 @@ Beispiele:
 1. Erstellen einer neuen Konfiguration
     * Tool-Typ auswählen und allgemeine Einstellungen Treffen
     * Tool-spezifische Einstellungen treffen
-    * Abspeichern in Datenbank mittels Button <kbd>in Datenbank speichern</kbd>
+    * Abspeichern in Datenbank mittels Button `in Datenbank speichern`
         * die zugehörige ID wird daraufhin angezeigt
-    * Abspeichern als JSON-Datei mittels Button <kbd>als JSON speichern</kbd>
+    * Abspeichern als JSON-Datei mittels Button `als JSON speichern`
 2. Betrachten einer bestehenden Konfiguration
-    * Konfiguration aus JSON-Datei laden mittels Button <kbd>aus JSON laden</kbd>
+    * Konfiguration aus JSON-Datei laden mittels Button `aus JSON laden`
     <br>_oder_
-    * Konfigurations-ID in Textfeld eingeben und mittels Button <kbd>aus Datenbank laden</kbd> aus der Datenbank laden
+    * Konfigurations-ID in Textfeld eingeben und mittels Button `aus Datenbank laden` aus der Datenbank laden
     * Die geladene Konfiguration wird in der GUI angezeigt.
 3. Bearbeiten einer bestehenden Konfiguration
     * Schritte von `2.` durchführen
@@ -38,5 +38,5 @@ Beispiele:
 ## Oberfläche zum Erstellen von ZoomMaps-Konfigurationen
 ![zoommaps.png](resources/zoommaps.png)
 
-* Der Button <kbd>reset</kbd> setzt die eingetragenen Werte zurück.
+* Der Button `reset` setzt die eingetragenen Werte zurück.
 * Im untersten Textfeld werden Probleme beim Speichern / Laden angezeigt.
