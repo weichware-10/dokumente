@@ -6,37 +6,34 @@ actor Forschende as f
 
 rectangle ZoomMaps as z #789dd5 {
     usecase "Tutorial anschauen" as td
-    usecase "Tutorial: zukünftige Sichtbarkeit wählen" as tw
     usecase "Bild betrachten" as bb
+    usecase "Antwort abgeben" as aa
     usecase ba as "Bildausschnitt anpassen
     ..
     Klicken & Scrollen"
-    td .l.> tw : <<include>>
     bb .l.> ba : <<include>>
-}
-
-rectangle AnalyseClient as a {
-    usecase "Ergebnisse anschauen" as ea
 }
 
 rectangle Config as c {
     usecase "Einstellungen setzen" as es
-    usecase "Tutorialeinstellung ändern" as tä
+}
+
+rectangle Analyse as a {
+    usecase "Ergebnisse anschauen" as ea
 }
 
 ' Testperson
 t -- td
 t -- bb
 t -- ba
-t -- tw
+t -- aa
 
 ' Forschende
 es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<extends>>
-z ..> a : über Speichermedium
+z ..> a : über Datenbank / JSON
 z <.. c : Versuchseinstellungen
 
 @enduml
