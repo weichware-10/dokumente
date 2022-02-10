@@ -1,7 +1,7 @@
 ---
 title: ToolType
 parent: util
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
 
 # ToolType

@@ -1,3 +1,7 @@
+---
+title: Datenbank Setup
+nav_order: 4
+---
 # Setup
 
 ## Datenbank

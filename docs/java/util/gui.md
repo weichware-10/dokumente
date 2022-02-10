@@ -1,6 +1,6 @@
 ---
 title: gui
 parent: util
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
 Package
