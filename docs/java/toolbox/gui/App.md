@@ -53,7 +53,7 @@ Erstellt einen neuen Versuch und trägt die dazugehörige ID in das Textfeld ein
 
 ## `protected void changeDb()`
 
-ändert die Zugangsdaten zur Datenbank. dabei wird ein neuer Dialog eingeblendet
+ändert die Zugangsdaten zur Datenbank. Dabei wird ein neuer Dialog eingeblendet
 
 ## `protected void openDocs()`
 

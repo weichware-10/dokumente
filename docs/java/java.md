@@ -1,6 +1,5 @@
 ---
-title: Entwicklerhandbuch
-nav_order: 3
+title: Java
 has_children: true
 ---
 # Java Setup
@@ -52,3 +51,4 @@ Achtung: die Versionsnummern unterscheiden sich zwischen den beiden Optionen. Fa
 | `mvn install`  | Erstellen einer plattformspezifischen Installer-Datei                          |
 | `mvn package`  | Alle Schritte bis auf erstellen der Installer-Datei durchführen                |
 | `mvn site`     | verschiedene Plugins erstellen HTML-Dateien mit Informationen über das Projekt |
+

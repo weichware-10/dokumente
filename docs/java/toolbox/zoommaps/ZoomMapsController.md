@@ -9,7 +9,7 @@ grand_parent: toolbox
 
 ## `public class ZoomMapsController`
 
-Kontrollierer für [ZoomMaps](ZoomMaps.md).
+Controller für [ZoomMaps](ZoomMaps.md).
 
 ## `public void setWarn(String warn)`
 

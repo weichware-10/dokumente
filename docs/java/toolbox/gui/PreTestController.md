@@ -9,4 +9,4 @@ grand_parent: toolbox
 
 ## `public class PreTestController`
 
-Controller für `PretestWindow`.
+Controller für [PreTest](PreTest.md).

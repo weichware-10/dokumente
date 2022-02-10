@@ -9,7 +9,7 @@ grand_parent: toolbox
 
 ## `public class End`
 
-Takes care of the functionality for the EndWindow.
+Zuständig für die Funktionalität vom Endfenster.
 
 ## `public End(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData)`
 

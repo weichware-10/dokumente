@@ -15,13 +15,16 @@ Speichert allgemeine Konfiguration sowie Tool-Konfigurationen.
 
 Konstruktor ohne Initialisierungen, sodass eine leere Konfiguration erstellt werden kann. auch wichtig für Michael JSON Jackson.
 
-## `public Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)`
+## `public Configuration(String configId, String imageUrl, String intro, String outro, boolean tutorial, CodeChartsConfiguration codeChartsConfiguration)`
 
 Konstruktor für Configuration vom Typ CodeChartsConfiguration.
 
  * **Parameters:**
    * `configId` — configId der übergebenen Konfiguration
-   * `question` — Fragestellung zum Versuch
+   * `imageUrl` — die URL des Bildes
+   * `intro` — das Intro
+   * `outro` — das Outro
+   * `tutorial` — ob das Tutorial angezeigt werden soll
    * `codeChartsConfiguration` — Konfiguration von CodeCharts
 
 ## `public Configuration(String configId, String question, String imageUrl, String intro, String outro, boolean tutorial, ZoomMapsConfiguration zoomMapsConfiguration)`

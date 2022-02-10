@@ -9,4 +9,4 @@ grand_parent: Entwicklerhandbuch
 
 ## `public enum ToolType`
 
-Tools of the Toolbox.
+Tools der Toolbox.

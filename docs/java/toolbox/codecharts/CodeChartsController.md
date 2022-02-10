@@ -9,4 +9,4 @@ grand_parent: toolbox
 
 ## `public class CodeChartsController`
 
-Controller fuer [CodeCharts](CodeCharts.md).
+Controller für [CodeCharts](CodeCharts.md).

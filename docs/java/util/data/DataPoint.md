@@ -9,7 +9,7 @@ grand_parent: util
 
 ## `public class DataPoint`
 
-Stores a single DataPoint.
+Speichert einen einzelnen Datenpunkt.
 
  * **Since:** v0.2
 
@@ -18,8 +18,8 @@ Stores a single DataPoint.
 Konstruktor für Jackson.
 
  * **Parameters:**
-   * `dataId` — the id of the dataPoint
-   * `timeOffset` — the time since the trial started
+   * `dataId` — die ID des dataPoints
+   * `timeOffset` — die Zeit seit Versuchstart
    * `viewport` — aktueller Ausschnitt beim ZoomBild
 
      <p>
@@ -27,11 +27,11 @@ Konstruktor für Jackson.
 
 ## `public DataPoint(int dataId, int timeOffset, Rectangle2D viewport)`
 
-Stores a single DataPoint without depth. (ZOOMMAPS)
+Speichert einen einzelnen Datenpunkt ohne Tiefe (ZOOMMAPS).
 
  * **Parameters:**
-   * `dataId` — the id of the dataPoint
-   * `timeOffset` — the time since the trial started
+   * `dataId` — die ID des dataPoints
+   * `timeOffset` — die Zeit seit Versuchstart
    * `viewport` — aktueller Ausschnitt beim ZoomBild
 
      <p>
@@ -39,12 +39,12 @@ Stores a single DataPoint without depth. (ZOOMMAPS)
 
 ## `public DataPoint(int dataId, int timeOffset, Rectangle2D viewport, int depth)`
 
-Stores a single DataPoint with depth (CODECHARTS).
+Speichert einen einzelnen Datenpunkt mit Tiefe (CODECHARTS).
 
  * **Parameters:**
-   * `dataId` — the id of the dataPoint
-   * `timeOffset` — the time since the trial started
-   * `viewport` — aktuell angeschautes Raster.
+   * `dataId` — die ID des dataPoints
+   * `timeOffset` — die Zeit seit Versuchstart
+   * `viewport` — aktuell angeschautes Raster
    * `depth` — Rastertiefe
 
      <p>

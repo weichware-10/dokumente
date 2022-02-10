@@ -17,7 +17,7 @@ Konstruktor für den CodeChartsCoordinator.
 
  * **Parameters:**
    * `configClient` — aus dem die Configuration geladen wird
-   * `dataBaseClient` —
+   * `dataBaseClient` — Datenbankzugriff
  * **Exceptions:**
    * `IOException` — 
    * `FileNotFoundException` — 

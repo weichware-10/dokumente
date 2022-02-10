@@ -9,7 +9,7 @@ grand_parent: toolbox
 
 ## `public class EndController`
 
-Takes care over the functionality and Design of the EndWindow.
+Controller für [End](End.md).
 
 ## `public void setStatus(String statusLeft, String filename, String statusRight)`
 

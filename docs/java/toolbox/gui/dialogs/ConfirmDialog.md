@@ -9,7 +9,7 @@ grand_parent: gui
 
 ## `public class ConfirmDialog`
 
-Kümmert sich um das Design der Rückfrage.
+Zuständig für das das Design der Rückfrage.
 
 ## `public ConfirmDialog(String prompt, String icon)`
 
