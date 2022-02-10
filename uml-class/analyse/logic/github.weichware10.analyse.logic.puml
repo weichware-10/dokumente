@@ -1,0 +1,58 @@
+@startuml github.weichware10.analyse.logic
+title github.weichware10.analyse.logic
+
+package github.weichware10.analyse.logic {
+
+    class github.weichware10.analyse.logic.Analysis {
+        __protected methods__
+        {static}# String saveImage(String imageUrl)
+        {static}# double calculateDepth(DataPoint dataPoint, double imageWidth, double imageHeight, Double minDepth, Double maxDepth)
+    }
+
+    class github.weichware10.analyse.logic.DataPointComparator {
+        __public method__
+        + int compare(DataPoint dp1, DataPoint dp2)
+    }
+
+    class github.weichware10.analyse.logic.Diagram {
+        {static}- DataPointComparator comparator
+        __public methods__
+        {static}+ BarChart<String, Number> createDiagramBarChart(TrialData trial, DiagramConfig diaConfig)
+        {static}+ PieChart createDiagramPieChart(TrialData trial, DiagramConfig diaConfig)
+        __private methods__
+        {static}- void fillPixelsWithRelDepth(int width, int height, double[][] pixels, List<DataPoint> sortedDataPoints)
+        {static}- void allocatePixels(double[][] pixels, int amountSteps, double stepWidth, List<Double> diagramData)
+        {static}- void calcRelFreqPerStep(int width, int height, List<Double> diagramData)
+    }
+
+    class github.weichware10.analyse.logic.Heatmap {
+        {static}- DataPointComparator comparator
+        {static}- float ALPHA
+        __public methods__
+        {static}+ String createHeatmap(TrialData trial, HeatmapConfig hmConfig)
+        __private method__
+        {static}- void createHeatmapFromData(Graphics2D graphic, HeatmapConfig hmConfig, List<DataPoint> sortedDataPoints, double imageWidth, double imageHeight)
+    }
+
+    class github.weichware10.analyse.logic.Verlauf {
+        {static}- DataPointComparator comparator
+        __public method__
+        {static}+ LineChart<Number, Number> createVerlauf(List<TrialData> trials)
+        __private methods__
+        {static}- void fillSeries(List<DataPoint> dataPoints, double maxDepth, XYChart.Series<Number, Number> series)
+        {static}- void fillSeries(List<DataPoint> dataPoints, int width, int height, XYChart.Series<Number, Number> series)
+    }
+
+}
+
+github.weichware10.analyse.logic.Diagram o-u-- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Heatmap o-r-- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Verlauf o-d-- github.weichware10.analyse.logic.DataPointComparator
+github.weichware10.analyse.logic.Diagram -d- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Heatmap -l- github.weichware10.analyse.logic.Analysis : > uses
+github.weichware10.analyse.logic.Verlauf -l- github.weichware10.analyse.logic.Analysis : > uses
+
+interface java.util.Comparator
+java.util.Comparator <|.r. github.weichware10.analyse.logic.DataPointComparator
+
+@enduml

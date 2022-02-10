@@ -1,0 +1,14 @@
+@startuml github.weichware10.analyse.enums
+title github.weichware10.analyse.enums
+
+package github.weichware10.analyse.enums {
+
+    enum github.weichware10.analyse.enums.AnalyseType {
+        HEATMAP
+        VERLAUF
+        COMPVERLAUF
+        RELDEPTHDISTR
+    }
+
+}
+@enduml

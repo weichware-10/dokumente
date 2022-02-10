@@ -1,0 +1,42 @@
+@startuml analyse
+left to right direction
+
+actor Forschende as f
+
+rectangle "Analyse" #789dd5 {
+    usecase va as "Versuch auswählen
+    ..
+    der konkrete Versuch der analysiert werden soll"
+    usecase vv as "anderen Versuch zum Vergleich auswählen"
+    usecase da as "Daten anschauen
+    ..
+    Analyse-Ergebnis"
+    usecase at as "Analyse-Art
+    ..
+    Auswahl Analyse-Art"
+    usecase aa as "Analyse anpassen
+    ..
+    Optionen zur Veranschaulichung"
+    usecase ex as "Exportieren
+    ..
+    sowohl Rohdaten als auch Analyse-Ergebnis"
+}
+
+rectangle "Datenbank / JSON" as s #FFFFFF
+
+f -- da
+f -- aa : [Heatmap, Diagramm]
+f -- ex
+f -- va
+f -- at
+f -- vv : [Verlauf]
+
+' intern
+va ..> s : Datenabfrage
+vv ..> s : Datenabfrage
+s ..> da : Datenlieferung
+
+va <.l. vv : <<extends>>
+da <.l. aa : <<extends>>
+
+@enduml

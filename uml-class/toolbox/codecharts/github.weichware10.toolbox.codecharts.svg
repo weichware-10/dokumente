@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1258px" preserveAspectRatio="none" style="width:1395px;height:1258px;background:#FFFFFF;" version="1.1" viewBox="0 0 1395 1258" width="1395px" zoomAndPan="magnify"><defs><filter height="300%" id="fyxk1r58fhnj6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="372" x="505" y="16.708">github.weichware10.toolbox.codecharts</text><!--MD5=[b14ae102ae388f3ba7f00364d958e1ba]
+cluster github.weichware10.toolbox.codecharts--><polygon fill="#FFFFFF" filter="url(#fyxk1r58fhnj6)" points="16,26.9531,348,26.9531,355,49.25,1180,49.25,1180,1128.9531,16,1128.9531,16,26.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="355" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="326" x="20" y="41.9482">github.weichware10.toolbox.codecharts</text><!--MD5=[7db3c59d38ae5b37b484eb2df9368145]
+cluster java.util--><polygon fill="#FFFFFF" filter="url(#fyxk1r58fhnj6)" points="203,1152.9531,276,1152.9531,283,1175.25,339,1175.25,339,1251.9531,203,1251.9531,203,1152.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="203" x2="283" y1="1175.25" y2="1175.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="207" y="1167.9482">java.util</text><!--MD5=[b607c642081a2d8f595146bd9f7a12c9]
+cluster javafx.scene.layout--><polygon fill="#FFFFFF" filter="url(#fyxk1r58fhnj6)" points="1204,984.9531,1368,984.9531,1375,1007.25,1378,1007.25,1378,1083.9531,1204,1083.9531,1204,984.9531" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1204" x2="1375" y1="1007.25" y2="1007.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="158" x="1208" y="999.9482">javafx.scene.layout</text><!--MD5=[0f99ae4d91fa2cc71b2d84b181d64968]
+class github.weichware10.toolbox.codecharts.CodeCharts--><rect codeLine="6" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="124.8281" id="github.weichware10.toolbox.codecharts.CodeCharts" style="stroke:#A80036;stroke-width:1.5;" width="549" x="299.5" y="87.4531"/><ellipse cx="534.75" cy="103.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M537.0938,99.125 C536.1563,98.6875 535.5625,98.5469 534.6875,98.5469 C532.0625,98.5469 530.0625,100.625 530.0625,103.3438 L530.0625,104.4688 C530.0625,107.0469 532.1719,108.9375 535.0625,108.9375 C536.2813,108.9375 537.4375,108.6406 538.1875,108.0938 C538.7656,107.6875 539.0938,107.2344 539.0938,106.8438 C539.0938,106.3906 538.7031,106 538.2344,106 C538.0156,106 537.8125,106.0781 537.625,106.2656 C537.1719,106.75 537.1719,106.75 536.9844,106.8438 C536.5625,107.1094 535.875,107.2344 535.1094,107.2344 C533.0625,107.2344 531.7656,106.1406 531.7656,104.4375 L531.7656,103.3438 C531.7656,101.5625 533.0156,100.25 534.75,100.25 C535.3281,100.25 535.9375,100.4063 536.4063,100.6563 C536.8906,100.9375 537.0625,101.1563 537.1563,101.5625 C537.2188,101.9688 537.25,102.0938 537.3906,102.2188 C537.5313,102.3594 537.7656,102.4688 537.9844,102.4688 C538.25,102.4688 538.5156,102.3281 538.6875,102.1094 C538.7969,101.9531 538.8281,101.7656 538.8281,101.3438 L538.8281,99.9219 C538.8281,99.4844 538.8125,99.3594 538.7188,99.2031 C538.5625,98.9375 538.2813,98.7969 537.9844,98.7969 C537.6875,98.7969 537.4844,98.8906 537.2656,99.2031 L537.0938,99.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="555.25" y="107.6074">CodeCharts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="300.5" x2="847.5" y1="119.4531" y2="119.4531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="307.5" y="127.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="319.5" y="133.6636">Stage primaryStage</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="307.5" y="140.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="319.5" y="146.4683">ConfigClient configClient</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="307.5" y="153.0625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="319.5" y="159.2729">DataBaseClient dataBaseClient</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="307.5" y="165.8672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="319.5" y="172.0776">TrialData trialData</text><line style="stroke:#A80036;stroke-width:1.5;" x1="300.5" x2="847.5" y1="178.6719" y2="178.6719"/><ellipse cx="310.5" cy="189.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="523" x="319.5" y="192.8823">CodeCharts(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)</text><ellipse cx="310.5" cy="202.4766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="319.5" y="205.687">void endTest()</text><!--MD5=[6b215dd78e9fcae239bb0a75c89ec7b9]
+class github.weichware10.toolbox.codecharts.CodeChartsController--><rect codeLine="20" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="176.0469" id="github.weichware10.toolbox.codecharts.CodeChartsController" style="stroke:#A80036;stroke-width:1.5;" width="280" x="884" y="61.9531"/><ellipse cx="955.25" cy="77.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M957.5938,73.625 C956.6563,73.1875 956.0625,73.0469 955.1875,73.0469 C952.5625,73.0469 950.5625,75.125 950.5625,77.8438 L950.5625,78.9688 C950.5625,81.5469 952.6719,83.4375 955.5625,83.4375 C956.7813,83.4375 957.9375,83.1406 958.6875,82.5938 C959.2656,82.1875 959.5938,81.7344 959.5938,81.3438 C959.5938,80.8906 959.2031,80.5 958.7344,80.5 C958.5156,80.5 958.3125,80.5781 958.125,80.7656 C957.6719,81.25 957.6719,81.25 957.4844,81.3438 C957.0625,81.6094 956.375,81.7344 955.6094,81.7344 C953.5625,81.7344 952.2656,80.6406 952.2656,78.9375 L952.2656,77.8438 C952.2656,76.0625 953.5156,74.75 955.25,74.75 C955.8281,74.75 956.4375,74.9063 956.9063,75.1563 C957.3906,75.4375 957.5625,75.6563 957.6563,76.0625 C957.7188,76.4688 957.75,76.5938 957.8906,76.7188 C958.0313,76.8594 958.2656,76.9688 958.4844,76.9688 C958.75,76.9688 959.0156,76.8281 959.1875,76.6094 C959.2969,76.4531 959.3281,76.2656 959.3281,75.8438 L959.3281,74.4219 C959.3281,73.9844 959.3125,73.8594 959.2188,73.7031 C959.0625,73.4375 958.7813,73.2969 958.4844,73.2969 C958.1875,73.2969 957.9844,73.3906 957.7656,73.7031 L957.5938,73.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="129" x="975.75" y="82.1074">CodeChartsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="885" x2="1163" y1="93.9531" y2="93.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="892" y="101.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="904" y="108.1636">ResourceBundle resources</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="892" y="114.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="904" y="120.9683">URL location</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="892" y="127.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="904" y="133.7729">ImageView imageView</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="892" y="140.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="904" y="146.5776">StackPane stackPane</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="892" y="153.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="904" y="159.3823">CodeCharts codeCharts</text><line style="stroke:#A80036;stroke-width:1.5;" x1="885" x2="1163" y1="165.9766" y2="165.9766"/><ellipse cx="895" cy="176.9766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="254" x="904" y="180.187">void setCodeCharts(CodeCharts codeCharts)</text><polygon fill="#4177AF" points="895,185.7813,891,191.7813,899,191.7813" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="904" y="192.9917">void endTest()</text><polygon fill="#4177AF" points="895,198.5859,891,204.5859,899,204.5859" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="904" y="205.7964">void initialize()</text><ellipse cx="895" cy="215.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="904" y="218.6011">ImageView getImageView()</text><ellipse cx="895" cy="228.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="904" y="231.4058">StackPane getStackPane()</text><!--MD5=[3568effe23e65f13b4467b7a2e1899f5]
+class github.weichware10.toolbox.codecharts.CodeChartsCoordinator--><rect codeLine="38" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="265.6797" id="github.weichware10.toolbox.codecharts.CodeChartsCoordinator" style="stroke:#A80036;stroke-width:1.5;" width="1131" x="32.5" y="297.9531"/><ellipse cx="523.25" cy="313.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M525.5938,309.625 C524.6563,309.1875 524.0625,309.0469 523.1875,309.0469 C520.5625,309.0469 518.5625,311.125 518.5625,313.8438 L518.5625,314.9688 C518.5625,317.5469 520.6719,319.4375 523.5625,319.4375 C524.7813,319.4375 525.9375,319.1406 526.6875,318.5938 C527.2656,318.1875 527.5938,317.7344 527.5938,317.3438 C527.5938,316.8906 527.2031,316.5 526.7344,316.5 C526.5156,316.5 526.3125,316.5781 526.125,316.7656 C525.6719,317.25 525.6719,317.25 525.4844,317.3438 C525.0625,317.6094 524.375,317.7344 523.6094,317.7344 C521.5625,317.7344 520.2656,316.6406 520.2656,314.9375 L520.2656,313.8438 C520.2656,312.0625 521.5156,310.75 523.25,310.75 C523.8281,310.75 524.4375,310.9063 524.9063,311.1563 C525.3906,311.4375 525.5625,311.6563 525.6563,312.0625 C525.7188,312.4688 525.75,312.5938 525.8906,312.7188 C526.0313,312.8594 526.2656,312.9688 526.4844,312.9688 C526.75,312.9688 527.0156,312.8281 527.1875,312.6094 C527.2969,312.4531 527.3281,312.2656 527.3281,311.8438 L527.3281,310.4219 C527.3281,309.9844 527.3125,309.8594 527.2188,309.7031 C527.0625,309.4375 526.7813,309.2969 526.4844,309.2969 C526.1875,309.2969 525.9844,309.3906 525.7656,309.7031 L525.5938,309.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="141" x="543.75" y="318.1074">CodeChartsCoordinator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="1162.5" y1="329.9531" y2="329.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="337.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="52.5" y="344.1636">TrialData trialData</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="350.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="52.5" y="356.9683">ImageView imageView</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="363.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="52.5" y="369.7729">Rectangle2D imageViewPort</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="376.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="52.5" y="382.5776">CodeChartsPane rootPane</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="389.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="190" x="52.5" y="395.3823">CodeChartsInput codeChartsInput</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="401.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="52.5" y="408.187">CodeCharts codeCharts</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="414.7813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="52.5" y="420.9917">List&lt;String&gt; usableStrings</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="427.5859"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="52.5" y="433.7964">List&lt;String&gt; currentStrings</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="440.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="52.5" y="446.6011">long[] timings</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="453.1953"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="52.5" y="459.4058">boolean relativeSize</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="466"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="52.5" y="472.2104">int maxDepth</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="478.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="52.5" y="485.0151">int iterations</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="491.6094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="52.5" y="497.8198">int currentIteration</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="1162.5" y1="504.4141" y2="504.4141"/><ellipse cx="43.5" cy="515.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="1105" x="52.5" y="518.6245">CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts)</text><ellipse cx="43.5" cy="528.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="52.5" y="531.4292">void iterate()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="538.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="622" x="52.5" y="544.2339">int calculateMinStringAmount(int horizontal, int vertical, int defaultHorizontal, int defaultVertical, int iterations)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="40.5" y="550.8281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="308" x="52.5" y="557.0386">Rectangle2D toImageViewport(Rectangle2D viewport)</text><!--MD5=[5f2774665a33c12cdd882a0d1cc77eab]
+class github.weichware10.toolbox.codecharts.CodeChartsInput--><rect codeLine="63" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="112.0234" id="github.weichware10.toolbox.codecharts.CodeChartsInput" style="stroke:#A80036;stroke-width:1.5;" width="461" x="139.5" y="713.4531"/><ellipse cx="316.25" cy="729.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M318.5938,725.125 C317.6563,724.6875 317.0625,724.5469 316.1875,724.5469 C313.5625,724.5469 311.5625,726.625 311.5625,729.3438 L311.5625,730.4688 C311.5625,733.0469 313.6719,734.9375 316.5625,734.9375 C317.7813,734.9375 318.9375,734.6406 319.6875,734.0938 C320.2656,733.6875 320.5938,733.2344 320.5938,732.8438 C320.5938,732.3906 320.2031,732 319.7344,732 C319.5156,732 319.3125,732.0781 319.125,732.2656 C318.6719,732.75 318.6719,732.75 318.4844,732.8438 C318.0625,733.1094 317.375,733.2344 316.6094,733.2344 C314.5625,733.2344 313.2656,732.1406 313.2656,730.4375 L313.2656,729.3438 C313.2656,727.5625 314.5156,726.25 316.25,726.25 C316.8281,726.25 317.4375,726.4063 317.9063,726.6563 C318.3906,726.9375 318.5625,727.1563 318.6563,727.5625 C318.7188,727.9688 318.75,728.0938 318.8906,728.2188 C319.0313,728.3594 319.2656,728.4688 319.4844,728.4688 C319.75,728.4688 320.0156,728.3281 320.1875,728.1094 C320.2969,727.9531 320.3281,727.7656 320.3281,727.3438 L320.3281,725.9219 C320.3281,725.4844 320.3125,725.3594 320.2188,725.2031 C320.0625,724.9375 319.7813,724.7969 319.4844,724.7969 C319.1875,724.7969 318.9844,724.8906 318.7656,725.2031 L318.5938,725.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="99" x="336.75" y="733.6074">CodeChartsInput</text><line style="stroke:#A80036;stroke-width:1.5;" x1="140.5" x2="599.5" y1="745.4531" y2="745.4531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="147.5" y="753.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="206" x="159.5" y="759.6636">CodeChartsInputController controller</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="147.5" y="766.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="159.5" y="772.4683">BorderPane root</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="147.5" y="779.0625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="192" x="159.5" y="785.2729">int LOWEST_ALLOWED_DISTANCE</text><line style="stroke:#A80036;stroke-width:1.5;" x1="140.5" x2="599.5" y1="791.8672" y2="791.8672"/><ellipse cx="150.5" cy="802.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="159.5" y="806.0776">CodeChartsInput()</text><ellipse cx="150.5" cy="815.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="435" x="159.5" y="818.8823">String getInput(List&lt;String&gt; currentStrings, int currentIteration, int iterations)</text><!--MD5=[f17158076cd612398e44b6f8fe43b283]
+class github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator--><rect codeLine="75" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="124.8281" id="github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator" style="stroke:#A80036;stroke-width:1.5;" width="282" x="130" y="981.4531"/><ellipse cx="145" cy="997.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M147.3438,993.125 C146.4063,992.6875 145.8125,992.5469 144.9375,992.5469 C142.3125,992.5469 140.3125,994.625 140.3125,997.3438 L140.3125,998.4688 C140.3125,1001.0469 142.4219,1002.9375 145.3125,1002.9375 C146.5313,1002.9375 147.6875,1002.6406 148.4375,1002.0938 C149.0156,1001.6875 149.3438,1001.2344 149.3438,1000.8438 C149.3438,1000.3906 148.9531,1000 148.4844,1000 C148.2656,1000 148.0625,1000.0781 147.875,1000.2656 C147.4219,1000.75 147.4219,1000.75 147.2344,1000.8438 C146.8125,1001.1094 146.125,1001.2344 145.3594,1001.2344 C143.3125,1001.2344 142.0156,1000.1406 142.0156,998.4375 L142.0156,997.3438 C142.0156,995.5625 143.2656,994.25 145,994.25 C145.5781,994.25 146.1875,994.4063 146.6563,994.6563 C147.1406,994.9375 147.3125,995.1563 147.4063,995.5625 C147.4688,995.9688 147.5,996.0938 147.6406,996.2188 C147.7813,996.3594 148.0156,996.4688 148.2344,996.4688 C148.5,996.4688 148.7656,996.3281 148.9375,996.1094 C149.0469,995.9531 149.0781,995.7656 149.0781,995.3438 L149.0781,993.9219 C149.0781,993.4844 149.0625,993.3594 148.9688,993.2031 C148.8125,992.9375 148.5313,992.7969 148.2344,992.7969 C147.9375,992.7969 147.7344,992.8906 147.5156,993.2031 L147.3438,993.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="250" x="159" y="1001.6074">CodeChartsInput$LevenshteinComparator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="131" x2="411" y1="1013.4531" y2="1013.4531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="138" y="1021.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="150" y="1027.6636">String base</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="138" y="1034.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="150" y="1040.4683">Levenshtein levenshtein</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="138" y="1047.0625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="105" x="150" y="1053.2729">int lowestDistance</text><line style="stroke:#A80036;stroke-width:1.5;" x1="131" x2="411" y1="1059.8672" y2="1059.8672"/><ellipse cx="141" cy="1070.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="150" y="1074.0776">LevenshteinComparator(String base)</text><ellipse cx="141" cy="1083.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="150" y="1086.8823">int getLowestDistance()</text><ellipse cx="141" cy="1096.4766" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="199" x="150" y="1099.687">int compare(String str1, String str2)</text><!--MD5=[8c117fb4d8c0407672d60bb124e1265a]
+class github.weichware10.toolbox.codecharts.CodeChartsInputController--><rect codeLine="90" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="137.6328" id="github.weichware10.toolbox.codecharts.CodeChartsInputController" style="stroke:#A80036;stroke-width:1.5;" width="190" x="447" y="974.9531"/><ellipse cx="462" cy="990.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M464.3438,986.625 C463.4063,986.1875 462.8125,986.0469 461.9375,986.0469 C459.3125,986.0469 457.3125,988.125 457.3125,990.8438 L457.3125,991.9688 C457.3125,994.5469 459.4219,996.4375 462.3125,996.4375 C463.5313,996.4375 464.6875,996.1406 465.4375,995.5938 C466.0156,995.1875 466.3438,994.7344 466.3438,994.3438 C466.3438,993.8906 465.9531,993.5 465.4844,993.5 C465.2656,993.5 465.0625,993.5781 464.875,993.7656 C464.4219,994.25 464.4219,994.25 464.2344,994.3438 C463.8125,994.6094 463.125,994.7344 462.3594,994.7344 C460.3125,994.7344 459.0156,993.6406 459.0156,991.9375 L459.0156,990.8438 C459.0156,989.0625 460.2656,987.75 462,987.75 C462.5781,987.75 463.1875,987.9063 463.6563,988.1563 C464.1406,988.4375 464.3125,988.6563 464.4063,989.0625 C464.4688,989.4688 464.5,989.5938 464.6406,989.7188 C464.7813,989.8594 465.0156,989.9688 465.2344,989.9688 C465.5,989.9688 465.7656,989.8281 465.9375,989.6094 C466.0469,989.4531 466.0781,989.2656 466.0781,988.8438 L466.0781,987.4219 C466.0781,986.9844 466.0625,986.8594 465.9688,986.7031 C465.8125,986.4375 465.5313,986.2969 465.2344,986.2969 C464.9375,986.2969 464.7344,986.3906 464.5156,986.7031 L464.3438,986.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="158" x="476" y="995.1074">CodeChartsInputController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="448" x2="636" y1="1006.9531" y2="1006.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="455" y="1014.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="467" y="1021.1636">ResourceBundle resources</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="455" y="1027.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="467" y="1033.9683">URL location</text><polygon fill="none" points="458,1038.5625,462,1042.5625,458,1046.5625,454,1042.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="467" y="1046.7729">TextField inputField</text><polygon fill="none" points="458,1051.3672,462,1055.3672,458,1059.3672,454,1055.3672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="467" y="1059.5776">Text suggestionText</text><polygon fill="none" points="458,1064.1719,462,1068.1719,458,1072.1719,454,1068.1719" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="467" y="1072.3823">Text bottomText</text><polygon fill="none" points="458,1076.9766,462,1080.9766,458,1084.9766,454,1080.9766" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="467" y="1085.187">ProgressBar progressBar</text><line style="stroke:#A80036;stroke-width:1.5;" x1="448" x2="636" y1="1091.7813" y2="1091.7813"/><polygon fill="#4177AF" points="458,1098.7813,454,1104.7813,462,1104.7813" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="467" y="1105.9917">void initialize()</text><!--MD5=[316bbfe5723cc66a67c21eb52d2983f4]
+class github.weichware10.toolbox.codecharts.CodeChartsPane--><rect codeLine="105" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="291.2891" id="github.weichware10.toolbox.codecharts.CodeChartsPane" style="stroke:#A80036;stroke-width:1.5;" width="528" x="636" y="623.9531"/><ellipse cx="846.75" cy="639.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M849.0938,635.625 C848.1563,635.1875 847.5625,635.0469 846.6875,635.0469 C844.0625,635.0469 842.0625,637.125 842.0625,639.8438 L842.0625,640.9688 C842.0625,643.5469 844.1719,645.4375 847.0625,645.4375 C848.2813,645.4375 849.4375,645.1406 850.1875,644.5938 C850.7656,644.1875 851.0938,643.7344 851.0938,643.3438 C851.0938,642.8906 850.7031,642.5 850.2344,642.5 C850.0156,642.5 849.8125,642.5781 849.625,642.7656 C849.1719,643.25 849.1719,643.25 848.9844,643.3438 C848.5625,643.6094 847.875,643.7344 847.1094,643.7344 C845.0625,643.7344 843.7656,642.6406 843.7656,640.9375 L843.7656,639.8438 C843.7656,638.0625 845.0156,636.75 846.75,636.75 C847.3281,636.75 847.9375,636.9063 848.4063,637.1563 C848.8906,637.4375 849.0625,637.6563 849.1563,638.0625 C849.2188,638.4688 849.25,638.5938 849.3906,638.7188 C849.5313,638.8594 849.7656,638.9688 849.9844,638.9688 C850.25,638.9688 850.5156,638.8281 850.6875,638.6094 C850.7969,638.4531 850.8281,638.2656 850.8281,637.8438 L850.8281,636.4219 C850.8281,635.9844 850.8125,635.8594 850.7188,635.7031 C850.5625,635.4375 850.2813,635.2969 849.9844,635.2969 C849.6875,635.2969 849.4844,635.3906 849.2656,635.7031 L849.0938,635.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="98" x="867.25" y="644.1074">CodeChartsPane</text><line style="stroke:#A80036;stroke-width:1.5;" x1="637" x2="1163" y1="655.9531" y2="655.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="644" y="663.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="656" y="670.1636">List&lt;CodeChartsPane&gt; childPanes</text><ellipse cx="647" cy="679.7578" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="126" x="656" y="682.9683">Rectangle2D viewport</text><ellipse cx="647" cy="692.5625" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="656" y="695.7729">int depth</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="644" y="702.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="656" y="708.5776">String content</text><ellipse cx="647" cy="718.1719" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="142" x="656" y="721.3823">Integer defaultHorizontal</text><ellipse cx="647" cy="730.9766" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="128" x="656" y="734.187">Integer defaultVertical</text><ellipse cx="647" cy="743.7813" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="102" x="656" y="746.9917">boolean showGrid</text><ellipse cx="647" cy="756.5859" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="91" x="656" y="759.7964">boolean DEBUG</text><line style="stroke:#A80036;stroke-width:1.5;" x1="637" x2="1163" y1="766.3906" y2="766.3906"/><ellipse cx="647" cy="777.3906" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="502" x="656" y="780.6011">CodeChartsPane(CodeChartsPane parent, int hoId, int veId, double width, double height)</text><ellipse cx="647" cy="790.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="656" y="793.4058">void subdivide()</text><ellipse cx="647" cy="803" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="232" x="656" y="806.2104">void subdivide(int horizontal, int vertical)</text><ellipse cx="647" cy="815.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="409" x="656" y="819.0151">void philLeaves(List&lt;String&gt; usableStrings, List&lt;String&gt; currentStrings)</text><ellipse cx="647" cy="828.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="656" y="831.8198">void setContent(String content)</text><ellipse cx="647" cy="841.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="270" x="656" y="844.6245">CodeChartsPane getLeaf(String searchContent)</text><ellipse cx="647" cy="854.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="144" x="656" y="857.4292">void enableDebugStyle()</text><ellipse cx="647" cy="867.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="656" y="870.2339">void disableDebugStyle()</text><ellipse cx="647" cy="879.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="220" x="656" y="883.0386">void setDebugSplitting(boolean value)</text><ellipse cx="647" cy="892.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="656" y="895.8433">String toString()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="644" y="902.4375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="656" y="908.6479">boolean isChild()</text><!--MD5=[ab8fa349a1e2e86ca8104897b03d4899]
+class java.util.Comparator--><rect codeLine="142" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="48" id="java.util.Comparator" style="stroke:#A80036;stroke-width:1.5;" width="103" x="219.5" y="1187.9531"/><ellipse cx="234.5" cy="1203.9531" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M235.4531,1200.7344 L237.1719,1200.7344 C237.5625,1200.7344 237.75,1200.7031 237.875,1200.625 C238.1406,1200.4688 238.2813,1200.1875 238.2813,1199.8906 C238.2813,1199.625 238.1719,1199.3594 237.9375,1199.1875 C237.7656,1199.0781 237.625,1199.0469 237.1719,1199.0469 L232.0313,1199.0469 C231.5938,1199.0469 231.4688,1199.0625 231.3125,1199.1563 C231.0625,1199.3125 230.9063,1199.6094 230.9063,1199.8906 C230.9063,1200.1719 231.0469,1200.4219 231.2656,1200.5938 C231.4219,1200.7031 231.6094,1200.7344 232.0313,1200.7344 L233.75,1200.7344 L233.75,1207.25 L232.0313,1207.25 C231.5938,1207.25 231.4688,1207.2656 231.3125,1207.375 C231.0625,1207.5313 230.9063,1207.8125 230.9063,1208.1094 C230.9063,1208.3594 231.0469,1208.625 231.2656,1208.7813 C231.4219,1208.9063 231.625,1208.9531 232.0313,1208.9531 L237.1719,1208.9531 C237.9219,1208.9531 238.2813,1208.6719 238.2813,1208.1094 C238.2813,1207.8281 238.1719,1207.5781 237.9375,1207.4063 C237.7656,1207.2813 237.625,1207.25 237.1719,1207.25 L235.4531,1207.25 L235.4531,1200.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="71" x="248.5" y="1208.1074">Comparator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="220.5" x2="321.5" y1="1219.9531" y2="1219.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="220.5" x2="321.5" y1="1227.9531" y2="1227.9531"/><!--MD5=[c4be4583f7f806c2084d6e08104ab768]
+class javafx.scene.layout.AnchorPane--><rect codeLine="144" fill="#FEFECE" filter="url(#fyxk1r58fhnj6)" height="48" id="javafx.scene.layout.AnchorPane" style="stroke:#A80036;stroke-width:1.5;" width="102" x="1220" y="1019.9531"/><ellipse cx="1235" cy="1035.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1237.3438,1031.625 C1236.4063,1031.1875 1235.8125,1031.0469 1234.9375,1031.0469 C1232.3125,1031.0469 1230.3125,1033.125 1230.3125,1035.8438 L1230.3125,1036.9688 C1230.3125,1039.5469 1232.4219,1041.4375 1235.3125,1041.4375 C1236.5313,1041.4375 1237.6875,1041.1406 1238.4375,1040.5938 C1239.0156,1040.1875 1239.3438,1039.7344 1239.3438,1039.3438 C1239.3438,1038.8906 1238.9531,1038.5 1238.4844,1038.5 C1238.2656,1038.5 1238.0625,1038.5781 1237.875,1038.7656 C1237.4219,1039.25 1237.4219,1039.25 1237.2344,1039.3438 C1236.8125,1039.6094 1236.125,1039.7344 1235.3594,1039.7344 C1233.3125,1039.7344 1232.0156,1038.6406 1232.0156,1036.9375 L1232.0156,1035.8438 C1232.0156,1034.0625 1233.2656,1032.75 1235,1032.75 C1235.5781,1032.75 1236.1875,1032.9063 1236.6563,1033.1563 C1237.1406,1033.4375 1237.3125,1033.6563 1237.4063,1034.0625 C1237.4688,1034.4688 1237.5,1034.5938 1237.6406,1034.7188 C1237.7813,1034.8594 1238.0156,1034.9688 1238.2344,1034.9688 C1238.5,1034.9688 1238.7656,1034.8281 1238.9375,1034.6094 C1239.0469,1034.4531 1239.0781,1034.2656 1239.0781,1033.8438 L1239.0781,1032.4219 C1239.0781,1031.9844 1239.0625,1031.8594 1238.9688,1031.7031 C1238.8125,1031.4375 1238.5313,1031.2969 1238.2344,1031.2969 C1237.9375,1031.2969 1237.7344,1031.3906 1237.5156,1031.7031 L1237.3438,1031.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="1249" y="1040.1074">AnchorPane</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1221" x2="1321" y1="1051.9531" y2="1051.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1221" x2="1321" y1="1059.9531" y2="1059.9531"/><!--MD5=[3dafd52159bece1791ce6fe34d2a53f6]
+reverse link github.weichware10.toolbox.codecharts.CodeChartsInput to github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator--><path codeLine="88" d="M344.778,839.8781 C328.94,883.4701 308.697,939.1921 293.422,981.2361 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsInput-backto-github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="347.2339" cy="833.1161" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="344.5018" x2="349.966" y1="840.6352" y2="825.5971"/><line style="stroke:#A80036;stroke-width:1.0;" x1="339.7149" x2="354.7529" y1="830.384" y2="835.8482"/><!--MD5=[dad617939158e07c9914f551c32d1c4d]
+link github.weichware10.toolbox.codecharts.CodeCharts to github.weichware10.toolbox.codecharts.CodeChartsController--><path codeLine="135" d="M848.658,149.9531 C856.007,149.9531 863.356,149.9531 870.704,149.9531 " fill="none" id="github.weichware10.toolbox.codecharts.CodeCharts-to-github.weichware10.toolbox.codecharts.CodeChartsController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="883.932,149.9531,877.932,145.9531,871.932,149.9531,877.932,153.9531,883.932,149.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[12c7d3d8ada538a610a632863b3df473]
+reverse link github.weichware10.toolbox.codecharts.CodeChartsCoordinator to github.weichware10.toolbox.codecharts.CodeChartsPane--><path codeLine="136" d="M725.199,573.6831 C740.057,590.2391 755.231,607.1461 770.125,623.7411 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsCoordinator-backto-github.weichware10.toolbox.codecharts.CodeChartsPane" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="716.492,563.9811,717.5223,571.1182,724.5067,572.9123,723.4764,565.7751,716.492,563.9811" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7423b1b52a0d54db4e2ca18b7c037d21]
+reverse link github.weichware10.toolbox.codecharts.CodeChartsCoordinator to github.weichware10.toolbox.codecharts.CodeChartsInput--><path codeLine="137" d="M501.078,574.9981 C468.008,623.8051 432.976,675.5081 407.456,713.1731 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsCoordinator-backto-github.weichware10.toolbox.codecharts.CodeChartsInput" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="508.543,563.9811,501.866,566.7046,501.8119,573.9155,508.4889,571.192,508.543,563.9811" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[39b7fd3d6bfebc061c5bf819fe5c8a42]
+link github.weichware10.toolbox.codecharts.CodeCharts to github.weichware10.toolbox.codecharts.CodeChartsCoordinator--><path codeLine="138" d="M579.297,212.5231 C581.148,234.0531 583.313,259.2131 585.5,284.6401 " fill="none" id="github.weichware10.toolbox.codecharts.CodeCharts-to-github.weichware10.toolbox.codecharts.CodeChartsCoordinator" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="586.644,297.9421,590.115,291.6213,585.6154,285.9863,582.1444,292.3071,586.644,297.9421" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c46391645aeed336990c477ce268cab0]
+reverse link github.weichware10.toolbox.codecharts.CodeChartsInput to github.weichware10.toolbox.codecharts.CodeChartsInputController--><path codeLine="139" d="M411.873,836.7931 C438.306,878.6701 472.366,932.6321 499.01,974.8431 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsInput-backto-github.weichware10.toolbox.codecharts.CodeChartsInputController" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="404.807,825.5971,404.627,832.806,411.2121,835.7448,411.3921,828.5359,404.807,825.5971" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d19a6a42790d3bf74ed35d2d143a718a]
+link github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator to java.util.Comparator--><path codeLine="143" d="M271,1106.7651 C271,1126.9291 271,1148.8801 271,1167.4121 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator-to-java.util.Comparator" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="278,1167.6261,271,1187.6256,264,1167.6251,278,1167.6261" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bdf951ef7f4184a7f85c8270b5b3b832]
+link github.weichware10.toolbox.codecharts.CodeChartsPane to javafx.scene.layout.AnchorPane--><path codeLine="145" d="M1098.67,915.1391 C1126.03,935.1851 1153.73,955.5491 1180,974.9531 C1194.32,985.5341 1209.86,997.1101 1223.98,1007.6631 " fill="none" id="github.weichware10.toolbox.codecharts.CodeChartsPane-to-javafx.scene.layout.AnchorPane" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1228.5,1002.3021,1240.31,1019.8921,1220.11,1013.5101,1228.5,1002.3021" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2d0e49fbd61577446a2fb4bdeb0ed863]
+@startuml
+title github.weichware10.toolbox.codecharts
+
+package github.weichware10.toolbox.codecharts {
+
+    ' -=- classes (github.weichware10.toolbox.codecharts) -=-
+    class github.weichware10.toolbox.codecharts.CodeCharts {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeCharts) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeCharts) - - -
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeCharts) - - -
+        +  CodeCharts(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        + void endTest()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsController {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsController) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsController) - - -
+        - ResourceBundle resources
+        - URL location
+        - ImageView imageView
+        - StackPane stackPane
+        - CodeCharts codeCharts
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsController) - - -
+        + void setCodeCharts(CodeCharts codeCharts)
+        ~ void endTest()
+        ~ void initialize()
+        + ImageView getImageView()
+        + StackPane getStackPane()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsCoordinator {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) - - -
+        - TrialData trialData
+        - ImageView imageView
+        - Rectangle2D imageViewPort
+        - CodeChartsPane rootPane
+        - CodeChartsInput codeChartsInput
+        - CodeCharts codeCharts
+        - List<String> usableStrings
+        - List<String> currentStrings
+        - long[] timings
+        - boolean relativeSize
+        - int maxDepth
+        - int iterations
+        - int currentIteration
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsCoordinator) - - -
+        +  CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts)
+        + void iterate()
+        - int calculateMinStringAmount(int horizontal, int vertical, int defaultHorizontal, int defaultVertical, int iterations)
+        - Rectangle2D toImageViewport(Rectangle2D viewport)
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInput {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsInput) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsInput) - - -
+        - CodeChartsInputController controller
+        - BorderPane root
+        {static}- int LOWEST_ALLOWED_DISTANCE
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsInput) - - -
+        +  CodeChartsInput()
+        + String getInput(List<String> currentStrings, int currentIteration, int iterations)
+    }
+    class github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) - - -
+        - String base
+        - Levenshtein levenshtein
+        - int lowestDistance
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator) - - -
+        +  LevenshteinComparator(String base)
+        + int getLowestDistance()
+        + int compare(String str1, String str2)
+    }
+    github.weichware10.toolbox.codecharts.CodeChartsInput +- - github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInputController {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsInputController) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsInputController) - - -
+        - ResourceBundle resources
+        - URL location
+        # TextField inputField
+        # Text suggestionText
+        # Text bottomText
+        # ProgressBar progressBar
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsInputController) - - -
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsPane {
+        ' - - - values (github.weichware10.toolbox.codecharts.CodeChartsPane) - - -
+
+        ' - - - fields (github.weichware10.toolbox.codecharts.CodeChartsPane) - - -
+        - List<CodeChartsPane> childPanes
+        + Rectangle2D viewport
+        + int depth
+        - String content
+        {static}+ Integer defaultHorizontal
+        {static}+ Integer defaultVertical
+        {static}+ boolean showGrid
+        {static}+ boolean DEBUG
+
+        ' - - - methods (github.weichware10.toolbox.codecharts.CodeChartsPane) - - -
+        +  CodeChartsPane(CodeChartsPane parent, int hoId, int veId, double width, double height)
+        + void subdivide()
+        + void subdivide(int horizontal, int vertical)
+        + void philLeaves(List<String> usableStrings, List<String> currentStrings)
+        + void setContent(String content)
+        + CodeChartsPane getLeaf(String searchContent)
+        + void enableDebugStyle()
+        + void disableDebugStyle()
+        + void setDebugSplitting(boolean value)
+        + String toString()
+        - boolean isChild()
+    }
+
+}
+
+' autogenerated field links, may be faulty.
+github.weichware10.toolbox.codecharts.CodeChartsController o-l- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o- - github.weichware10.toolbox.codecharts.CodeChartsPane
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o- - github.weichware10.toolbox.codecharts.CodeChartsInput
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-u- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsInput o- - github.weichware10.toolbox.codecharts.CodeChartsInputController
+
+' autogenerated inheritances, may be faulty.
+interface java.util.Comparator
+java.util.Comparator <|.u. github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+class javafx.scene.layout.AnchorPane
+javafx.scene.layout.AnchorPane <|-u- github.weichware10.toolbox.codecharts.CodeChartsPane
+@enduml
+
+@startuml
+title github.weichware10.toolbox.codecharts
+
+package github.weichware10.toolbox.codecharts {
+
+    class github.weichware10.toolbox.codecharts.CodeCharts {
+
+        - Stage primaryStage
+        - ConfigClient configClient
+        - DataBaseClient dataBaseClient
+        - TrialData trialData
+
+        +  CodeCharts(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)
+        + void endTest()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsController {
+
+        - ResourceBundle resources
+        - URL location
+        - ImageView imageView
+        - StackPane stackPane
+        - CodeCharts codeCharts
+
+        + void setCodeCharts(CodeCharts codeCharts)
+        ~ void endTest()
+        ~ void initialize()
+        + ImageView getImageView()
+        + StackPane getStackPane()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsCoordinator {
+
+        - TrialData trialData
+        - ImageView imageView
+        - Rectangle2D imageViewPort
+        - CodeChartsPane rootPane
+        - CodeChartsInput codeChartsInput
+        - CodeCharts codeCharts
+        - List<String> usableStrings
+        - List<String> currentStrings
+        - long[] timings
+        - boolean relativeSize
+        - int maxDepth
+        - int iterations
+        - int currentIteration
+
+        +  CodeChartsCoordinator(ConfigClient configClient, DataBaseClient dataBaseClient, TrialData trialData, ImageView imageView, StackPane stackPane, Stage primaryStage, CodeCharts codeCharts)
+        + void iterate()
+        - int calculateMinStringAmount(int horizontal, int vertical, int defaultHorizontal, int defaultVertical, int iterations)
+        - Rectangle2D toImageViewport(Rectangle2D viewport)
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInput {
+
+        - CodeChartsInputController controller
+        - BorderPane root
+        {static}- int LOWEST_ALLOWED_DISTANCE
+
+        +  CodeChartsInput()
+        + String getInput(List<String> currentStrings, int currentIteration, int iterations)
+    }
+    class github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator {
+
+        - String base
+        - Levenshtein levenshtein
+        - int lowestDistance
+
+        +  LevenshteinComparator(String base)
+        + int getLowestDistance()
+        + int compare(String str1, String str2)
+    }
+    github.weichware10.toolbox.codecharts.CodeChartsInput +- - github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+
+    class github.weichware10.toolbox.codecharts.CodeChartsInputController {
+
+        - ResourceBundle resources
+        - URL location
+        # TextField inputField
+        # Text suggestionText
+        # Text bottomText
+        # ProgressBar progressBar
+
+        ~ void initialize()
+    }
+
+    class github.weichware10.toolbox.codecharts.CodeChartsPane {
+
+        - List<CodeChartsPane> childPanes
+        + Rectangle2D viewport
+        + int depth
+        - String content
+        {static}+ Integer defaultHorizontal
+        {static}+ Integer defaultVertical
+        {static}+ boolean showGrid
+        {static}+ boolean DEBUG
+
+        +  CodeChartsPane(CodeChartsPane parent, int hoId, int veId, double width, double height)
+        + void subdivide()
+        + void subdivide(int horizontal, int vertical)
+        + void philLeaves(List<String> usableStrings, List<String> currentStrings)
+        + void setContent(String content)
+        + CodeChartsPane getLeaf(String searchContent)
+        + void enableDebugStyle()
+        + void disableDebugStyle()
+        + void setDebugSplitting(boolean value)
+        + String toString()
+        - boolean isChild()
+    }
+
+}
+
+github.weichware10.toolbox.codecharts.CodeChartsController o-l- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o- - github.weichware10.toolbox.codecharts.CodeChartsPane
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o- - github.weichware10.toolbox.codecharts.CodeChartsInput
+github.weichware10.toolbox.codecharts.CodeChartsCoordinator o-u- github.weichware10.toolbox.codecharts.CodeCharts
+github.weichware10.toolbox.codecharts.CodeChartsInput o- - github.weichware10.toolbox.codecharts.CodeChartsInputController
+
+interface java.util.Comparator
+java.util.Comparator <|.u. github.weichware10.toolbox.codecharts.CodeChartsInput$LevenshteinComparator
+class javafx.scene.layout.AnchorPane
+javafx.scene.layout.AnchorPane <|-u- github.weichware10.toolbox.codecharts.CodeChartsPane
+@enduml
+
+PlantUML version 1.2022.1beta9(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

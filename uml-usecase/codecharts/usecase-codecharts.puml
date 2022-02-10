@@ -6,28 +6,24 @@ actor Forschende as f
 
 rectangle CodeCharts as z #789dd4 {
     usecase "Tutorial anschauen" as td
-    usecase "Tutorial: zukünftige Sichtbarkeit wählen" as tw
     usecase "Bild betrachten" as bb
     usecase "Raster betrachten" as rb
     usecase "Eingabe tätigen" as et
     usecase "Fehler Anzeigen" as fa
 
     fa .l.> et : <<extends>>
-    td .r.> tw : <<include>>
 }
 
-rectangle AnalyseClient as a {
+rectangle Analyse as a {
     usecase "Ergebnisse anschauen" as ea
 }
 
 rectangle Config as c {
     usecase "Einstellungen setzen" as es
-    usecase "Tutorialeinstellung ändern" as tä
 }
 
 ' Testperson
 t -- td
-t -- tw
 t -- bb
 t -- rb
 t -- et
@@ -37,9 +33,8 @@ es -- f
 ea -- f
 
 ' intern
-tw <.. tä : <<extends>>
-z ..> a : über Speichermedium
-z <.l. c : Versuchseinstellungen
+z ..> a : über Datenbank / JSON
+z <.. c : Versuchseinstellungen
 
 
 @enduml
