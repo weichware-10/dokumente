@@ -1,5 +1,5 @@
 ---
 title: TrialData
-parent: db
+parent: data
 grand_parent: util
 ---
