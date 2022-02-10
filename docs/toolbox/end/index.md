@@ -2,6 +2,7 @@
 title: Endbildschirm
 has_children: true
 parent: Toolbox Benutzerhandbuch
+nav_order: 4
 ---
 # Test abgeschlossen
 

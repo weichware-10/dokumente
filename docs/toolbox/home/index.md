@@ -2,6 +2,7 @@
 title: Startbildschirm
 has_children: true
 parent: Toolbox Benutzerhandbuch
+nav_order: 1
 ---
 # Startbildschirm
 
