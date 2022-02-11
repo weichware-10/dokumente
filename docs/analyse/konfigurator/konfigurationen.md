@@ -36,7 +36,7 @@ Die Spalte "JSON" beschreibt die Bennenung des Schlüssels in der JSON-Datei.
 | Option                     | Typ        | Beschreibung                                                                                                                   | JSON                |
 | -------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
 | String-ID                  | `string`   | die ID der String-Liste mit der das Raster gefüllt werden soll (für Datenbank)                                                 | `stringId`          |
-| string                     | `string[]` | die Liste von Strings, mit der das Raster gefüllt werden soll (wird in GUI über Button neben String-ID gesetzt)                | `strings`           |
+| string                     | `string[]` | die Liste von Strings, mit der das Raster gefüllt werden soll (wird in GUI über Button neben String-ID gesetzt) (Länge beachten!)                | `strings`           |
 | Rastergröße X              | `integer`  | die Anzahl der horizontalen Unterteilungen im anfänglichen Raster                                                              | `initialSize[0]`    |
 | Rastergröße Y              | `integer`  | die Anzahl der vertikalen Unterteilungen im anfänglichen Raster                                                                | `initialSize[1]`    |
 | Anzeigezeit Bild           | `long`     | Anzeigezeit des Bildes, bevor das Raster angezeigt wird (in Millisekunden)                                                     | `timings[0]`        |
@@ -53,6 +53,29 @@ Die Spalte "JSON" beschreibt die Bennenung des Schlüssels in der JSON-Datei.
 
 > die letzten 3 Optionen werden nur beachtet, falls die relative Größenänderung aktiviert ist. In der GUI müssen allerdings zum Abspeichern immer Werte eingetragen werden - diese werden jedoch nicht beachtet, sollte die relative Größenänderung nicht aktiviert sein.  
 > beim Erstellen einer JSON-Konfiguration können diese Werte auf `null` gesetzt werden.
+
+#### ⚠️ Länge der CodeCharts String-Liste
+Die Wortliste, welche in CodeCharts-Versuchen verwendet wird, sollte eine gewisse Länge nicht unterschreiten, damit während des Versuchs alle Felder mit Worten gefüllt werden können.
+
+Folgende Formel kann zur Berechnung der minimalen Wortanzahl verwendet werden:
+```java
+// Anzahl der Felder zu Beginn des Versuches
+initialeAnzahl = initialHorizontal * initialVertikal
+
+// falls relative Größenänderung deaktiviert ist:
+    ERGEBNIS = initialeAnzahl + anzahlIterationen
+    // fertig.
+// falls defaultHorizontal oder defaultVertikal ≤ 0:
+    ERGEBNIS = initialeAnzahl + anzahlIterationen * 2
+    // fertig.
+// sonst:
+    // Feststellen des Multiplikators pro Iteration
+    // Multiplizieren der Unterteilungen (horizontal und vertikal) während des Versuches
+    multiplikator = defaultHorizontal * defaultVertical
+    ERGEBNIS = initialeAnzahl + anzahlIterationen * multiplikator
+    // fertig.
+```
+Die gleiche Berechnung wird auch in der Toolbox vor Starten des CodeCharts-Testes durchgeführt.
 
 ### ZoomMaps Optionen
 | Option          | Type     | Beschreibung                                                                                | JSON              |
