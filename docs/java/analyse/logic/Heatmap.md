@@ -15,19 +15,7 @@ verantwortlich für die Erstellung der Heatmap.
 
 Erstellt Heatmap.
 
- * **Parameters:** `hmConfig` — Konfiguration
- * **Returns:** ?
-
-## `public static String createHeatmapComp(TrialData trial, TrialData trialComp, HeatmapConfig hmConfig)`
-
-Erstellt Heatmap-Vergleich.
-
  * **Parameters:**
-   * `trial` — 1. Versuch
-   * `trialComp` — 2. Versuch
+   * `trial` — Versuch
    * `hmConfig` — Konfiguration
- * **Returns:** ?
-
-## `private static class DataPointComparator implements Comparator<DataPoint>`
-
-DataPointComparator.
+ * **Returns:** Pfad des Heatmap-Bilds

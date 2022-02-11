@@ -9,13 +9,13 @@ grand_parent: toolbox
 
 ## `public class PreTest`
 
-Takes care of the functionality of PreTestWindow.
+Zuständig für die Funktionalität vom PreTestWindow.
 
 ## `public PreTest(Stage primaryStage, ConfigClient configClient, DataBaseClient dataBaseClient)`
 
-This function shows the PreTestWindow.
+zeigt das PreTestWindow.
 
- * **Parameters:** `primaryStage` — primary Window to do changes on.
+ * **Parameters:** `primaryStage` — primäres Fenster
 
 ## `protected void startTest()`
 

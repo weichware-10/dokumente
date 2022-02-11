@@ -1,7 +1,7 @@
 ---
 title: Logger
 parent: util
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
 
 # Logger
@@ -35,13 +35,13 @@ Jede Funktion hat 3 verschiedene Versionen, ohne Kontext, mit Kontext, und mit K
 
 ## `private Logger()`
 
-Cannot be instantiated.
+Kann nicht instanziiert werden.
 
 ## `public static void setLogfile(String filename)`
 
-sets logfile.
+setzt log-Datei.
 
- * **Parameters:** `filename` — the file
+ * **Parameters:** `filename` — die Datei
 
 ## `public static void debug(String message)`
 

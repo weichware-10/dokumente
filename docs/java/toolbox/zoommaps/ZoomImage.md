@@ -26,7 +26,7 @@ Instanziiert ein neues ZoomImage.
 
 Berechnet die Bildkoordinaten von ImageView Koordinaten.
 
- * **Parameters:** `imageViewCoordinates` —
+ * **Parameters:** `imageViewCoordinates` — ImageView Koordinaten
  * **Returns:** Bildkoordinaten
 
 ## `protected Rectangle2D move(Point2D position, double speed)`

@@ -1,6 +1,6 @@
 ---
 title: ConfigWriter
-parent: db
+parent: config
 grand_parent: util
 ---
 
@@ -13,7 +13,7 @@ statische Klasse zum Speichern der Konfiguration.
 
 ## `private ConfigWriter()`
 
-Cannot be instantiated.
+Kann nicht instanziiert werden.
 
 ## `public static boolean toJson(String location, Configuration configuration)`
 

@@ -1,7 +1,8 @@
 ---
 title: toolbox
 has_children: true
-parent: Java
+parent: Entwicklerhandbuch
+nav_order: 1
 ---
 # Toolbox
 Repo

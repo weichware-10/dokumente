@@ -9,4 +9,4 @@ grand_parent: toolbox
 
 ## `public class AppController`
 
-Controller für Einstieg in App.
+Controller für [App](App.md).

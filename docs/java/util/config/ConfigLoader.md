@@ -1,6 +1,6 @@
 ---
 title: ConfigLoader
-parent: db
+parent: config
 grand_parent: util
 ---
 
@@ -13,7 +13,7 @@ statische Klasse zum Laden der Konfiguration.
 
 ## `private ConfigLoader()`
 
-Cannot be instantiated.
+Kann nicht instanziiert werden.
 
 ## `public static Configuration fromJson(String location)`
 

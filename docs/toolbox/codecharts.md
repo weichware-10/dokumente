@@ -1,6 +1,7 @@
 ---
 title: CodeCharts
 parent: Toolbox Benutzerhandbuch
+nav_order: 2
 ---
 # Der CodeCharts Versuch
 [zurück](index.md)

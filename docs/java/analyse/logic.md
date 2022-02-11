@@ -1,6 +1,6 @@
 ---
 title: logic
 parent: analyse
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
 Package

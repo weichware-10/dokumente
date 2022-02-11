@@ -15,18 +15,6 @@ Speicherung der Konfiguration der Heatmap-Analysemethoden.
 
 Speicherung der Konfiguration der Heatmap-Analysemethoden.
 
-## `public void setGrid(boolean grid)`
-
-aktiviert bzw. deaktiviert die Anzeige des Rasters.
-
- * **Parameters:** `grid` — Anzeige Raster aktivieren bzw. deaktivieren
-
-## `public boolean isGrid()`
-
-gibt zurück ob das Raster angezeigt wird.
-
- * **Returns:** Wert von grid
-
 ## `public void setImage(boolean image)`
 
 aktiviert bzw. deaktiviert die Anzeige des Bildes.

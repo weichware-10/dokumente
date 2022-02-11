@@ -9,4 +9,4 @@ grand_parent: gui
 
 ## `public class DataBaseDialogController`
 
-Controller für DataBaseDialog. startet keine Funktionen, ist nur als Zugriff auf Textfelder usw. zuständig.
+Controller für [DataBaseDialog](DataBaseDialog.md).

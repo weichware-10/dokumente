@@ -7,7 +7,7 @@ grand_parent: toolbox
 # ZoomCalculator
 
 
-## `@SuppressWarnings("unused") public class ZoomCalculator`
+## `public class ZoomCalculator`
 
 Bekommt Rohdaten des Systems (Mausklick), berechnet neue Position des Bildes und meldet Speichererfolg.
 

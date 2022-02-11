@@ -9,4 +9,4 @@ grand_parent: toolbox
 
 ## `public class EyeTrackingController`
 
-Controller for [EyeTracking](EyeTracking.md).
+Controller für [EyeTracking](EyeTracking.md).

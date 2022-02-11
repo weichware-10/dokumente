@@ -57,6 +57,10 @@ Speichert Diagramm als Bild unter location.
 
 ## `public static void exportRaw()`
 
+Entscheidet ob eine oder zwei Versuche exportiert werden (Raw-Daten).
+
+## `private static void exportRaw(TrialData trial)`
+
 Export von Raw-Daten des Versuchs.
 
 ## `public static void reset()`

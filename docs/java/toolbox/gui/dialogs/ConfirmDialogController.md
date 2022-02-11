@@ -9,4 +9,4 @@ grand_parent: gui
 
 ## `public class ConfirmDialogController`
 
-Managed ConfirmDialoge.
+Controller für [ConfirmDialog](ConfirmDialog.md).

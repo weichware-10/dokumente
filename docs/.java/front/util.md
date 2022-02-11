@@ -1,6 +1,6 @@
 ---
 title: util
 has_children: true
-parent: Java
+parent: Entwicklerhandbuch
 ---
 # Util

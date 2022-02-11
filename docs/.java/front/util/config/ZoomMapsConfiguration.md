@@ -1,5 +1,5 @@
 ---
 title: ZoomMapsConfiguration
-parent: db
+parent: config
 grand_parent: util
 ---

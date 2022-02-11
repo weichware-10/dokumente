@@ -1,7 +1,8 @@
 ---
 title: analyse
 has_children: true
-parent: Java
+parent: Entwicklerhandbuch
+nav_order: 2
 ---
 # analyse
 Repo

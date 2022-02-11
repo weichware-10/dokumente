@@ -1,6 +1,6 @@
 ---
 title: ZoomMapsConfiguration
-parent: db
+parent: config
 grand_parent: util
 ---
 
@@ -13,7 +13,7 @@ Beinhaltet Konfiguration für ZoomMaps-Versuche.
 
 ## `public ZoomMapsConfiguration()`
 
-leerer Konstruktor. Wird für Jackson gebraucht (json writer) smooth criminal.
+leerer Konstruktor der für Jackson benötigt wird (json writer).
 
 ## `public ZoomMapsConfiguration(double speed, double imageViewWidth, double imageViewHeight)`
 

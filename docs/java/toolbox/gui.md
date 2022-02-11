@@ -1,6 +1,6 @@
 ---
 title: gui
 parent: toolbox
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
 Package

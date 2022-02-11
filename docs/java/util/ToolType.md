@@ -1,12 +1,16 @@
 ---
 title: ToolType
 parent: util
-grand_parent: Java
+grand_parent: Entwicklerhandbuch
 ---
+`ENUM` mit Werten:
+* ZOOMMAPS
+* EYETRACKING
+* CODECHARTS
 
 # ToolType
 
 
 ## `public enum ToolType`
 
-Tools of the Toolbox.
+Tools der Toolbox.

@@ -15,7 +15,7 @@ Die Configurations-Tabelle beinhaltet die gespeicherten Konfigurationen.
 
 Erstellt eine neue Verbindung zur Configurations-Tabelle.
 
- * **Parameters:** `dataBaseClient` — übergeordneter DataBadeClient
+ * **Parameters:** `dataBaseClient` — übergeordneter DataBaseClient
 
 ## `public Configuration get(String configId)`
 

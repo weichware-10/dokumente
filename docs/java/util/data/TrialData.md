@@ -1,6 +1,6 @@
 ---
 title: TrialData
-parent: db
+parent: data
 grand_parent: util
 ---
 
@@ -9,11 +9,11 @@ grand_parent: util
 
 ## `public class TrialData`
 
-Stores the TrialData for the different tools internally.
+Speichert die TrialData für die verschiedenen Tools intern.
 
 
 
-also used to transfer Data
+auch für die Datenübertragung genutzt
 
  * **Since:** v0.2
 
@@ -22,9 +22,9 @@ also used to transfer Data
 Konstruktor für Jackson.
 
  * **Parameters:**
-   * `toolType` — the tooltype of the stored data
-   * `trialId` — the id of the trial
-   * `configId` — the configuration of the stored data
+   * `toolType` — Tool-Typ des Versuchs
+   * `trialId` — ID des Versuchs
+   * `configId` — Konfiguration des Versuchs
    * `startTime` — Startzeitpunkt des Versuchs
 
      <p>
@@ -32,49 +32,25 @@ Konstruktor für Jackson.
 
 ## `public TrialData(ToolType toolType, String trialId, String configId)`
 
-Stores the TrialData for the different tools internally.
+Speichert die TrialData für die verschiedenen Tools intern.
 
  * **Parameters:**
-   * `toolType` — the tooltype of the stored data
-   * `trialId` — the id of the trial
-   * `configId` — the configuration of the stored data
+   * `toolType` — Tool-Typ des Versuchs
+   * `trialId` — ID des Versuchs
+   * `configId` — Konfiguration des Versuchs
 
      <p>
  * **Since:** v0.2
-
-## `public List<DataPoint> getData()`
-
-get the stored dataPoints.
-
- * **Returns:** the stored dataPoints
-
-     <p>
- * **Since:** v0.2
-
-## `public String getAnswer()`
-
-get the answer.
-
- * **Returns:** the answer
-
-     <p>
- * **Since:** v0.3
-
-## `public void setAnswer(String answer)`
-
-set the answer.
-
- * **Parameters:** `answer` — the answer
 
 ## `public void addDataPoint(Rectangle2D viewport, int depth)`
 
-Add a DataPoint for CodeCharts.
+Fügt ein Datenpunkt hinzu (CodeCharts).
 
  * **Since:** v0.2
 
 ## `public void addDataPoint(Rectangle2D viewport)`
 
-Add a DataPoint for ZoomMaps.
+Fügt ein Datenpunkt hinzu (ZoomMaps).
 
  * **Parameters:** `viewport` — aktueller Ausschnitt beim ZoomBild
 

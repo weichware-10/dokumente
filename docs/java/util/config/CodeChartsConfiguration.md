@@ -1,6 +1,6 @@
 ---
 title: CodeChartsConfiguration
-parent: db
+parent: config
 grand_parent: util
 ---
 

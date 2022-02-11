@@ -17,12 +17,12 @@ Nimmt Systeminput bei Klicken der Maustasten entgegen.
 
 ## `private void handleClick(MouseEvent mouseEvent)`
 
-handlet clicks.
+handhabt Clicks.
 
  * **Parameters:** `mouseEvent` —
 
 ## `public void handleScroll(ScrollEvent scrollEvent)`
 
-handlet scrolls.
+handhabt Scrolls.
 
  * **Parameters:** `scrollEvent` —
