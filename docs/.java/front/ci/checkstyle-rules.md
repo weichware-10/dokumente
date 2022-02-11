@@ -16,7 +16,7 @@ nav_order: 1
       <property name="fileExtensions" value="java, xml, yml"/>
     </module>
     ```
-* Zeilen sollten nicht mehr Leerzeichen aufhören.
+* Zeilen sollten nicht mit Leerzeichen aufhören.
     ```xml
     <module name="RegexpSingleline">
       <property name="format" value="\s+$" />
