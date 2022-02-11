@@ -3,4 +3,4 @@ title: analyse
 parent: gui
 grand_parent: analyse
 ---
-Package
+Package `github.weichware10.analyse.gui.analyse`
