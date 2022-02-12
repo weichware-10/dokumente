@@ -16,6 +16,5 @@ Bei den erstellten Dokumenten handelt es sich um:
 
 > Die Snowcards und CRC-Karten sind auf dem Stand der Erstellung (Woche 1 und 2 des Projektes), während die Diagramme die aktuellen Sachverhalte im Projekt beschreiben.
 
-Des Weiteren beinhaltet das Verzeichnis [docs](docs) das Benutzerhandbuch und JavaDocs für das Entwicklerhandbuch.
-
+Des Weiteren beinhaltet das Verzeichnis [docs](docs) das Benutzerhandbuch und JavaDocs für das Entwicklerhandbuch.  
 Dieses Verzeichnis wird unter [https://weichware10.github.io/dokumente/](https://weichware10.github.io/dokumente/) als Website dargestellt.
